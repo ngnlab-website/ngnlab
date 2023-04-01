@@ -1,0 +1,98 @@
+main .publications-section-container {
+    font-size: 1.5rem;
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+    margin-top: 25vh;
+}
+main .publications-section-container .heading {
+    width: 100%;
+    color: #891515;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.2rem;
+}
+main .publications-section-container .years-container .year-container {
+    width: 800px;
+    margin: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap; 
+}
+main .publications-section-container .years-container .year-container .year-btn {
+    display: inline-block;
+    margin: 1rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #891515;
+    color: #FFFFFF;
+    font-weight: 800;
+    outline: none;
+    border: 1px solid #891515;
+    border-radius: 6px;
+}
+main .publications-section-container .years-container .year-container .year-btn:hover {
+    background-color: #FFFFFF;
+    color: #891515;
+    cursor: pointer;
+    font-weight: 800;
+    outline: none;
+    border: 1px solid #891515;
+    border-radius: 6px;
+}
+.publication-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 2rem auto;
+}
+.publications-container {
+    width: 50%;
+}
+.publication {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 auto 2rem auto;
+}
+.publication .title {
+    font-size: 1.5rem;
+    color: #891515;
+    font-weight: 800;
+}
+.publication .author {
+    font-size: 1rem;
+    color: #444444;
+    font-weight: 400;
+}
+.publication .doi {
+    font-size: 1.2rem;
+    color: #333333;
+    font-weight: 700;
+}
+.publication .impact-score {
+    font-size: 1rem;
+    color: #333333;
+    font-weight: 600;
+}
+.year {
+    color: #891515;
+    font-size: 2rem;
+    margin: 2rem auto;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 868px) {
+    main .publications-section-container .years-container .year-container {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 994px) {
+    .publications-container {
+        width: 100%;
+    }
+}

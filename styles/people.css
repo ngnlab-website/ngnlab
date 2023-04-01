@@ -1,0 +1,245 @@
+main .people-section-container {
+    font-size: 1.5rem;
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+    margin-top: 25vh;
+}
+.director {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    background-color: #FEFEFE;
+    padding: 2rem 0;
+    box-shadow: 5px 30px 30px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    margin: 0 auto 5rem auto;
+    padding: 1rem;
+}
+main .people-section-container .director .details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+main .people-section-container .director .details .name{
+    font-size: 2rem;
+}
+main .people-section-container .director .details .role{
+    font-size: 1.2rem;
+}
+main .people-section-container .director .details .about{
+    font-size: 1rem;
+}
+main .people-section-container .director .details .footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+main .people-section-container .director .details .footer .footer-btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+main .people-section-container .director .details .footer .footer-btn .about-me-btn {
+    padding: 1rem 2rem;
+    color: #FFFFFF;
+    background-color: #891515;
+    border: 1px solid #891515;
+    font-size: 1.2rem;
+}
+main .people-section-container .director .details .footer .footer-btn .about-me-btn:hover {
+    color: #891515;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: 1px solid #891515;
+}
+main .people-section-container .director .details .footer .social-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+main .people-section-container .director .details .footer .social-icons a img {
+    width: 45px;
+    height: 45px;
+    fill: gray;
+}
+main .people-section-container .director .photo {
+    width: 100%;
+}
+main .people-section-container .director .photo img {
+    width: 100%;
+    object-fit: cover;
+}
+.students .undergrad-text, .students .fourth-year-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 1rem auto;
+}
+.students .undergrad-text {
+    font-size: 3rem;
+}
+main .people-section-container .fourth-year, main .people-section-container .third-year, main .people-section-container .others {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    margin: 4rem auto;
+}
+.student-member-card{
+    position: relative;
+    padding: unset;
+}
+.student-member-card .face{
+    width: 100%;
+    transition: 0.5s;
+}
+
+.student-member-card .face.face1{
+    position: relative;
+    /* background: #222; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+}
+
+.student-member-card:hover .face.face1{
+    /* background: #011F4B; */
+    transform: translateY(0);
+    border-radius: 6px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.student-member-card .face.face1 .content{
+    opacity: 1;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    color: #333333;
+    width: 100%;
+    overflow: hidden;
+}
+
+.student-member-card .face.face1 .content img{
+    width: 100%;
+    margin: auto;
+    object-fit: cover;
+    height: 100%;
+    opacity: 1;
+    border-radius: 6px;
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+}
+
+.student-member-card:hover .face.face1 .content img {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    transform: scale(1.1);
+}
+
+.student-member-card .face.face1 .content h3{
+    margin: 10px 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+    display: none;
+    opacity: 1;
+}
+
+.student-member-card:hover .face.face1 .content h3 {
+    display: block;
+    position: absolute;
+    opacity: 1;
+}
+
+.student-member-card .face.face2{
+    position: absolute;
+    background: #fff;
+    color: #000000;
+    display: none;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    z-index: 2;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+}
+
+.student-member-card:hover .face.face2{
+    transform: translateY(0);
+    display: flex;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.student-member-card .face.face2 .content .name{
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+.student-member-card .face.face2 .content .role{
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.student-member-card .face.face2 .content .mail, .student-member-card .face.face2 .content .phone{
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.student-member-card .face.face2 .content .social-media{
+    display: flex;
+    gap: 1rem;
+}
+
+.student-member-card .face.face2 .content a{
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #fff;
+    padding: 5px;
+}
+
+.student-member-card .face.face2 .content a:hover{
+    background: #222;
+    color: #fff;
+}
+
+.student-member-card .face.face2 .content a img {
+    height: 30px;
+    width: 30px;
+}
+
+@media screen and (max-width:994px) {
+    main .people-section-container {
+        margin-top: 15vh;
+    }
+    main .people-section-container .director {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    main .people-section-container .fourth-year, main .people-section-container .third-year, main .people-section-container .others {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:600px) {
+    main .people-section-container .fourth-year, main .people-section-container .third-year, main .people-section-container .others {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

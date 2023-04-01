@@ -1,0 +1,33 @@
+main .about-section-container {
+    font-size: 1.5rem;
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+    margin-top: 25vh;
+}
+main .about-section-container .heading, main .about-section-container .collaborators-heading, main .about-section-container .projects-heading {
+    width: 100%;
+    color: #891515;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.2rem;
+    margin: 0 auto 1rem auto;
+}
+main .about-section-container .collaborators-list, main .about-section-container .projects-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+main .about-section-container .collaborators-list-container, main .about-section-container .projects-list-container {
+    width: 50%;
+}
+main .about-section-container .collaborators-list ul li, main .about-section-container .projects-list ul li{
+    list-style-type: decimal;
+}
+@media screen and (max-width: 994px) {
+    main .about-section-container .collaborators-list-container, main .about-section-container .projects-list-container {
+        width: 100%;
+    }
+}
