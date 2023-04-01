@@ -72,11 +72,11 @@ main .publications-section-container .years-container .year-container .year-btn:
     color: #333333;
     font-weight: 700;
 }
-.publication .impact-score {
+/* .publication .impact-score {
     font-size: 1rem;
     color: #333333;
     font-weight: 600;
-}
+} */
 .year {
     color: #891515;
     font-size: 2rem;
