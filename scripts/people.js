@@ -90,7 +90,7 @@ const students = [
         domain: "Healthcare, Computer Vision, Machine Learning",
         facebook: "#",
         twitter: "#",
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/shalini-priya-ab9a461a5",
         year: "fourth-year"
     },
     {
