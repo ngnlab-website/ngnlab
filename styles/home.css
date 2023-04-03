@@ -117,6 +117,10 @@ main .contact-section-container .contact-section img {
     width: 100%;
     height: 100%;
 }
+main .contact-section-container .contact-section .map-image iframe{
+    height: 100%;
+    width: 100%;
+}
 main .contact-section-container .contact-section .address {
     display: flex;
     flex-direction: column;
@@ -158,6 +162,9 @@ main .contact-section-container .contact-section .address .email a {
 @media screen and (max-width:768px) {
     main .research-domain-section .images {
         grid-template-columns: repeat(1, 1fr);
+    }
+    main .contact-section-container .contact-section .map-image iframe{
+        height: 400px;
     }
     main .research-domain-section .images .img1, main .research-domain-section .images .img2, main .research-domain-section .images .img3, main .research-domain-section .images .img4, main .research-domain-section .images .img5, main .research-domain-section .images .img6 {
         grid-column-start: unset;
