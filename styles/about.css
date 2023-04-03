@@ -1,7 +1,7 @@
 main .about-section-container {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     text-align: justify;
-    width: 90%;
+    width: 65%;
     margin: auto;
     margin-top: 25vh;
 }
@@ -27,6 +27,10 @@ main .about-section-container .collaborators-list ul li, main .about-section-con
     list-style-type: decimal;
 }
 @media screen and (max-width: 994px) {
+    main .about-section-container {
+        width: 90%;
+        margin-top: 15vh;
+    }
     main .about-section-container .collaborators-list-container, main .about-section-container .projects-list-container {
         width: 100%;
     }

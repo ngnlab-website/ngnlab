@@ -1,7 +1,7 @@
 main .people-section-container {
     font-size: 1.5rem;
     text-align: justify;
-    width: 90%;
+    width: 65%;
     margin: auto;
     margin-top: 25vh;
 }
@@ -20,6 +20,7 @@ main .people-section-container .director .details {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    margin: auto;
 }
 main .people-section-container .director .details .name{
     font-size: 2rem;
@@ -32,7 +33,7 @@ main .people-section-container .director .details .about{
 }
 main .people-section-container .director .details .footer {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
 }
 main .people-section-container .director .details .footer .footer-btn {
     display: flex;
@@ -75,6 +76,7 @@ main .people-section-container .director .details .footer .social-icons a img {
     width: 45px;
     height: 45px;
     fill: gray;
+    border-radius: 6px;
 }
 main .people-section-container .director .photo {
     width: 100%;
@@ -96,7 +98,7 @@ main .people-section-container .director .photo img {
 }
 main .people-section-container .fourth-year, main .people-section-container .third-year, main .people-section-container .others, main .people-section-container .alumni {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
     margin: 4rem auto;
 }
@@ -149,7 +151,7 @@ main .people-section-container .fourth-year, main .people-section-container .thi
     object-position: center top;
     height: 300px;
     opacity: 1;
-    border-radius: 6px;
+    border-radius: 10px;
     transform: scale(1);
     transition: all 0.5s ease-in-out;
 }
@@ -246,7 +248,8 @@ main .people-section-container .fourth-year, main .people-section-container .thi
 
 @media screen and (max-width:994px) {
     main .people-section-container {
-        margin-top: 15vh;
+        margin-top: 24vh;
+        width: 90%;
     }
     main .people-section-container .director {
         display: flex;

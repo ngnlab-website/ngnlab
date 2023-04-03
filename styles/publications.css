@@ -1,5 +1,5 @@
 main .publications-section-container {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     text-align: justify;
     width: 90%;
     margin: auto;
@@ -48,7 +48,7 @@ main .publications-section-container .years-container .year-container .year-btn:
     margin: 2rem auto;
 }
 .publications-container {
-    width: 50%;
+    width: 75%;
 }
 .publication {
     display: flex;
@@ -68,7 +68,7 @@ main .publications-section-container .years-container .year-container .year-btn:
     font-weight: 400;
 }
 .publication .doi {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #333333;
     font-weight: 700;
 }
@@ -88,11 +88,14 @@ main .publications-section-container .years-container .year-container .year-btn:
 }
 @media screen and (max-width: 868px) {
     main .publications-section-container .years-container .year-container {
-        width: 100%;
+        width: 90%;
     }
 }
 @media screen and (max-width: 994px) {
     .publications-container {
-        width: 100%;
+        width: 90%;
+    }
+    .publication .doi {
+        font-size: 0.8rem;
     }
 }

@@ -1,7 +1,7 @@
 .working-groups-section-container {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     text-align: justify;
-    width: 90%;
+    width: 65%;
     margin: auto;
     margin-top: 25vh;
 }
@@ -40,6 +40,9 @@
     align-items: center;
 }
 @media screen and (max-width: 994px) {
+    .working-groups-section-container {
+        width: 90%;
+    }
     .working-groups-section-container .working-group-section .domain, .working-groups-section-container .working-group-section .rev {
         grid-template-columns: 100%;
     }

@@ -1,18 +1,22 @@
-main
-{
+main {
     display: flex;
     flex-direction: column;
+    margin: auto;
+    width: 100vw;
 }
+
 main .about-section {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     text-align: justify;
-    width: 90%;
+    width: 65%;
     margin: auto;
     margin-top: 25vh;
 }
+
 main .about-section .read-more-btn {
-    margin: 3rem auto; 
+    margin: 3rem auto;
 }
+
 main .about-section .read-more-btn a {
     text-decoration: none;
     color: #FFFFFF;
@@ -21,28 +25,33 @@ main .about-section .read-more-btn a {
     border: 1px solid #282626;
     transition: all 0.5s ease-in-out;
 }
+
 main .about-section .read-more-btn a:hover {
     color: #262626;
     background-color: #FFFFFF;
     padding: 1rem 2rem;
     border: 1px solid #282626;
 }
+
 main .image-section {
-    width: 90%;
+    width: 65%;
     margin: auto;
 }
+
 main .image-section img {
     width: 100%;
     object-fit: contain;
 }
+
 main .research-domain-section {
-    width: 90%;
+    width: 65%;
     margin: 4rem auto;
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
+
 main .research-domain-section .heading {
     width: 100%;
     color: #891515;
@@ -50,56 +59,66 @@ main .research-domain-section .heading {
     font-weight: 800;
     font-size: 2.2rem;
 }
+
 main .research-domain-section .images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1.5rem;
 }
-main .research-domain-section .images img{
+
+main .research-domain-section .images img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 main .research-domain-section .images .img1 {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
 }
+
 main .research-domain-section .images .img2 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
 }
+
 main .research-domain-section .images .img3 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
 }
+
 main .research-domain-section .images .img4 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;
 }
+
 main .research-domain-section .images .img5 {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
 }
+
 main .research-domain-section .images .img6 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
 }
+
 main .contact-section-container {
-    width: 90%;
+    width: 65%;
     margin: 4rem auto;
 }
+
 main .contact-section-container .heading {
     width: 100%;
     color: #891515;
@@ -107,20 +126,24 @@ main .contact-section-container .heading {
     font-weight: 800;
     font-size: 2.2rem;
 }
+
 main .contact-section-container .contact-section {
     display: grid;
     grid-template-columns: 60% 40%;
     grid-gap: 2rem;
     margin: 4rem auto;
 }
+
 main .contact-section-container .contact-section img {
     width: 100%;
     height: 100%;
 }
-main .contact-section-container .contact-section .map-image iframe{
+
+main .contact-section-container .contact-section .map-image iframe {
     height: 100%;
     width: 100%;
 }
+
 main .contact-section-container .contact-section .address {
     display: flex;
     flex-direction: column;
@@ -129,49 +152,63 @@ main .contact-section-container .contact-section .address {
     gap: 1.5rem;
     font-size: 1.5rem;
 }
+
 main .contact-section-container .contact-section .address .address-title {
     width: 100%;
     color: #891515;
     font-weight: 800;
     font-size: 2rem;
 }
-main .contact-section-container .contact-section .address .email{
+
+main .contact-section-container .contact-section .address .email {
     display: flex;
     gap: 0.5rem;
 }
+
 main .contact-section-container .contact-section .address .email a {
     text-decoration: none;
     color: #262626;
 }
+
 @media screen and (max-width:1000px) {
-    main
-    {
-        /* margin-top: 8vh; */
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
     main .about-section {
         margin-top: 25%;
     }
+    main .about-section, main .image-section, main .contact-section-container {
+        width: 90%;
+    }
+    main .research-domain-section {
+        width: 90%;
+    }
 }
+
 @media screen and (max-width:600px) {
     main .about-section {
         margin-top: 25vh;
     }
 }
-@media screen and (max-width:768px) {
+
+@media screen and (max-width:994px) {
     main .research-domain-section .images {
         grid-template-columns: repeat(1, 1fr);
     }
-    main .contact-section-container .contact-section .map-image iframe{
+
+    main .contact-section-container .contact-section .map-image iframe {
         height: 400px;
     }
-    main .research-domain-section .images .img1, main .research-domain-section .images .img2, main .research-domain-section .images .img3, main .research-domain-section .images .img4, main .research-domain-section .images .img5, main .research-domain-section .images .img6 {
+
+    main .research-domain-section .images .img1,
+    main .research-domain-section .images .img2,
+    main .research-domain-section .images .img3,
+    main .research-domain-section .images .img4,
+    main .research-domain-section .images .img5,
+    main .research-domain-section .images .img6 {
         grid-column-start: unset;
         grid-column-end: unset;
         grid-row-start: unset;
-        grid-row-end: unset;  
+        grid-row-end: unset;
     }
+
     main .contact-section-container .contact-section {
         grid-template-columns: 100%;
     }
