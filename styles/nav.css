@@ -11,6 +11,9 @@
 	line-height: 170%;
 	font-family: Poppins, "Helvetica Neue", sans-serif;
 }
+body {
+	overflow-x: hidden;
+}
 
 header {
 	background-color: #fff;
@@ -19,6 +22,7 @@ header {
 	margin-bottom: 2rem;
 	position: fixed;
 	z-index: 99999;
+	height: 150px;
 }
 
 nav {

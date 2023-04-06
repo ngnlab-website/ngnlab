@@ -2,10 +2,19 @@ footer .email, footer .phone-number {
     display: flex;
     gap: 0.5rem;
     color: #FFFFFF;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 footer .email a, footer .phone-number a {
     text-decoration: none;
     color: #FFFFFF;
+}
+footer .email .emails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 footer {
     background-color: #891515;
@@ -17,7 +26,7 @@ footer {
     color: #FFFFFF;
     padding: 1rem;
     width: 100vw;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 footer .social-icons {
     display: flex;

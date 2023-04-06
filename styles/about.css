@@ -3,7 +3,7 @@ main .about-section-container {
     text-align: justify;
     width: 65%;
     margin: auto;
-    margin-top: 25vh;
+    margin-top: 180px;
 }
 main .about-section-container .heading, main .about-section-container .collaborators-heading, main .about-section-container .projects-heading {
     width: 100%;
