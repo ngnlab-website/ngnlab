@@ -211,6 +211,8 @@ main .people-section-container .fourth-year, main .people-section-container .thi
     color: #000000;
     font-weight: 600;
     font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
 }
 .student-member-card .face.face2 .content .mail, .student-member-card .face.face2 .content .phone{
     margin: 0;
@@ -225,11 +227,10 @@ main .people-section-container .fourth-year, main .people-section-container .thi
 }
 
 .student-member-card .face.face2 .content a{
-    margin: 15px 0 0;
     display: inline-block;
     text-decoration: none;
     font-weight: 900;
-    color: #fff;
+    color: #333;
     padding: 5px;
 }
 

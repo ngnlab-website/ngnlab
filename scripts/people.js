@@ -168,42 +168,130 @@ const students = [
 ]
 students.forEach(student => {
     if(student.year === "fourth-year") {
-        let stud = `<div class="student-member-card">
-                        <div class="face face1">
-                            <div class="content">
-                                <img src="${student.img}" />
-                            </div>
-                        </div>
-                        <div class="face face2">
-                            <div class="content">
-                                <div class="name">${student.name}</div>
-                                <div class="role">${student.domain}</div>
-                                <div class="social-media"> 
-                                    <a href="${student.linkedin}" target="_blank"><img src="./assets/img/logos/linkedin.svg" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>`
-        fourthYearContainer.innerHTML += stud
+        let parentDiv = document.createElement("div");
+        parentDiv.classList.add("student-member-card")
+        let face1Div = document.createElement("div");
+        face1Div.classList.add("face")
+        face1Div.classList.add("face1")
+        let face1Content = document.createElement("div");
+        face1Content.classList.add("content")
+        let face1Img = document.createElement("img")
+        face1Img.src = student.img
+        face1Img.alt = student.name
+        face1Content.appendChild(face1Img)
+        face1Div.appendChild(face1Content)
+
+        let face2Div = document.createElement("div")
+        face2Div.classList.add("face")
+        face2Div.classList.add("face2")
+        let face2Content = document.createElement("div")
+        face2Content.classList.add("content")
+        let face2Name = document.createElement("div")
+        face2Name.innerHTML = student.name
+        let face2Domain = document.createElement("div")
+        face2Domain.classList.add("role")
+        let domains = student.domain.split(", ")
+        console.log(domains)
+        domains.forEach(domain => {
+            let url = document.createElement("a")
+            url.innerHTML = domain
+            url.target ="_blank"
+            let urlVal = domain.split(" ")
+            urlVal = urlVal.join("_")
+            console.log(urlVal)
+            url.href = "/domain/" + urlVal
+            face2Domain.appendChild(url)
+        })
+        let socialMedia = document.createElement("div")
+        socialMedia.classList.add("social-media")
+        socialMedia.innerHTML = `<a href="${student.linkedin}" target="_blank"><img src="./assets/img/logos/linkedin.svg" alt=""></a>`
+        face2Content.appendChild(face2Name)
+        face2Content.appendChild(face2Domain)
+        face2Content.appendChild(socialMedia)
+        face2Div.appendChild(face2Content)
+        parentDiv.appendChild(face1Div)
+        parentDiv.appendChild(face2Div)
+        fourthYearContainer.appendChild(parentDiv)
+        // let stud = `<div class="student-member-card">
+        //                 <div class="face face1">
+        //                     <div class="content">
+        //                         <img src="${student.img}" />
+        //                     </div>
+        //                 </div>
+        //                 <div class="face face2">
+        //                     <div class="content">
+        //                         <div class="name">${student.name}</div>
+        //                         <div class="role">${student.domain}</div>
+        //                         <div class="social-media"> 
+        //                             <a href="${student.linkedin}" target="_blank"><img src="./assets/img/logos/linkedin.svg" alt=""></a>
+        //                         </div>
+        //                     </div>
+        //                 </div>
+        //             </div>`
+        // fourthYearContainer.innerHTML += stud
     }
     if(student.year === "third-year") {
-        let stud = `<div class="student-member-card">
-                        <div class="face face1">
-                            <div class="content">
-                                <img src="${student.img}" />
-                            </div>
-                        </div>
-                        <div class="face face2">
-                            <div class="content">
-                                <div class="name">${student.name}</div>
-                                <div class="role">${student.domain}</div>
-                                <div class="social-media">
-                                    <a href="${student.linkedin}" target="_blank"><img src="./assets/img/logos/linkedin.svg" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>`
-        thirdYearContainer.innerHTML += stud
+        let parentDiv = document.createElement("div");
+        parentDiv.classList.add("student-member-card")
+        let face1Div = document.createElement("div");
+        face1Div.classList.add("face")
+        face1Div.classList.add("face1")
+        let face1Content = document.createElement("div");
+        face1Content.classList.add("content")
+        let face1Img = document.createElement("img")
+        face1Img.src = student.img
+        face1Img.alt = student.name
+        face1Content.appendChild(face1Img)
+        face1Div.appendChild(face1Content)
+
+        let face2Div = document.createElement("div")
+        face2Div.classList.add("face")
+        face2Div.classList.add("face2")
+        let face2Content = document.createElement("div")
+        face2Content.classList.add("content")
+        let face2Name = document.createElement("div")
+        face2Name.innerHTML = student.name
+        let face2Domain = document.createElement("div")
+        face2Domain.classList.add("role")
+        let domains = student.domain.split(", ")
+        console.log(domains)
+        domains.forEach(domain => {
+            let url = document.createElement("a")
+            url.innerHTML = domain
+            url.target ="_blank"
+            let urlVal = domain.split(" ")
+            urlVal = urlVal.join("_")
+            console.log(urlVal)
+            url.href = "/domain/" + urlVal
+            face2Domain.appendChild(url)
+        })
+        let socialMedia = document.createElement("div")
+        socialMedia.classList.add("social-media")
+        socialMedia.innerHTML = `<a href="${student.linkedin}" target="_blank"><img src="./assets/img/logos/linkedin.svg" alt=""></a>`
+        face2Content.appendChild(face2Name)
+        face2Content.appendChild(face2Domain)
+        face2Content.appendChild(socialMedia)
+        face2Div.appendChild(face2Content)
+        parentDiv.appendChild(face1Div)
+        parentDiv.appendChild(face2Div)
+        thirdYearContainer.appendChild(parentDiv)
+        // let stud = `<div class="student-member-card">
+        //                 <div class="face face1">
+        //                     <div class="content">
+        //                         <img src="${student.img}" />
+        //                     </div>
+        //                 </div>
+        //                 <div class="face face2">
+        //                     <div class="content">
+        //                         <div class="name">${student.name}</div>
+        //                         <div class="role">${student.domain}</div>
+        //                         <div class="social-media">
+        //                             <a href="${student.linkedin}" target="_blank"><img src="./assets/img/logos/linkedin.svg" alt=""></a>
+        //                         </div>
+        //                     </div>
+        //                 </div>
+        //             </div>`
+        // thirdYearContainer.innerHTML += stud
     }
     if(student.year === "others") {
         let stud = `<div class="student-member-card">
