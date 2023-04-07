@@ -2,7 +2,7 @@ footer .email, footer .phone-number {
     display: flex;
     gap: 0.5rem;
     color: #FFFFFF;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
 }
