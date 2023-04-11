@@ -24,7 +24,7 @@ const students = [
     {
         img: "./assets/img/people/abhishek.jpg",
         name: "Abhishek Manoharan",
-        domain: "UAV, Computer Vision, Blockchain, Deep Learning",
+        domain: "UAV, Blockchain",
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/abhishek-manoharan-0294661b0/",
@@ -33,7 +33,7 @@ const students = [
     {
         img: "./assets/img/people/balakumar.jpg",
         name: "Balakumar R",
-        domain: "Healthcare, Computer Vision, Machine Learning",
+        domain: "Healthcare",
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/balakumarr15/",
@@ -42,7 +42,7 @@ const students = [
     {
         img: "./assets/img/people/thilak.jpg",
         name: "Thilaksurya B",
-        domain: "AV, Deep Learning, Computer Vision, AI",
+        domain: "AV",
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/thilaksurya-b-549b73219/",
@@ -51,7 +51,7 @@ const students = [
     {
         img: "./assets/img/people/nishanthini.jpg",
         name: "Nishanthini S",
-        domain: "UAV, Computer Vision, Blockchain, Deep Learning",
+        domain: "UAV, Blockchain",
         facebook: "#",
         twitter: "#",
         linkedin: "#",
@@ -60,7 +60,7 @@ const students = [
     {
         img: "./assets/img/people/bhargavi.jpg",
         name: "Bhargavi R",
-        domain: "Healthcare, Computer Vision, Machine Learning",
+        domain: "Healthcare",
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/bhargavi-rajendiran-1300a0259",
@@ -69,7 +69,7 @@ const students = [
     {
         img: "./assets/img/people/srividya.png",
         name: "Ponnada Srividya",
-        domain: "AV, AI, Deep Learning, Computer Vision",
+        domain: "AV",
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/ponnada-srividya-b08280190/",
@@ -78,7 +78,7 @@ const students = [
     {
         img: "./assets/img/people/vamsi.jpg",
         name: "Vamsi Raju M",
-        domain: "UAV, Computer Vision, Blockchain, Deep Learning",
+        domain: "UAV, Blockchain",
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/vamsi-raju-m/",
@@ -87,7 +87,7 @@ const students = [
     {
         img: "./assets/img/people/shalini.jpg",
         name: "Dampella Shalini Priya",
-        domain: "Healthcare, Computer Vision, Machine Learning",
+        domain: "Healthcare",
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/shalini-priya-ab9a461a5",
@@ -96,7 +96,7 @@ const students = [
     {
         img: "./assets/img/people/suhruth.png",
         name: "Suhruth K C",
-        domain: "AV, Computer Vision, Deep Learning",
+        domain: "AV",
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/chenchu-suhruth-b56298198/",
@@ -114,7 +114,7 @@ const students = [
     {
         img: "./assets/img/people/sasana.png",
         name: "Sasana R",
-        domain: "Machine learning, Full stack, Immersive Technologies",
+        domain: "UAV",
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/sasana-ravi-27b0481ab",
@@ -123,7 +123,7 @@ const students = [
     {
         img: "./assets/img/people/sidhaarthan.png",
         name: "Sidhaarthan VM",
-        domain: "Machine learning, AI, UAV",
+        domain: "UAV",
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/sidharthan-vm-261b2a220/",
@@ -132,7 +132,7 @@ const students = [
     {
         img: "./assets/img/people/rakshitha.png",
         name: "Rakshitha P",
-        domain: "Machine learning, AI, Data Analytics",
+        domain: "IoT",
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/rakshitha-prakasam-985079206/",
@@ -141,7 +141,7 @@ const students = [
     {
         img: "./assets/img/people/joevita.png",
         name: "Joevita Faustina Doss F",
-        domain: "UAV, Computer vision, Machine learning",
+        domain: "UAV",
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/joevita-faustina-doss-a5a565246",
@@ -199,7 +199,7 @@ students.forEach(student => {
             let urlVal = domain.split(" ")
             urlVal = urlVal.join("_")
             console.log(urlVal)
-            url.href = "/domain/" + urlVal
+            url.href = "./domains/" + urlVal + '.html'
             face2Domain.appendChild(url)
         })
         let socialMedia = document.createElement("div")
@@ -262,7 +262,7 @@ students.forEach(student => {
             let urlVal = domain.split(" ")
             urlVal = urlVal.join("_")
             console.log(urlVal)
-            url.href = "/domain/" + urlVal
+            url.href = "./domains/" + urlVal + '.html'
             face2Domain.appendChild(url)
         })
         let socialMedia = document.createElement("div")

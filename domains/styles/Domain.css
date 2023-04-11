@@ -1,0 +1,50 @@
+main .about-section{
+    font-size: 1.1rem;
+    text-align: justify;
+    width: 65%;
+    margin: auto;
+    margin-top: 180px;
+}
+main .about-section .heading{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #891515;
+}
+main .about-section .pc, main .about-section .cc{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #891515;
+    margin: 1rem auto;
+}
+
+main .paper-title{
+    color: #891515;
+    font-size: 1.2rem;
+}
+main .paper-content{
+    font-size: 1rem;
+    color: black;
+    font-weight: 400;
+}
+main .about-section img {
+    margin: 1.5rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+main .about-section ol li{
+    list-style-type: decimal;
+    color: #891515;
+    font-weight: 600;
+    margin: 1rem auto;
+}
+@media screen and (max-width: 994px) {
+    main .about-section {
+        width: 90%;
+    }
+    main .about-section img {
+        width: 100%;
+    }
+}
