@@ -193,84 +193,94 @@ const publications = [
         author: "Raja Gunasekaran, Adhimuga Sivasakthi D",
         doi: " Telecommunication Systems. https://assets.researchsquare.com/files/rs-221801/v1_covered.pdf?c=1631854471",
         year: "2021"
-    },
-    
+    }   
 ]
-yearArray.forEach(year => {
-    const btn = document.createElement("button")
-    const yearTxt = document.createTextNode(year);
-    btn.appendChild(yearTxt);
-    btn.classList.add("year-btn")
-    yearContainer.appendChild(btn)
-})
-const btnArray = document.querySelectorAll(".year-btn")
 const publicationsContainer = document.querySelector(".publications-container")
-btnArray.forEach(btn => {
-    btn.addEventListener("click", (e) => {
-        if(e.target.innerHTML) {
-            activeYear = e.target.innerHTML
-        }
-        dispYear.innerHTML = activeYear
-        var child = publicationsContainer.lastElementChild
-        while (child) {
-            publicationsContainer.removeChild(child);
-            child = publicationsContainer.lastElementChild;
-        }
-        publications.forEach(publication => {
-            if(publication.year === activeYear) {
-                let parentDiv = document.createElement("div")
-                parentDiv.classList.add("publication")
-                let titleDiv = document.createElement("div")
-                titleDiv.classList.add("title")
-                let titleText = document.createTextNode(publication.title)
-                titleDiv.appendChild(titleText)
-                let authorDiv = document.createElement("div")
-                authorDiv.classList.add("author")
-                let authorText = document.createTextNode(publication.author)
-                authorDiv.appendChild(authorText)
-                let doiDiv = document.createElement("div")
-                doiDiv.classList.add("doi")
-                let doiText = document.createTextNode(publication.doi)
-                doiDiv.appendChild(doiText)
-                // let impactScoreDiv = document.createElement("div")
-                // impactScoreDiv.classList.add("impact-score")
-                // let impactScoreText = document.createTextNode(publication.impactScore)
-                // impactScoreDiv.appendChild(impactScoreText)
-                parentDiv.appendChild(titleDiv)
-                parentDiv.appendChild(authorDiv)
-                parentDiv.appendChild(doiDiv)
-                // parentDiv.appendChild(impactScoreDiv)
-                publicationsContainer.appendChild(parentDiv)
-            }
-        })
-    })
-})
-publications.forEach(publication => {
-    if(publication.year === activeYear) {
-        let parentDiv = document.createElement("div")
-        parentDiv.classList.add("publication")
-        let titleDiv = document.createElement("div")
-        titleDiv.classList.add("title")
-        let titleText = document.createTextNode(publication.title)
-        titleDiv.appendChild(titleText)
-        let authorDiv = document.createElement("div")
-        authorDiv.classList.add("author")
-        let authorText = document.createTextNode(publication.author)
-        authorDiv.appendChild(authorText)
-        let doiDiv = document.createElement("div")
-        doiDiv.classList.add("doi")
-        let doiText = document.createTextNode(publication.doi)
-        doiDiv.appendChild(doiText)
-        // let impactScoreDiv = document.createElement("div")
-        // impactScoreDiv.classList.add("impact-score")
-        // let impactScoreText = document.createTextNode(publication.impactScore)
-        // impactScoreDiv.appendChild(impactScoreText)
-        parentDiv.appendChild(titleDiv)
-        parentDiv.appendChild(authorDiv)
-        parentDiv.appendChild(doiDiv)
-        // parentDiv.appendChild(impactScoreDiv)
-        publicationsContainer.appendChild(parentDiv)
+renderPublication = () => {
+    var child = publicationsContainer.lastElementChild
+    while (child) {
+        publicationsContainer.removeChild(child);
+        child = publicationsContainer.lastElementChild;
     }
+    publications.forEach(publication => {
+        let minValue = document.querySelector(".input-min").value
+        let maxValue = document.querySelector(".input-max").value
+        let selectedDomain = document.querySelector(".mySelect").value
+        console.log(minValue, maxValue, selectedDomain)
+        if(publication.year >= minValue && publication.year <= maxValue) {
+            let parentDiv = document.createElement("div")
+            parentDiv.classList.add("publication")
+            let titleDiv = document.createElement("div")
+            titleDiv.classList.add("title")
+            let titleText = document.createTextNode(publication.title)
+            titleDiv.appendChild(titleText)
+            let authorDiv = document.createElement("div")
+            authorDiv.classList.add("author")
+            let authorText = document.createTextNode(publication.author)
+            authorDiv.appendChild(authorText)
+            let doiDiv = document.createElement("div")
+            doiDiv.classList.add("doi")
+            let doiText = document.createTextNode(publication.doi)
+            doiDiv.appendChild(doiText)
+            let impactScoreDiv = document.createElement("div")
+            impactScoreDiv.classList.add("impact-score")
+            let impactScoreText = document.createTextNode(publication.year)
+            impactScoreDiv.appendChild(impactScoreText)
+            parentDiv.appendChild(titleDiv)
+            parentDiv.appendChild(authorDiv)
+            parentDiv.appendChild(doiDiv)
+            // parentDiv.appendChild(impactScoreDiv)
+            publicationsContainer.appendChild(parentDiv)
+        }
+    })
+}
+// let dispYear = document.querySelector(".year")
+// dispYear.innerHTML = activeYear
+
+const rangeInput = document.querySelectorAll(".range-input input"),
+priceInput = document.querySelectorAll(".price-input input"),
+range = document.querySelector(".slider .progress");
+let priceGap = 1;
+
+priceInput.forEach(input =>{
+    input.addEventListener("input", e =>{
+        let minPrice = parseInt(priceInput[0].value),
+        maxPrice = parseInt(priceInput[1].value);
+        
+        if((maxPrice - minPrice >= priceGap) && maxPrice <= rangeInput[1].max){
+            if(e.target.className === "input-min"){
+                rangeInput[0].value = minPrice;
+                range.style.left = ((minPrice / rangeInput[0].max) * 100) + "%";
+            }else{
+                rangeInput[1].value = maxPrice;
+                range.style.right = 100 - (maxPrice / rangeInput[1].max) * 100 + "%";
+            }
+        }
+    });
+});
+
+rangeInput.forEach(input =>{
+    input.addEventListener("input", e =>{
+        let minVal = parseInt(rangeInput[0].value),
+        maxVal = parseInt(rangeInput[1].value);
+
+        if((maxVal - minVal) < priceGap){
+            if(e.target.className === "range-min"){
+                rangeInput[0].value = maxVal - priceGap
+            }else{
+                rangeInput[1].value = minVal + priceGap;
+            }
+        }else{
+            priceInput[0].value = minVal;
+            priceInput[1].value = maxVal;
+            range.style.left = ((minVal / rangeInput[0].max) * 100) + "%";
+            range.style.right = 100 - (maxVal / rangeInput[1].max) * 100 + "%";
+        }
+        renderPublication()
+    });
+});
+
+let domains = document.querySelector(".mySelect")
+domains.addEventListener("change", () => {
+    renderPublication()
 })
-let dispYear = document.querySelector(".year")
-dispYear.innerHTML = activeYear

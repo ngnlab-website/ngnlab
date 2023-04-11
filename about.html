@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/about.css">
 	<script src="./scripts/script.js" defer></script>
+	<script src="./scripts/about.js" defer></script>
 </head>
 <body>
 	<header>
@@ -41,24 +42,42 @@
             </p>
             <div class="collaborators-heading">Collaborators</div>
             <div class="collaborators-list">
+                <div class="slider-wrapper">
+                    <div class="header">
+                        <h2>Country Selector</h2>
+                        <p>Use dropdown to select a country</p>
+                    </div>
+                    <select class="mySelect">
+                        <option value="Select" disabled>Select</option>
+                        <option value="USA">USA</option>
+                        <option value="UK">UK</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
                 <div class="collaborators-list-container">
-                    <ul>
-                        <li>University of California Davis, USA</li>
-                        <li>Columbia University, New York, USA</li>
-                        <li>Rutgers University, New Jersey, USA</li>
-                        <!-- <li>Rutgers University, New Jersey, USA</li> -->
-                        <li>University of Mary Washington, Virginia, USA</li>
-                        <li>University of South Florida, USA</li>
-                        <li>Manchester Metropolitan University, UK</li>
-                        <li>Brunel University, London, UK</li>
-                        <li>Munster Technological University, Ireland</li>
-                        <li>Emst-Abbe University Jena, Germany</li>
-                        <li>NUS, Singapore</li>
-                        <li>NTU, Singapore</li>
-                        <li>Universitrio de Santiago, Portugal</li>
-                        <li>Qatar University, Qatar</li>
-                        <li>Universiti Teknoloni PETRONAS Malaysia</li>
-                    </ul>
+                    <div class="flag-image">
+                        <!-- <img src="https://images.news18.com/ibnlive/uploads/2021/08/national-flag.jpg" alt=""> -->
+                    </div>
+                    <div class="list-container">
+                        <!-- <ul>
+                            <li>University of California Davis, USA</li>
+                            <li>Columbia University, New York, USA</li>
+                            <li>Rutgers University, New Jersey, USA</li>
+                            <li>Rutgers University, New Jersey, USA</li>
+                            <li>University of Mary Washington, Virginia, USA</li>
+                            <li>University of South Florida, USA</li>
+                            <li>Manchester Metropolitan University, UK</li>
+                            <li>Brunel University, London, UK</li>
+                            <li>Munster Technological University, Ireland</li>
+                            <li>Emst-Abbe University Jena, Germany</li>
+                            <li>NUS, Singapore</li>
+                            <li>NTU, Singapore</li>
+                            <li>Universitrio de Santiago, Portugal</li>
+                            <li>Qatar University, Qatar</li>
+                            <li>Universiti Teknoloni PETRONAS Malaysia</li>
+                        </ul> -->
+                    </div>
                 </div>
             </div>
             <div class="projects-heading">Projects</div>

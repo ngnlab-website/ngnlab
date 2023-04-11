@@ -37,10 +37,45 @@
 	<main>
         <div class="publications-section-container">
             <div class="heading">Publications</div>
-            <div class="years-container">
-                <div class="year-container"></div>
+            <div class="filter-wrapper">
+                <div class="slider-wrapper">
+                    <div class="header">
+                        <h2>Year Range</h2>
+                        <p>Use slider or enter min and max year</p>
+                    </div>
+                    <div class="price-input">
+                        <div class="field">
+                            <span>Min</span>
+                            <input type="number" class="input-min" value="2018">
+                        </div>
+                        <div class="separator">-</div>
+                        <div class="field">
+                            <span>Max</span>
+                            <input type="number" class="input-max" value="2021">
+                        </div>
+                    </div>
+                    <div class="slider">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="range-input">
+                        <input type="range" class="range-min" min="2016" max="2023" value="2018" step="1">
+                        <input type="range" class="range-max" min="2016" max="2023" value="2021" step="1">
+                    </div>
+                </div>
+                <div class="slider-wrapper">
+                    <div class="header">
+                        <h2>Domain Selector</h2>
+                        <p>Use dropdown to select a domain</p>
+                    </div>
+                    <select class="mySelect">
+                        <option value="Blockchain">Blockchain</option>
+                        <option value="UAV">UAV</option>
+                        <option value="AV">AV</option>
+                        <option value="Healthcare">Healthcare</option>
+                        <option value="IoT">IoT</option>
+                    </select>
+                </div>
             </div>
-            <div class="year"></div>
             <div class="publication-section-container">
                 <div class="publications-container"></div>
             </div>

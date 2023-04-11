@@ -1,7 +1,7 @@
 main .about-section-container {
     font-size: 1.1rem;
     text-align: justify;
-    width: 65%;
+    width: 90%;
     margin: auto;
     margin-top: 180px;
 }
@@ -13,6 +13,10 @@ main .about-section-container .heading, main .about-section-container .collabora
     font-size: 2.2rem;
     margin: 0 auto 1rem auto;
 }
+.content {
+    width: 75%;
+    margin: auto;
+}
 main .about-section-container .collaborators-list, main .about-section-container .projects-list {
     display: flex;
     flex-direction: column;
@@ -20,18 +24,78 @@ main .about-section-container .collaborators-list, main .about-section-container
     align-items: center;
     width: 100%;
 }
-main .about-section-container .collaborators-list-container, main .about-section-container .projects-list-container {
+main .about-section-container .projects-list-container {
     width: 50%;
 }
 main .about-section-container .collaborators-list ul li, main .about-section-container .projects-list ul li{
     list-style-type: decimal;
 }
+.slider-wrapper{
+    width: 30vw;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px 25px 40px;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+.header p{
+    margin-top: 5px;
+    font-size: 16px;
+}
+select {
+    background-color: white;
+    border: 1px solid #999;
+    border-radius: 4px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+    margin: 1rem 0;
+}
+.collaborators-list-container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 2rem;
+    margin: 2rem auto;
+}
+.collaborators-list-container .flag-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.collaborators-list-container img {
+    width: 70%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.list-container {
+    display: flex;
+    align-items: center;
+}
 @media screen and (max-width: 994px) {
     main .about-section-container {
         width: 90%;
-        margin-top: 15vh;
     }
     main .about-section-container .collaborators-list-container, main .about-section-container .projects-list-container {
         width: 100%;
+    }
+    .collaborators-list-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .collaborators-list-container img {
+        width: 50%;
+    }
+    .slider-wrapper, .content {
+        width: 100%;
+    }
+    .list-container{
+        justify-content: center;
     }
 }
