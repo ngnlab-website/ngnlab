@@ -191,14 +191,12 @@ students.forEach(student => {
         let face2Domain = document.createElement("div")
         face2Domain.classList.add("role")
         let domains = student.domain.split(", ")
-        console.log(domains)
         domains.forEach(domain => {
             let url = document.createElement("a")
             url.innerHTML = domain
             url.target ="_blank"
             let urlVal = domain.split(" ")
             urlVal = urlVal.join("_")
-            console.log(urlVal)
             url.href = "./domains/" + urlVal + '.html'
             face2Domain.appendChild(url)
         })
@@ -254,14 +252,12 @@ students.forEach(student => {
         let face2Domain = document.createElement("div")
         face2Domain.classList.add("role")
         let domains = student.domain.split(", ")
-        console.log(domains)
         domains.forEach(domain => {
             let url = document.createElement("a")
             url.innerHTML = domain
             url.target ="_blank"
             let urlVal = domain.split(" ")
             urlVal = urlVal.join("_")
-            console.log(urlVal)
             url.href = "./domains/" + urlVal + '.html'
             face2Domain.appendChild(url)
         })

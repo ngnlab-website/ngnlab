@@ -249,7 +249,6 @@ main .people-section-container .fourth-year, main .people-section-container .thi
 
 @media screen and (max-width:994px) {
     main .people-section-container {
-        margin-top: 24vh;
         width: 90%;
     }
     main .people-section-container .director {

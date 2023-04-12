@@ -6,7 +6,7 @@ let collaboratorsContainer = document.querySelector(".collaborators-list-contain
 let countryList = [
     {
         country: "USA",
-        flag: "https://images.news18.com/ibnlive/uploads/2021/08/national-flag.jpg",
+        flag: "../assets/img/flags/USA.png",
         collaborators: [
             "University of California Davis, USA",
             "Columbia University, New York, USA",
@@ -17,7 +17,7 @@ let countryList = [
     },
     {
         country: "UK",
-        flag: "https://images.news18.com/ibnlive/uploads/2021/08/national-flag.jpg",
+        flag: "../assets/img/flags/UK.png",
         collaborators: [
             "Manchester Metropolitan University, UK",
             "Brunel University, London, UK"
@@ -25,7 +25,7 @@ let countryList = [
     },
     {
         country: "Singapore",
-        flag: "https://images.news18.com/ibnlive/uploads/2021/08/national-flag.jpg",
+        flag: "../assets/img/flags/Singapore.png",
         collaborators: [
             "NUS, Singapore",
             "NTU, Singapore"
@@ -33,7 +33,7 @@ let countryList = [
     },
     {
         country: "Others",
-        flag: "https://images.news18.com/ibnlive/uploads/2021/08/national-flag.jpg",
+        flag: "../assets/img/flags/Others.png",
         collaborators: [
             "Munster Technological University, Ireland",
             "Emst-Abbe University Jena, Germany",

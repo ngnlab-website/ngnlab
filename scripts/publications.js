@@ -1,5 +1,5 @@
 var yearArray = ["2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016"];
-var domains = ["Healthcare", "UAV", "AV", "Blockchain", "IoT"]
+var overAllDomains = ["Healthcare", "UAV", "AV", "Blockchain", "IoT"]
 const yearContainer = document.querySelector(".year-container")
 let activeYear = "2023"
 const publications = [
@@ -217,7 +217,8 @@ const publications = [
         title: "Machine-learning-based efficient and secure RSU placement mechanism for software-defined-IoV",
         author: "Sudha Anbalagan, Ali Kashif Bashir, Gunasekaran Raja, Priyanka Dhanasekaran, Geetha Vijayaraghavan, Usman Tariq, Mohsen Guizani",
         doi: " IEEE Internet of Things Journal. https://ieeexplore.ieee.org/abstract/document/9390178/",
-        year: "2021"
+        year: "2021",
+        domain: ["UAV", "IoT"]
     },
     {
         title: "Multimedia Computational Offloading for 5G Mobile Edge Computing",
@@ -238,8 +239,7 @@ renderPublication = () => {
         let minValue = document.querySelector(".input-min").value
         let maxValue = document.querySelector(".input-max").value
         let selectedDomain = document.querySelector(".mySelect").value
-        console.log(minValue, maxValue, selectedDomain)
-        if(publication.year >= minValue && publication.year <= maxValue) {
+        if(publication.year >= minValue && publication.year <= maxValue && (publication.domain.indexOf(selectedDomain) !== -1)) {
             let parentDiv = document.createElement("div")
             parentDiv.classList.add("publication")
             let titleDiv = document.createElement("div")

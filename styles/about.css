@@ -71,9 +71,10 @@ select {
     align-items: center;
 }
 .collaborators-list-container img {
-    width: 70%;
+    width: 50%;
     border-radius: 50%;
     object-fit: cover;
+    height: 100%;
 }
 .list-container {
     display: flex;

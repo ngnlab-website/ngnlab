@@ -171,20 +171,11 @@ main .contact-section-container .contact-section .address .email a {
 }
 
 @media screen and (max-width:1000px) {
-    main .about-section {
-        margin-top: 25%;
-    }
     main .about-section, main .image-section, main .contact-section-container {
         width: 90%;
     }
     main .research-domain-section {
         width: 90%;
-    }
-}
-
-@media screen and (max-width:600px) {
-    main .about-section {
-        margin-top: 25vh;
     }
 }
 
