@@ -33,7 +33,7 @@ let countryList = [
     },
     {
         country: "Others",
-        flag: "../assets/img/flags/Others.png",
+        flag: "../assets/img/flags/others.png",
         collaborators: [
             "Munster Technological University, Ireland",
             "Emst-Abbe University Jena, Germany",
