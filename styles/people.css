@@ -98,8 +98,8 @@ main .people-section-container .director .photo img {
 }
 main .people-section-container .fourth-year, main .people-section-container .third-year, main .people-section-container .others, main .people-section-container .alumni {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
     margin: 4rem auto;
 }
 .student-member-card{
@@ -262,5 +262,10 @@ main .people-section-container .fourth-year, main .people-section-container .thi
 @media screen and (max-width:600px) {
     main .people-section-container .fourth-year, main .people-section-container .third-year, main .people-section-container .others, main .people-section-container .alumni {
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (max-width:1600px) {
+    main .people-section-container .fourth-year, main .people-section-container .third-year, main .people-section-container .others, main .people-section-container .alumni {
+        grid-template-columns: repeat(3, 1fr);
     }
 }

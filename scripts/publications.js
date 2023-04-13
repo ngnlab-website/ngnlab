@@ -64,7 +64,7 @@ const publications = [
         author: "Gunasekaran Raja, Balaji Rajaguru Rajakumar, Sugeerthi Gurumoorthy, Kapal Dev, Maurizio Magarini",
         doi: "IEEE International Conference on Communications. https://ieeexplore.ieee.org/abstract/document/9838856",
         year: "2022",
-        domain: ["IoT"]
+        domain: ["IoT", "Blockchain"]
     },
     {
         title: "QoE‐aware mobile computation offloading in mobile edge computing",
@@ -127,6 +127,7 @@ const publications = [
         author: "Gunasekaran Raja, Yashvandh Baskar, Priyanka Dhanasekaran, Raheel Nawaz, Keping Yu",
         doi: "2021 IEEE Globecom Workshops (GC Wkshps). https://ieeexplore.ieee.org/document/9682094",
         year: "2021",
+        voleume: "",
         domain: ["UAV"]
     },
     {
@@ -239,7 +240,10 @@ renderPublication = () => {
         let minValue = document.querySelector(".input-min").value
         let maxValue = document.querySelector(".input-max").value
         let selectedDomain = document.querySelector(".mySelect").value
-        if(publication.year >= minValue && publication.year <= maxValue && (publication.domain.indexOf(selectedDomain) !== -1)) {
+        let boolean = 0
+        if(selectedDomain=== "all" || publication.domain.indexOf(selectedDomain) !== -1)
+            boolean = 1
+        if(publication.year >= minValue && publication.year <= maxValue && (boolean === 1)) {
             let parentDiv = document.createElement("div")
             parentDiv.classList.add("publication")
             let titleDiv = document.createElement("div")
@@ -316,3 +320,4 @@ let domains = document.querySelector(".mySelect")
 domains.addEventListener("change", () => {
     renderPublication()
 })
+renderPublication()
