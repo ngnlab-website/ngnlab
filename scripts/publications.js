@@ -156,7 +156,7 @@ const publications = [
         author: "Sahaya Beni Prathiba, Gunasekaran Raja, Sudha Anbalagan, Renuka Narayanan, K Bhavani Venkata Karthik",
         doi: "Proceedings of the 1st Workshop on Artificial Intelligence and Blockchain Technologies for Smart Cities with 6G.https://dl.acm.org/doi/abs/10.1145/3477084.3484952",
         year: "2021",
-        domain: ["AV"]
+        domain: ["Blockchain", "UAV"]
     },
     {
         title: "SDN-assisted safety message dissemination framework for vehicular critical energy infrastructure",
@@ -219,7 +219,7 @@ const publications = [
         author: "Sudha Anbalagan, Ali Kashif Bashir, Gunasekaran Raja, Priyanka Dhanasekaran, Geetha Vijayaraghavan, Usman Tariq, Mohsen Guizani",
         doi: " IEEE Internet of Things Journal. https://ieeexplore.ieee.org/abstract/document/9390178/",
         year: "2021",
-        domain: ["UAV", "IoT"]
+        domain: ["IoT"]
     },
     {
         title: "Multimedia Computational Offloading for 5G Mobile Edge Computing",

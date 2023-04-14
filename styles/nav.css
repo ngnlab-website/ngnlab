@@ -22,7 +22,7 @@ header {
 	margin-bottom: 2rem;
 	position: fixed;
 	z-index: 99999;
-	height: 150px;
+	height: 120px;
 	display: flex;
 }
 
