@@ -244,10 +244,18 @@ students.forEach(student => {
         face1Div.classList.add("face1")
         let face1Content = document.createElement("div");
         face1Content.classList.add("content")
-        let face1Img = document.createElement("img")
-        face1Img.src = student.img
-        face1Img.alt = student.name
-        face1Content.appendChild(face1Img)
+        face1Content.innerHTML = `
+                                    <img src="${student.img}" alt="${student.name}" />
+                                    <div class="content-details">
+                                        <h3>${student.name}</h3>
+                                        <a href="mailto:gunasekaran@mitindia.edu">gunasekaran@mitindia.edu</a>
+                                        <a href="${student.linkedin}" class="linkedin-img" target="_blank">Linkedin</a>
+                                    </div>
+        `
+        // let face1Img = document.createElement("img")
+        // face1Img.src = student.img
+        // face1Img.alt = student.name
+        // face1Content.appendChild(face1Img)
         face1Div.appendChild(face1Content)
 
         let face2Div = document.createElement("div")
