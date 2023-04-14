@@ -11,7 +11,7 @@ main .publications-section-container {
 }
 main .publications-section-container .heading {
     width: 100%;
-    color: #891515;
+    color: #011F4B;
     text-align: center;
     font-weight: 800;
     font-size: 2.2rem;
@@ -180,7 +180,7 @@ main .publications-section-container .years-container .year-container .year-btn:
 .publication .title {
     font-size: 1rem;
     line-height: 140%;
-    color: #891515;
+    color: #011F4B;
     font-weight: 800;
 }
 .publication .author {
@@ -207,6 +207,16 @@ main .publications-section-container .years-container .year-container .year-btn:
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.year-change {
+    width: 100%;
+}
+.year-change h5{
+    color: #FFFFFF;
+    margin: 1.5rem 0;
+    background-color: #011F4B;
+    text-align: center;
+    width: 10%;
 }
 @media screen and (max-width: 868px) {
     main .publications-section-container .years-container .year-container {

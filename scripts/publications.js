@@ -229,6 +229,7 @@ const publications = [
         domain: ["IoT"]
     }   
 ]
+let currentYear = publications[0].year
 const publicationsContainer = document.querySelector(".publications-container")
 renderPublication = () => {
     var child = publicationsContainer.lastElementChild
@@ -236,7 +237,20 @@ renderPublication = () => {
         publicationsContainer.removeChild(child);
         child = publicationsContainer.lastElementChild;
     }
+    let var2023 = document.createElement("h1")
+    var2023.innerHTML =    `<div class="year-change">
+                            <h5>2023</h5>
+                        </div>`
+    publicationsContainer.appendChild(var2023)
     publications.forEach(publication => {
+        if(publication.year !== currentYear) {
+            currentYear = publication.year
+            let year = document.createElement("h1")
+            year.innerHTML =    `<div class="year-change">
+                                    <h5>${publication.year}</h5>
+                                </div>`
+            publicationsContainer.appendChild(year)
+        }
         let minValue = document.querySelector(".input-min").value
         let maxValue = document.querySelector(".input-max").value
         let selectedDomain = document.querySelector(".mySelect").value

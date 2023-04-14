@@ -59,11 +59,12 @@ select {
     margin: 1rem 0;
 }
 .collaborators-list-container {
-    width: 90%;
-    display: grid;
-    grid-template-columns: 30% 70%;
-    gap: 2rem;
-    margin: 2rem auto;
+    width: 75%;
+    /* display: grid; */
+    /* grid-template-columns: 30% 70%; */
+    /* gap: 2rem; */
+    /* margin: auto; */
+    columns: 2;
 }
 .collaborators-list-container .flag-image {
     display: flex;
@@ -98,5 +99,13 @@ select {
     }
     .list-container{
         justify-content: center;
+    }
+}
+@media screen and (max-width: 800px) {
+    .collaborators-list-container {
+        columns: 1;
+    }
+    .list-container {
+        justify-content: unset;
     }
 }

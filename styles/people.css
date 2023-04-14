@@ -101,6 +101,8 @@ main .people-section-container .fourth-year, main .people-section-container .thi
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
     margin: 4rem auto;
+    box-shadow: 5px 30px 30px rgba(0, 0, 0, 0.2);
+    /* padding: 1rem auto; */
 }
 .student-member-card{
     position: relative;
@@ -136,7 +138,7 @@ main .people-section-container .fourth-year, main .people-section-container .thi
     transition: 0.5s;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     flex-direction: column;
     height: 100%;
     color: #333333;
@@ -150,8 +152,9 @@ main .people-section-container .fourth-year, main .people-section-container .thi
     object-fit: cover;
     object-position: center top;
     height: 300px;
-    opacity: 1;
+    opacity: 0.9;
     border-radius: 10px;
+    background-color: #222;
     transform: scale(1);
     transition: all 0.5s ease-in-out;
 }
@@ -161,23 +164,41 @@ main .people-section-container .fourth-year, main .people-section-container .thi
     border-bottom-left-radius: 0px;
     transform: scale(1.1);
 }
-
-.student-member-card .face.face1 .content h3{
-    margin: 10px 0 0;
-    padding: 0;
-    color: #fff;
+.student-member-card .face.face1 .content .content-details a {
+    text-decoration: none;
+    color: #F3F3F3;
+    font-size: 0.9rem;
     text-align: center;
-    font-size: 1.5em;
-    display: none;
+}
+.student-member-card .face.face1 .content .content-details {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    width: 100%;
+    bottom: 0;
+    color: #F3F3F3;
+    padding: 1rem;
+    text-align: center;
+}
+.student-member-card .face.face1 .content h3{
+    /* margin: 10px 0 0; */
+    padding: 0;
+    bottom: 0;
+    text-align: center;
+    font-size: 1em;
+    display: block;
+    /* position: absolute; */
     opacity: 1;
 }
 
 .student-member-card:hover .face.face1 .content h3 {
     display: block;
-    position: absolute;
+    /* position: absolute; */
     opacity: 1;
 }
-
 .student-member-card .face.face2{
     position: absolute;
     background: #fff;
@@ -246,7 +267,11 @@ main .people-section-container .fourth-year, main .people-section-container .thi
     justify-content: center;
     align-items: center;
 }
-
+@media screen and (max-width:1600px) {
+    main .people-section-container .fourth-year, main .people-section-container .third-year, main .people-section-container .others, main .people-section-container .alumni {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 @media screen and (max-width:994px) {
     main .people-section-container {
         width: 90%;
@@ -262,10 +287,5 @@ main .people-section-container .fourth-year, main .people-section-container .thi
 @media screen and (max-width:600px) {
     main .people-section-container .fourth-year, main .people-section-container .third-year, main .people-section-container .others, main .people-section-container .alumni {
         grid-template-columns: repeat(1, 1fr);
-    }
-}
-@media screen and (max-width:1600px) {
-    main .people-section-container .fourth-year, main .people-section-container .third-year, main .people-section-container .others, main .people-section-container .alumni {
-        grid-template-columns: repeat(3, 1fr);
     }
 }
