@@ -210,7 +210,7 @@ const publications = [
     {
         title: "Vision-Based Ingenious Lane Departure Warning System for Autonomous Vehicles",
         author: "Sudha Anbalagan, Ponnada Srividya, B Thilaksurya, Sai Ganesh Senthivel, G Suganeshwari, Gunasekaran Raja",
-        conferenceference: "MDPI Sustainability 2023. ",
+        conference: "MDPI Sustainability 2023. ",
         doi: "https://www.mdpi.com/2071-1050/15/4/3535",
         year: "2023",
         domain: ["AV"]
