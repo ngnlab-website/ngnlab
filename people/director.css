@@ -237,15 +237,16 @@ html
     justify-content: center;
     margin-right: 1.75em;
     border-radius: 0.5rem;
+    font-weight: 700;
 }
 .profile section .education-section .education .first {
     background: #C3FACF;
 }
 .profile section .education-section .education .second {
-    background: #C3FACF;
+    background: #FAC3C3;
 }
 .profile section .education-section .education .third {
-    background: #C3FACF;
+    background: #C3E1FA;
 }
 .profile section .education-section .education .fourth {
     background: #C3FACF;
@@ -254,6 +255,16 @@ html
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+.profile section .education-section .education {
+    display: flex;
+    align-items: center;
+}
+.profile section .education-section .education .short-form-exp{
+    font-size: 0.95rem;
+    font-weight: 600;
+    width: 9rem;
+    color: #555;
 }
 .profile section .education-section .education .details .degree {
     font-weight: 700;
@@ -271,8 +282,8 @@ html
     border-radius: 6px;
 }
 .profile section .projects-container .single-project .project-title {
-    font-size: 1.1em;
-    font-weight: 800;
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 .profile section .projects-container .single-project .funding-agency {
     display: flex;
@@ -299,7 +310,7 @@ html
 }
 .profile section .awards-container .single-award .award-title {
     font-size: 1.1em;
-    font-weight: 800;
+    font-weight: 600;
 }
 .profile section .awards-container .single-award .awarding-agency {
     display: flex;
@@ -316,6 +327,12 @@ html
 .profile section .professional-activity {
     padding: 1rem 0;
 }
+.profile section .professional-activity ol{
+    margin: 0 2rem;
+}
+.profile section .professional-activity ol li{
+    padding: 0.2rem 0;
+}
 .profile section .professional-activity span {
     font-weight: bold;
 }
@@ -324,7 +341,8 @@ html
 }
 .profile section .paper-presentation-container ul li {
     list-style-type: decimal;
-    padding: 0.2rem 0;
+    margin: 0.7rem;
+    line-height: 140%;
 }
 .profile section .paper-presentation-container ul li span {
     font-weight: bold;
@@ -334,7 +352,8 @@ html
 }
 .profile section .invited-talks-container ul li {
     list-style-type: decimal;
-    padding: 0.2rem 0;
+    margin: 0.7rem;
+    line-height: 140%;
 }
 .profile section .invited-talks-container ul li span {
     font-weight: bold;
@@ -369,6 +388,10 @@ html
     gap: 0.4em;
     margin-bottom: 0.25em;
     font-size: .9em;
+}
+.profile section .publication .details {
+    display: flex;
+    gap: 0.4rem;
 }
 #publications {
     margin-bottom: 2rem;
