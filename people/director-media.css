@@ -1,0 +1,44 @@
+@media screen and (max-width: 1600px) {
+    .profile section .section-content .personal-section .personal-section-right .other {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .profile section .section-content .personal-section .personal-section-right .other .links {
+        padding-left: unset;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .side-nav {
+        display: none;
+    }
+    .profile section .section-content .personal-section .personal-section-right .other .area-of-interests ul,
+    .profile section .section-content .personal-section .personal-section-right .other .links ul {
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 600px) {
+    .profile section .section-content .personal-section {
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .profile section .section-content .personal-section .personal-section-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile section .section-content .personal-section img{
+        margin-right: unset;
+        padding-right: unset;
+        padding-left: unset;
+    }
+    .profile section .section-content .personal-section .personal-section-right {
+        margin-left: 0;
+    }
+    .profile section .section-content .personal-section .personal-section-right .personal-information {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

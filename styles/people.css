@@ -7,7 +7,7 @@ main .people-section-container {
 }
 .director {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 40% 60%;
     grid-gap: 2rem;
     background-color: #FEFEFE;
     padding: 2rem 0;
@@ -82,9 +82,9 @@ main .people-section-container .director .photo {
     width: 100%;
 }
 main .people-section-container .director .photo img {
-    width: 100%;
-    object-fit: contain;
-    height: 300px;
+    width: 10em;
+    object-fit: cover;
+    height: auto;
 }
 .students .undergrad-text, .students .fourth-year-text {
     display: flex;
