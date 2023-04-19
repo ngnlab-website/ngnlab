@@ -216,22 +216,6 @@ const publications = [
         domain: ["AV"]
     },
     {
-        title: "Intelligent Drones Trajectory Generation for Mapping Weed Infested Regions Over 6G Networks",
-        author: "Gunasekaran Raja, Nisha Deborah Philips, Ramesh Krishnan Ramasamy, Kapal Dev, Neeraj Kumar",
-        conference: "IEEE Transactions on Intelligent Transportation Systems. ",
-        doi: "https://ieeexplore.ieee.org/abstract/document/9997234",
-        year: "2022",
-        domain: ["IoT"]
-    },
-    {
-        title: "Nexus of Deep Reinforcement Learning and Leader-Follower Approach for AIoT Enabled Aerial Networks",
-        author: "Gunasekaran Raja, Selvam Essaky, Aishwarya Ganapathisubramaniyan, Yashvandh Baskar",
-        conference: "IEEE Transactions on Industrial Informatics. ",
-        doi: "https://ieeexplore.ieee.org/abstract/document/9969936",
-        year: "2022",
-        domain: ["IoT"]
-    },
-    {
         title: "MLB-IoD: Multi Layered Blockchain Assisted 6G Internet of Drones Ecosystem",
         author: "Gunasekaran Raja, Sai Ganesh Senthivel, Sivaganesh Balaganesh, Balaji Rajaguru Rajakumar, Vishal Ravichandran, Mohsen Guizani",
         conference: "IEEE Transactions on Vehicular Technology. ",
@@ -246,6 +230,22 @@ const publications = [
         doi: "https://ieeexplore.ieee.org/abstract/document/9863890",
         year: "2023",
         domain: ["AV"]
+    },
+    {
+        title: "Intelligent Drones Trajectory Generation for Mapping Weed Infested Regions Over 6G Networks",
+        author: "Gunasekaran Raja, Nisha Deborah Philips, Ramesh Krishnan Ramasamy, Kapal Dev, Neeraj Kumar",
+        conference: "IEEE Transactions on Intelligent Transportation Systems. ",
+        doi: "https://ieeexplore.ieee.org/abstract/document/9997234",
+        year: "2022",
+        domain: ["IoT"]
+    },
+    {
+        title: "Nexus of Deep Reinforcement Learning and Leader-Follower Approach for AIoT Enabled Aerial Networks",
+        author: "Gunasekaran Raja, Selvam Essaky, Aishwarya Ganapathisubramaniyan, Yashvandh Baskar",
+        conference: "IEEE Transactions on Industrial Informatics. ",
+        doi: "https://ieeexplore.ieee.org/abstract/document/9969936",
+        year: "2022",
+        domain: ["IoT"]
     },
     {
         title: "A Hybrid Deep Sensor Anomaly Detection for Autonomous Vehicles in 6G-V2X Environment",
@@ -288,14 +288,6 @@ const publications = [
         domain: ["IoT"]
     },
     {
-        title: "Optimized D-RAN Aware Data Retrieval for 5G Information Centric Networks",
-        author: "Kottilingam Kottursamy, Atta ur Rehman Khan, Banupriya Sadayappillai, Gunasekaran Raja",
-        conference: "Wireless Personal Communications. ",
-        doi: "https://link.springer.com/article/10.1007/s11277-021-09392-1",
-        year: "2021",
-        domain: ["IoT"]
-    },
-    {
         title: "Blockchain-Integrated Multiagent Deep Reinforcement Learning for Securing Cooperative Adaptive Cruise Control",
         author: "Gunasekaran Raja, Kottilingam Kottursamy, Kapal Dev, Renuka Narayanan, Ashmitha Raja, K Bhavani Venkata Karthik",
         conference: "IEEE Transactions on Intelligent Transportation Systems. ",
@@ -328,6 +320,30 @@ const publications = [
         domain: ["AV","IoT"]
     },
     {
+        title: "Intelligent Cooperative Collision Avoidance at Overtaking and Lane Changing Maneuver in 6G-V2X Communications",
+        author: "Sahaya Beni Prathiba, Gunasekaran Raja, Neeraj Kumar",
+        conference: "IEEE Transactions on Vehicular Technology. ",
+        doi: "https://ieeexplore.ieee.org/document/9612041",
+        year: "2022",
+        domain: ["AV"]
+    },
+    {
+        title: "SDN-assisted safety message dissemination framework for vehicular critical energy infrastructure",
+        author: "Sahaya Beni Prathiba, Gunasekaran Raja, Ali Kashif Bashir, Ahmad Ali AlZubi, Brij Gupta",
+        conference: "IEEE Transactions on Industrial Informatics.",
+        doi: "https://ieeexplore.ieee.org/abstract/document/9540253/",
+        year: "2022",
+        domain: ["AV"]
+    },
+    {
+        title: "Optimized D-RAN Aware Data Retrieval for 5G Information Centric Networks",
+        author: "Kottilingam Kottursamy, Atta ur Rehman Khan, Banupriya Sadayappillai, Gunasekaran Raja",
+        conference: "Wireless Personal Communications. ",
+        doi: "https://link.springer.com/article/10.1007/s11277-021-09392-1",
+        year: "2021",
+        domain: ["IoT"]
+    },
+    {
         title: "An Efficient Formation Control mechanism for Multi-UAV Navigation in Remote Surveillance",
         author: "Gunasekaran Raja, Yashvandh Baskar, Priyanka Dhanasekaran, Raheel Nawaz, Keping Yu",
         conference: "2021 IEEE Globecom Workshops (GC Wkshps). ",
@@ -335,14 +351,6 @@ const publications = [
         year: "2021",
         voleume: "",
         domain: ["UAV"]
-    },
-    {
-        title: "Intelligent Cooperative Collision Avoidance at Overtaking and Lane Changing Maneuver in 6G-V2X Communications",
-        author: "Sahaya Beni Prathiba, Gunasekaran Raja, Neeraj Kumar",
-        conference: "IEEE Transactions on Vehicular Technology. ",
-        doi: "https://ieeexplore.ieee.org/document/9612041",
-        year: "2022",
-        domain: ["AV"]
     },
     {
         title: "Deep Learning Based Attack Detection in IIoT using Two-Level Intrusion Detection System",
@@ -369,14 +377,6 @@ const publications = [
         domain: ["Blockchain", "UAV"]
     },
     {
-        title: "SDN-assisted safety message dissemination framework for vehicular critical energy infrastructure",
-        author: "Sahaya Beni Prathiba, Gunasekaran Raja, Ali Kashif Bashir, Ahmad Ali AlZubi, Brij Gupta",
-        conference: "IEEE Transactions on Industrial Informatics.",
-        doi: "https://ieeexplore.ieee.org/abstract/document/9540253/",
-        year: "2022",
-        domain: ["AV"]
-    },
-    {
         title: "Dynamic ambient HetNet for hybrid data communication and transmission in IoT networks",
         author: "D Adhimuga Sivasakthi, Raja Gunasekaran",
         conference: "Journal of Ambient Intelligence and Humanized Computing.",
@@ -384,14 +384,7 @@ const publications = [
         year: "2021",
         domain: ["IoT"]
     },
-    {
-        title: "Federated learning empowered computation offloading and resource management in 6G-V2X",
-        author: "Sahaya Beni Prathiba, Gunasekaran Raja, Sudha Anbalagan, Kapal Dev, Sugeerthi Gurumoorthy, Atshaya P Sankaran",
-        conference: "IEEE Transactions on Network Science and Engineering. ",
-        doi: "https://ieeexplore.ieee.org/abstract/document/9511234/",
-        year: "2022",
-        domain: ["IoT"]
-    },
+
     {
         title: "AV-CPS: Audio Visual Cognitive Processing System for Critical Intervention in Autonomous Vehicles",
         author: "Gunasekaran Raja, Senbagapriya Senthilkumar, Sivaseelan Ganesan, Rithika Edhayachandran, Geetha Vijayaraghavan, Ali Kashif Bashir",
@@ -483,10 +476,11 @@ renderPublication = () => {
         let confText = document.createTextNode(publication.conference)
         confDiv.appendChild(confText)
         let doiDiv = document.createElement("a")
+        // confDiv.appendChild(doiDiv)
         doiDiv.classList.add("doi-a")
         doiDiv.href = publication.doi
         doiDiv.target = "_blank"
-        doiDiv.innerHTML = "DOI"
+        doiDiv.innerHTML = publication.doi
         // doiDiv.appendChild(doiText)
         let impactScoreDiv = document.createElement("div")
         impactScoreDiv.classList.add("impact-score")

@@ -27,7 +27,10 @@ main .about-section-container .collaborators-list, main .about-section-container
 main .about-section-container .projects-list-container {
     width: 50%;
 }
-main .about-section-container .collaborators-list ul li, main .about-section-container .projects-list ul li{
+main .about-section-container .collaborators-list ul li{
+    list-style-type: initial;
+}
+main .about-section-container .projects-list ul li{
     list-style-type: decimal;
 }
 .slider-wrapper{

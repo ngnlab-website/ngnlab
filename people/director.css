@@ -38,7 +38,7 @@ html
     object-position: center;
     margin: auto;
 }
-.side-nav-header h2, .side-nav-header h3 {
+.side-nav-header h3, .side-nav-header h4 {
     margin: 1rem 0;
     color: #FFF;
 }
@@ -117,7 +117,7 @@ html
     font-size: 1.35em;
     color: #141E61;
     font-weight: bold;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
 }
 .profile section .section-content {
     background-color: #FFFFFF;
@@ -226,8 +226,8 @@ html
 .profile section .education-section .education{
     display: flex;
     align-items: center;
-    gap: 1rem;
-    padding: 1.2rem 0;
+    gap: 0.3rem;
+    padding: 0.5rem 0;
 }
 .profile section .education-section .education .short-form {
     width: 3em;
@@ -267,16 +267,16 @@ html
     color: #555;
 }
 .profile section .education-section .education .details .degree {
-    font-weight: 700;
-    font-size: 1.2em;
-    margin-bottom: 4px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 2px;
 }
 .profile section .education-section .education .details .location {
     color: #555;
 }
 .profile section .projects-container .single-project {
     background-color: #FFFFFF;
-    padding: 1rem;
+    padding: 0.5rem;
     border: 1px solid #DCDCDC;
     margin: 0.4rem 0;
     border-radius: 6px;
@@ -303,7 +303,7 @@ html
 }
 .profile section .awards-container .single-award {
     background-color: #FFFFFF;
-    padding: 1rem;
+    padding: 0.5rem;
     border: 1px solid #DCDCDC;
     margin: 0.4rem 0;
     border-radius: 6px;
@@ -325,7 +325,7 @@ html
     color: #113E79;
 }
 .profile section .professional-activity {
-    padding: 1rem 0;
+    padding: 0.5rem 0;
 }
 .profile section .professional-activity ol{
     margin: 0 2rem;
@@ -337,7 +337,7 @@ html
     font-weight: bold;
 }
 .profile section .paper-presentation-container ul {
-    padding: 1rem;
+    padding: 0.3rem;
 }
 .profile section .paper-presentation-container ul li {
     list-style-type: decimal;
@@ -348,7 +348,7 @@ html
     font-weight: bold;
 }
 .profile section .invited-talks-container ul {
-    padding: 1rem;
+    padding: 0.3rem;
 }
 .profile section .invited-talks-container ul li {
     list-style-type: decimal;
@@ -401,7 +401,7 @@ html
 }
 .profile section .publication .details {
     display: flex;
-    flex-direction: column;
+    gap: 0.4rem;
 }
 #publications {
     margin-bottom: 2rem;

@@ -38,11 +38,19 @@ main .people-section-container .director .details .footer {
 main .people-section-container .director .details .footer .footer-btn {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    flex-direction: column;
+    /* align-items: center; */
     gap: 2rem;
+}
+main .people-section-container .director .details .footer .footer-btn .icons{
+    display: flex;
+}
+main .people-section-container .director .details .footer .footer-btn .footer-a {
+    display: flex;
 }
 main .people-section-container .director .details .footer .footer-btn .about-me-btn {
     padding: 1rem 2rem;
+    display: flex;
     color: #FFFFFF;
     background-color: #891515;
     border: 1px solid #891515;
@@ -66,13 +74,23 @@ main .people-section-container .director .details .footer .footer-btn .icon img 
     justify-content: center;
     align-items: center;
 }
+main .people-section-container .director .details .footer .footer-btn .icon a {
+    text-decoration: none;
+}
+main .people-section-container .director .details .footer .footer-btn .icon a i {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
 main .people-section-container .director .details .footer .social-icons {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
 }
-main .people-section-container .director .details .footer .social-icons a img {
+main .people-section-container .director .details .footer a img {
     width: 45px;
     height: 45px;
     fill: gray;
@@ -245,6 +263,7 @@ main .people-section-container .fourth-year, main .people-section-container .thi
 .student-member-card .face.face2 .content .social-media{
     display: flex;
     gap: 1rem;
+    flex-direction: column;
 }
 
 .student-member-card .face.face2 .content a{
@@ -260,12 +279,21 @@ main .people-section-container .fourth-year, main .people-section-container .thi
     color: #fff;
 }
 
-.student-member-card .face.face2 .content a img {
+.student-member-card .face.face2 .content a img, .student-member-card .face.face2 .content a i {
     height: 30px;
     width: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.student-member-card .face.face2 .content a .i {
+    color: inherit;
+}
+.student-member-card .face.face2 .content .social-media .name {
+    font-size: 1.2rem;
+}
+.student-member-card .face.face2 .content .social-media .role {
+    font-size: 1.2rem;
 }
 @media screen and (max-width:1600px) {
     main .people-section-container .fourth-year, main .people-section-container .third-year, main .people-section-container .others, main .people-section-container .alumni {
@@ -276,9 +304,14 @@ main .people-section-container .fourth-year, main .people-section-container .thi
     main .people-section-container {
         width: 90%;
     }
+    .director .photo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     main .people-section-container .director {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     main .people-section-container .fourth-year, main .people-section-container .third-year, main .people-section-container .others, main .people-section-container .alumni {
         grid-template-columns: repeat(2, 1fr);

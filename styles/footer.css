@@ -24,16 +24,16 @@ footer {
     align-items: center;
     gap: 0.5rem;
     color: #FFFFFF;
-    padding: 1rem;
+    padding: 0.2rem;
     width: 100vw;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 footer .social-icons {
     display: flex;
     gap: 1rem;
 }
 footer .social-icons a img {
-    width: 45px;
-    height: 45px;
+    width: 25px;
+    height: 25px;
     fill: gray;
 }

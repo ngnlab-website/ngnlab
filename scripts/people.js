@@ -154,7 +154,10 @@ const students = [
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/sudarsan-kumar-n-53535b211/",
-        year: "others"
+        year: "others",
+        mail: "n.sudarsankumar@gmail.com",
+        batch: "2019-2023",
+        currentPosition: "Final Year",
     },
     {
         img: "./assets/img/people/krishna.jpg",
@@ -179,7 +182,7 @@ students.forEach(student => {
                                     <img src="${student.img}" alt="${student.name}" />
                                     <div class="content-details">
                                         <h3>${student.name}</h3>
-                                        <a href="mailto:gunasekaran@mitindia.edu">gunasekaran@mitindia.edu</a>
+                                        <a href="mailto:${student.mail}">${student.mail}</a>
                                         <a href="${student.linkedin}" class="linkedin-img" target="_blank">Linkedin</a>
                                     </div>
         `
@@ -195,7 +198,7 @@ students.forEach(student => {
         let face2Content = document.createElement("div")
         face2Content.classList.add("content")
         let face2Name = document.createElement("div")
-        face2Name.innerHTML = student.name
+        face2Name.innerText = "Domains Worked"
         let face2Domain = document.createElement("div")
         face2Domain.classList.add("role")
         let domains = student.domain.split(", ")
@@ -210,7 +213,10 @@ students.forEach(student => {
         })
         let socialMedia = document.createElement("div")
         socialMedia.classList.add("social-media")
-        socialMedia.innerHTML = `<a href="${student.linkedin}" target="_blank"><img src="./assets/img/logos/linkedin.svg" alt=""></a>`
+        socialMedia.innerHTML = `
+                                    <div class="name">${student.batch}</div>
+                                    <div class="role">${student.currentPosition}</div>
+                                `
         face2Content.appendChild(face2Name)
         face2Content.appendChild(face2Domain)
         face2Content.appendChild(socialMedia)
@@ -248,7 +254,7 @@ students.forEach(student => {
                                     <img src="${student.img}" alt="${student.name}" />
                                     <div class="content-details">
                                         <h3>${student.name}</h3>
-                                        <a href="mailto:gunasekaran@mitindia.edu">gunasekaran@mitindia.edu</a>
+                                        <a href="mailto:${student.mail}">${student.mail}</a>
                                         <a href="${student.linkedin}" class="linkedin-img" target="_blank">Linkedin</a>
                                     </div>
         `
@@ -264,7 +270,7 @@ students.forEach(student => {
         let face2Content = document.createElement("div")
         face2Content.classList.add("content")
         let face2Name = document.createElement("div")
-        face2Name.innerHTML = student.name
+        face2Name.innerText = "Domains Worked"
         let face2Domain = document.createElement("div")
         face2Domain.classList.add("role")
         let domains = student.domain.split(", ")
@@ -279,7 +285,10 @@ students.forEach(student => {
         })
         let socialMedia = document.createElement("div")
         socialMedia.classList.add("social-media")
-        socialMedia.innerHTML = `<a href="${student.linkedin}" target="_blank"><img src="./assets/img/logos/linkedin.svg" alt=""></a>`
+        socialMedia.innerHTML = `
+                                    <div class="name">${student.batch}</div>
+                                    <div class="role">${student.currentPosition}</div>
+                                `
         face2Content.appendChild(face2Name)
         face2Content.appendChild(face2Domain)
         face2Content.appendChild(socialMedia)
@@ -309,15 +318,19 @@ students.forEach(student => {
         let stud = `<div class="student-member-card">
                         <div class="face face1">
                             <div class="content">
-                                <img src="${student.img}" />
+                                <img src="${student.img}" alt="${student.name}" />
+                                <div class="content-details">
+                                    <h3>${student.name}</h3>
+                                    <a href="mailto:${student.mail}">${student.mail}</a>
+                                    <a href="${student.linkedin}" class="linkedin-img" target="_blank">Linkedin</a>
+                                </div>
                             </div>
                         </div>
                         <div class="face face2">
                             <div class="content">
-                                <div class="name">${student.name}</div>
-                                <div class="role">${student.domain}</div>
                                 <div class="social-media">
-                                    <a href="${student.linkedin}" target="_blank"><img src="./assets/img/logos/linkedin.svg" alt=""></a>
+                                    <div class="name">${student.batch}</div>
+                                    <div class="role">${student.currentPosition}</div>
                                 </div>
                             </div>
                         </div>
@@ -328,15 +341,19 @@ students.forEach(student => {
         let stud = `<div class="student-member-card">
                         <div class="face face1">
                             <div class="content">
-                                <img src="${student.img}" />
+                                <img src="${student.img}" alt="${student.name}" />
+                                <div class="content-details">
+                                    <h3>${student.name}</h3>
+                                    <a href="mailto:${student.mail}">${student.mail}</a>
+                                    <a href="${student.linkedin}" class="linkedin-img" target="_blank">Linkedin</a>
+                                </div>
                             </div>
                         </div>
                         <div class="face face2">
                             <div class="content">
-                                <div class="name">${student.name}</div>
-                                <div class="role">${student.domain}</div>
                                 <div class="social-media">
-                                    <a href="${student.linkedin}" target="_blank"><img src="./assets/img/logos/linkedin.svg" alt=""></a>
+                                    <div class="name">${student.batch}</div>
+                                    <div class="role">${student.currentPosition}</div>
                                 </div>
                             </div>
                         </div>
