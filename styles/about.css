@@ -59,7 +59,7 @@ select {
     margin: 1rem 0;
 }
 .collaborators-list-container {
-    width: 75%;
+    width: 60%;
     /* display: grid; */
     /* grid-template-columns: 30% 70%; */
     /* gap: 2rem; */

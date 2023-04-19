@@ -389,9 +389,19 @@ html
     margin-bottom: 0.25em;
     font-size: .9em;
 }
+.profile section .publication .doi-a {
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    margin-bottom: 0.25em;
+    font-size: .9em;
+    text-decoration: underline;
+    color: #113E79;
+    font-weight: 700;
+}
 .profile section .publication .details {
     display: flex;
-    gap: 0.4rem;
+    flex-direction: column;
 }
 #publications {
     margin-bottom: 2rem;

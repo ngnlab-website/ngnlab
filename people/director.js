@@ -482,10 +482,12 @@ renderPublication = () => {
         confDiv.classList.add("doi")
         let confText = document.createTextNode(publication.conference)
         confDiv.appendChild(confText)
-        let doiDiv = document.createElement("div")
-        doiDiv.classList.add("doi")
-        let doiText = document.createTextNode(publication.doi)
-        doiDiv.appendChild(doiText)
+        let doiDiv = document.createElement("a")
+        doiDiv.classList.add("doi-a")
+        doiDiv.href = publication.doi
+        doiDiv.target = "_blank"
+        doiDiv.innerHTML = "DOI"
+        // doiDiv.appendChild(doiText)
         let impactScoreDiv = document.createElement("div")
         impactScoreDiv.classList.add("impact-score")
         let impactScoreText = document.createTextNode(publication.year)

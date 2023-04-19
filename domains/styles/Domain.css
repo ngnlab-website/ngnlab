@@ -22,7 +22,7 @@ main .paper-title{
     color: black;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 50%;
+    /* line-height: 50%; */
 }
 
 main .pd{
