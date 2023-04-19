@@ -396,7 +396,7 @@ html
     margin-bottom: 0.25em;
     font-size: .9em;
     text-decoration: underline;
-    color: #113E79;
+    color: rgba(17, 62, 121, 0.7);
     font-weight: 700;
 }
 .profile section .publication .details {
