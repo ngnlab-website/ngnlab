@@ -6,7 +6,8 @@ const publications = [
     {
         title: "DTBV: A Deep Transfer-Based Bone Cancer Diagnosis System Using VGG16 Feature Extraction",
         author: "G Suganeshwari, R Balakumar, Kalimuthu Karuppanan, Sahaya Beni Prathiba, Sudha Anbalagan, Gunasekaran Raja",
-        doi: "MDPI Diagnostics 2023. https://doi.org/10.3390/diagnostics13040757",
+        conference: "MDPI Diagnostics 2023.",
+        doi: "https://doi.org/10.3390/diagnostics13040757",
         year: "2023",
         domain: ["Healthcare"]
     },
@@ -622,7 +623,7 @@ const publications = [
 ]
 
 
-let currentYear = publications[0].year
+let currentYear = null
 const publicationsContainer = document.querySelector(".publications-container")
 renderPublication = () => {
     var child = publicationsContainer.lastElementChild
@@ -630,20 +631,7 @@ renderPublication = () => {
         publicationsContainer.removeChild(child);
         child = publicationsContainer.lastElementChild;
     }
-    let var2023 = document.createElement("h1")
-    var2023.innerHTML =    `<div class="year-change">
-                            <h5>2023</h5>
-                        </div>`
-    publicationsContainer.appendChild(var2023)
     publications.forEach(publication => {
-        if(publication.year !== currentYear) {
-            currentYear = publication.year
-            let year = document.createElement("h1")
-            year.innerHTML =    `<div class="year-change">
-                                    <h5>${publication.year}</h5>
-                                </div>`
-            publicationsContainer.appendChild(year)
-        }
         let minValue = document.querySelector(".input-min").value
         let maxValue = document.querySelector(".input-max").value
         let selectedDomain = document.querySelector(".mySelect").value
@@ -651,6 +639,14 @@ renderPublication = () => {
         if(selectedDomain=== "all" || publication.domain.indexOf(selectedDomain) !== -1)
             boolean = 1
         if(publication.year >= minValue && publication.year <= maxValue && (boolean === 1)) {
+            if(publication.year !== currentYear) {
+                currentYear = publication.year
+                let year = document.createElement("h1")
+                year.innerHTML =    `<div class="year-change">
+                                        <h5>${publication.year}</h5>
+                                    </div>`
+                publicationsContainer.appendChild(year)
+            }
             let parentDiv = document.createElement("div")
             parentDiv.classList.add("publication")
             let titleDiv = document.createElement("div")
@@ -661,19 +657,30 @@ renderPublication = () => {
             authorDiv.classList.add("author")
             let authorText = document.createTextNode(publication.author)
             authorDiv.appendChild(authorText)
-            let doiDiv = document.createElement("div")
-            doiDiv.classList.add("doi")
-            let doiText = document.createTextNode(publication.doi)
-            doiDiv.appendChild(doiText)
+            let detailsDiv = document.createElement("div")
+            detailsDiv.classList.add("details")
+            let confDiv = document.createElement("div")
+            confDiv.classList.add("doi")
+            let confText = document.createTextNode(publication.conference)
+            confDiv.appendChild(confText)
+            let doiDiv = document.createElement("a")
+            // confDiv.appendChild(doiDiv)
+            doiDiv.classList.add("doi-a")
+            doiDiv.href = publication.doi
+            doiDiv.target = "_blank"
+            doiDiv.innerHTML = publication.doi
+            // doiDiv.appendChild(doiText)
             let impactScoreDiv = document.createElement("div")
             impactScoreDiv.classList.add("impact-score")
             let impactScoreText = document.createTextNode(publication.year)
             impactScoreDiv.appendChild(impactScoreText)
             parentDiv.appendChild(titleDiv)
             parentDiv.appendChild(authorDiv)
-            parentDiv.appendChild(doiDiv)
-            // parentDiv.appendChild(impactScoreDiv)
+            detailsDiv.appendChild(confDiv)
+            detailsDiv.appendChild(doiDiv)
+            parentDiv.appendChild(detailsDiv)
             publicationsContainer.appendChild(parentDiv)
+            console.log(parentDiv)
         }
     })
 }
