@@ -60,6 +60,7 @@ const students = [
         facebook: "#",
         twitter: "#",
         linkedin: "#",
+        mail: "nishasekar1826@gmail.com",
         year: "fourth-year"
     },
     {
@@ -88,6 +89,7 @@ const students = [
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/vamsi-raju-m/",
+        mail:"vamsisays@gmail.com",
         year: "fourth-year"
     },
     {
