@@ -67,7 +67,7 @@ const students = [
         year: "fourth-year"
     },
     {
-        img: "./assets/img/people/srividya.png",
+        img: "./assets/img/people/srividya.jpg",
         name: "Ponnada Srividya",
         domain: "AV",
         facebook: "#",
