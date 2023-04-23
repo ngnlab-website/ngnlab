@@ -6,7 +6,7 @@ main {
 }
 
 main .about-section {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     text-align: justify;
     width: 65%;
     margin: auto;
@@ -45,11 +45,11 @@ main .image-section img {
 
 main .research-domain-section {
     width: 65%;
-    margin: 4rem auto;
+    margin: 1rem auto;
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 
 main .research-domain-section .heading {
@@ -57,14 +57,15 @@ main .research-domain-section .heading {
     color: #891515;
     text-align: center;
     font-weight: 800;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
 }
 
 main .research-domain-section .images {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(3, 200px);
     grid-gap: 1.5rem;
-    transform: scale(0.7);
+    /* transform: scaleY(); */
 }
 
 main .research-domain-section .images img {
@@ -125,7 +126,7 @@ main .contact-section-container .heading {
     color: #891515;
     text-align: center;
     font-weight: 800;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
 }
 
 main .contact-section-container .contact-section {
@@ -166,9 +167,12 @@ main .contact-section-container .contact-section .address .email {
     gap: 0.5rem;
 }
 
-main .contact-section-container .contact-section .address .email a {
+main .contact-section-container .contact-section .address a {
     text-decoration: none;
     color: #262626;
+}
+main .contact-section-container .contact-section .address a:hover {
+    text-decoration: underline;
 }
 
 @media screen and (max-width:1000px) {
@@ -183,6 +187,7 @@ main .contact-section-container .contact-section .address .email a {
 @media screen and (max-width:994px) {
     main .research-domain-section .images {
         grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: unset;
     }
 
     main .contact-section-container .contact-section .map-image iframe {

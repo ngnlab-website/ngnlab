@@ -163,6 +163,9 @@ html
     display: flex;
     margin: 2rem 2rem 2rem 0;
 }
+.profile section .section-content .personal-section .personal-section-right .other .contact-header {
+    display: flex;
+}
 .profile section .section-content .personal-section .personal-section-right .other .contact-details {
     margin-right: 2rem;
     border-right: 1px solid #dcdcdc;
@@ -372,6 +375,10 @@ html
     color: #3F51B5;
     font-weight: 700;
     display: block;
+    text-decoration: none;
+}
+.profile section .publication .title:hover {
+    text-decoration: underline;
 }
 .profile section .publication .author {
     display: flex;

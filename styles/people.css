@@ -44,6 +44,11 @@ main .people-section-container .director .details .footer .footer-btn {
 }
 main .people-section-container .director .details .footer .footer-btn .icons{
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+main .people-section-container .director .details .footer .footer-btn .icons img {
+    object-fit: cover;
 }
 main .people-section-container .director .details .footer .footer-btn .footer-a {
     display: flex;
@@ -120,6 +125,8 @@ main .people-section-container .fourth-year, main .people-section-container .thi
     grid-gap: 1rem;
     margin: 4rem auto;
     box-shadow: 5px 30px 30px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 6px;
     /* padding: 1rem auto; */
 }
 .student-member-card{
@@ -294,11 +301,6 @@ main .people-section-container .fourth-year, main .people-section-container .thi
 }
 .student-member-card .face.face2 .content .social-media .role {
     font-size: 1.2rem;
-}
-@media screen and (max-width:1600px) {
-    main .people-section-container .fourth-year, main .people-section-container .third-year, main .people-section-container .others, main .people-section-container .alumni {
-        grid-template-columns: repeat(3, 1fr);
-    }
 }
 @media screen and (max-width:994px) {
     main .people-section-container {

@@ -182,6 +182,10 @@ main .publications-section-container .years-container .year-container .year-btn:
     line-height: 140%;
     color: #011F4B;
     font-weight: 800;
+    text-decoration: none;
+}
+.publication .title:hover {
+    text-decoration: underline;
 }
 .publication .author {
     line-height: 150%;

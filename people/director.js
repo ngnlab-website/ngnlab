@@ -461,10 +461,10 @@ renderPublication = () => {
         }
         let parentDiv = document.createElement("div")
         parentDiv.classList.add("publication")
-        let titleDiv = document.createElement("div")
+        let titleDiv = document.createElement("a")
         titleDiv.classList.add("title")
-        let titleText = document.createTextNode(publication.title)
-        titleDiv.appendChild(titleText)
+        titleDiv.href = publication.doi
+        titleDiv.innerText = publication.title
         let authorDiv = document.createElement("div")
         authorDiv.classList.add("author")
         let authorText = document.createTextNode(publication.author)
@@ -489,10 +489,9 @@ renderPublication = () => {
         parentDiv.appendChild(titleDiv)
         parentDiv.appendChild(authorDiv)
         detailsDiv.appendChild(confDiv)
-        detailsDiv.appendChild(doiDiv)
+        // detailsDiv.appendChild(doiDiv)
         parentDiv.appendChild(detailsDiv)
         publicationsContainer.appendChild(parentDiv)
-        console.log(parentDiv)
     })
 }
 renderPublication()
