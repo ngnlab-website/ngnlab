@@ -70,6 +70,7 @@ const students = [
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/bhargavi-rajendiran-1300a0259",
+        mail: "",
         year: "fourth-year"
     },
     {
@@ -99,6 +100,7 @@ const students = [
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/shalini-priya-ab9a461a5",
+        mail: "",
         year: "fourth-year"
     },
     {
