@@ -142,7 +142,7 @@ main .contact-section-container .contact-section img {
 }
 
 main .contact-section-container .contact-section .map-image iframe {
-    height: 100%;
+    height: 300px;
     width: 100%;
 }
 
