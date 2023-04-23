@@ -120,6 +120,7 @@ const students = [
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/deepak-suresh-a0b57020a/",
+        mail: "",
         year: "third-year"
     },
     {
@@ -139,6 +140,7 @@ const students = [
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/sidharthan-vm-261b2a220/",
+        mail: "",
         year: "third-year"
     },
     {
@@ -158,6 +160,7 @@ const students = [
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/joevita-faustina-doss-a5a565246",
+        mail: "",
         year: "third-year"
     },
     {
@@ -179,6 +182,7 @@ const students = [
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/krishna-padmanabhan-016321167/",
+        mail: "",
         year: "others"
     },
 ]
