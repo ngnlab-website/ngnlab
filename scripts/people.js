@@ -10,6 +10,7 @@ const students = [
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/sai-ganesh-senthivel/",
+        mail: "ssenthiv@andrew.cmu.edu",
         year: "alumni"
     },
     {
@@ -19,6 +20,7 @@ const students = [
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/sugeerthi-gurumoorthy-62142b181/",
+        mail: "sugeerthiguru@gmail.com",
         year: "alumni"
     },
     {
@@ -28,6 +30,7 @@ const students = [
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/abhishek-manoharan-0294661b0/",
+        mail: "abhimano789@gmail.com",
         year: "fourth-year"
     },
     {
@@ -37,6 +40,7 @@ const students = [
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/balakumarr15/",
+        mail: "balakumarr2001@gmail.com",
         year: "fourth-year"
     },
     {
@@ -46,6 +50,7 @@ const students = [
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/thilaksurya-b-549b73219/",
+        mail: "thilaksurya29@gmail.com",
         year: "fourth-year"
     },
     {
@@ -73,6 +78,7 @@ const students = [
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/ponnada-srividya-b08280190/",
+        mail: "psrivi1234@gmail.com",
         year: "fourth-year"
     },
     {
@@ -100,6 +106,7 @@ const students = [
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/chenchu-suhruth-b56298198/",
+        mail: "kcsuhruth2001@gmail.com",
         year: "fourth-year"
     },
     {
@@ -118,6 +125,7 @@ const students = [
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/sasana-ravi-27b0481ab",
+        mail: "sasanaravi2020@gmail.com",
         year: "third-year"
     },
     {
@@ -136,6 +144,7 @@ const students = [
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/rakshitha-prakasam-985079206/",
+        mail: "rakshithaprakasam@gmail.com",
         year: "third-year"
     },
     {
