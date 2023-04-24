@@ -32,13 +32,13 @@ const students = [
     {
         img: "./assets/img/people/saiganesh.jpg",
         name: "Sai Ganesh Senthivel",
-        domain: "",
+        domain: "UAV, Blockchain",
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/sai-ganesh-senthivel/",
         mail: "ssenthiv@andrew.cmu.edu",
-        batch: "2019-2023",
-        currentPosition: "Final Year",
+        batch: "2018-2022",
+        currentPosition: "Undergraduate",
         year: "alumni"
     },
     {
@@ -49,8 +49,8 @@ const students = [
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/sugeerthi-gurumoorthy-62142b181/",
         mail: "sugeerthiguru@gmail.com",
-        batch: "2019-2023",
-        currentPosition: "Final Year",
+        batch: "2020-2022",
+        currentPosition: "Post Graduate",
         year: "alumni"
     },
     {
@@ -62,7 +62,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/abhishek-manoharan-0294661b0/",
         mail: "abhimano789@gmail.com",
         batch: "2019-2023",
-        currentPosition: "Final Year",
+        currentPosition: "Research Assistant",
         year: "fourth-year"
     },
     {
@@ -74,11 +74,11 @@ const students = [
         linkedin: "https://www.linkedin.com/in/balakumarr15/",
         mail: "balakumarr2001@gmail.com",
         batch: "2019-2023",
-        currentPosition: "Final Year",
+        currentPosition: "Research Assistant",
         year: "fourth-year"
     },
     {
-        img: "./assets/img/people/thilak.jpg",
+        img: "./assets/img/people/thilaksurya.png",
         name: "Thilaksurya B",
         domain: "AV",
         facebook: "#",
@@ -86,31 +86,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/thilaksurya-b-549b73219/",
         mail: "thilaksurya29@gmail.com",
         batch: "2019-2023",
-        currentPosition: "Final Year",
-        year: "fourth-year"
-    },
-    {
-        img: "./assets/img/people/nishanthini.jpg",
-        name: "Nishanthini S",
-        domain: "UAV, Blockchain",
-        facebook: "#",
-        twitter: "#",
-        linkedin: "#",
-        mail: "nishasekar1826@gmail.com",
-        batch: "2019-2023",
-        currentPosition: "Final Year",
-        year: "fourth-year"
-    },
-    {
-        img: "./assets/img/people/bhargavi.jpg",
-        name: "Bhargavi R",
-        domain: "Healthcare",
-        facebook: "#",
-        twitter: "#",
-        linkedin: "https://www.linkedin.com/in/bhargavi-rajendiran-1300a0259",
-        mail: "krishnabhargavi2002@gmail.com",
-        batch: "2019-2023",
-        currentPosition: "Final Year",
+        currentPosition: "Research Assistant",
         year: "fourth-year"
     },
     {
@@ -122,7 +98,31 @@ const students = [
         linkedin: "https://www.linkedin.com/in/ponnada-srividya-b08280190/",
         mail: "psrivi1234@gmail.com",
         batch: "2019-2023",
-        currentPosition: "Final Year",
+        currentPosition: "Research Assistant",
+        year: "fourth-year"
+    },
+    {
+        img: "./assets/img/people/nishanthini.jpg",
+        name: "Nishanthini S",
+        domain: "UAV, Blockchain",
+        facebook: "#",
+        twitter: "#",
+        linkedin: "#",
+        mail: "nishasekar1826@gmail.com",
+        batch: "2019-2023",
+        currentPosition: "Research Assistant",
+        year: "fourth-year"
+    },
+    {
+        img: "./assets/img/people/bhargavi.jpg",
+        name: "Bhargavi R",
+        domain: "Healthcare",
+        facebook: "#",
+        twitter: "#",
+        linkedin: "https://www.linkedin.com/in/bhargavi-rajendiran-1300a0259",
+        mail: "krishnabhargavi2002@gmail.com",
+        batch: "2019-2023",
+        currentPosition: "Research Assistant",
         year: "fourth-year"
     },
     {
@@ -134,7 +134,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/vamsi-raju-m/",
         mail:"vamsisays@gmail.com",
         batch: "2019-2023",
-        currentPosition: "Final Year",
+        currentPosition: "Research Assistant",
         year: "fourth-year"
     },
     {
@@ -146,7 +146,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/shalini-priya-ab9a461a5",
         mail: "shalinipriya927@gmail.com",
         batch: "2019-2023",
-        currentPosition: "Final Year",
+        currentPosition: "Research Assistant",
         year: "fourth-year"
     },
     {
@@ -158,19 +158,19 @@ const students = [
         linkedin: "https://www.linkedin.com/in/chenchu-suhruth-b56298198/",
         mail: "kcsuhruth2001@gmail.com",
         batch: "2019-2023",
-        currentPosition: "Final Year",
+        currentPosition: "Research Assistant",
         year: "fourth-year"
     },
     {
         img: "./assets/img/people/deepak.png",
         name: "Deepak Suresh R",
-        domain: "UAV, AI, Blockchain",
+        domain: "UAV, Blockchain",
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/deepak-suresh-a0b57020a/",
         mail: "deepaksuresh1406@gmail.com",
-        batch: "2019-2023",
-        currentPosition: "Final Year",
+        batch: "2020-2024",
+        currentPosition: "Research Assistant",
         year: "third-year"
     },
     {
@@ -181,8 +181,8 @@ const students = [
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/sasana-ravi-27b0481ab",
         mail: "sasanaravi2020@gmail.com",
-        batch: "2019-2023",
-        currentPosition: "Final Year",
+        batch: "2020-2024",
+        currentPosition: "Research Assistant",
         year: "third-year"
     },
     {
@@ -193,8 +193,8 @@ const students = [
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/sidharthan-vm-261b2a220/",
         mail: "sidharth2405@gmail.com",
-        batch: "2019-2023",
-        currentPosition: "Final Year",
+        batch: "2020-2024",
+        currentPosition: "Research Assistant",
         year: "third-year"
     },
     {
@@ -205,8 +205,8 @@ const students = [
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/rakshitha-prakasam-985079206/",
         mail: "rakshithaprakasam@gmail.com",
-        batch: "2019-2023",
-        currentPosition: "Final Year",
+        batch: "2020-2024",
+        currentPosition: "Research Assistant",
         year: "third-year"
     },
     {
@@ -217,8 +217,8 @@ const students = [
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/joevita-faustina-doss-a5a565246",
         mail: "joevita2002@gmail.com",
-        batch: "2019-2023",
-        currentPosition: "Final Year",
+        batch: "2020-2024",
+        currentPosition: "Research Assistant",
         year: "third-year"
     },
     {
@@ -230,7 +230,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/sree-vinay-r-523998211",
         mail: "rsreevinay@gmail.com",
         batch: "2020-2024",
-        currentPosition: "Final Year",
+        currentPosition: "Research Assistant",
         year: "third-year"
     },
     {

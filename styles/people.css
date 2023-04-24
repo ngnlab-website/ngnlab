@@ -302,10 +302,10 @@ main .people-section-container .phd {
     color: inherit;
 }
 .student-member-card .face.face2 .content .social-media .name {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .student-member-card .face.face2 .content .social-media .role {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 @media screen and (max-width:994px) {
     main .people-section-container {
