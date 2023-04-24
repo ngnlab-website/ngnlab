@@ -706,6 +706,7 @@ const publications = [
 
 let currentYear = null
 const publicationsContainer = document.querySelector(".publications-container")
+console.log(publications.length)
 renderPublication = () => {
     var child = publicationsContainer.lastElementChild
     while (child) {

@@ -14,14 +14,16 @@ main .about-section {
 }
 
 main .about-section .read-more-btn {
-    margin: 3rem auto;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: flex-end;
 }
 
 main .about-section .read-more-btn a {
     text-decoration: none;
     color: #FFFFFF;
     background-color: #282626;
-    padding: 1rem 2rem;
+    padding: 0.8rem;
     border: 1px solid #282626;
     transition: all 0.5s ease-in-out;
 }
@@ -29,7 +31,7 @@ main .about-section .read-more-btn a {
 main .about-section .read-more-btn a:hover {
     color: #262626;
     background-color: #FFFFFF;
-    padding: 1rem 2rem;
+    padding: 0.8rem;
     border: 1px solid #282626;
 }
 
@@ -142,7 +144,7 @@ main .contact-section-container .contact-section img {
 }
 
 main .contact-section-container .contact-section .map-image iframe {
-    height: 300px;
+    height: 230px;
     width: 100%;
 }
 
@@ -152,7 +154,7 @@ main .contact-section-container .contact-section .address {
     justify-content: center;
     align-items: flex-start;
     gap: 1.3rem;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
 }
 
 main .contact-section-container .contact-section .address .address-title {
