@@ -16,6 +16,8 @@ main .about-section-container .heading, main .about-section-container .collabora
 .content {
     width: 75%;
     margin: auto;
+    font-weight: 400;
+    color: #333333;
 }
 main .about-section-container .collaborators-list, main .about-section-container .projects-list {
     display: flex;
@@ -23,6 +25,8 @@ main .about-section-container .collaborators-list, main .about-section-container
     justify-content: center;
     align-items: center;
     width: 100%;
+    font-weight: 400;
+    color: #333333;
 }
 main .about-section-container .projects-list-container {
     width: 50%;
@@ -64,6 +68,8 @@ select {
 .collaborators-list-containers {
     background: rgba(89, 15, 15, 0.2);
     width: unset;
+    font-weight: 400;
+    color: #333333;
     /* width: 100%; */
 }
 .collaborators-list-container {

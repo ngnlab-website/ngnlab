@@ -186,6 +186,18 @@ const students = [
         year: "third-year"
     },
     {
+        img: "./assets/img/people/sreevinay.jpg",
+        name: "Sree Vinay R",
+        domain: "UAV, Blockchain",
+        facebook: "#",
+        twitter: "#",
+        linkedin: "https://www.linkedin.com/in/sree-vinay-r-523998211",
+        mail: "rsreevinay@gmail.com",
+        batch: "2020-2024",
+        currentPosition: "Research Assistant",
+        year: "third-year"
+    },
+    {
         img: "./assets/img/people/sidhaarthan.png",
         name: "Sidhaarthan VM",
         domain: "UAV",
@@ -217,18 +229,6 @@ const students = [
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/joevita-faustina-doss-a5a565246",
         mail: "joevita2002@gmail.com",
-        batch: "2020-2024",
-        currentPosition: "Research Assistant",
-        year: "third-year"
-    },
-    {
-        img: "./assets/img/people/sreevinay.jpg",
-        name: "Sree Vinay R",
-        domain: "UAV, Blockchain",
-        facebook: "#",
-        twitter: "#",
-        linkedin: "https://www.linkedin.com/in/sree-vinay-r-523998211",
-        mail: "rsreevinay@gmail.com",
         batch: "2020-2024",
         currentPosition: "Research Assistant",
         year: "third-year"

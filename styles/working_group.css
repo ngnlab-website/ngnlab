@@ -54,6 +54,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-weight: 400;
+    color: #333333;
 }
 .working-groups-section-container .working-group-section .arrow {
     display: flex;

@@ -178,25 +178,30 @@ main .publications-section-container .years-container .year-container .year-btn:
     text-align: unset;
 }
 .publication .title {
-    font-size: 1rem;
-    line-height: 140%;
-    color: #011F4B;
-    font-weight: 800;
+    font-size: 0.9em;
+    color: #3F51B5;
+    font-weight: 700;
+    display: block;
     text-decoration: none;
 }
 .publication .title:hover {
     text-decoration: underline;
 }
 .publication .author {
-    line-height: 150%;
-    font-size: 1rem;
-    color: #444444;
-    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    font-size: 0.8em;
+    color: #61686e;
+    margin: 0.1rem 0;
 }
 .publication .doi {
-    font-size: 1rem;
-    color: #333333;
-    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    margin-bottom: 0.25em;
+    font-size: .9em;
 }
 /* .publication .impact-score {
     font-size: 1rem;
@@ -214,12 +219,13 @@ main .publications-section-container .years-container .year-container .year-btn:
 }
 .year-change {
     display: flex;
+    font-size: 1.7rem;
 }
 .year-change h5{
-    color: #FFFFFF;
-    margin: 1.5rem 0;
-    padding: 0.5rem 1rem;
-    background-color: #011F4B;
+    color:  #011F4B;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0rem;
+    background-color: #FFFFFF;
     text-align: center;
 }
 .doi-a {
