@@ -1,9 +1,9 @@
 main .people-section-container {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: justify;
-    width: 65%;
+    width: 85%;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 0px;
 }
 
 .director {
@@ -59,7 +59,7 @@ main .people-section-container .director .details .footer .footer-btn .footer-a 
 main .people-section-container .director .details .footer .footer-btn .about-me-btn {
     padding: 0rem 0rem;
     display: flex;
-    color: #006CB5;
+    color: #891515;
     font-weight: 600;
     text-decoration: none;
     /* background-color: #891515;
@@ -67,7 +67,7 @@ main .people-section-container .director .details .footer .footer-btn .about-me-
     font-size: 1.2rem;
 }
 main .people-section-container .director .details .footer .footer-btn .about-me-btn:hover {
-    color: #006CB5;
+    color: #891515;
     /* cursor: pointer; */
     /* background-color: #FFFFFF;
     border: 1px solid #891515; */
@@ -115,7 +115,7 @@ main .people-section-container .director .photo img {
     height: auto;
 }
 .students .undergrad-text, .students .fourth-year-text {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
@@ -132,8 +132,8 @@ main .people-section-container .pg,
 main .people-section-container .phd {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1rem;
-    margin: 4rem auto;
+    grid-gap: 1.1rem;
+    margin: 3rem 1rem;
     box-shadow: 5px 30px 30px rgba(0, 0, 0, 0.2);
     padding: 1rem;
     border-radius: 6px;
@@ -142,6 +142,7 @@ main .people-section-container .phd {
 .student-member-card{
     position: relative;
     padding: unset;
+    margin: auto;
 }
 .student-member-card .face{
     width: 100%;

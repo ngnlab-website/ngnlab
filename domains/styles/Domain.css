@@ -17,6 +17,23 @@ main .about-section .pc{
     color: #891515;
     margin: 1rem auto;
 }
+main .about-section .L a {
+    text-decoration: none;
+    color:#006CB5;
+    font-weight: 600;
+    /* background-color: #282626; */
+    padding: 0rem 0.5rem;
+    /* border: 1px solid #282626; */
+    transition: all 0.5s ease-in-out;
+}
+
+main .about-section .L a:hover {
+    /* color: #262626; */
+    /* background-color: #FFFFFF; */
+    /* padding: 0.3rem; */
+    color:#006CB5;
+    /* border: 1px solid #282626; */
+}
 
 main .about-section .cc{
     font-size: 1.2rem;

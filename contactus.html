@@ -5,14 +5,16 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<title>Publications</title>
+	<title>Home</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="./styles/nav.css">
 	<link rel="stylesheet" href="./styles/home.css">
     <link rel="stylesheet" href="./styles/footer.css">
-    <link rel="stylesheet" href="./styles/publications.css">
+    <link rel="stylesheet" href="./styles/people.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/academicons-1.9.3/css/academicons.min.css"/>
 	<script src="./scripts/script.js" defer></script>
-    <script src="./scripts/publications.js" defer></script>
+    <script src="./scripts/contactus.js" defer></script>
 </head>
 <body>
 	<header>
@@ -24,9 +26,9 @@
                 <ul class="nav-links">
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="./about.html">About</a></li>
-                    <li><a href="./people.html">People</a></li>
+                    <li><a href="./people.html" class="active">People</a></li>
                     <li><a href="./working_groups.html">Research groups</a></li>
-                    <li><a href="./publications.html" class="active">Publications</a></li>
+                    <li><a href="./publications.html">Publications</a></li>
                     <li><a href="./contactus.html">Contact Us</a></li>
                 </ul>
                 <div class="burger">
@@ -38,57 +40,42 @@
         </div>
 	</header>
 	<main>
-        <div class="publications-section-container">
-            <div class="heading">Publications</div>
-            <div class="filter-wrapper">
-                <div class="slider-wrapper">
-                    <div class="header">
-                        <h2>Year Range</h2>
-                        <p>Use slider or enter min and max year</p>
-                    </div>
-                    <div class="price-input">
-                        <div class="field">
-                            <span>Min</span>
-                            <input type="number" class="input-min" value="2016">
-                        </div>
-                        <div class="separator">-</div>
-                        <div class="field">
-                            <span>Max</span>
-                            <input type="number" class="input-max" value="2023">
-                        </div>
-                    </div>
-                    <div class="slider">
-                        <div class="progress"></div>
-                    </div>
-                    <div class="range-input">
-                        <input type="range" class="range-min" min="2016" max="2023" value="2016" step="1">
-                        <input type="range" class="range-max" min="2016" max="2023" value="2023" step="1">
-                    </div>
+        &nbsp;
+        <div class="research-domain-section">
+            <div class="heading">Contact Us</div>
+            
+        </div>
+        <div class="contact-section-container">
+            <div class="heading">Contact Us</div>
+            <div class="contact-section">
+                <div class="map-image">
+                    <!-- <img src="./assets/img/ngn10.jpg" alt=""> -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.3717430175934!2d80.13755331503967!3d12.94804799087135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525fac595c29ff%3A0xb76082ae18b51418!2sMadras%20Institute%20of%20Technology%2C%20Anna%20University!5e0!3m2!1sen!2sin!4v1680501539675!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="slider-wrapper">
-                    <div class="header">
-                        <h2>Domain Selector</h2>
-                        <p>Use dropdown to select a domain</p>
+                <div class="address">
+                    <div class="address-actual">
+                        <p>202 NGNLab</p>
+                        <p>Charles Babbage Block</p>
+                        <p>Department of Computer Technology</p>
+                        <p>Anna University, MIT Campus</p>
+                        <p>Chromepet, Chennai 600044</p>
+                        <p>Email: <a href="mailto:gunasekaran@mitindia.edu">gunasekaran@mitindia.edu</a></p>
+                        <p>Phone: +91 044-22516273</p>
                     </div>
-                    <select class="mySelect">
-                        <option value="all">All</option>
-                        <option value="Networks">Next Generation Networks</option>
-                        <option value="AV">Autonomous Vehicles</option>
-                        <option value="UAV">Unmanned Aerial Vehicles</option>
-                        <option value="Healthcare">Healthcare</option>
-                        <option value="Blockchain">Blockchain</option>
-                    </select>
                 </div>
             </div>
-            <div class="publication-section-container">
-                <div class="publications-container"></div>
+            <div class="people-section-container">
+                <div class="students">
+                    <div class="fourth-year-text">Webteam</div>
+                    <div class="others"></div>
+                </div>
             </div>
         </div>
     </main>
     <footer id="footer">
         <div class="phone-number">
             <div class="email-text">Phone: </div>
-            <a href="tel: +44 22516273">+91 44-22516273</a>
+            <a href="tel: +44 22516273">044-22516273</a>
         </div>
         <div class="email">
             <div class="email-text">Email: </div>

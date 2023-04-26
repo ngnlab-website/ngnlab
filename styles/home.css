@@ -15,6 +15,16 @@ main .about-section {
     color: #333333;
 }
 
+main .about-section .heading {
+    width: 100%;
+    margin-bottom: 5px;
+    color: #891515;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+
 main .about-section .read-more-btn {
     margin: 1rem auto;
     display: flex;
@@ -23,7 +33,7 @@ main .about-section .read-more-btn {
 
 main .about-section .read-more-btn a {
     text-decoration: none;
-    color:#891515;
+    color:#006CB5;
     font-weight: 600;
     /* background-color: #282626; */
     padding: 0.5rem;
@@ -34,8 +44,8 @@ main .about-section .read-more-btn a {
 main .about-section .read-more-btn a:hover {
     /* color: #262626; */
     background-color: #FFFFFF;
-    padding: 0.8rem;
-    color:#891515
+    padding: 0.3rem;
+    color:#006CB5;
     /* border: 1px solid #282626; */
 }
 
@@ -51,7 +61,7 @@ main .image-section img {
 
 main .research-domain-section {
     width: 65%;
-    margin: 1rem auto;
+    margin: 0rem auto;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -126,7 +136,7 @@ main .research-domain-section .images .img6 {
 
 main .contact-section-container {
     width: 65%;
-    margin: 2rem auto;
+    margin: 4rem auto;
 }
 
 main .contact-section-container .heading {
