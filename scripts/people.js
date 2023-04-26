@@ -150,7 +150,7 @@ const students = [
         year: "fourth-year"
     },
     {
-        img: "./assets/img/people/suhruth.png",
+        img: "./assets/img/people/suhruth.jpg",
         name: "Suhruth K C",
         domain: "AV",
         facebook: "#",

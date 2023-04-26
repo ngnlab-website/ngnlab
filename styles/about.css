@@ -36,6 +36,7 @@ main .about-section-container .collaborators-list ul li{
 }
 main .about-section-container .projects-list ul li{
     list-style-type: decimal;
+    line-height: 2;
 }
 .slider-wrapper{
     width: 30vw;

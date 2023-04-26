@@ -201,7 +201,7 @@ main .publications-section-container .years-container .year-container .year-btn:
     align-items: center;
     gap: 0.4em;
     margin-bottom: 0.25em;
-    font-size: .9em;
+    font-size: .8em;
 }
 /* .publication .impact-score {
     font-size: 1rem;
