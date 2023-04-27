@@ -9,7 +9,7 @@ const students = [
     {
         img: "../assets/img/people/sreenithi.jpg",
         name: "Sreenithi Ramesh",
-        currentPosition: "PG Research Assistant",
+        currentPosition: "Research Assistant-PG",
         domain: "AV",
         facebook: "#",
         twitter: "#",
@@ -39,7 +39,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/thilaksurya-b-549b73219/",
         mail: "thilaksurya29@gmail.com",
         batch: "2019-2023",
-        currentPosition: "UG Research Assistant",
+        currentPosition: "Research Assistant-UG",
         year: "present"
     },
     {

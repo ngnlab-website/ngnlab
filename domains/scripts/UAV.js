@@ -27,7 +27,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/sai-ganesh-senthivel/",
         mail: "ssenthiv@andrew.cmu.edu",
         batch: "2018-2022",
-        currentPosition: "Undergraduate",
+        currentPosition: "Research Assistant-UG",
         year: "alumni"
     },
     {
@@ -39,7 +39,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/abhishek-manoharan-0294661b0/",
         mail: "abhimano789@gmail.com",
         batch: "2019-2023",
-        currentPosition: "UG Research Assistant",
+        currentPosition: "Research Assistant-UG",
         year: "present"
     },
     {
@@ -51,7 +51,7 @@ const students = [
         linkedin: "#",
         mail: "nishasekar1826@gmail.com",
         batch: "2019-2023",
-        currentPosition: "UG Research Assistant",
+        currentPosition: "Research Assistant-UG",
         year: "present"
     },
     {
@@ -63,7 +63,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/vamsi-raju-m/",
         mail:"vamsisays@gmail.com",
         batch: "2019-2023",
-        currentPosition: "UG Research Assistant",
+        currentPosition: "Research Assistant-UG",
         year: "present"
     },
     {
@@ -75,7 +75,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/sasana-ravi-27b0481ab",
         mail: "sasanaravi2020@gmail.com",
         batch: "2020-2024",
-        currentPosition: "UG Research Assistant",
+        currentPosition: "Research Assistant-UG",
         year: "present"
     },
     {
@@ -87,7 +87,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/sidharthan-vm-261b2a220/",
         mail: "sidharth2405@gmail.com",
         batch: "2020-2024",
-        currentPosition: "UG Research Assistant",
+        currentPosition: "Research Assistant-UG",
         year: "present"
     },
     {
@@ -99,7 +99,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/joevita-faustina-doss-a5a565246",
         mail: "joevita2002@gmail.com",
         batch: "2020-2024",
-        currentPosition: "UG Research Assistant",
+        currentPosition: "Research Assistant-UG",
         year: "present"
     }
 

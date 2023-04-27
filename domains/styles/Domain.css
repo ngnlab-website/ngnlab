@@ -16,22 +16,22 @@ main .about-section .pc{
     font-weight: 600;
     color: #891515;
     margin: 1rem auto;
+    text-decoration: none;
 }
 main .about-section .L a {
-    text-decoration: none;
-    color:#006CB5;
+    font-size: 1.2rem;
     font-weight: 600;
-    /* background-color: #282626; */
-    padding: 0rem 0.5rem;
-    /* border: 1px solid #282626; */
-    transition: all 0.5s ease-in-out;
-}
+    color: #891515;
+    margin: 1rem auto;
+    text-decoration: none;
+    
+    }
 
 main .about-section .L a:hover {
     /* color: #262626; */
     /* background-color: #FFFFFF; */
     /* padding: 0.3rem; */
-    color:#006CB5;
+    color: #891515;
     /* border: 1px solid #282626; */
 }
 

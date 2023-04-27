@@ -15,8 +15,8 @@ const students = [
         linkedin: "https://www.linkedin.com/in/sudarsan-kumar-n-53535b211/",
         year: "others",
         mail: "n.sudarsankumar@gmail.com",
-        batch: "2019-2023",
-        currentPosition: "Final Year",
+        batch: "UG: 2019-2023",
+        currentPosition: "$",
     },
     {
         img: "./assets/img/people/krishna.jpg",
@@ -26,8 +26,8 @@ const students = [
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/krishna-padmanabhan-016321167/",
         mail: "krishna2752@hotmail.com",
-        batch: "2019-2023",
-        currentPosition: "Final Year",
+        batch: "UG: 2019-2023",
+        currentPosition: "$",
         year: "others"
     },
 ]
@@ -108,7 +108,7 @@ students.forEach(student => {
                             <div class="content">
                                 <div class="social-media">
                                     <div class="name">${student.batch}</div>
-                                    <div class="role">${student.currentPosition}</div>
+                                    
                                 </div>
                             </div>
                         </div>

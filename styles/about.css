@@ -5,7 +5,7 @@ main .about-section-container {
     margin: auto;
     margin-top: 180px;
 }
-main .about-section-container .heading, main .about-section-container .collaborators-heading, main .about-section-container .projects-heading {
+main .about-section-container .heading, main .about-section-container .collaborators-heading {
     width: 100%;
     color: #891515;
     text-align: center;
@@ -13,6 +13,16 @@ main .about-section-container .heading, main .about-section-container .collabora
     font-size: 1.8rem;
     margin: 0 auto 1rem auto;
 }
+
+main .about-section-container .projects-heading {
+    width: 100%;
+    color: #891515;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.8rem;
+    margin: 1.5rem auto 1rem auto;
+}
+
 .content {
     width: 75%;
     margin: auto;
@@ -32,12 +42,21 @@ main .about-section-container .projects-list-container {
     width: 50%;
 }
 main .about-section-container .collaborators-list ul li{
-    list-style-type: initial;
-}
+    list-style-type: circle;
+} 
 main .about-section-container .projects-list ul li{
-    list-style-type: decimal;
+    list-style-type: square;
     line-height: 2;
+    margin-left: 15px;
 }
+
+main .about-section-container .projects-list ul{
+    list-style-type: square;
+    line-height: 2;
+    margin-left: 15px;
+    margin: 0 auto 2rem auto;
+}
+
 .slider-wrapper{
     width: 30vw;
     background: #fff;

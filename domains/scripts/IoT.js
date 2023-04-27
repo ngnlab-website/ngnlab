@@ -15,9 +15,33 @@ const students = [
         linkedin: "https://www.linkedin.com/in/rakshitha-prakasam-985079206/",
         mail: "rakshithaprakasam@gmail.com",
         batch: "2020-2024",
-        currentPosition: "UG Research Assistant",
+        currentPosition: "Research Assistant-UG",
         year: "present"
-    }
+    },
+    {
+        img: "../assets/img/people/Arun.jpg",
+        name: "Arunkumar Arulappan",
+        domain: "IoT",
+        facebook: "#",
+        twitter: "#",
+        linkedin: "#",
+        mail: "arunkumar@mitindia.edu",
+        batch: "2016-2022",
+        currentPosition: "PhD Research Scholar",
+        year: "present"
+    },
+    {
+        img: "../assets/img/people/sivasakthi.jpg",
+        name: "D. Adhimuga Sivasakthi",
+        domain: "IoT",
+        facebook: "#",
+        twitter: "#",
+        linkedin: "https://www.linkedin.com/in/bhargavi-rajendiran-1300a0259",
+        mail: "adhimuga20@gmail.com",
+        batch: "2019-2023",
+        currentPosition: "PhD Research Scholar",
+        year: "present"
+    }
 ]
 let fys=0
 students.forEach(student => {

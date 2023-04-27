@@ -15,7 +15,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/deepak-suresh-a0b57020a/",
         mail: "deepaksuresh1406@gmail.com",
         batch: "2020-2024",
-        currentPosition: "UG Research Assistant",
+        currentPosition: "Research Assistant-UG",
         year: "present"
     },
     {
@@ -27,7 +27,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/sree-vinay-r-523998211",
         mail: "rsreevinay@gmail.com",
         batch: "2020-2024",
-        currentPosition: "UG Research Assistant",
+        currentPosition: "Research Assistant-UG",
         year: "present"
     },
 ]

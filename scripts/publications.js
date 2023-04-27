@@ -246,7 +246,7 @@ const publications = [
         },
       {
             title: "Intelligent Reward based Data Offloading in Next Generation Vehicular Networks",
-            author: "Gunasekaran Raja, Aishwarya Ganapathisubramaniyan, Sudha Anbalagan, Sheeba Backia Marry Baskaran, Kathiroli Raja, and Ali Kashif Bashir",
+            author: "Gunasekaran Raja, Aishwarya Ganapathisubramaniyan, Sudha Anbalagan, Sheeba Backia Mary Baskaran, Kathiroli Raja, and Ali Kashif Bashir",
             conference: "IEEE Internet of Things Journal, vol. 7, no. 5, pp. 3747–3758.",
             doi: "https://ieeexplore.ieee.org/document/9001008",
             year: "2020",
@@ -462,7 +462,7 @@ const publications = [
         },
     {
             title: "QoS-aware frequency-based 4G+ relative authentication model for next generation LTE and its dependent public safety networks",
-            author: "Sheeba Backia Marry Bhaskaran, Gunasekaran Raja, Ali Kashif Bashir and Masayuki Murata",
+            author: "Sheeba Backia Mary Bhaskaran, Gunasekaran Raja, Ali Kashif Bashir and Masayuki Murata",
             conference: "IEEE Access, vol. 5, pp. 21977–21991.",
             doi: "https://ieeexplore.ieee.org/document/8055545",
             year: "2017",
@@ -718,7 +718,7 @@ const publications = [
     },
     {
             title: "Throughput Enhancement in Ad hoc networks using Virtual Carrier Sensing Mechanisms",
-            author: " R. Gunasekaran, P. Sumitha and V. Rhymend Uthariara",
+            author: " R. Gunasekaran, P. Sumitha and V. Rhymend Uthariaraj",
             conference: "Proc. International Conference on Innovations in Engineering and Technology (ICET), Singapore, pp. VI105–VI109.",
             doi: " https://ieeexplore.ieee.org/document/5559848",
             year: "2010",

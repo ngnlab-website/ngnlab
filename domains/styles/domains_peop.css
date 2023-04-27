@@ -148,7 +148,13 @@ main .people-section-container .phd {
     width: 100%;
     transition: 0.5s;
 }
-
+main .people-section-container .students .undergrad-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    margin: 1rem auto;
+}
 .student-member-card .face.face1{
     position: relative;
     /* background: #222; */
@@ -238,7 +244,7 @@ main .people-section-container .phd {
 .student-member-card .face.face2{
     position: absolute;
     background: #fff;
-    color: #000000;
+    color: #295faf;
     display: none;
     justify-content: flex-start;
     align-items: center;
@@ -253,7 +259,7 @@ main .people-section-container .phd {
     display: flex;
     border-bottom-right-radius: 6px;
     border-bottom-left-radius: 6px;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 800;
 }
 
@@ -267,7 +273,7 @@ main .people-section-container .phd {
 .student-member-card .face.face2 .content .role{
     margin: 0 3px;
     padding: 0;
-    color: #295FAF;
+    color: #295faf;
     font-weight: 600;
     font-size: 1.0rem;
     display: flex;
@@ -312,11 +318,11 @@ main .people-section-container .phd {
 }
 .student-member-card .face.face2 .content .social-media .name {
     font-size: 0.8rem;
-    margin: 0 3px;
+    margin: 0 0px;
 }
 .student-member-card .face.face2 .content .social-media .role {
-    font-size: 1.0rem;
-    margin: 0 3px;
+    font-size: 0.8rem;
+    margin: 0 0px;
     color: #891515;
 }
 @media screen and (max-width:994px) {

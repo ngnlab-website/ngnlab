@@ -15,7 +15,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/balakumarr15/",
         mail: "balakumarr2001@gmail.com",
         batch: "2019-2023",
-        currentPosition: "UG Research Assistant",
+        currentPosition: "Research Assistant-UG",
         year: "present"
     },
     {
@@ -27,7 +27,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/bhargavi-rajendiran-1300a0259",
         mail: "krishnabhargavi2002@gmail.com",
         batch: "2019-2023",
-        currentPosition: "UG Research Assistant",
+        currentPosition: "Research Assistant-UG",
         year: "present"
     },
     {
@@ -39,7 +39,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/shalini-priya-ab9a461a5",
         mail: "shalinipriya927@gmail.com",
         batch: "2019-2023",
-        currentPosition: "UG Research Assistant",
+        currentPosition: "Research Assistant-UG",
         year: "present"
     }
 ]

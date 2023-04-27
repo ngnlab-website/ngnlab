@@ -3,137 +3,25 @@ main .people-section-container {
     text-align: justify;
     width: 65%;
     margin: auto;
-    margin-top: 180px;
+    margin-top: 150px;
 }
-
-.faculty{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 25;
-    background-color: #FEFEFE;
-    padding: 2rem 0;
-}
-
-.faculty .wrp{
-    display: grid;
-    grid-template-columns: 40% 60%;
-    grid-gap: 20;
-    background-color: #FEFEFE;
-    padding: 2rem 0;
-    box-shadow: 5px 30px 30px rgba(0, 0, 0, 0.1);
-    width: 95%;
-    margin: 0 auto 5rem auto;
-    padding: 1rem; 
-} 
-
-main .people-section-container .faculty .details {
-    display: flex;
-    flex-direction: column;
-    gap: 20;
-    margin: auto;
-}
-main .people-section-container .faculty .details .name{
-    font-size: 1.3rem;
-}
-main .people-section-container .faculty .details .role{
-    font-size: 1rem;
-}
-main .people-section-container .faculty .details .about{
-    font-size: 0.65rem;
-    font-weight: 450;
-    color: #333333;
-}
-
-main .people-section-container .faculty .details .footer {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-}
-main .people-section-container .faculty .details .footer .footer-btn {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    /* align-items: center; */
-    gap: 2rem;
-}
-main .people-section-container .faculty .details .footer .footer-btn .icons{
-    display: flex;
-    justify-content: space-between;
+main .people-section-cont{
+    font-size: 1.5rem;
+    text-align: justify;
     width: 65%;
+    margin: auto;
+    
 }
-main .people-section-container .faculty .details .footer .footer-btn .icons img {
-    object-fit: cover;
-}
-main .people-section-container .faculty .details .footer .footer-btn .footer-a {
-    display: flex;
-}
-main .people-section-container .faculty .details .footer .footer-btn .about-me-btn {
-    padding: 0rem 0rem;
-    display: flex;
-    color: #295faf;
-    font-weight: 600;
-    text-decoration: none;
-    font-size: medium;
-}
-main .people-section-container .faculty .details .footer .footer-btn .about-me-btn:hover {
-    color: #006CB5;
-    /* cursor: pointer; */
-    /* background-color: #FFFFFF;
-    border: 1px solid #891515; */
-}
-main .people-section-container .faculty .details .footer .footer-btn .icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-main .people-section-container .director .details .footer .footer-btn .icon-a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-main .people-section-container .faculty .details .footer .footer-btn .icon img {
-    height: 30px;
-    width: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-main .people-section-container .faculty .details .footer .footer-btn .icon a {
-    text-decoration: none;
-}
-
-main .people-section-container .faculty .details .footer .social-icons {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 1rem;
-}
-main .people-section-container .faculty .details .footer a img {
-    width: 30px;
-    height: 30px;
-    fill: gray;
-    border-radius: 6px;
-}
-
-main .people-section-container .faculty .photo img {
-    width: 85%;
-    object-fit: cover;
-    height: 75%;
-}
-
 .director {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 30% 70%;
     grid-gap: 2rem;
     background-color: #FEFEFE;
     padding: 2rem 0;
     box-shadow: 5px 30px 30px rgba(0, 0, 0, 0.1);
     width: 95%;
-    margin: 0 auto 2rem auto;
-    padding: 1rem;
+    margin: 0 auto 5rem auto;
+    padding: 2.5rem;
 }
 main .people-section-container .director .details {
     display: flex;
@@ -141,13 +29,32 @@ main .people-section-container .director .details {
     gap: 1.5rem;
     margin: auto;
 }
+main .people-section-cont .director .details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: auto;
+}
 main .people-section-container .director .details .name{
-    font-size: 2rem;
+     font-size: 1.5rem;
+    font-weight: bold;
+}
+main .people-section-cont .director .details .name{
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 main .people-section-container .director .details .role{
-    font-size: 1.2rem;
+    font-size: 1rem;
+}
+main .people-section-cont .director .details .role{
+    font-size: 1rem;
 }
 main .people-section-container .director .details .about{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333333;
+}
+main .people-section-cont .director .details .about{
     font-size: 1rem;
     font-weight: 400;
     color: #333333;
@@ -156,68 +63,7 @@ main .people-section-container .director .details .footer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
-main .people-section-container .director .details .footer .footer-btn {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    /* align-items: center; */
-    gap: 2rem;
-}
-main .people-section-container .director .details .footer .footer-btn .icons{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-main .people-section-container .director .details .footer .footer-btn .icons img {
-    object-fit: cover;
-}
-main .people-section-container .director .details .footer .footer-btn .footer-a {
-    display: flex;
-}
-main .people-section-container .director .details .footer .footer-btn .about-me-btn {
-    padding: 0rem 0rem;
-    display: flex;
-    color: #006CB5;
-    font-weight: 600;
-    text-decoration: none;
-    /* background-color: #891515;
-    border: 1px solid #891515; */
-    font-size: 1.2rem;
-}
-main .people-section-container .director .details .footer .footer-btn .about-me-btn:hover {
-    color: #006CB5;
-    /* cursor: pointer; */
-    /* background-color: #FFFFFF;
-    border: 1px solid #891515; */
-}
-main .people-section-container .director .details .footer .footer-btn .icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-main .people-section-container .director .details .footer .footer-btn .icon img {
-    height: 60px;
-    width: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-main .people-section-container .director .details .footer .footer-btn .icon a {
-    text-decoration: none;
-}
-main .people-section-container .director .details .footer .footer-btn .icon a i {
-    font-size: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #000;
-}
-main .people-section-container .director .details .footer .social-icons {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 1rem;
-}
+
 main .people-section-container .director .details .footer a img {
     width: 45px;
     height: 45px;
@@ -226,18 +72,26 @@ main .people-section-container .director .details .footer a img {
 }
 main .people-section-container .director .photo {
     width: 100%;
+    vertical-align: middle;
+}
+main .people-section-cont .director .photo {
+    width: 100%;
+    vertical-align: middle;
 }
 main .people-section-container .director .photo img {
-    width: 10em;
+    width: 100%;
     object-fit: cover;
-    height: auto;
+    height: 70%;
+    align-items: center;
+    vertical-align: middle;
 }
-
-
-
-
-
-
+main .people-section-cont .director .photo img {
+    width: 100%;
+    object-fit: cover;
+    height: 90%;
+    align-items: center;
+    vertical-align: middle;
+}
 .students .undergrad-text, .students .fourth-year-text {
     display: flex;
     justify-content: center;

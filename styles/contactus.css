@@ -1,127 +1,9 @@
 main .people-section-container {
-    font-size: 1.5rem;
-    text-align: justify;
-    width: 65%;
-    margin: auto;
-    margin-top: 180px;
-}
-
-.faculty{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 25;
-    background-color: #FEFEFE;
-    padding: 2rem 0;
-}
-
-.faculty .wrp{
-    display: grid;
-    grid-template-columns: 40% 60%;
-    grid-gap: 20;
-    background-color: #FEFEFE;
-    padding: 2rem 0;
-    box-shadow: 5px 30px 30px rgba(0, 0, 0, 0.1);
-    width: 95%;
-    margin: 0 auto 5rem auto;
-    padding: 1rem; 
-} 
-
-main .people-section-container .faculty .details {
-    display: flex;
-    flex-direction: column;
-    gap: 20;
-    margin: auto;
-}
-main .people-section-container .faculty .details .name{
     font-size: 1.3rem;
-}
-main .people-section-container .faculty .details .role{
-    font-size: 1rem;
-}
-main .people-section-container .faculty .details .about{
-    font-size: 0.65rem;
-    font-weight: 450;
-    color: #333333;
-}
-
-main .people-section-container .faculty .details .footer {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-}
-main .people-section-container .faculty .details .footer .footer-btn {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    /* align-items: center; */
-    gap: 2rem;
-}
-main .people-section-container .faculty .details .footer .footer-btn .icons{
-    display: flex;
-    justify-content: space-between;
-    width: 65%;
-}
-main .people-section-container .faculty .details .footer .footer-btn .icons img {
-    object-fit: cover;
-}
-main .people-section-container .faculty .details .footer .footer-btn .footer-a {
-    display: flex;
-}
-main .people-section-container .faculty .details .footer .footer-btn .about-me-btn {
-    padding: 0rem 0rem;
-    display: flex;
-    color: #295faf;
-    font-weight: 600;
-    text-decoration: none;
-    font-size: medium;
-}
-main .people-section-container .faculty .details .footer .footer-btn .about-me-btn:hover {
-    color: #006CB5;
-    /* cursor: pointer; */
-    /* background-color: #FFFFFF;
-    border: 1px solid #891515; */
-}
-main .people-section-container .faculty .details .footer .footer-btn .icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-main .people-section-container .director .details .footer .footer-btn .icon-a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-main .people-section-container .faculty .details .footer .footer-btn .icon img {
-    height: 30px;
-    width: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-main .people-section-container .faculty .details .footer .footer-btn .icon a {
-    text-decoration: none;
-}
-
-main .people-section-container .faculty .details .footer .social-icons {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 1rem;
-}
-main .people-section-container .faculty .details .footer a img {
-    width: 30px;
-    height: 30px;
-    fill: gray;
-    border-radius: 6px;
-}
-
-main .people-section-container .faculty .photo img {
-    width: 85%;
-    object-fit: cover;
-    height: 75%;
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+    margin-top: 0px;
 }
 
 .director {
@@ -132,7 +14,7 @@ main .people-section-container .faculty .photo img {
     padding: 2rem 0;
     box-shadow: 5px 30px 30px rgba(0, 0, 0, 0.1);
     width: 95%;
-    margin: 0 auto 2rem auto;
+    margin: 0 auto 5rem auto;
     padding: 1rem;
 }
 main .people-section-container .director .details {
@@ -232,12 +114,6 @@ main .people-section-container .director .photo img {
     object-fit: cover;
     height: auto;
 }
-
-
-
-
-
-
 .students .undergrad-text, .students .fourth-year-text {
     display: flex;
     justify-content: center;
@@ -257,7 +133,7 @@ main .people-section-container .phd {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
-    margin: 4rem auto;
+    margin: 3rem 1rem;
     box-shadow: 5px 30px 30px rgba(0, 0, 0, 0.2);
     padding: 1rem;
     border-radius: 6px;
@@ -266,6 +142,7 @@ main .people-section-container .phd {
 .student-member-card{
     position: relative;
     padding: unset;
+    margin: auto;
 }
 .student-member-card .face{
     width: 100%;
@@ -365,7 +242,7 @@ main .people-section-container .phd {
     display: none;
     justify-content: flex-start;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     z-index: 2;
     box-sizing: border-box;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
@@ -376,6 +253,8 @@ main .people-section-container .phd {
     display: flex;
     border-bottom-right-radius: 6px;
     border-bottom-left-radius: 6px;
+    font-size: 1rem;
+    font-weight: 800;
 }
 
 .student-member-card .face.face2 .content .name{
@@ -386,11 +265,11 @@ main .people-section-container .phd {
     font-size: 1.8rem;
 }
 .student-member-card .face.face2 .content .role{
-    margin: 0;
+    margin: 0 3px;
     padding: 0;
-    color: #000000;
+    color: #295FAF;
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     display: flex;
     flex-direction: column;
 }
@@ -403,16 +282,17 @@ main .people-section-container .phd {
 }
 .student-member-card .face.face2 .content .social-media{
     display: flex;
-    gap: 1rem;
+    gap: 0rem;
     flex-direction: column;
 }
 
 .student-member-card .face.face2 .content a{
     display: inline-block;
     text-decoration: none;
-    font-weight: 900;
-    color: #333;
-    padding: 5px;
+    font-weight: 500;
+    color: #808080;
+    font-size: 0.9rem;
+    padding: 6px;
 }
 
 .student-member-card .face.face2 .content a:hover{
@@ -431,10 +311,13 @@ main .people-section-container .phd {
     color: inherit;
 }
 .student-member-card .face.face2 .content .social-media .name {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    margin: 0 3px;
 }
 .student-member-card .face.face2 .content .social-media .role {
-    font-size: 1rem;
+    font-size: 1.0rem;
+    margin: 0 3px;
+    color: #891515;
 }
 @media screen and (max-width:994px) {
     main .people-section-container {
