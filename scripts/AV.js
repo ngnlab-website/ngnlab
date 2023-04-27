@@ -7,41 +7,66 @@ const otherContainer = document.querySelector(".others")
 const studentsContainer = document.querySelector(".students")
 const students = [
     {
-        img: "../assets/img/people/rakshitha.png",
-        name: "Rakshitha P",
-        domain: "IoT",
+        img: "./assets/img/people/sreenithi.jpg",
+        name: "Sreenithi Ramesh",
+        currentPosition: "Research Assistant-PG",
+        domain: "AV",
         facebook: "#",
         twitter: "#",
-        linkedin: "https://www.linkedin.com/in/rakshitha-prakasam-985079206/",
-        mail: "rakshithaprakasam@gmail.com",
-        batch: "2020-2024",
+        linkedin: "https://www.linkedin.com/in/sreenithi-r-14b48b1b1",
+        mail: "snithi2112@gmail.com",
+        batch: "2022-2023",
+        year: "present"
+    },
+    {
+        img: "./assets/img/people/sugeerthi.png",
+        name: "Sugeerthi Gurumoorthy",
+        domain: "AV",
+        facebook: "#",
+        twitter: "#",
+        linkedin: "https://www.linkedin.com/in/sugeerthi-gurumoorthy-62142b181/",
+        mail: "sugeerthiguru@gmail.com",
+        batch: "2020-2022",
+        currentPosition: "Research Assistant-PG",
+        year: "alumni"
+    },
+    {
+        img: "./assets/img/people/thilaksurya.png",
+        name: "Thilaksurya B",
+        domain: "AV",
+        facebook: "#",
+        twitter: "#",
+        linkedin: "https://www.linkedin.com/in/thilaksurya-b-549b73219/",
+        mail: "thilaksurya29@gmail.com",
+        batch: "2019-2023",
         currentPosition: "Research Assistant-UG",
         year: "present"
     },
     {
-        img: "../assets/img/people/Arun.jpg",
-        name: "Arunkumar Arulappan",
-        domain: "IoT",
+        img: "./assets/img/people/srividya.jpg",
+        name: "Ponnada Srividya",
+        domain: "AV",
         facebook: "#",
         twitter: "#",
-        linkedin: "#",
-        mail: "arunkumar@mitindia.edu",
-        batch: "2016-2022",
-        currentPosition: "PhD Research Scholar",
+        linkedin: "https://www.linkedin.com/in/ponnada-srividya-b08280190/",
+        mail: "psrivi1234@gmail.com",
+        batch: "2019-2023",
+        currentPosition: "Research Assistant-UG",
         year: "present"
     },
     {
-        img: "../assets/img/people/sivasakthi.jpg",
-        name: "D. Adhimuga Sivasakthi",
-        domain: "IoT",
+        img: "./assets/img/people/suhruth.jpg",
+        name: "Suhruth K C",
+        domain: "AV",
         facebook: "#",
         twitter: "#",
-        linkedin: "https://www.linkedin.com/in/bhargavi-rajendiran-1300a0259",
-        mail: "adhimuga20@gmail.com",
+        linkedin: "https://www.linkedin.com/in/chenchu-suhruth-b56298198/",
+        mail: "kcsuhruth2001@gmail.com",
         batch: "2019-2023",
-        currentPosition: "PhD Research Scholar",
+        currentPosition: "Research Assistant-UG",
         year: "present"
-    }
+    },
+    
 ]
 let fys=0
 students.forEach(student => {

@@ -7,29 +7,41 @@ const otherContainer = document.querySelector(".others")
 const studentsContainer = document.querySelector(".students")
 const students = [
     {
-        img: "../assets/img/people/deepak.png",
-        name: "Deepak Suresh R",
-        domain: "UAV, Blockchain",
+        img: "./assets/img/people/balakumar.jpg",
+        name: "Balakumar R",
+        domain: "Healthcare",
         facebook: "#",
         twitter: "#",
-        linkedin: "https://www.linkedin.com/in/deepak-suresh-a0b57020a/",
-        mail: "deepaksuresh1406@gmail.com",
-        batch: "2020-2024",
+        linkedin: "https://www.linkedin.com/in/balakumarr15/",
+        mail: "balakumarr2001@gmail.com",
+        batch: "2019-2023",
         currentPosition: "Research Assistant-UG",
         year: "present"
     },
     {
-        img: "../assets/img/people/sreevinay.jpg",
-        name: "Sree Vinay R",
-        domain: "UAV, Blockchain",
+        img: "./assets/img/people/bhargavi.jpg",
+        name: "Bhargavi R",
+        domain: "Healthcare",
         facebook: "#",
         twitter: "#",
-        linkedin: "https://www.linkedin.com/in/sree-vinay-r-523998211",
-        mail: "rsreevinay@gmail.com",
-        batch: "2020-2024",
+        linkedin: "https://www.linkedin.com/in/bhargavi-rajendiran-1300a0259",
+        mail: "krishnabhargavi2002@gmail.com",
+        batch: "2019-2023",
         currentPosition: "Research Assistant-UG",
         year: "present"
     },
+    {
+        img: "./assets/img/people/shalini.jpg",
+        name: "Dampella Shalini Priya",
+        domain: "Healthcare",
+        facebook: "#",
+        twitter: "#",
+        linkedin: "https://www.linkedin.com/in/shalini-priya-ab9a461a5",
+        mail: "shalinipriya927@gmail.com",
+        batch: "2019-2023",
+        currentPosition: "Research Assistant-UG",
+        year: "present"
+    }
 ]
 let fys=0
 students.forEach(student => {

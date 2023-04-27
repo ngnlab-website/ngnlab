@@ -7,102 +7,29 @@ const otherContainer = document.querySelector(".others")
 const studentsContainer = document.querySelector(".students")
 const students = [
     {
-        img: "../assets/img/people/selvam.jpg",
-        name: "Selvam Essaky",
-        domain: "UAV, AV, Blockchain",
-        facebook: "#",
-        twitter: "#",
-        linkedin: "https://www.linkedin.com/in/sai-ganesh-senthivel/",
-        mail: "selvame.mit@@gmail.com",
-        batch: "2021-present",
-        currentPosition: "PhD Research Scholar",
-        year: "present"
-    },
-    {
-        img: "../assets/img/people/saiganesh.jpg",
-        name: "Sai Ganesh Senthivel",
+        img: "./assets/img/people/deepak.png",
+        name: "Deepak Suresh R",
         domain: "UAV, Blockchain",
         facebook: "#",
         twitter: "#",
-        linkedin: "https://www.linkedin.com/in/sai-ganesh-senthivel/",
-        mail: "ssenthiv@andrew.cmu.edu",
-        batch: "2018-2022",
-        currentPosition: "Research Assistant-UG",
-        year: "alumni"
-    },
-    {
-        img: "../assets/img/people/abhishek.jpg",
-        name: "Abhishek Manoharan",
-        domain: "UAV, Blockchain",
-        facebook: "#",
-        twitter: "#",
-        linkedin: "https://www.linkedin.com/in/abhishek-manoharan-0294661b0/",
-        mail: "abhimano789@gmail.com",
-        batch: "2019-2023",
-        currentPosition: "Research Assistant-UG",
-        year: "present"
-    },
-    {
-        img: "../assets/img/people/nishanthini.jpg",
-        name: "Nishanthini S",
-        domain: "UAV, Blockchain",
-        facebook: "#",
-        twitter: "#",
-        linkedin: "#",
-        mail: "nishasekar1826@gmail.com",
-        batch: "2019-2023",
-        currentPosition: "Research Assistant-UG",
-        year: "present"
-    },
-    {
-        img: "../assets/img/people/vamsi.jpg",
-        name: "Vamsi Raju M",
-        domain: "UAV, Blockchain",
-        facebook: "#",
-        twitter: "#",
-        linkedin: "https://www.linkedin.com/in/vamsi-raju-m/",
-        mail:"vamsisays@gmail.com",
-        batch: "2019-2023",
-        currentPosition: "Research Assistant-UG",
-        year: "present"
-    },
-    {
-        img: "../assets/img/people/sasana.png",
-        name: "Sasana R",
-        domain: "UAV",
-        facebook: "#",
-        twitter: "#",
-        linkedin: "https://www.linkedin.com/in/sasana-ravi-27b0481ab",
-        mail: "sasanaravi2020@gmail.com",
+        linkedin: "https://www.linkedin.com/in/deepak-suresh-a0b57020a/",
+        mail: "deepaksuresh1406@gmail.com",
         batch: "2020-2024",
         currentPosition: "Research Assistant-UG",
         year: "present"
     },
     {
-        img: "../assets/img/people/sidhaarthan.png",
-        name: "Sidhaarthan VM",
-        domain: "UAV",
+        img: "./assets/img/people/sreevinay.jpg",
+        name: "Sree Vinay R",
+        domain: "UAV, Blockchain",
         facebook: "#",
         twitter: "#",
-        linkedin: "https://www.linkedin.com/in/sidharthan-vm-261b2a220/",
-        mail: "sidharth2405@gmail.com",
+        linkedin: "https://www.linkedin.com/in/sree-vinay-r-523998211",
+        mail: "rsreevinay@gmail.com",
         batch: "2020-2024",
         currentPosition: "Research Assistant-UG",
         year: "present"
     },
-    {
-        img: "../assets/img/people/joevita.png",
-        name: "Joevita Faustina Doss F",
-        domain: "UAV",
-        facebook: "#",
-        twitter: "#",
-        linkedin: "https://www.linkedin.com/in/joevita-faustina-doss-a5a565246",
-        mail: "joevita2002@gmail.com",
-        batch: "2020-2024",
-        currentPosition: "Research Assistant-UG",
-        year: "present"
-    }
-
 ]
 let fys=0
 students.forEach(student => {
