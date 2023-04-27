@@ -15,7 +15,7 @@ const students = [
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/sreenithi-r-14b48b1b1",
         mail: "snithi2112@gmail.com",
-        batch: "2022-2024",
+        batch: "2022-2023",
         year: "present"
     },
     {
@@ -27,7 +27,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/sugeerthi-gurumoorthy-62142b181/",
         mail: "sugeerthiguru@gmail.com",
         batch: "2020-2022",
-        currentPosition: "Post Graduate",
+        currentPosition: "Research Assistant-PG",
         year: "alumni"
     },
     {
@@ -51,7 +51,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/ponnada-srividya-b08280190/",
         mail: "psrivi1234@gmail.com",
         batch: "2019-2023",
-        currentPosition: "UG Research Assistant",
+        currentPosition: "Research Assistant-UG",
         year: "present"
     },
     {
@@ -63,7 +63,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/chenchu-suhruth-b56298198/",
         mail: "kcsuhruth2001@gmail.com",
         batch: "2019-2023",
-        currentPosition: "UG Research Assistant",
+        currentPosition: "Research Assistant-UG",
         year: "present"
     },
     
