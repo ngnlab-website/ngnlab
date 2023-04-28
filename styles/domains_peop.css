@@ -298,7 +298,7 @@ main .people-section-container .students .undergrad-text{
     font-weight: 500;
     color: #808080;
     font-size: 0.9rem;
-    padding: 6px;
+    padding: 0 6px;
 }
 
 .student-member-card .face.face2 .content a:hover{

@@ -69,13 +69,13 @@ main .people-section-container .faculty .details .footer .footer-btn .footer-a {
 main .people-section-container .faculty .details .footer .footer-btn .about-me-btn {
     padding: 0rem 0rem;
     display: flex;
-    color: #891515;
+    color: #006CB5;
     font-weight: 600;
     text-decoration: none;
     font-size: medium;
 }
 main .people-section-container .faculty .details .footer .footer-btn .about-me-btn:hover {
-    color: #891515;
+    color: #006CB5;
     /* cursor: pointer; */
     /* background-color: #FFFFFF;
     border: 1px solid #891515; */
@@ -168,7 +168,7 @@ main .people-section-container .director .details .footer .footer-btn .footer-a 
 main .people-section-container .director .details .footer .footer-btn .about-me-btn {
     padding: 0rem 0rem;
     display: flex;
-    color: #891515;
+    color: #006CB5;
     font-weight: 600;
     text-decoration: none;
     /* background-color: #891515;
@@ -176,7 +176,7 @@ main .people-section-container .director .details .footer .footer-btn .about-me-
     font-size: 1.2rem;
 }
 main .people-section-container .director .details .footer .footer-btn .about-me-btn:hover {
-    color: #891515;
+    color: #006CB5;
     /* cursor: pointer; */
     /* background-color: #FFFFFF;
     border: 1px solid #891515; */
