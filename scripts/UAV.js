@@ -27,7 +27,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/sai-ganesh-senthivel/",
         mail: "ssenthiv@andrew.cmu.edu",
         batch: "2018-2022",
-        currentPosition: "Research Assistant-UG",
+        currentPosition: "Security Research Intern",
         year: "alumni"
     },
     {
