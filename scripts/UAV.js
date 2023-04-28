@@ -142,7 +142,7 @@ students.forEach(student => {
             url.target ="_blank"
             let urlVal = domain.split(" ")
             urlVal = urlVal.join("_")
-            url.href = "./" + urlVal.toLowerCase() + '.html'
+            url.href = "./" + urlVal + '.html'
             face2Domain.appendChild(url)
         })
        
