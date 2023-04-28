@@ -130,7 +130,7 @@ main .people-section-container .others,
 main .people-section-container .alumni, 
 main .people-section-container .pg,
 main .people-section-container .phd {
-    display: grid;
+    display: none;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1.1rem;
     margin: 3rem 1rem;
@@ -149,7 +149,7 @@ main .people-section-container .phd {
     transition: 0.5s;
 }
 main .people-section-container .students .undergrad-text{
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
@@ -298,7 +298,7 @@ main .people-section-container .students .undergrad-text{
     font-weight: 500;
     color: #808080;
     font-size: 0.9rem;
-    padding: 6px;
+    padding: 0 6px;
 }
 
 .student-member-card .face.face2 .content a:hover{
@@ -324,6 +324,9 @@ main .people-section-container .students .undergrad-text{
     font-size: 0.8rem;
     margin: 0 0px;
     color: #891515;
+}
+.L {
+    margin: 2rem 0;
 }
 @media screen and (max-width:994px) {
     main .people-section-container {

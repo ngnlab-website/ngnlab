@@ -69,6 +69,7 @@ const students = [
     
 ]
 let fys=0
+let asc=0
 students.forEach(student => {
     if(student.year !== "others") {
         let parentDiv = document.createElement("div");
@@ -122,6 +123,8 @@ students.forEach(student => {
         if(student.year === "present"){
             if(fys==0){
                 fys=1
+                let astc = document.querySelector(".fourth-year")
+                astc.style.display="grid"
                 let fyst=document.querySelector(".fourth-year-text")
                 fyst.style.display="flex"
                 // fyst.classList.add("fourth-year-text")
@@ -133,8 +136,21 @@ students.forEach(student => {
             
         // if(student.year === "third-year")
         //     thirdYearContainer.appendChild(parentDiv)
-        if(student.year === "alumni")
+         
+        if(student.year === "alumni") {
+             
+            if(asc==0){
+                asc=1
+                let astc = document.querySelector(".alumni")
+                astc.style.display="grid"
+                let ast=document.querySelector(".undergrad-text")
+                ast.style.display="flex"
+                // fyst.classList.add("fourth-year-text")
+                // fyst.innerText="4th year"
+                // studentsContainer.appendChild(fyst)
+            }
             alumniContainer.appendChild(parentDiv)
+        }
         // if(student.year === "pg")
         //     pgContainer.appendChild(parentDiv)
         // if(student.year === "phd")

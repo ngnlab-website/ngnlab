@@ -96,4 +96,7 @@ main .about-section ol li{
     main .about-section img {
         width: 100%;
     }
+    main .about-section .wrp {
+        grid-template-columns: 100%;
+    }
 }
