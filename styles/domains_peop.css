@@ -325,6 +325,9 @@ main .people-section-container .students .undergrad-text{
     margin: 0 0px;
     color: #891515;
 }
+.L {
+    margin: 2rem 0;
+}
 @media screen and (max-width:994px) {
     main .people-section-container {
         width: 90%;
