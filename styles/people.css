@@ -69,13 +69,13 @@ main .people-section-container .faculty .details .footer .footer-btn .footer-a {
 main .people-section-container .faculty .details .footer .footer-btn .about-me-btn {
     padding: 0rem 0rem;
     display: flex;
-    color: #295faf;
+    color: #891515;
     font-weight: 600;
     text-decoration: none;
     font-size: medium;
 }
 main .people-section-container .faculty .details .footer .footer-btn .about-me-btn:hover {
-    color: #006CB5;
+    color: #891515;
     /* cursor: pointer; */
     /* background-color: #FFFFFF;
     border: 1px solid #891515; */
@@ -85,14 +85,6 @@ main .people-section-container .faculty .details .footer .footer-btn .icon {
     justify-content: center;
     align-items: center;
 }
-
-main .people-section-container .director .details .footer .footer-btn .icon-a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
 main .people-section-container .faculty .details .footer .footer-btn .icon img {
     height: 30px;
     width: 30px;
@@ -100,7 +92,6 @@ main .people-section-container .faculty .details .footer .footer-btn .icon img {
     justify-content: center;
     align-items: center;
 }
-
 main .people-section-container .faculty .details .footer .footer-btn .icon a {
     text-decoration: none;
 }
@@ -121,7 +112,7 @@ main .people-section-container .faculty .details .footer a img {
 main .people-section-container .faculty .photo img {
     width: 85%;
     object-fit: cover;
-    height: 75%;
+    height: 85%;
 }
 
 .director {
@@ -177,7 +168,7 @@ main .people-section-container .director .details .footer .footer-btn .footer-a 
 main .people-section-container .director .details .footer .footer-btn .about-me-btn {
     padding: 0rem 0rem;
     display: flex;
-    color: #006CB5;
+    color: #891515;
     font-weight: 600;
     text-decoration: none;
     /* background-color: #891515;
@@ -185,7 +176,7 @@ main .people-section-container .director .details .footer .footer-btn .about-me-
     font-size: 1.2rem;
 }
 main .people-section-container .director .details .footer .footer-btn .about-me-btn:hover {
-    color: #006CB5;
+    color: #891515;
     /* cursor: pointer; */
     /* background-color: #FFFFFF;
     border: 1px solid #891515; */
