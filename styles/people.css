@@ -447,6 +447,17 @@ main .people-section-container .phd {
     main .people-section-container .pg,
     main .people-section-container .phd {
         grid-template-columns: repeat(2, 1fr);
+    } 
+    .faculty {
+        grid-template-columns: 100%;
+    }
+    .faculty .wrp {
+        grid-template-columns: 100%;
+    }
+    .faculty .wrp .photo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media screen and (max-width:600px) {

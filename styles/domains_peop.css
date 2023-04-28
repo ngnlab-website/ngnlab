@@ -130,7 +130,7 @@ main .people-section-container .others,
 main .people-section-container .alumni, 
 main .people-section-container .pg,
 main .people-section-container .phd {
-    display: grid;
+    display: none;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1.1rem;
     margin: 3rem 1rem;
@@ -149,7 +149,7 @@ main .people-section-container .phd {
     transition: 0.5s;
 }
 main .people-section-container .students .undergrad-text{
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
