@@ -4,6 +4,22 @@ const yearContainer = document.querySelector(".year-container")
 let activeYear = "2023"
 const publications = [
     {
+        title: "IIDS: Intelligent Intrusion Detection System for Sustainable Development in Autonomous Vehicles",
+        author: "Sudha Anbalagan, Gunasekaran Raja, Sugeerthi Gurumoorthy, Deepak Suresh R, Kapal Dev",
+        conference: "IEEE Transactions on Intelligent Transportation Systems, doi: 10.1109/TITS.2023.3271768.",
+        doi: "#",
+        year: "2023",
+        domain: ["AV"]
+    },
+    {
+        title: "AI-empowered Trajectory Anomaly Detection and Classification in 6G-V2X",
+        author: "Gunasekaran Raja, Mubeena Begum, Sugeerthi Gurumoorthy, Deepak Suresh R, Ponnada Srividya, Kapal Dev, Nawab Muhammad Faseeh Qureshi",
+        conference: "IEEE Transactions on Intelligent Transportation Systems, doi: 10.1109/TITS.2022.3197446.",
+        doi: "https://ieeexplore.ieee.org/document/9863890",
+        year: "2023",
+        domain: ["AV"]
+    },
+    {
             title: "Smart Navigation and Energy Management Framework for Autonomous Electric Vehicles in Complex Environments",
             author: "Gunasekaran Raja, Gayathri Saravanan, Sahaya Beni Prathiba, Zahid Akhtar,  Sunder Ali Khowaja,  Kapal Dev",
             conference: "IEEE Internet of Things Journal, doi: 10.1109/JIOT.2023.3244854.",
