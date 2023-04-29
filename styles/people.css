@@ -90,13 +90,13 @@ main .people-section-container .faculty .details .footer .footer-btn .footer-a {
 main .people-section-container .faculty .details .footer .footer-btn .about-me-btn {
     padding: 0rem 0rem;
     display: flex;
-    color: #891515;
+    color: #006CB5;
     font-weight: 800;
     text-decoration: none;
     font-size: medium;
 }
 main .people-section-container .faculty .details .footer .footer-btn .about-me-btn:hover {
-    color: #891515;
+    color: #006CB5;
     /* cursor: pointer; */
     /* background-color: #FFFFFF;
     border: 1px solid #891515; */
