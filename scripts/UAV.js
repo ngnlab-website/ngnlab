@@ -79,6 +79,18 @@ const students = [
         year: "present"
     },
     {
+        img: "./assets/img/people/rakshitha.png",
+        name: "Rakshitha P",
+        domain: "UAV",
+        facebook: "#",
+        twitter: "#",
+        linkedin: "https://www.linkedin.com/in/rakshitha-prakasam-985079206/",
+        mail: "rakshithaprakasam@gmail.com",
+        batch: "2020-2024",
+        currentPosition: "Research Assistant-UG",
+        year: "present"
+    },
+    {
         img: "./assets/img/people/sidhaarthan.png",
         name: "Sidhaarthan VM",
         domain: "UAV",

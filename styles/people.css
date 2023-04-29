@@ -129,7 +129,7 @@ main .people-section-container .faculty .photo img {
 main .people-section-container .director .details {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 0.5rem;
     margin: auto;
 }
 main .people-section-container .director .details .name{
