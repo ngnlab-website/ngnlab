@@ -9,7 +9,7 @@ const students = [
     {
         img: "./assets/img/people/rakshitha.png",
         name: "Rakshitha P",
-        domain: "IoT",
+        domain: "Networks",
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/rakshitha-prakasam-985079206/",
@@ -21,7 +21,7 @@ const students = [
     {
         img: "./assets/img/people/Arun.jpg",
         name: "Arunkumar Arulappan",
-        domain: "IoT",
+        domain: "Networks",
         facebook: "#",
         twitter: "#",
         linkedin: "#",
@@ -33,7 +33,7 @@ const students = [
     {
         img: "./assets/img/people/sivasakthi.jpg",
         name: "D. Adhimuga Sivasakthi",
-        domain: "IoT",
+        domain: "Networks",
         facebook: "#",
         twitter: "#",
         linkedin: "#",
