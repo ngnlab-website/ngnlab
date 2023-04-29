@@ -7,18 +7,6 @@ const otherContainer = document.querySelector(".others")
 const studentsContainer = document.querySelector(".students")
 const students = [
     {
-        img: "./assets/img/people/rakshitha.png",
-        name: "Rakshitha P",
-        domain: "IoT",
-        facebook: "#",
-        twitter: "#",
-        linkedin: "https://www.linkedin.com/in/rakshitha-prakasam-985079206/",
-        mail: "rakshithaprakasam@gmail.com",
-        batch: "2020-2024",
-        currentPosition: "Research Assistant-UG",
-        year: "present"
-    },
-    {
         img: "./assets/img/people/Arun.jpg",
         name: "Arunkumar Arulappan",
         domain: "Networks",
