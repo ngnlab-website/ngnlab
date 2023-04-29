@@ -8,20 +8,41 @@ main .people-section-container {
 
 .faculty{
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 25;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2rem;
+    /* grid-gap: 25; */
     background-color: #FEFEFE;
     padding: 2rem 0;
 }
 
+.faculty .directors {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.faculty .staff1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.faculty .staff2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
 .faculty .wrp{
-    display: grid;
+    /* display: grid;
     grid-template-columns: 40% 60%;
-    grid-gap: 20;
+    grid-gap: 20; */
+    display: flex;
+    gap: 1rem;
     background-color: #FEFEFE;
     padding: 2rem 0;
     box-shadow: 5px 30px 30px rgba(0, 0, 0, 0.1);
-    width: 95%;
     margin: 0 auto 5rem auto;
     padding: 1rem; 
 } 
@@ -29,8 +50,8 @@ main .people-section-container {
 main .people-section-container .faculty .details {
     display: flex;
     flex-direction: column;
-    gap: 20;
     margin: auto;
+    flex: 1;
 }
 main .people-section-container .faculty .details .name{
     font-size: 1.3rem;
@@ -53,7 +74,7 @@ main .people-section-container .faculty .details .footer .footer-btn {
     justify-content: flex-start;
     flex-direction: column;
     /* align-items: center; */
-    gap: 2rem;
+    gap: 0.5rem;
 }
 main .people-section-container .faculty .details .footer .footer-btn .icons{
     display: flex;
@@ -110,9 +131,11 @@ main .people-section-container .faculty .details .footer a img {
 }
 
 main .people-section-container .faculty .photo img {
-    width: 85%;
+    width: 7em;
+    height: 7em;
     object-fit: cover;
-    height: 85%;
+    object-position: center center;
+    border-radius: 0.5em;
 }
 
 .director {
@@ -143,7 +166,7 @@ main .people-section-container .director .details .about{
     font-weight: 400;
     color: #333333;
 }
-main .people-section-container .director .details .about a {
+main .people-section-container .details .about a {
     color: #333333;
     text-decoration: underline;
 }
@@ -227,12 +250,6 @@ main .people-section-container .director .photo img {
     object-fit: cover;
     height: auto;
 }
-
-
-
-
-
-
 .students .undergrad-text, .students .fourth-year-text {
     display: flex;
     justify-content: center;
@@ -456,12 +473,34 @@ main .people-section-container .phd {
         grid-template-columns: 100%;
     }
     .faculty .wrp {
-        grid-template-columns: 100%;
+        flex-direction: column;
+        width: 95%;
+    }
+    main .people-section-container .faculty .details {
+        margin: unset;
     }
     .faculty .wrp .photo {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .faculty .directors {
+        grid-column-start: unset;
+        grid-column-end: unset;
+        grid-row-start: unset;
+        grid-row-end: unset;
+    }
+    .faculty .staff1 {
+        grid-column-start: unset;
+        grid-column-end: unset;
+        grid-row-start: unset;
+        grid-row-end: unset;
+    }
+    .faculty .staff2 {
+        grid-column-start: unset;
+        grid-column-end: unset;
+        grid-row-start: unset;
+        grid-row-end: unset;
     }
 }
 @media screen and (max-width:600px) {
