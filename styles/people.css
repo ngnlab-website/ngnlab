@@ -90,13 +90,13 @@ main .people-section-container .faculty .details .footer .footer-btn .footer-a {
 main .people-section-container .faculty .details .footer .footer-btn .about-me-btn {
     padding: 0rem 0rem;
     display: flex;
-    color: #006CB5;
-    font-weight: 600;
+    color: #891515;
+    font-weight: 800;
     text-decoration: none;
     font-size: medium;
 }
 main .people-section-container .faculty .details .footer .footer-btn .about-me-btn:hover {
-    color: #006CB5;
+    color: #891515;
     /* cursor: pointer; */
     /* background-color: #FFFFFF;
     border: 1px solid #891515; */
@@ -131,8 +131,8 @@ main .people-section-container .faculty .details .footer a img {
 }
 
 main .people-section-container .faculty .photo img {
-    width: 7em;
-    height: 7em;
+    width: 6em;
+    height: 6em;
     object-fit: cover;
     object-position: center center;
     border-radius: 0.5em;
@@ -192,18 +192,20 @@ main .people-section-container .director .details .footer .footer-btn .icons img
 main .people-section-container .director .details .footer .footer-btn .footer-a {
     display: flex;
 }
-main .people-section-container .director .details .footer .footer-btn .about-me-btn {
+main .people-section-container .directors .details .footer .footer-btn .about-me-btn {
     padding: 0rem 0rem;
     display: flex;
-    color: #006CB5;
-    font-weight: 600;
+    color: #891515;
+    font-weight: 800;
     text-decoration: none;
     /* background-color: #891515;
     border: 1px solid #891515; */
-    font-size: 1.2rem;
 }
-main .people-section-container .director .details .footer .footer-btn .about-me-btn:hover {
-    color: #006CB5;
+main .people-section-container .faculty .directors .details .footer .footer-btn .icons {
+    width: 85%;
+}
+main .people-section-container .directors .details .footer .footer-btn .about-me-btn:hover {
+    color: #891515;
     /* cursor: pointer; */
     /* background-color: #FFFFFF;
     border: 1px solid #891515; */
