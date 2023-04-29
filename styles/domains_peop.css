@@ -208,7 +208,13 @@ main .people-section-container .students .undergrad-text{
 }
 .student-member-card .face.face1 .content .content-details a {
     text-decoration: none;
-    color: #F3F3F3;
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.student-member-card .face.face1 .content .content-details a s{
+    text-decoration: none;
+    color: rgb(0, 200, 255);
     font-size: 0.7rem;
     text-align: center;
 }

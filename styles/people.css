@@ -39,7 +39,7 @@ main .people-section-container .faculty .details .role{
     font-size: 1rem;
 }
 main .people-section-container .faculty .details .about{
-    font-size: 0.65rem;
+    font-size: 0.75rem;
     font-weight: 450;
     color: #333333;
 }
@@ -118,11 +118,11 @@ main .people-section-container .faculty .photo img {
 .director {
     display: grid;
     grid-template-columns: 40% 60%;
-    grid-gap: 2rem;
+    grid-gap: 0rem;
     background-color: #FEFEFE;
     padding: 2rem 0;
     box-shadow: 5px 30px 30px rgba(0, 0, 0, 0.1);
-    width: 95%;
+    width: 80%;
     margin: 0 auto 2rem auto;
     padding: 1rem;
 }
@@ -187,8 +187,8 @@ main .people-section-container .director .details .footer .footer-btn .icon {
     align-items: center;
 }
 main .people-section-container .director .details .footer .footer-btn .icon img {
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,7 +197,7 @@ main .people-section-container .director .details .footer .footer-btn .icon a {
     text-decoration: none;
 }
 main .people-section-container .director .details .footer .footer-btn .icon a i {
-    font-size: 3rem;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;

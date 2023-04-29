@@ -48,8 +48,10 @@ students.forEach(student => {
                                     <div class="content-details">
                                         <h3>${student.name}</h3>
                                         <a class="h3-mail" href="mailto:${student.mail}">${student.mail}</a>
-                                        <a href="${student.linkedin}" class="linkedin-img" target="_blank">Linkedin</a>
-                                    </div>
+                                        
+                                       <a href="${student.linkedin}" class="linkedin-img" target="_blank">Linkedin</a> 
+                                       </div>
+                                    
         `
         face1Div.appendChild(face1Content)
         let socialMedia = document.createElement("div")
