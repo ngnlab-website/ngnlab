@@ -9,7 +9,7 @@ const students = [
     {
         img: "./assets/img/people/rakshitha.png",
         name: "Rakshitha P",
-        domain: "Networks",
+        domain: "IoT",
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/rakshitha-prakasam-985079206/",
@@ -21,7 +21,7 @@ const students = [
     {
         img: "./assets/img/people/Arun.jpg",
         name: "Arunkumar Arulappan",
-        domain: "Networks",
+        domain: "IoT",
         facebook: "#",
         twitter: "#",
         linkedin: "#",
@@ -33,7 +33,7 @@ const students = [
     {
         img: "./assets/img/people/sivasakthi.jpg",
         name: "D. Adhimuga Sivasakthi",
-        domain: "Networks",
+        domain: "IoT",
         facebook: "#",
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/bhargavi-rajendiran-1300a0259",
@@ -81,7 +81,7 @@ students.forEach(student => {
             url.target ="_blank"
             let urlVal = domain.split(" ")
             urlVal = urlVal.join("_")
-            url.href = "./" + urlVal + '.html'
+            url.href = "../domains/" + urlVal + '.html'
             face2Domain.appendChild(url)
         })
        
