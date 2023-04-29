@@ -6,11 +6,22 @@ const thirdYearContainer = document.querySelector(".third-year")
 const otherContainer = document.querySelector(".others")
 const studentsContainer = document.querySelector(".students")
 const students = [
-    
+    {
+        img: "./assets/img/people/rakshitha.png",
+        name: "Rakshitha P",
+        domain: "IoT",
+        facebook: "#",
+        twitter: "#",
+        linkedin: "https://www.linkedin.com/in/rakshitha-prakasam-985079206/",
+        mail: "rakshithaprakasam@gmail.com",
+        batch: "2020-2024",
+        currentPosition: "Research Assistant-UG",
+        year: "present"
+    },
     {
         img: "./assets/img/people/Arun.jpg",
         name: "Arunkumar Arulappan",
-        domain: "IoT",
+        domain: "Networks",
         facebook: "#",
         twitter: "#",
         linkedin: "#",
@@ -22,15 +33,16 @@ const students = [
     {
         img: "./assets/img/people/sivasakthi.jpg",
         name: "D. Adhimuga Sivasakthi",
-        domain: "IoT",
+        domain: "Networks",
         facebook: "#",
         twitter: "#",
-        linkedin: "https://www.linkedin.com/in/bhargavi-rajendiran-1300a0259",
+        linkedin: "#",
         mail: "adhimuga20@gmail.com",
-        batch: "2019-2023",
+        batch: "2016-2023",
         currentPosition: "PhD Research Scholar",
         year: "present"
     }
+
 ]
 let fys=0
 let asc=0
