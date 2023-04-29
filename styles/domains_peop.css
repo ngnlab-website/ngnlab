@@ -242,6 +242,12 @@ main .people-section-container .students .undergrad-text{
     opacity: 1;
 }
 
+.student-member-card .face.face1 .content .content-details .linkedin-img {
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-decoration: underline;
+}
+
 .student-member-card:hover .face.face1 .content h3 {
     display: block;
     /* position: absolute; */

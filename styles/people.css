@@ -143,6 +143,10 @@ main .people-section-container .director .details .about{
     font-weight: 400;
     color: #333333;
 }
+main .people-section-container .director .details .about a {
+    color: #333333;
+    text-decoration: underline;
+}
 main .people-section-container .director .details .footer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
