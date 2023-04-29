@@ -18,20 +18,14 @@ main .people-section-container {
 .faculty .directors {
     grid-column-start: 2;
     grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
 }
 .faculty .staff1 {
     grid-column-start: 1;
     grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
 }
 .faculty .staff2 {
     grid-column-start: 3;
     grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 3;
 }
 
 .faculty .wrp{
