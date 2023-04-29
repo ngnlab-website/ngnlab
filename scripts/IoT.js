@@ -36,12 +36,13 @@ const students = [
         domain: "IoT",
         facebook: "#",
         twitter: "#",
-        linkedin: "https://www.linkedin.com/in/bhargavi-rajendiran-1300a0259",
+        linkedin: "#",
         mail: "adhimuga20@gmail.com",
-        batch: "2019-2023",
+        batch: "2016-2023",
         currentPosition: "PhD Research Scholar",
         year: "present"
     }
+
 ]
 let fys=0
 let asc=0

@@ -19,6 +19,18 @@ const students = [
         year: "present"
     },
     {
+        img: "./assets/img/people/Mubeena.jpg",
+        name: "Mubeena Begum",
+        domain: "AV",
+        facebook: "#",
+        twitter: "#",
+        linkedin: "#",
+        mail: "iminbitsw786@gmail.com",
+        batch: "2019-2023",
+        currentPosition: "PhD Research Scholar",
+        year: "present"
+    },
+    {
         img: "./assets/img/people/sugeerthi.png",
         name: "Sugeerthi Gurumoorthy",
         domain: "AV",
