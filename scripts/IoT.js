@@ -8,6 +8,42 @@ const studentsContainer = document.querySelector(".students")
 const visitorsContainer = document.querySelector(".visiting-scholars")
 const students = [
     {
+        img: "./assets/img/people/balakumar.jpg",
+        name: "Balakumar R",
+        domain: "Healthcare",
+        facebook: "#",
+        twitter: "#",
+        linkedin: "https://www.linkedin.com/in/balakumarr15/",
+        mail: "balakumarr2001@gmail.com",
+        batch: "2019-2023",
+        currentPosition: "UG Research Assistant",
+        year: "present"
+    },
+    {
+        img: "./assets/img/people/bhargavi.jpg",
+        name: "Bhargavi R",
+        domain: "Healthcare",
+        facebook: "#",
+        twitter: "#",
+        linkedin: "https://www.linkedin.com/in/bhargavi-rajendiran-1300a0259",
+        mail: "krishnabhargavi2002@gmail.com",
+        batch: "2019-2023",
+        currentPosition: "UG Research Assistant",
+        year: "present"
+    },
+    {
+        img: "./assets/img/people/shalini.jpg",
+        name: "Dampella Shalini Priya",
+        domain: "Healthcare",
+        facebook: "#",
+        twitter: "#",
+        linkedin: "https://www.linkedin.com/in/shalini-priya-ab9a461a5",
+        mail: "shalinipriya927@gmail.com",
+        batch: "2019-2023",
+        currentPosition: "UG Research Assistant",
+        year: "present"
+    },
+    {
         img: "./assets/img/people/Arun.jpg",
         name: "Arunkumar Arulappan",
         domain: "Networks",
@@ -30,8 +66,7 @@ const students = [
         batch: "2016-2023",
         currentPosition: "PhD Research Scholar",
         year: "present"
-    }
-
+    },
 ]
 let fys=0
 let asc=0
