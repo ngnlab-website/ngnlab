@@ -23,29 +23,37 @@ main .about-section .heading {
     font-weight: 800;
     font-size: 1.8rem;
 }
-
-
+#dots {
+    display: inline;
+}
+#more {
+    display: none;
+}
 main .about-section .read-more-btn {
     margin: 1rem auto;
     display: flex;
     justify-content: flex-end;
 }
 
-main .about-section .read-more-btn a {
+main .about-section .read-more {
     text-decoration: none;
     color:#006CB5;
     font-weight: 600;
     /* background-color: #282626; */
     padding: 0rem;
+    outline: none;
+    border: none;
+    background-color: transparent;
     /* border: 1px solid #282626; */
     /* transition: all 0.5s ease-in-out; */
 }
 
-main .about-section .read-more-btn a:hover {
+main .about-section .read-more:hover {
     /* color: #262626; */
     background-color: #FFFFFF;
     padding: 0rem;
     color:#006CB5;
+    cursor: pointer;
     /* border: 1px solid #282626; */
 }
 
