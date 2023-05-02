@@ -5,6 +5,7 @@ const alumniContainer = document.querySelector(".alumni")
 const thirdYearContainer = document.querySelector(".third-year")
 const otherContainer = document.querySelector(".others")
 const studentsContainer = document.querySelector(".students")
+const visitorsContainer = document.querySelector(".visiting-scholars")
 const students = [
     {
         img: "./assets/img/people/sreenithi.jpg",
@@ -82,6 +83,7 @@ const students = [
 ]
 let fys=0
 let asc=0
+let vsc=0
 students.forEach(student => {
     if(student.year !== "others") {
         let parentDiv = document.createElement("div");
@@ -112,16 +114,11 @@ students.forEach(student => {
         let face2Domain = document.createElement("div")
         face2Domain.classList.add("role")
         let domains = student.domain.split(", ")
-        domains.forEach(domain => {
-            let url = document.createElement("a")
-            url.innerHTML = domain
-            url.target ="_blank"
-            let urlVal = domain.split(" ")
-            urlVal = urlVal.join("_")
-            url.href = urlVal + '.html'
-            face2Domain.appendChild(url)
-        })
-       
+        console.log(domains)
+        if(domains.length > 1) {
+            domains = domains.join(" | ")
+        }
+        face2Domain.innerText = domains
         socialMedia.innerHTML = `
         <div class="role">${student.currentPosition}</div>
         <div class="name">${student.batch}</div>`
@@ -162,6 +159,17 @@ students.forEach(student => {
                 // studentsContainer.appendChild(fyst)
             }
             alumniContainer.appendChild(parentDiv)
+        }
+
+        if(student.year === "visiting-scholars") {
+            if(vsc == 0) {
+                vsc = 1
+                let vstc = document.querySelector(".visiting-scholars")
+                vstc.style.display="grid"
+                let vst=document.querySelector(".visiting-scholars-text")
+                vst.style.display="flex"
+            }
+            visitorsContainer.appendChild(parentDiv)
         }
         // if(student.year === "pg")
         //     pgContainer.appendChild(parentDiv)

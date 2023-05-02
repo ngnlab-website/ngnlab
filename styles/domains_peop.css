@@ -114,7 +114,8 @@ main .people-section-container .director .photo img {
     object-fit: cover;
     height: auto;
 }
-.students .undergrad-text, .students .fourth-year-text {
+.students .undergrad-text, .students .fourth-year-text,
+.students .visiting-scholars-text {
     display: none;
     justify-content: center;
     align-items: center;
@@ -129,7 +130,8 @@ main .people-section-container .third-year,
 main .people-section-container .others, 
 main .people-section-container .alumni, 
 main .people-section-container .pg,
-main .people-section-container .phd {
+main .people-section-container .phd,
+main .people-section-container .visiting-scholars {
     display: none;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1.1rem;
@@ -285,11 +287,12 @@ main .people-section-container .students .undergrad-text{
 .student-member-card .face.face2 .content .role{
     margin: 0 3px;
     padding: 0;
-    color: #295faf;
+    color: #555555;
     font-weight: 600;
-    font-size: 1.0rem;
+    font-size: 0.9rem;
     display: flex;
     flex-direction: column;
+    text-align: left;
 }
 .student-member-card .face.face2 .content .mail, .student-member-card .face.face2 .content .phone{
     margin: 0;
@@ -358,7 +361,8 @@ main .people-section-container .students .undergrad-text{
     main .people-section-container .others, 
     main .people-section-container .alumni, 
     main .people-section-container .pg,
-    main .people-section-container .phd {
+    main .people-section-container .phd,
+    main .people-section-container .visiting-scholars {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -368,7 +372,8 @@ main .people-section-container .students .undergrad-text{
     main .people-section-container .others, 
     main .people-section-container .alumni, 
     main .people-section-container .pg,
-    main .people-section-container .phd {
+    main .people-section-container .phd,
+    main .people-section-container .visiting-scholars {
         grid-template-columns: repeat(1, 1fr);
     }
     .student-member-card .face.face1 .content img {

@@ -107,6 +107,9 @@ main .research-domain-section .images .img1 {
     grid-row: 2;
     grid-column: 2;
 }
+main .research-domain-section .images img {
+    border-radius: 50%;
+}
 
 main .research-domain-section .images .img2 {
     grid-row: 1;
@@ -116,8 +119,8 @@ main .research-domain-section .images .img2 {
 
 main .research-domain-section .images .img3 {
     grid-row: 1;
-  grid-column: 3;
-  transform: rotate(0deg);
+    grid-column: 3;
+    /* transform: rotate(0deg); */
 }
 
 main .research-domain-section .images .img4 {
@@ -238,14 +241,19 @@ main .contact-section-container .contact-section .address a:hover {
     main .research-domain-section .images .img3,
     main .research-domain-section .images .img4,
     main .research-domain-section .images .img5,
-    main .research-domain-section .images .img6 {
-        grid-column-start: unset;
-        grid-column-end: unset;
-        grid-row-start: unset;
-        grid-row-end: unset;
+    main .research-domain-section .images .img6,
+    main .research-domain-section .images .img7,
+    main .research-domain-section .images .img8,
+    main .research-domain-section .images .img9 {
+        grid-row: unset;
+        grid-column: unset;
     }
 
     main .contact-section-container .contact-section {
         grid-template-columns: 100%;
+    }
+    main .research-domain-section .images img {
+        border-radius: 16px;
+        height: 400px;
     }
 }

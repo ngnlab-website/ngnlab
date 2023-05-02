@@ -39,6 +39,7 @@ main .people-section-container {
     box-shadow: 5px 30px 30px rgba(0, 0, 0, 0.1);
     margin: 0 auto 5rem auto;
     padding: 1rem; 
+    margin: 1rem;
 } 
 
 main .people-section-container .faculty .details {
@@ -163,6 +164,7 @@ main .people-section-container .director .details .about{
 main .people-section-container .details .about a {
     color: #333333;
     text-decoration: underline;
+    font-size: 0.6rem;
 }
 main .people-section-container .director .details .footer {
     display: grid;

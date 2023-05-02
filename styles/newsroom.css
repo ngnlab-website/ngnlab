@@ -22,8 +22,9 @@ main .people-section-cont{
     padding: 2rem 0;
     box-shadow: 5px 30px 30px rgba(0, 0, 0, 0.1);
     width: 95%;
-    margin: 0 auto 5rem auto;
+    margin: 0 auto 2rem auto;
     padding: 2.5rem;
+    border-radius: 6px;
 }
 .even {
     flex-direction: row-reverse;
@@ -95,6 +96,7 @@ main .people-section-cont .director .photo img {
     object-fit: cover;
     height: 10em;
     object-position: center center;
+    border-radius: 16px;
 }
 .students .undergrad-text, .students .fourth-year-text {
     display: flex;
