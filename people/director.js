@@ -4,6 +4,10 @@ href.addEventListener("click", () => {
 })
 const projects = [
     {
+        title: "FlyCamXR - Autonomous Camera Drones for Interactive Experiences in Extended Reality Telepresence Applications with Enhanced Naturalness, 2022-2024",
+        fundingAgency: "DAAD Indo-German Research Collaboration - University of Applied Sciences Jena, Germany"
+    },
+    {
         title: "An Intelligent Blockchain-Hyperledger Framework for a Secure and Automated Supply Chain Management (SCM) for Small and Medium Size Enterprises, 2020-2023",
         fundingAgency: "Erasmus+ International Credit Mobility (KA107), Trinity College Dublin, Ireland"
     },
@@ -14,10 +18,6 @@ const projects = [
     {
         title: "Efficient Resource Utilization by solving Scheduling Problems in WiMAX networks, 2009-2010",
         fundingAgency: "Research Support Scheme for Innovative Project by Young Faculty Members"
-    },
-    {
-        title: "FlyCamXR - Autonomous Camera Drones for Interactive Experiences in Extended Reality Telepresence Applications with Enhanced Naturalness, 2022-2024",
-        fundingAgency: "DAAD Indo-German Research Collaboration - University of Applied Sciences Jena, Germany"
     },
 ]
 let projectsContainer = document.querySelector(".projects-container")
