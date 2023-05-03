@@ -29,6 +29,9 @@ main .about-section .heading {
 #more {
     display: none;
 }
+main .about-section p {
+    padding: 0.5rem 0;
+}
 main .about-section .read-more-btn {
     margin: 1rem auto;
     display: flex;
