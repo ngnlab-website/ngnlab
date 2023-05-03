@@ -59,14 +59,7 @@ const publications = [
             year: "2022",
             domain: ["UAV"]
         },
-    {
-            title: "AI-empowered Trajectory Anomaly Detection and Classification in 6G-V2X",
-            author: "Gunasekaran Raja, Nisha Deborah Philips, Ramesh Krishnan Ramasamy, Kapal Dev,  Neeraj Kumar",
-            conference: "IEEE Transactions on Intelligent Transportation Systems, vol. 24, no. 4, pp. 4599-4607.",
-            doi: "https://ieeexplore.ieee.org/abstract/document/9863890",
-            year: "2022",
-            domain: ["Networks"]
-        },
+    
     {
             title: "A Hybrid Deep Sensor Anomaly Detection for Autonomous Vehicles in 6G-V2X Environment",
             author: "Sahaya Beni Prathiba, Gunasekaran Raja, Sudha Anbalagan, Arikumar K S, Sugeerthi Gurumoorthy, Kapal Dev",
