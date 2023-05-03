@@ -42,7 +42,7 @@ const students = [
         batch: "2020-2022",
         currentPosition: "Research Assistant-PG",
         year: "alumni",
-        position: "Software Developer at CITI"
+        position: "CITI - CSIPL"
     },
     {
         img: "./assets/img/people/thilaksurya.png",

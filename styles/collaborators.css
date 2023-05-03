@@ -1,0 +1,70 @@
+main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100vw;
+}
+
+main .collaborators-container {
+    font-size: 0.9rem;
+    text-align: justify;
+    width: 65%;
+    margin: auto;
+    margin-top: 151px;
+    font-weight: 400;
+    color: #333333;
+}
+main .collaborators-container .heading {
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-align: center;
+    color: #891515;
+}
+main .collaborators-container .collaborator {
+    display: flex;
+    gap: 4rem;
+    background-color: #FEFEFE;
+    padding: 2rem 0;
+    box-shadow: 5px 30px 30px rgba(0, 0, 0, 0.1);
+    width: 75%;
+    margin: 0 auto 2rem auto;
+    padding: 2.5rem;
+    border-radius: 6px;
+}
+main .collaborators-container .even {
+    flex-direction: row-reverse;
+}
+main .collaborators-container .collaborator .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .collaborators-container .collaborator img {
+    width: 18em;
+    height: 12em;
+    object-fit: cover;
+}
+main .collaborators-container .collaborator .collaborators-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .collaborators-container .collaborator .collaborators-name ul li {
+    list-style-type: square;
+    padding: 0.2rem 0;
+    font-size: 1.2rem;
+    text-align: left;
+}
+@media screen and (max-width: 994px) {
+    main .collaborators-container .collaborator {
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+    }
+    main .collaborators-container .collaborator .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

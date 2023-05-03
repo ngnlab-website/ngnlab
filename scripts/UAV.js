@@ -30,7 +30,7 @@ const students = [
         batch: "2018-2022",
         currentPosition: "Security Research Intern",
         year: "alumni",
-        position: "Masters at CMU"
+        position: "Carnegie Mellon University"
     },
     {
         img: "./assets/img/people/abhishek.jpg",
@@ -127,7 +127,7 @@ const students = [
         batch: "2020-2021",
         currentPosition: "Research Assistant-PG",
         year: "visiting-scholar",
-        position: "Researcher at German Aerospace Center (DLR) "
+        position: "German Aerospace Center (DLR) "
     }
 ]
 let fys=0

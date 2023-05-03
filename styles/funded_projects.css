@@ -1,0 +1,65 @@
+main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100vw;
+}
+
+main .funded-projects-section-container {
+    font-size: 0.9rem;
+    text-align: justify;
+    width: 65%;
+    margin: auto;
+    margin-top: 151px;
+    font-weight: 400;
+    color: #333333;
+}
+main .funded-projects-section-container .heading {
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-align: center;
+    color: #891515;
+}
+main .funded-projects-section-container .funded-project {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: #FEFEFE;
+    padding: 2rem 0;
+    box-shadow: 5px 30px 30px rgba(0, 0, 0, 0.1);
+    width: 75%;
+    margin: 0 auto 2rem auto;
+    padding: 2.5rem;
+    border-radius: 6px;
+} 
+main .funded-projects-section-container .funded-project .title {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+main .funded-projects-section-container .funded-project .description {
+    font-size: 1rem;
+    font-weight: 400;
+}
+main .funded-projects-section-container .funded-project .year {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #555555;
+}
+main .funded-projects-section-container .funded-project .funding-agency {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #295FAF;
+    margin-right: 1rem;
+}
+main .funded-projects-section-container .funded-project .other-details {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+@media screen and (max-width: 994px) {
+    main .funded-projects-section-container {
+        width: 100%;
+    }
+    main .funded-projects-section-container .funded-project {
+        width: 90%;
+    }
+}
