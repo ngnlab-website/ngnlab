@@ -6,11 +6,11 @@ readMoreBtn.addEventListener("click", ()=> {
 
     if (dots.style.display === "none") {
         dots.style.display = "inline";
-        btnText.innerHTML = "Read more"; 
+        btnText.innerHTML = "Read more &#8594;"; 
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less"; 
+        btnText.innerHTML = "Read less &#8594;"; 
         moreText.style.display = "inline";
     }
 })

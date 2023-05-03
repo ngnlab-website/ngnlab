@@ -87,7 +87,7 @@ main .about-section ol li{
     list-style-type: square;
     color: #891515;
     font-weight: 600;
-    margin: 1rem auto;
+    margin: 1rem;
 }
 @media screen and (max-width: 994px) {
     main .about-section {

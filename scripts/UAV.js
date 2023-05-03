@@ -29,7 +29,8 @@ const students = [
         mail: "ssenthiv@andrew.cmu.edu",
         batch: "2018-2022",
         currentPosition: "Security Research Intern",
-        year: "alumni"
+        year: "alumni",
+        position: "Masters at CMU"
     },
     {
         img: "./assets/img/people/abhishek.jpg",
@@ -123,9 +124,10 @@ const students = [
         twitter: "#",
         linkedin: "https://www.linkedin.com/in/praveen-kumar-selvam",
         mail: "praveen.Selvam@dlr.de",
-        batch: "2019-2021",
+        batch: "2020-2021",
         currentPosition: "Research Assistant-PG",
-        year: "visiting-scholar"
+        year: "visiting-scholar",
+        position: "Researcher at German Aerospace Center (DLR) "
     }
 ]
 let fys=0
@@ -140,7 +142,20 @@ students.forEach(student => {
         face1Div.classList.add("face1")
         let face1Content = document.createElement("div");
         face1Content.classList.add("content")
-        face1Content.innerHTML = `
+        if(student.position){
+            face1Content.innerHTML = `
+                                    <img src="${student.img}" alt="${student.name}" />
+                                    <div class="content-details">
+                                        <h3>${student.name}</h3>
+                                        <h4>${student.position}</h4>
+                                        <a class="h3-mail" href="mailto:${student.mail}">${student.mail}</a>
+                                        <a href="${student.linkedin}" class="linkedin-img" target="_blank">Linkedin</a>
+                                    </div>
+        `
+        }
+        else
+        {
+            face1Content.innerHTML = `
                                     <img src="${student.img}" alt="${student.name}" />
                                     <div class="content-details">
                                         <h3>${student.name}</h3>
@@ -148,6 +163,7 @@ students.forEach(student => {
                                         <a href="${student.linkedin}" class="linkedin-img" target="_blank">Linkedin</a>
                                     </div>
         `
+        }
         face1Div.appendChild(face1Content)
         let socialMedia = document.createElement("div")
         socialMedia.classList.add("social-media")

@@ -8,18 +8,6 @@ const studentsContainer = document.querySelector(".students")
 const visitorsContainer = document.querySelector(".visiting-scholars")
 const students = [
     {
-        img: "./assets/img/people/sreenithi.jpg",
-        name: "Sreenithi Ramesh",
-        currentPosition: "Research Assistant-PG",
-        domain: "AV",
-        facebook: "#",
-        twitter: "#",
-        linkedin: "https://www.linkedin.com/in/sreenithi-r-14b48b1b1",
-        mail: "snithi2112@gmail.com",
-        batch: "2022-2023",
-        year: "present"
-    },
-    {
         img: "./assets/img/people/Mubeena.jpg",
         name: "Mubeena Begum",
         domain: "AV",
@@ -29,6 +17,18 @@ const students = [
         mail: "iminbitsw786@gmail.com",
         batch: "2019-2023",
         currentPosition: "PhD Research Scholar",
+        year: "present"
+    },
+    {
+        img: "./assets/img/people/sreenithi.jpg",
+        name: "Sreenithi Ramesh",
+        currentPosition: "Research Assistant-PG",
+        domain: "AV",
+        facebook: "#",
+        twitter: "#",
+        linkedin: "https://www.linkedin.com/in/sreenithi-r-14b48b1b1",
+        mail: "snithi2112@gmail.com",
+        batch: "2022-2023",
         year: "present"
     },
     {

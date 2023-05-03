@@ -1,7 +1,7 @@
 main .people-section-container {
     font-size: 1.5rem;
     text-align: justify;
-    width: 65%;
+    width: 75%;
     margin: auto;
     margin-top: 180px;
 }
@@ -163,8 +163,11 @@ main .people-section-container .director .details .about{
 }
 main .people-section-container .details .about a {
     color: #333333;
+    text-decoration: none;
+    font-size: 0.7rem;
+}
+main .people-section-container .details .about a:hover {
     text-decoration: underline;
-    font-size: 0.6rem;
 }
 main .people-section-container .director .details .footer {
     display: grid;

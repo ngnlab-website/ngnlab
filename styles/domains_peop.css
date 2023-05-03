@@ -1,7 +1,7 @@
 main .people-section-container {
     font-size: 1.3rem;
     text-align: justify;
-    width: 85%;
+    width: 100%;
     margin: auto;
     margin-top: 0px;
 }
@@ -231,11 +231,13 @@ main .people-section-container .students .undergrad-text{
     bottom: 0;
     font-size: 0.6em;
     color: #F3F3F3;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     text-align: center;
 }
-.student-member-card .face.face1 .content h3{
+.student-member-card .face.face1 .content h3,
+.student-member-card .face.face1 .content h4{
     /* margin: 10px 0 0; */
+    margin: 0.05rem 0;
     padding: 0;
     bottom: 0;
     text-align: center;
