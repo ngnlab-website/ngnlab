@@ -41,7 +41,8 @@ const students = [
         mail: "sugeerthiguru@gmail.com",
         batch: "2020-2022",
         currentPosition: "Research Assistant-PG",
-        year: "alumni"
+        year: "alumni",
+        position: "Software Developer at CITI"
     },
     {
         img: "./assets/img/people/thilaksurya.png",
@@ -93,7 +94,20 @@ students.forEach(student => {
         face1Div.classList.add("face1")
         let face1Content = document.createElement("div");
         face1Content.classList.add("content")
-        face1Content.innerHTML = `
+        if(student.position){
+            face1Content.innerHTML = `
+                                    <img src="${student.img}" alt="${student.name}" />
+                                    <div class="content-details">
+                                        <h3>${student.name}</h3>
+                                        <h4>${student.position}</h4>
+                                        <a class="h3-mail" href="mailto:${student.mail}">${student.mail}</a>
+                                        <a href="${student.linkedin}" class="linkedin-img" target="_blank">Linkedin</a>
+                                    </div>
+        `
+        }
+        else
+        {
+            face1Content.innerHTML = `
                                     <img src="${student.img}" alt="${student.name}" />
                                     <div class="content-details">
                                         <h3>${student.name}</h3>
@@ -101,6 +115,7 @@ students.forEach(student => {
                                         <a href="${student.linkedin}" class="linkedin-img" target="_blank">Linkedin</a>
                                     </div>
         `
+        }
         face1Div.appendChild(face1Content)
         let socialMedia = document.createElement("div")
         socialMedia.classList.add("social-media")

@@ -142,7 +142,7 @@ main .people-section-container .phd {
 .student-member-card{
     position: relative;
     padding: unset;
-    margin: auto;
+    margin: auto 0;
 }
 .student-member-card .face{
     width: 100%;
@@ -222,6 +222,12 @@ main .people-section-container .phd {
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
 }
+.student-member-card .face.face1 .content .content-details .linkedin-img {
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-decoration: underline;
+}
+
 .student-member-card .face.face1 .content h3{
     /* margin: 10px 0 0; */
     padding: 0;

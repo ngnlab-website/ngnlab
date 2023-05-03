@@ -144,7 +144,7 @@ main .people-section-container .visiting-scholars {
 .student-member-card{
     position: relative;
     padding: unset;
-    margin: auto;
+    margin: auto 0;
 }
 .student-member-card .face{
     width: 100%;
