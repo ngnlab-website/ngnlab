@@ -70,45 +70,45 @@ const students = [
 {
     img: "./assets/img/people/ramkumar.jpeg",
     name: "Dr. J. Ramkumar ",
-    domain: "",
+    domain: "Broadband Wireless Networks",
     facebook: "#",
     twitter: "#",
     linkedin: "https://www.linkedin.com/in/dr-ramkumar-jayaraman-33724925/",
     mail: "ram.kumar537@gmail.com",
-    batch: "",
-    currentPosition: "",
+    batch: "2012-2018",
+    currentPosition: "SRM assistant professor",
     year: "alumni",
-    position: ""
+    position: "Research Scholar"
 },
 {
     img: "./assets/img/people/sheeba.jpeg",
     name: "Dr. B. Sheeba ",
-    domain: "",
+    domain: "Lte - Advanced Security",
     facebook: "#",
     twitter: "#",
     linkedin: "https://www.linkedin.com/in/dr-sheeba-b-mary-24377469/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BJInPN5JdSwacW%2Bin0NZlnA%3D%3D",
-    mail: "",
-    batch: "",
-    currentPosition: "",
+    mail: "sheebasinto@gmail.com",
+    batch: "2013-2026",
+    currentPosition: "Lenovo",
     year: "alumni",
-    position: ""
+    position: "Research Scholar"
 },
 {
     img: "./assets/img/people/Rajakumar.jpeg",
     name: "Dr. Rajakumar Arul",
-    domain: "",
+    domain: "Wireless Security",
     facebook: "#",
     twitter: "#",
     linkedin: "https://www.linkedin.com/in/rajakumararul/",
-    mail: "",
-    batch: "",
-    currentPosition: "",
+    mail: "rajakumar.arul@vit.ac.in",
+    batch: "2013-2020",
+    currentPosition: "Assistant professor at VIT",
     year: "alumni",
-    position: ""
+    position: "Research Scholar"
 },
 {
     img: "./assets/img/people/saiganesh.jpg",
-    name: "Sai Ganesh Senthivel",
+    name: "Sai Ganesh S",
     domain: "UAV, Blockchain",
     facebook: "#",
     twitter: "#",
@@ -117,7 +117,7 @@ const students = [
     batch: "2018-2022",
     currentPosition: "Security Research Intern",
     year: "alumni",
-    position: "Carnegie Mellon University"
+    position: "CMU USA"
 },
 ]
 let fys=0
