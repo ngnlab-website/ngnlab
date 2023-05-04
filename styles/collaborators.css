@@ -40,8 +40,8 @@ main .collaborators-container .collaborator .image {
     align-items: center;
 }
 main .collaborators-container .collaborator img {
-    width: 18em;
-    height: 12em;
+    width: 14em;
+    height: 9em;
     object-fit: cover;
 }
 main .collaborators-container .collaborator .collaborators-name {
@@ -53,7 +53,7 @@ main .collaborators-container .collaborator .collaborators-name {
 main .collaborators-container .collaborator .collaborators-name ul li {
     list-style-type: square;
     padding: 0.2rem 0;
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-align: left;
 }
 @media screen and (max-width: 994px) {
