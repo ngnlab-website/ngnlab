@@ -33,7 +33,7 @@ main .about-section p {
     padding: 0.5rem 0;
 }
 main .about-section .read-more-btn {
-    margin: 1rem auto;
+    margin: 0.5rem auto;
     display: flex;
     justify-content: flex-end;
 }
@@ -358,6 +358,20 @@ main .contact-section-container .heading {
     font-size: 1.8rem;
 }
 
+main .news {
+    width: 65%;
+    margin: 4rem auto;
+    margin-top: 0rem;
+}
+
+main .news .heading {
+    width: 100%;
+    color: #891515;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
 main .contact-section-container .contact-section {
     display: grid;
     grid-template-columns: 60% 40%;
@@ -404,6 +418,120 @@ main .contact-section-container .contact-section .address a {
 }
 main .contact-section-container .contact-section .address a:hover {
     text-decoration: underline;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .img-slider {
+      position: relative;
+      height: 275px;
+      margin: 0 auto;
+  }
+  .img-slider .slider-container {
+      position: absolute;
+      display: flex;
+      width: 200%;
+      top: 0;
+      left: 0;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+      animation: slider 10s infinite;
+  }
+  .img-slider .slider-container .slide {
+      position: relative;
+      width: 33.33333333%;
+      height: 100%;
+      float: left;
+      overflow: hidden;
+      object-fit: cover;
+      scroll-snap-align: start;
+  }
+  @keyframes slider {
+      0%, 25%, 100%{left: 0}
+      
+      30%, 55%{left: -50%}
+      
+      60%, 85%{left: -100%}
+  }
+  
+.news .people-section-cont .arrow {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: flex-end;
+}
+.news .people-section-cont .arrow img {
+    width: 17px;
+    height: 17px;
+}
+
+.news .people-section-cont{
+    font-size: 1rem;
+    text-align: justify;
+    width: 100%;
+    margin: auto;
+     
+}
+
+.news .people-section-container .director .details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: auto;
+}
+.news .people-section-cont .director .details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: auto;
+}
+.news .people-section-container .director .details .name{
+     font-size: 1rem;
+    font-weight: bold;
+}
+.news .people-section-cont .director .details .name{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.news .people-section-container .director .details .role{
+    font-size: 0.7rem;
+}
+.news .people-section-cont .director .details .role{
+    font-size: 0.7rem;
+}
+.news .people-section-container .director .details .about{
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #333333;
+}
+.news .people-section-cont .director .details .about{
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #333333;
+}
+
+.news .people-section-cont .director .photo {
+    width: 100%;
+    vertical-align: middle;
+}
+.news .people-section-container .director .photo img {
+    width: 100%;
+    object-fit: cover;
+    height: 70%;
+    align-items: center;
+    vertical-align: middle;
+}
+.news .people-section-cont .director .photo img {
+    width: 10em;
+    object-fit: cover;
+    height: 10em;
+    object-position: center center;
+    border-radius: 16px;
 }
 
 @media screen and (max-width:1000px) {
