@@ -424,41 +424,47 @@ main .contact-section-container .contact-section .address a:hover {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
   
-  .img-slider {
-      position: relative;
-      height: 275px;
-      margin: 0 auto;
-  }
-  .img-slider .slider-container {
-      position: absolute;
-      display: flex;
-      width: 200%;
-      top: 0;
-      left: 0;
-      overflow-x: auto;
-      scroll-snap-type: x mandatory;
-      scroll-behavior: smooth;
-      animation: slider 10s infinite;
-  }
-  .img-slider .slider-container .slide {
-      position: relative;
-      width: 33.33333333%;
-      height: 100%;
-      float: left;
-      overflow: hidden;
-      object-fit: cover;
-      scroll-snap-align: start;
-  }
-  @keyframes slider {
-      0%, 25%, 100%{left: 0}
-      
-      30%, 55%{left: -50%}
-      
-      60%, 85%{left: -100%}
-  }
-  
+.img-slider {
+    position: relative;
+    height: 300px;
+    margin: 0 auto;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.img-slider::-webkit-scrollbar {
+    display: none;
+}
+.img-slider .slider-container {
+    position: absolute;
+    display: flex;
+    width: 200%;
+    top: 0;
+    left: 0;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    animation: slider 10s infinite;
+}
+.img-slider .slider-container .slide {
+    position: relative;
+    width: 33.33333333%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    object-fit: cover;
+    scroll-snap-align: start;
+}
+@keyframes slider {
+    0%, 25%, 100%{left: 0}
+    
+    30%, 55%{left: -50%}
+    
+    60%, 85%{left: -100%}
+}
+
 .news .people-section-cont .arrow {
     display: flex;
     justify-content: flex-end;
@@ -475,7 +481,6 @@ main .contact-section-container .contact-section .address a:hover {
     text-align: justify;
     width: 100%;
     margin: auto;
-     
 }
 
 .news .people-section-container .director .details {
@@ -554,7 +559,9 @@ main .contact-section-container .contact-section .address a:hover {
     main .contact-section-container .contact-section .map-image iframe {
         height: 400px;
     }
-
+    main .news {
+        width: 95%;
+    }
     main .research-domain-section .images .img1,
     main .research-domain-section .images .img2,
     main .research-domain-section .images .img3,
@@ -581,5 +588,27 @@ main .contact-section-container .contact-section .address a:hover {
     }
     .domain-orig-card .face.face1 .content h3 {
         font-size: 2rem;
+    }
+    .director {
+        flex-direction: column;
+    }
+    .img-slider .even {
+        flex-direction: column;
+    }
+    .img-slider {
+        height: 500px;
+    }
+    .img-slider .slider-container {
+        width: 300%;
+    }
+    .img-slider .slider-container .slide {
+        width: 100%;
+    }
+    @keyframes slider {
+        0%, 25%, 100%{left: 0}
+        
+        30%, 55%{left: -100%}
+        
+        60%, 85%{left: -200%}
     }
 }
