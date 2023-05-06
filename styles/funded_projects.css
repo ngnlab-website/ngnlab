@@ -37,8 +37,8 @@ main .funded-projects-section-container .funded-project .title {
     font-weight: 800;
 }
 main .funded-projects-section-container .funded-project .description {
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 main .funded-projects-section-container .funded-project .year {
     font-size: 1rem;
@@ -46,13 +46,12 @@ main .funded-projects-section-container .funded-project .year {
     color: #555555;
 }
 main .funded-projects-section-container .funded-project .funding-agency {
-    font-size: 1.1rem;
-    font-weight: 800;
     color: #295FAF;
-    margin-right: 1rem;
+    font-weight: 700;
+    font-size: 1rem;
 }
 main .funded-projects-section-container .funded-project .other-details {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 @media screen and (max-width: 994px) {
