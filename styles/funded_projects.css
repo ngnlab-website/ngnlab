@@ -32,10 +32,6 @@ main .funded-projects-section-container .funded-project {
     padding: 2.5rem;
     border-radius: 6px;
 } 
-main .funded-projects-section-container .funded-project .title {
-    font-size: 1.5rem;
-    font-weight: 800;
-}
 main .funded-projects-section-container .funded-project .description {
     font-size: 1.1rem;
     font-weight: 600;
