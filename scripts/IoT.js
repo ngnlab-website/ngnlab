@@ -76,9 +76,9 @@ const students = [
     linkedin: "https://www.linkedin.com/in/dr-ramkumar-jayaraman-33724925/",
     mail: "ram.kumar537@gmail.com",
     batch: "2012-2018",
-    currentPosition: "SRM assistant professor",
+    currentPosition: "Research Scholar",
     year: "alumni",
-    position: "Research Scholar"
+    position: "SRM-Chennai"
 },
 {
     img: "./assets/img/people/sheeba.jpeg",
@@ -88,10 +88,10 @@ const students = [
     twitter: "#",
     linkedin: "https://www.linkedin.com/in/dr-sheeba-b-mary-24377469/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BJInPN5JdSwacW%2Bin0NZlnA%3D%3D",
     mail: "sheebasinto@gmail.com",
-    batch: "2013-2026",
-    currentPosition: "Lenovo",
+    batch: "2013-2016",
+    currentPosition: "Research Scholar",
     year: "alumni",
-    position: "Research Scholar"
+    position: "Lenovo-Germany"
 },
 {
     img: "./assets/img/people/Rajakumar.jpeg",
@@ -102,9 +102,9 @@ const students = [
     linkedin: "https://www.linkedin.com/in/rajakumararul/",
     mail: "rajakumar.arul@vit.ac.in",
     batch: "2013-2020",
-    currentPosition: "Assistant professor at VIT",
+    currentPosition: "Research Scholar",
     year: "alumni",
-    position: "Research Scholar"
+    position: "VIT-Chennai"
 },
 {
     img: "./assets/img/people/saiganesh.jpg",
@@ -117,7 +117,7 @@ const students = [
     batch: "2018-2022",
     currentPosition: "Security Research Intern",
     year: "alumni",
-    position: "CMU USA"
+    position: "Masters @ CMU USA"
 },
 ]
 let fys=0

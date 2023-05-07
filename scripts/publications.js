@@ -1,4 +1,4 @@
-var yearArray = ["2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016","2015"];
+var yearArray = ["2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016"];
 var overAllDomains = ["Healthcare", "UAV", "AV", "Blockchain", "Networks"]
 const yearContainer = document.querySelector(".year-container")
 let activeYear = "2023"
@@ -48,6 +48,30 @@ const publications = [
             author: "Gunasekaran Raja, Selvam Essaky,  Aishwarya Ganapathisubramaniyan, Yashvandh Baskar",
             conference: "IEEE Transactions on Industrial Informatics, doi: 10.1109/TII.2022.3226529.",
             doi: "https://ieeexplore.ieee.org/abstract/document/9969936",
+            year: "2022",
+            domain: ["Networks"]
+        },
+    {
+            title: "Cybertwin-driven Federated Learning based Personalized Service Provision for 6G-V2X",
+            author: "Sahaya Beni Prathiba, Gunasekaran Raja, Sudha Anbalagan, Sugeerthi Gurumoorthy, Neeraj Kumar",
+            conference: "IEEE Transactions on Vehicular Technology, vol. 71, no. 5, pp. 4632-4641.",
+            doi: "https://ieeexplore.ieee.org/abstract/document/9645064",
+            year: "2022",
+            domain: ["Networks"]
+        },
+    {
+            title: "Intelligent Drones Trajectory Generation for Mapping Weed Infested Regions over 6G networks",
+            author: "Gunasekaran Raja, Nisha Deborah Philips, Ramesh Krishnan Ramasamy, Kapal Dev,  Neeraj Kumar",
+            conference: "IEEE Transactions on Intelligent Transportation Systems, doi: 10.1109/TITS.2022.3228599.",
+            doi: "https://ieeexplore.ieee.org/abstract/document/9997234",
+            year: "2022",
+            domain: ["Drones"]
+        },
+    {
+            title: "Federated Learning Empowered Computation Offloading and Resource Management in 6G-V2X",
+            author: "Sahaya Beni Prathiba, Gunasekaran Raja, Sudha Anbalagan, Kapal Dev, Sugeerthi Gurumoorthy, Atshaya P. Sankaran",
+            conference: "IEEE Transactions on Network Science and Engineering, vol. 9, no. 5, pp. 3234–3243.",
+            doi: "https://ieeexplore.ieee.org/abstract/document/9511234",
             year: "2022",
             domain: ["Networks"]
         },
@@ -117,6 +141,14 @@ const publications = [
             domain: ["AV"]
         },
     {
+            title: "SOSChain: Self Optimizing StreamChain for Last-Mile 6G UAV-Truck Networks",
+            author: "Sahaya Beni Prathiba, Gunasekaran Raja, Sudha Anbalagan, Renuka Narayanan, K.Bhavani Venkata Karthik",
+            conference: "ACM MobiCom 2021 International Conference on Mobile Computing and Networking– Workshop, New Orleans, USA, doi: 10.1145/3477084.3484952.",
+            doi:"https://dl.acm.org/doi/abs/10.1145/3477084.3484952",
+            year: "2022",
+            domain: ["UAV"]
+        },
+    {
             title: "Nexus of 6G and Blockchain for Authentication of Aerial and IoT Devices",
             author: "Gunasekaran Raja, Sai Ganesh, Balaji Rajaguru Rajakumar, Sugeerthi Gurumoorthy, Kapal Dev, Maurizio Magarini",
             conference: "IEEE ICC International Conference on Communications, Seoul, South Korea, doi: 10.1109/ICC45855.2022.9838856.",
@@ -150,14 +182,6 @@ const publications = [
             domain: ["Networks"]
         },
     {
-            title: "Cybertwin-driven Federated Learning based Personalized Service Provision for 6G-V2X",
-            author: "Sahaya Beni Prathiba, Gunasekaran Raja, Sudha Anbalagan, Sugeerthi Gurumoorthy, Neeraj Kumar",
-            conference: "IEEE Transactions on Vehicular Technology, vol. 71, no. 5, pp. 4632-4641.",
-            doi: "https://ieeexplore.ieee.org/abstract/document/9645064",
-            year: "2021",
-            domain: ["Networks"]
-        },
-    {
             title: "A Hybrid Deep Reinforcement learning for Autonomous Vehicles Smart-Platooning",
             author: "Sahaya Beni Prathiba, Gunasekaran Raja, Kapal Dev, Neeraj Kumar, Mohsen  Guizani",
             conference: "IEEE Transactions on Vehicular Technology, vol. 70, no. 12, pp. 13340-13350.",
@@ -166,12 +190,12 @@ const publications = [
             domain: ["AV"]
         },
     {
-            title: "Federated Learning Empowered Computation Offloading and Resource Management in 6G-V2X",
-            author: "Sahaya Beni Prathiba, Gunasekaran Raja, Sudha Anbalagan, Kapal Dev, Sugeerthi Gurumoorthy, Atshaya P. Sankaran",
-            conference: "IEEE Transactions on Network Science and Engineering, vol. 9, no. 5, pp. 3234–3243.",
-            doi: "https://ieeexplore.ieee.org/abstract/document/9511234",
+            title: "SP-CIDS: Secure and Private Collaborative IDS for VANETs",
+            author: "Gunasekaran Raja, Sudha Anbalagan, Geetha Vijayaraghavan, Sudhakar Theerthagiri, Saran Vaitangarukav Suryanarayan, Xin-Wen Wu",
+            conference: "IEEE Transactions on Intelligent Transportation Systems, vol. 22, no. 7, pp. 4385-4393.",
+            doi: "https://ieeexplore.ieee.org/abstract/document/9269477",
             year: "2021",
-            domain: ["Networks"]
+            domain: ["AV"]
         },
     {
             title: "Efficient and Secured Swarm Pattern Multi-UAV Communication",
@@ -196,14 +220,6 @@ const publications = [
             doi: "https://ieeexplore.ieee.org/abstract/document/9390178",
             year: "2021",
             domain: ["Networks"]
-        },
-    {
-            title: "SOSChain: Self Optimizing StreamChain for Last-Mile 6G UAV-Truck Networks",
-            author: "Sahaya Beni Prathiba, Gunasekaran Raja, Sudha Anbalagan, Renuka Narayanan, K.Bhavani Venkata Karthik",
-            conference: "ACM MobiCom 2021 International Conference on Mobile Computing and Networking– Workshop, New Orleans, USA, doi: 10.1145/3477084.3484952.",
-            doi:"https://dl.acm.org/doi/abs/10.1145/3477084.3484952",
-            year: "2021",
-            domain: ["UAV"]
         },
     {
             title: "AV-CPS: Audio Visual Cognitive Processing System for Critical Intervention in Autonomous Vehicles",
@@ -244,14 +260,6 @@ const publications = [
             doi: "https://link.springer.com/article/10.1007/s12652-020-02689-2",
             year: "2021",
             domain: ["Networks"]
-        },
-    {
-            title: "SP-CIDS: Secure and Private Collaborative IDS for VANETs",
-            author: "Gunasekaran Raja, Sudha Anbalagan, Geetha Vijayaraghavan, Sudhakar Theerthagiri, Saran Vaitangarukav Suryanarayan, Xin-Wen Wu",
-            conference: "IEEE Transactions on Intelligent Transportation Systems, vol. 22, no. 7, pp. 4385-4393.",
-            doi: "https://ieeexplore.ieee.org/abstract/document/9269477",
-            year: "2020",
-            domain: ["AV"]
         },
       {
             title: "Intelligent Reward based Data Offloading in Next Generation Vehicular Networks",
@@ -322,14 +330,6 @@ const publications = [
             author: "Gunasekaran Raja, Priyanka Dhanasekaran, Sudha Anbalagan, Aishwarya Ganapathisubramaniyan, Ali Kashif Bashir",
             conference: "IEEE INFOCOM 2020, International Conference on Computer Communications -Workshop Toronto, Canada, Jul. 6-9, pp. 1093-1098.",
             doi: "https://ieeexplore.ieee.org/abstract/document/9162888",
-            year: "2020",
-            domain: ["Networks"]
-        },
-    {
-            title: "SDN-Assisted Efficient LTE-WiFi Aggregation in Next Generation IoT Networks",
-            author: "Sudha Anbalagan, Dhananjay Kumar, Mercy Faustina J, Gunasekaran Raja, Waleed Ejaz and Ali Kashif Bashir",
-            conference: "Elsevier Future Generation Computer Systems, doi: 10.1016/j.future.2017.12.013.",
-            doi: "https://www.sciencedirect.com/science/article/abs/pii/S0167739X17310907",
             year: "2020",
             domain: ["Networks"]
         },
@@ -526,6 +526,14 @@ const publications = [
             domain: ["Networks"]
         },
     {
+            title: "SDN-Assisted Efficient LTE-WiFi Aggregation in Next Generation IoT Networks",
+            author: "Sudha Anbalagan, Dhananjay Kumar, Mercy Faustina J, Gunasekaran Raja, Waleed Ejaz and Ali Kashif Bashir",
+            conference: "Elsevier Future Generation Computer Systems, doi: 10.1016/j.future.2017.12.013.",
+            doi: "https://www.sciencedirect.com/science/article/abs/pii/S0167739X17310907",
+            year: "2017",
+            domain: ["Networks"]
+        },
+    {
             title: "SDN-Assisted Learning Approach for Data Offloading in 5G HetNets",
             author: "Sudha Anbalagan, Dhananjay Kumar, Dipak Ghosal, Gunasekaran Raja and Muthuvalliammai V",
             conference: "Springer Mobile Networks and Applications, vol. 22, no. 4, pp. 771–782.",
@@ -542,6 +550,14 @@ const publications = [
             domain: ["Networks"]
         },
     {
+            title: "Fast Authentication Using User Path Prediction in Wireless Broadband Access",
+            author: "Rajakumar Arul, Gunasekaran Raja, Kottilingam Kottursamy, Ramkumar Jayaraman, Sheeba Backia Mary Baskaran, Sathya Pavithra and Swaminathan Venkatraman",
+             conference: "Proc. International Conference on Innovations in Engineering and Technology (ICET), Singapore, pp. 57–65.",
+             doi: "http://dx.doi.org/10.1109/UIC-ATC.2017.8397620",
+             year: "2016",
+             domain: ["Networks"]
+       },
+    {
             title: "Network Coding with Buffer Scheme in Multicast for Broadband Wireless Network",
             author: "Gunasekaran Raja and Ramkumar Jayaraman and Rajakumar Arul and Kottilingam Kottursamy",
             conference: "International Journal of Electronics and Communication Engineering, vol. 10, no. 6, pp. 898–903.",
@@ -553,14 +569,6 @@ const publications = [
            title: "Sensor-to-Vehicle Communication by using VANETs for Urban Parking",
              author: "Arunkumar Arulappan, Gunasekaran Raja, Sheeba Backia Mary Baskaran, RajaKumar Arul, Kottilingam Kottursamy, Ramkumar Jayaraman and Adhimuga Sivasakthi",
             conference: "Proc. International Conference on Innovations in Engineering and Technology (ICET), Singapore, pp. 19–27.",
-            doi: "http://dx.doi.org/10.1109/UIC-ATC.2017.8397620",
-            year: "2016",
-            domain: ["Networks"]
-    },
-    {
-           title: "Fast Authentication Using User Path Prediction in Wireless Broadband Access",
-           author: "Rajakumar Arul, Gunasekaran Raja, Kottilingam Kottursamy, Ramkumar Jayaraman, Sheeba Backia Mary Baskaran, Sathya Pavithra and Swaminathan Venkatraman",
-            conference: "Proc. International Conference on Innovations in Engineering and Technology (ICET), Singapore, pp. 57–65.",
             doi: "http://dx.doi.org/10.1109/UIC-ATC.2017.8397620",
             year: "2016",
             domain: ["Networks"]
@@ -626,7 +634,15 @@ const publications = [
             author: "Gunasekaran Raja, Sheeba Backia Mary Bhaskaran, Dipak Ghosal and Jayashree padmanabhan",
             conference: "Springer Mobile Networks and Applications, vol. 21, issue 3, pp. 523–538.",
             doi: "https://link.springer.com/article/10.1007/s11036-015-0642-z",
-            year: "2015",
+            year: "2016",
+            domain: ["Networks"]
+        },
+    {
+            title: "Cooperative Cross Layer Topology for Concurrent Transmission Scheduling Scheme in Broadband Wireless Networks",
+            author: "Gunasekaran Raja and Ramkumar J",
+            conference: "International Journal of Computer, Electrical, Automation, Control and Information Engineering, vol. 10, no. 6, pp. 876–885, 2016.",
+            doi: "https://publications.waset.org/10004514/cooperative-cross-layer-topology-for-concurrent-transmission-scheduling-scheme-in-broadband-wireless-networks",
+            year: "2016",
             domain: ["Networks"]
         },
     {
@@ -646,10 +662,18 @@ const publications = [
             domain: ["Networks"]
     },
     {
-           title: "An Efficient Handover Prediction & Initiation Algorithm for Vehicular Communication In 4G Wireless Networks",
-             author: "Gunasekaran R, Rajakumar A, Raja K, Ramkumar J, Sudhir S.K. Kumar, and Umapathy S",
-            conference: "Lecture Notes on Information Theory (LNIT), vol. 2, no. 2, pp. 121–128.",
-            doi:"http://dx.doi.org/10.12720/lnit.2.2.121-128",
+        title: "An Efficient Handover Prediction & Initiation Algorithm for Vehicular Communication In 4G Wireless Networks",
+          author: "Gunasekaran R, Rajakumar A, Raja K, Ramkumar J, Sudhir S.K. Kumar, and Umapathy S",
+         conference: "Lecture Notes on Information Theory (LNIT), vol. 2, no. 2, pp. 121–128.",
+         doi: "http://dx.doi.org/10.12720/lnit.2.2.121-128",
+         year: "2014",
+         domain: ["Networks"]
+ },
+    {
+           title: "An Enhanced Coordinated Distributed Scheduling Mechanism for IEEE 802.16 Wireless Mesh Networks",
+             author: "Chitraa K, Gunasekaran R and Rajakumar A",
+            conference: "International Journal of Advanced Computational Engineering and Networking, vol. 2, issue 7, pp. 97–103.",
+            doi: "https://www.iraj.in/journal/journal_file/journal_pdf/3-68-140421904097-103.pdf",
             year: "2014",
             domain: ["Networks"]
     },

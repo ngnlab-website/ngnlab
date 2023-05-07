@@ -45,6 +45,19 @@ const students = [
         position: "CITI - CSIPL"
     },
     {
+        img: "./assets/img/people/Sahaya Beni Prathiba.jpg",
+        name: "Dr. Sahaya Beni Prathiba B",
+        domain: "AV",
+        facebook: "#",
+        twitter: "#",
+        linkedin: "https://www.linkedin.com/in/sahaya-beni-prathiba-b5032790/",
+        mail: "sahayabeni@ieee.org",
+        batch: "2017-2022",
+        currentPosition: "Research Scholar",
+        year: "alumni",
+        position: "VIT - Chennai"
+    },
+    {
         img: "./assets/img/people/thilaksurya.png",
         name: "Thilaksurya B",
         domain: "AV",
