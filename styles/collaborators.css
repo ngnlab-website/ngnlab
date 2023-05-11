@@ -57,6 +57,9 @@ main .collaborators-container .collaborator .collaborators-name ul li {
     text-align: left;
 }
 @media screen and (max-width: 994px) {
+    main .collaborators-container {
+        width: 95%;
+    }
     main .collaborators-container .collaborator {
         flex-direction: column;
         gap: 1rem;
@@ -66,5 +69,8 @@ main .collaborators-container .collaborator .collaborators-name ul li {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    main .collaborators-container .collaborator .collaborators-name {
+        align-items: unset;
     }
 }
