@@ -71,7 +71,7 @@
     text-decoration: none;
 }
 .working-groups-section-container .people-section-cont .arrow i{
-    filter: invert(28%) sepia(63%) saturate(1097%) hue-rotate(187deg) brightness(102%) contrast(92%);
+    /* fill: invert(28%) sepia(63%) saturate(1097%) hue-rotate(187deg) brightness(102%) contrast(92%); */
     font-weight: bold;
 }
 .working-groups-section-container .people-section-cont .arrow img {
