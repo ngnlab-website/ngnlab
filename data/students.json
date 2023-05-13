@@ -109,6 +109,48 @@
             "position": "VIT-Chennai"
         },
         {
+            "img": "./assets/img/people/alkodan.jpg",
+            "name": "Dr. Alkondan C",
+            "domainWorked": "Networks",
+            "domain": "5G networks",
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "https://www.linkedin.com/in/alkondan-4203/",
+            "mail": "balaji.alk007@gmail.com",
+            "batch": "2013-2017",
+            "currentPosition": "Research Scholar",
+            "year": "alumni",
+            "position": "Microsoft"
+        },
+        {
+            "img": "./assets/img/people/kottilingam.jpg",
+            "name": "Dr. Kottilingam Kottursamy",
+            "domainWorked": "Networks",
+            "domain": "Wireless Networks",
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "https://www.linkedin.com/in/kotturlingam?originalSubdomain=in/",
+            "mail": "lingamkosamy@gmail.com",
+            "batch": "2012-2017",
+            "currentPosition": "Research Scholar",
+            "year": "alumni",
+            "position": "SRM-Chennai"
+        },
+        {
+            "img": "./assets/img/people/anil.jpg",
+            "name": "Dr. Anil Thomas",
+            "domainWorked": "Networks",
+            "domain": "Wireless Networks",
+            "facebook": "#",
+            "twitter": "#",
+            "linkedin": "https://www.linkedin.com/in/anil-thomas/",
+            "mail": "theanilthomas@gmail.com",
+            "batch": "2016-2020",
+            "currentPosition": "Research Scholar",
+            "year": "alumni",
+            "position": "Mount Zion - Kerala"
+        },
+        {
             "img": "./assets/img/people/saiganesh.jpg",
             "name": "Sai Ganesh S",
             "domainWorked": "Networks",
