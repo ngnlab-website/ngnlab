@@ -211,7 +211,7 @@ main .people-section-container .students .undergrad-text{
 .student-member-card .face.face1 .content .content-details a {
     text-decoration: none;
     color: white;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     text-align: center;
 }
 .student-member-card .face.face1 .content .content-details a s{
@@ -229,7 +229,7 @@ main .people-section-container .students .undergrad-text{
     opacity: 1;
     width: 100%;
     bottom: 0;
-    font-size: 0.5em;
+    font-size: 0.65rem;
     color: #F3F3F3;
     padding: 0.5rem 1rem;
     text-align: center;
