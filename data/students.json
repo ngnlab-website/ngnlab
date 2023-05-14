@@ -151,20 +151,6 @@
             "position": "Mount Zion - Kerala"
         },
         {
-            "img": "./assets/img/people/saiganesh.jpg",
-            "name": "Sai Ganesh S",
-            "domainWorked": "Networks",
-            "domain": "UAV, Blockchain",
-            "facebook": "#",
-            "twitter": "#",
-            "linkedin": "https://www.linkedin.com/in/sai-ganesh-senthivel/",
-            "mail": "ssenthiv@andrew.cmu.edu",
-            "batch": "2018-2022",
-            "currentPosition": "Security Research Intern",
-            "year": "alumni",
-            "position": "Masters @ CMU USA"
-        },
-        {
             "img": "./assets/img/people/Mubeena.jpg",
             "name": "Mubeena Begum",
             "domainWorked": "AV",
