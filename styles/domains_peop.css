@@ -143,19 +143,19 @@ main .people-section-container .visiting-scholars {
 }
 .student-member-card{
     position: relative;
-    padding: unset;
+    /* padding: unset; */
     margin: auto 0;
 }
 .student-member-card .face{
-    width: 100%;
+    width: 75%;
     transition: 0.5s;
 }
 main .people-section-container .students .undergrad-text{
     display: none;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
-    margin: 1rem auto;
+    font-size: 1rem;
+    /* margin: 1rem auto; */
 }
 .student-member-card .face.face1{
     position: relative;
@@ -164,15 +164,15 @@ main .people-section-container .students .undergrad-text{
     justify-content: center;
     align-items: center;
     z-index: 1;
-    border-radius: 6px;
-    width: 100%;
-    height: 100%;
+    /* border-radius: 6px; */
+    width: 75%;
+    height: 75%;
 }
 
 .student-member-card:hover .face.face1{
     /* background: #011F4B; */
     transform: translateY(0);
-    border-radius: 6px;
+    /* border-radius: 6px; */
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
 }
@@ -191,11 +191,11 @@ main .people-section-container .students .undergrad-text{
 }
 
 .student-member-card .face.face1 .content img{
-    width: 100%;
+    width: 75%;
     margin: auto;
     object-fit: cover;
     object-position: center top;
-    height: 250px;
+    height: 187px;
     opacity: 0.9;
     border-radius: 10px;
     background-color: #222;
@@ -211,13 +211,13 @@ main .people-section-container .students .undergrad-text{
 .student-member-card .face.face1 .content .content-details a {
     text-decoration: none;
     color: white;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     text-align: center;
 }
 .student-member-card .face.face1 .content .content-details a s{
     text-decoration: none;
     color: rgb(0, 200, 255);
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     text-align: center;
 }
 .student-member-card .face.face1 .content .content-details {
@@ -229,14 +229,14 @@ main .people-section-container .students .undergrad-text{
     opacity: 1;
     width: 100%;
     bottom: 0;
-    font-size: 0.6em;
+    font-size: 0.65rem;
     color: #F3F3F3;
     padding: 0.5rem 1rem;
     text-align: center;
 }
 .student-member-card .face.face1 .content h3,
 .student-member-card .face.face1 .content h4{
-    /* margin: 10px 0 0; */
+    margin: 10px 0 0;
     margin: 0.05rem 0;
     padding: 0;
     bottom: 0;
@@ -248,7 +248,7 @@ main .people-section-container .students .undergrad-text{
 
 .student-member-card .face.face1 .content .content-details .linkedin-img {
     font-weight: 700;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     text-decoration: underline;
 }
 
@@ -275,7 +275,7 @@ main .people-section-container .students .undergrad-text{
     display: flex;
     border-bottom-right-radius: 6px;
     border-bottom-left-radius: 6px;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     font-weight: 800;
 }
 
@@ -284,14 +284,14 @@ main .people-section-container .students .undergrad-text{
     padding: 0;
     color: #000000;
     font-weight: 800;
-    font-size: 1.8rem;
+    font-size: 1rem;
 }
 .student-member-card .face.face2 .content .role{
     margin: 0 3px;
     padding: 0;
     color: #555555;
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -301,7 +301,7 @@ main .people-section-container .students .undergrad-text{
     padding: 0;
     color: #000000;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .student-member-card .face.face2 .content .social-media{
     display: flex;
@@ -314,7 +314,7 @@ main .people-section-container .students .undergrad-text{
     text-decoration: none;
     font-weight: 500;
     color: #808080;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     padding: 0 6px;
 }
 
@@ -338,7 +338,7 @@ main .people-section-container .students .undergrad-text{
     margin: 0 0px;
 }
 .student-member-card .face.face2 .content .social-media .role {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     margin: 0 0px;
     color: #891515;
 }

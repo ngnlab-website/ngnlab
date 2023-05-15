@@ -12,7 +12,7 @@ main .funded-projects-section-container {
     margin: auto;
     margin-top: 151px;
     font-weight: 400;
-    color: #333333;
+    color: #333333; 
 }
 main .funded-projects-section-container .heading {
     font-size: 1.8rem;
@@ -28,7 +28,7 @@ main .funded-projects-section-container .funded-project {
     padding: 2rem 0;
     box-shadow: 5px 30px 30px rgba(0, 0, 0, 0.1);
     width: 75%;
-    margin: 0 auto 2rem auto;
+    margin: 0 auto 0.5rem auto;
     padding: 2.5rem;
     border-radius: 6px;
 } 

@@ -5,12 +5,12 @@ href.addEventListener("click", () => {
 })
 const projects = [
     {
-        title: "Wearable Digital Health Care Device for Real-time Monitoring of Cardio-toxicity, 2023-2026",
-        fundingAgency: "SERB – State University Research Excellence (SURE), Department of Science and Technology"
-    },
-    {
         title: "FlyCamXR - Autonomous Camera Drones for Interactive Experiences in Extended Reality Telepresence Applications with Enhanced Naturalness, 2022-2024",
         fundingAgency: "DAAD Indo-German Research Collaboration - University of Applied Sciences Jena, Germany"
+    },
+    {
+        title: "Wearable Digital Health Care Device for Real-time Monitoring of Cardio-toxicity, 2023-2026",
+        fundingAgency: "SERB – State University Research Excellence (SURE), Department of Science and Technology"
     },
     {
         title: "An Intelligent Blockchain-Hyperledger Framework for a Secure and Automated Supply Chain Management (SCM) for Small and Medium Size Enterprises, 2020-2023",
