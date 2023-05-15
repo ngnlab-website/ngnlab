@@ -10,7 +10,7 @@ import students from "../data/students.json" assert { type: "json" }
 let fys=0
 let asc=0
 let vsc=0
-students.students.forEach(student => {
+students.forEach(student => {
     if(student.domainWorked === "UAV") {
         if(student.year !== "others") {
             let parentDiv = document.createElement("div");

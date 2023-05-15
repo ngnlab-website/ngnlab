@@ -1,6 +1,6 @@
 const peopleSectionContainer = document.querySelector(".people-section-container")
 import newsRoom from "../data/newsRoom.json" assert { type: "json" }
-newsRoom.newsRoom.forEach((news, index) => {
+newsRoom.forEach((news, index) => {
     if(index%2 !== 0) {
         let newsContent =   `
                             <div class="people-section-cont">

@@ -11,7 +11,7 @@ function renderPublication() {
         publicationsContainer.removeChild(child);
         child = publicationsContainer.lastElementChild;
     }
-    publications.publications.forEach(publication => {
+    publications.forEach(publication => {
         let minValue = document.querySelector(".input-min").value
         let maxValue = document.querySelector(".input-max").value
         let selectedDomain = document.querySelector(".mySelect").value
