@@ -147,7 +147,7 @@ main .people-section-container .visiting-scholars {
     margin: auto 0;
 }
 .student-member-card .face{
-    width: 75%;
+    width: 100%;
     transition: 0.5s;
 }
 main .people-section-container .students .undergrad-text{
@@ -165,8 +165,8 @@ main .people-section-container .students .undergrad-text{
     align-items: center;
     z-index: 1;
     /* border-radius: 6px; */
-    width: 75%;
-    height: 75%;
+    width: 100%;
+    height: 100%;
 }
 
 .student-member-card:hover .face.face1{
@@ -191,11 +191,11 @@ main .people-section-container .students .undergrad-text{
 }
 
 .student-member-card .face.face1 .content img{
-    width: 75%;
+    width: 100%;
     margin: auto;
     object-fit: cover;
     object-position: center top;
-    height: 187px;
+    height: 250px;
     opacity: 0.9;
     border-radius: 10px;
     background-color: #222;

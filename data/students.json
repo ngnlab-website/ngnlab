@@ -65,20 +65,6 @@
         "year": "present"
     },
     {
-        "img": "./assets/img/people/ramkumar.jpeg",
-        "name": "Dr. J. Ramkumar ",
-        "domainWorked": "Networks",
-        "domain": "Broadband Wireless Networks",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/dr-ramkumar-jayaraman-33724925/",
-        "mail": "ram.kumar537@gmail.com",
-        "batch": "2012-2018",
-        "currentPosition": "Research Scholar",
-        "year": "alumni",
-        "position": "SRM-Chennai"
-    },
-    {
         "img": "./assets/img/people/sheeba.jpeg",
         "name": "Dr. B. Sheeba ",
         "domainWorked": "Networks",
@@ -91,34 +77,6 @@
         "currentPosition": "Research Scholar",
         "year": "alumni",
         "position": "Lenovo-Germany"
-    },
-    {
-        "img": "./assets/img/people/Rajakumar.jpeg",
-        "name": "Dr. Rajakumar Arul",
-        "domainWorked": "Networks",
-        "domain": "Wireless Security",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/rajakumararul/",
-        "mail": "rajakumar.arul@vit.ac.in",
-        "batch": "2013-2020",
-        "currentPosition": "Research Scholar",
-        "year": "alumni",
-        "position": "VIT-Chennai"
-    },
-    {
-        "img": "./assets/img/people/alkodan.jpg",
-        "name": "Dr. Alkondan C",
-        "domainWorked": "Networks",
-        "domain": "5G networks",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/alkondan-4203/",
-        "mail": "balaji.alk007@gmail.com",
-        "batch": "2013-2017",
-        "currentPosition": "Research Scholar",
-        "year": "alumni",
-        "position": "Microsoft"
     },
     {
         "img": "./assets/img/people/kottilingam.jpg",
@@ -135,6 +93,35 @@
         "position": "SRM-Chennai"
     },
     {
+        "img": "./assets/img/people/ramkumar.jpeg",
+        "name": "Dr. J. Ramkumar ",
+        "domainWorked": "Networks",
+        "domain": "Broadband Wireless Networks",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/dr-ramkumar-jayaraman-33724925/",
+        "mail": "ram.kumar537@gmail.com",
+        "batch": "2012-2018",
+        "currentPosition": "Research Scholar",
+        "year": "alumni",
+        "position": "SRM-Chennai"
+    },
+    
+    {
+        "img": "./assets/img/people/Rajakumar.jpeg",
+        "name": "Dr. Rajakumar Arul",
+        "domainWorked": "Networks",
+        "domain": "Wireless Security",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/rajakumararul/",
+        "mail": "rajakumar.arul@vit.ac.in",
+        "batch": "2013-2020",
+        "currentPosition": "Research Scholar",
+        "year": "alumni",
+        "position": "VIT-Chennai"
+    },
+    {
         "img": "./assets/img/people/anil.jpg",
         "name": "Dr. Anil Thomas",
         "domainWorked": "Networks",
@@ -147,6 +134,20 @@
         "currentPosition": "Research Scholar",
         "year": "alumni",
         "position": "Mount Zion - Kerala"
+    },
+    {
+        "img": "./assets/img/people/alkodan.jpg",
+        "name": "Alkondan C",
+        "domainWorked": "Networks",
+        "domain": "5G networks",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/alkondan-4203/",
+        "mail": "balaji.alk007@gmail.com",
+        "batch": "2013-2017",
+        "currentPosition": "Research Intern",
+        "year": "alumni",
+        "position": "Microsoft"
     },
     {
         "img": "./assets/img/people/Mubeena.jpg",
