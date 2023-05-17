@@ -1,5 +1,15 @@
 let href = document.querySelector(".header-right")
-import publications from "../data/publications.json" assert { type: "json" }
+// import publications from "../data/publications.json" assert { type: "json" }
+let publications = []
+fetch("../data/publications.json")
+    .then(response => response.json())
+    .then(data => {
+        publications=data
+        renderPublication()
+    })
+    .catch(error => {
+        console.error("Error fetching JSON:", error);
+    });
 href.addEventListener("click", () => {
     window.location.href = "../index.html"
 })
@@ -195,17 +205,20 @@ function displayTalks() {
     })
 }
 displayTalks()
-let currentYear = publications.publications[0].year
 console.log(publications.publications[0].year);
-let count = 0
-const publicationsContainer = document.querySelector(".publications-container")
+// let publications = []
+let activeYear = "2023"
+// import publications from "../data/publications.json" assert { type: "json" }
 function renderPublication() {
+    let currentYear = null
+    let count = 0
+    const publicationsContainer = document.querySelector(".publications-container")
     let var2023 = document.createElement("h1")
     var2023.innerHTML =    `<div class="year-change">
                             <h5>2023</h5>
                         </div>`
     publicationsContainer.appendChild(var2023)
-    publications.publications.forEach(publication => {
+    publications.forEach(publication => {
         if(publication.selective === true) {
             count++;
             if(publication.year !== currentYear) {
@@ -251,6 +264,4 @@ function renderPublication() {
             publicationsContainer.appendChild(parentDiv)
         }
     })
-    console.log(count)
 }
-renderPublication()

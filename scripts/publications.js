@@ -8,7 +8,6 @@ fetch("../data/publications.json")
     .then(response => response.json())
     .then(data => {
         publications=data
-        console.log(data);
         renderPublication()
     })
     .catch(error => {
@@ -22,7 +21,6 @@ function renderPublication() {
         publicationsContainer.removeChild(child);
         child = publicationsContainer.lastElementChild;
     }
-    console.log(publications)
     publications.forEach(publication => {
         let minValue = document.querySelector(".input-min").value
         let maxValue = document.querySelector(".input-max").value
