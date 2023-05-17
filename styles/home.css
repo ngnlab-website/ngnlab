@@ -360,7 +360,7 @@ main .contact-section-container .heading {
 
 main .news {
     width: 65%;
-    margin: 4rem auto;
+    margin: 1.5rem auto;
     margin-top: 0rem;
 }
 
@@ -610,5 +610,43 @@ main .contact-section-container .contact-section .address a:hover {
         30%, 55%{left: -100%}
         
         60%, 85%{left: -200%}
+    }
+}
+.news-container {
+    padding-bottom: 1.5rem;
+}
+.mySlides {
+    display:none;
+}
+.mySlides img {
+    border-radius: 16px;
+}
+.overlay-img {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    width: 80%;
+    /* height: 75%; */
+    top: 0;
+    color: #F3F3F3;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    border-radius: 6px;
+}
+.overlay-img .name, .overlay-img .about {
+    margin: 0.5rem 0;
+}
+.overlay-img .name {
+    font-size: 1.2rem;
+}
+.overlay-img .about {
+    font-size: 1rem;
+}
+@media screen and (max-width: 994px){
+    .news-container {
+        width: 90%;
     }
 }
