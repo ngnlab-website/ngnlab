@@ -1,8 +1,19 @@
 var yearArray = ["2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016"];
 var overAllDomains = ["Healthcare", "UAV", "AV", "Blockchain", "Networks"]
 const yearContainer = document.querySelector(".year-container")
+let publications = []
 let activeYear = "2023"
-import publications from "../data/publications.json" assert { type: "json" }
+// import publications from "../data/publications.json" assert { type: "json" }
+fetch("../data/publications.json")
+    .then(response => response.json())
+    .then(data => {
+        publications=data
+        console.log(data);
+        renderPublication()
+    })
+    .catch(error => {
+        console.error("Error fetching JSON:", error);
+    });
 let currentYear = null
 const publicationsContainer = document.querySelector(".publications-container")
 function renderPublication() {
@@ -11,6 +22,7 @@ function renderPublication() {
         publicationsContainer.removeChild(child);
         child = publicationsContainer.lastElementChild;
     }
+    console.log(publications)
     publications.forEach(publication => {
         let minValue = document.querySelector(".input-min").value
         let maxValue = document.querySelector(".input-max").value
@@ -113,4 +125,3 @@ let domains = document.querySelector(".mySelect")
 domains.addEventListener("change", () => {
     renderPublication()
 })
-renderPublication()
