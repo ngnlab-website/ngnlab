@@ -176,6 +176,20 @@
         "year": "present"
     },
     {
+        "img": "./assets/img/people/Sahaya Beni Prathiba.jpg",
+        "name": "Dr. Sahaya Beni Prathiba B",
+        "domainWorked": "AV",
+        "domain": "AV",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/sahaya-beni-prathiba-b5032790/",
+        "mail": "sahayabeni@ieee.org",
+        "batch": "2017-2022",
+        "currentPosition": "Research Scholar",
+        "year": "alumni",
+        "position": "VIT - Chennai"
+    },
+    {
         "img": "./assets/img/people/sugeerthi.png",
         "name": "Sugeerthi Gurumoorthy",
         "domainWorked": "AV",
@@ -190,18 +204,18 @@
         "position": "CITI - CSIPL"
     },
     {
-        "img": "./assets/img/people/Sahaya Beni Prathiba.jpg",
-        "name": "Dr. Sahaya Beni Prathiba B",
+        "img": "./assets/img/people/nisha.png",
+        "name": "Nisha Deborah Philips",
         "domainWorked": "AV",
-        "domain": "AV",
+        "domain": "AV | UAV",
         "facebook": "#",
         "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/sahaya-beni-prathiba-b5032790/",
-        "mail": "sahayabeni@ieee.org",
-        "batch": "2017-2022",
-        "currentPosition": "Research Scholar",
+        "linkedin": "https://www.linkedin.com/in/nisha-deborah-philips/",
+        "mail": "nxp220012@utdallas.edu",
+        "batch": "2019-2021",
+        "currentPosition": "Research Intern",
         "year": "alumni",
-        "position": "VIT - Chennai"
+        "position": "MSCS student at University of Texas"
     },
     {
         "img": "./assets/img/people/thilaksurya.png",
