@@ -13,44 +13,30 @@ fetch("../data/publications.json")
 href.addEventListener("click", () => {
     window.location.href = "../index.html"
 })
-const projects = [
-    {
-        title: "FlyCamXR - Autonomous Camera Drones for Interactive Experiences in Extended Reality Telepresence Applications with Enhanced Naturalness, 2022-2024",
-        fundingAgency: "DAAD Indo-German Research Collaboration - University of Applied Sciences Jena, Germany"
-    },
-    {
-        title: "Wearable Digital Health Care Device for Real-time Monitoring of Cardio-toxicity, 2023-2026",
-        fundingAgency: "SERB – State University Research Excellence (SURE), Department of Science and Technology"
-    },
-    {
-        title: "An Intelligent Blockchain-Hyperledger Framework for a Secure and Automated Supply Chain Management (SCM) for Small and Medium Size Enterprises, 2020-2023",
-        fundingAgency: "Erasmus+ International Credit Mobility (KA107), Trinity College Dublin, Ireland"
-    },
-    {
-        title: "Efficient Handoff and Authentication Schemes for QoS Enhancement in IEEE 802.16m for 4G Networks, 2012-2015",
-        fundingAgency: "DST-SERB under FAST TRACK Research Grant"
-    },
-    {
-        title: "Efficient Resource Utilization by solving Scheduling Problems in WiMAX networks, 2009-2010",
-        fundingAgency: "Research Support Scheme for Innovative Project by Young Faculty Members"
-    },
-]
+let fundedProjects = []
+fetch("../data/fundedProjects.json")
+    .then(response => response.json())
+    .then(data => {
+        fundedProjects=data
+        displayProjects()
+    })
+    .catch(error => {
+        console.error("Error fetching JSON:", error);
+    });
 let projectsContainer = document.querySelector(".projects-container")
 function displayProjects() {
-    projects.forEach(project => {
+    fundedProjects.forEach(project => {
         let singleProject = document.createElement("div")
         singleProject.classList.add("single-project")
         singleProject.innerHTML =   `
                                         <div class="project-title">${project.title}</div>
                                         <div class="funding-agency">
-                                            <div class="funding-text">Funding Agency</div>
-                                            <div class="funding">${project.fundingAgency}</div>
+                                            <div class="funding-text">${project.agency}</div>
                                         </div>
                                     `
         projectsContainer.appendChild(singleProject)
     })
 }
-displayProjects()
 const awards = [
     {
         title: "IEEE Publication Award, 2021",
@@ -213,11 +199,6 @@ function renderPublication() {
     let currentYear = null
     let count = 0
     const publicationsContainer = document.querySelector(".publications-container")
-    let var2023 = document.createElement("h1")
-    var2023.innerHTML =    `<div class="year-change">
-                            <h5>2023</h5>
-                        </div>`
-    publicationsContainer.appendChild(var2023)
     publications.forEach(publication => {
         if(publication.selective === true) {
             count++;
