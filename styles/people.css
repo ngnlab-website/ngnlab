@@ -3,16 +3,24 @@ main .people-section-container {
     text-align: justify;
     width: 75%;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 140px;
 }
-
+.people-section-container .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 1.8rem;
+    color: #891515;
+    margin: 0 auto 0 auto;
+}
 .faculty{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 2rem;
     /* grid-gap: 25; */
     background-color: #FEFEFE;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 .faculty .directors {
