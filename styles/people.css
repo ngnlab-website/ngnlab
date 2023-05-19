@@ -17,7 +17,7 @@ main .people-section-container {
 .faculty{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 2rem;
+    grid-column-gap: 2rem; 
     /* grid-gap: 25; */
     background-color: #FEFEFE;
     padding: 1rem 0;

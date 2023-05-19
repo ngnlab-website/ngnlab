@@ -136,6 +136,20 @@
         "position": "Mount Zion - Kerala"
     },
     {
+        "img": "./assets/img/people/sudharshan_rajagopalan.jpeg",
+        "name": "Sudharsan Rajagopalan",
+        "domainWorked": "Networks",
+        "domain": "5G networks",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/sudharsan-rajagopalan-34314733",
+        "mail": "sudhar86@hotmail.com",
+        "batch": "2007-2008",
+        "currentPosition": "Research Person",
+        "year": "alumni",
+        "position": "Arrcus Inc, San Jose CA"
+    },
+    {
         "img": "./assets/img/people/alkodan.jpg",
         "name": "Alkondan C",
         "domainWorked": "Networks",
@@ -148,6 +162,20 @@
         "currentPosition": "Research Intern",
         "year": "alumni",
         "position": "Microsoft"
+    },
+    {
+        "img": "./assets/img/people/priyanka.jpg",
+        "name": "Priyanka D",
+        "domainWorked": "Networks",
+        "domain": "Networks",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/priya-d-2222b2263",
+        "mail": "riyankasekard2511@gmail.com",
+        "batch": "2019-2020",
+        "currentPosition": "Research Intern",
+        "year": "alumni",
+        "position": "Ph.D in Anna University"
     },
     {
         "img": "./assets/img/people/Mubeena.jpg",
