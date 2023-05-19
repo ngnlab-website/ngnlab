@@ -1,22 +1,27 @@
 [
     {
-        "title": "FlyCamXR - Autonomous Camera Drones for Interactive Experiences in Extended Reality Telepresence Applications with Enhanced Naturalness",
-        "agency": "DAAD Indo-German Research Collaboration - University of Applied Sciences Jena, Germany, 2022-2024"
+        "title": "Wearable Digital Health Care Device for Real-time Monitoring of Cardio-toxicity",
+        "agency": "SERB - State University Research Excellence (SURE), Department of Science and Technology, 2023-2026",
+        "year": "2021"
     },
     {
-        "title": "Wearable Digital Health Care Device for Real-time Monitoring of Cardio-toxicity",
-        "agency": "SERB – State University Research Excellence (SURE), Department of Science and Technology, 2023-2026"
+        "title": "FlyCamXR - Autonomous Camera Drones for Interactive Experiences in Extended Reality Telepresence Applications with Enhanced Naturalness",
+        "agency": "DAAD Indo-German Research Collaboration - University of Applied Sciences Jena, Germany, 2022-2024",
+        "year": "2022"
     },
     {
         "title": "An Intelligent Blockchain-Hyperledger Framework for a Secure and Automated Supply Chain Management (SCM) for Small and Medium Size Enterprises",
-        "agency": "Erasmus+ International Credit Mobility (KA107), Trinity College Dublin, Ireland, 2020-2023"
+        "agency": "Erasmus+ International Credit Mobility (KA107), Trinity College Dublin, Ireland, 2020-2023",
+        "year": "2020"
     },
     {
         "title": "Efficient Handoff and Authentication Schemes for QoS Enhancement in IEEE 802.16m for 4G Networks",
-        "agency": "DST-SERB under FAST TRACK Research Grant, 2012-2015"
+        "agency": "DST-SERB under FAST TRACK Research Grant, 2012-2015",
+        "year": "2012"
     },
     {
         "title": "Efficient Resource Utilization by solving Scheduling Problems in WiMAX networks",
-        "agency": "Research Support Scheme for Innovative Project by Young Faculty Members, 2009-2010"
+        "agency": "Research Support Scheme for Innovative Project by Young Faculty Members, 2009-2010",
+        "year": "2009"
     }
 ]

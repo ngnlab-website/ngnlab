@@ -58,6 +58,7 @@ main .people-section-container .faculty .details {
 }
 main .people-section-container .faculty .details .name{
     font-size: 1.3rem;
+    text-align: left;
 }
 main .people-section-container .faculty .details .role{
     font-size: 1rem;
