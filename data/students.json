@@ -246,6 +246,20 @@
         "position": "MSCS student at University of Texas"
     },
     {
+        "img": "./assets/img/people/aishwarya.jpg",
+        "name": "G. Aishwarya",
+        "domainWorked": "AV",
+        "domain": "AV | UAV",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/aishwaryaganapathi?trk=contact-info",
+        "mail": "aishwarya97.mit@gmail.com",
+        "batch": "2017-2018",
+        "currentPosition": "Research Intern",
+        "year": "alumni",
+        "position": "Citicorp, Chennai"
+    },
+    {
         "img": "./assets/img/people/thilaksurya.png",
         "name": "Thilaksurya B",
         "domainWorked": "AV",
