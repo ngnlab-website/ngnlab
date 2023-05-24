@@ -94,7 +94,7 @@ main {
 	min-height: calc(100vh - 65px);
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1220px) {
 	body {
 		overflow-x: hidden;
 	}
