@@ -260,6 +260,34 @@
         "position": "Citicorp, Chennai"
     },
     {
+        "img": "./assets/img/people/geetha.jpg",
+        "name": "A V Geetha",
+        "domainWorked": "AV",
+        "domain": "AV",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://in.linkedin.com/in/geetha-vijayaraghavan-63238a24/",
+        "mail": "geethu15@gmail.com",
+        "batch": "2019-2020",
+        "currentPosition": "Research Intern",
+        "year": "alumni",
+        "position": "Ph.D in Anna University"
+    },
+    {
+        "img": "./assets/img/people/shanmuga.jpeg",
+        "name": "Shanmugasundaram Alagumuthu",
+        "domainWorked": "AV",
+        "domain": "AV",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/shanmugasundaram-alagumuthu-7b7b22a/",
+        "mail": "shanmu2004@gmail.com",
+        "batch": "2006-2008",
+        "currentPosition": "Research Intern",
+        "year": "alumni",
+        "position": "Turo Inc, San Francisco"
+    },
+    {
         "img": "./assets/img/people/thilaksurya.png",
         "name": "Thilaksurya B",
         "domainWorked": "AV",
