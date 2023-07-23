@@ -24,7 +24,7 @@ let vsc=0
 let ic=0
 function renderPeople () {
     students.forEach(student => {
-        if(student.domain === "MIoT") {
+        if(student.domain === "MIoT" || student.domainWorked === "MIoT") {
             if(student.year !== "others") {
                 let parentDiv = document.createElement("div");
                 parentDiv.classList.add("student-member-card")
