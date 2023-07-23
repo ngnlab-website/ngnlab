@@ -452,29 +452,15 @@
         "currentPosition": "PhD Student",
         "year": "present"
     },
-    
     {
-        "img": "./assets/img/people/smruthilaya.jpeg",
-        "name": "Smruthilaya Hariharan",
+        "img": "./assets/img/people/christjoe.jpeg",
+        "name": "Christ Joe",
         "domainWorked": "",
         "domain": "MIoT",
         "facebook": "#",
         "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/smruthilaya-hariharan-22b565226",
-        "mail": "smruthilaya30@gmail.com",
-        "batch": "2023-",
-        "currentPosition": "UG Research Intern",
-        "year": "present"
-    },
-    {
-        "img": "./assets/img/people/monish.jpeg",
-        "name": "Monish R",
-        "domainWorked": "",
-        "domain": "MIoT",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/monish-ramesha-6570b322b",
-        "mail": "monishramesha@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/christ-joe-2a3b69218",
+        "mail": "christjoeofficial@gmail.com",
         "batch": "2023-",
         "currentPosition": "UG Research Intern",
         "year": "present"
@@ -493,14 +479,27 @@
         "year": "present"
     },
     {
-        "img": "./assets/img/people/christjoe.jpeg",
-        "name": "Christ Joe",
+        "img": "./assets/img/people/monish.jpeg",
+        "name": "Monish R",
         "domainWorked": "",
         "domain": "MIoT",
         "facebook": "#",
         "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/christ-joe-2a3b69218",
-        "mail": "christjoeofficial@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/monish-ramesha-6570b322b",
+        "mail": "monishramesha@gmail.com",
+        "batch": "2023-",
+        "currentPosition": "UG Research Intern",
+        "year": "present"
+    },
+    {
+        "img": "./assets/img/people/smruthilaya.jpeg",
+        "name": "Smruthilaya Hariharan",
+        "domainWorked": "",
+        "domain": "MIoT",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/smruthilaya-hariharan-22b565226",
+        "mail": "smruthilaya30@gmail.com",
         "batch": "2023-",
         "currentPosition": "UG Research Intern",
         "year": "present"
