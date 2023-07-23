@@ -10,7 +10,8 @@
         "mail": "balakumarr2001@gmail.com",
         "batch": "2019-2023",
         "currentPosition": "UG Research Assistant",
-        "year": "present"
+        "year": "alumni",
+        "position":"Tekion Corp"
     },
     {
         "img": "./assets/img/people/bhargavi.jpg",
@@ -23,7 +24,8 @@
         "mail": "krishnabhargavi2002@gmail.com",
         "batch": "2019-2023",
         "currentPosition": "UG Research Assistant",
-        "year": "present"
+        "year": "alumni",
+        "position":"Bank of America"
     },
     {
         "img": "./assets/img/people/Arun.jpg",
@@ -436,6 +438,58 @@
         "currentPosition": "Research Assistant-PG",
         "year": "visiting-scholar",
         "position": "German Aerospace Center (DLR) "
+    },
+    {
+        "img": "./assets/img/people/smruthilaya.jpeg",
+        "name": "Smruthilaya Hariharan",
+        "domainWorked": "",
+        "domain": "Healthcare",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/smruthilaya-hariharan-22b565226",
+        "mail": "smruthilaya30@gmail.com",
+        "batch": "2023-",
+        "currentPosition": "UG Research Intern",
+        "year": "present"
+    },
+    {
+        "img": "./assets/img/people/monish.jpeg",
+        "name": "Monish R",
+        "domainWorked": "",
+        "domain": "Healthcare",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/monish-ramesha-6570b322b",
+        "mail": "monishramesha@gmail.com",
+        "batch": "2023-",
+        "currentPosition": "UG Research Intern",
+        "year": "present"
+    },
+    {
+        "img": "./assets/img/people/faheema.jpeg",
+        "name": "Faheema Gullnaas",
+        "domainWorked": "",
+        "domain": "Healthcare",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/faheema-gullnaas-0a0a28284",
+        "mail": "ahfgulnaz@gmail.com",
+        "batch": "2023-",
+        "currentPosition": "UG Research Intern",
+        "year": "present"
+    },
+    {
+        "img": "./assets/img/people/christjoe.jpeg",
+        "name": "Christ Joe",
+        "domainWorked": "",
+        "domain": "Healthcare",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/christ-joe-2a3b69218",
+        "mail": "mchristjoe@gmail.com",
+        "batch": "2023-",
+        "currentPosition": "UG Research Intern",
+        "year": "present"
     },
     {
         "img": "./assets/img/people/sudarsan.jpg",
