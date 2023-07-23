@@ -441,6 +441,20 @@
     },
     {
         "img": "./assets/img/people/smruthilaya.jpeg",
+        "name": "Thamodharan Arumugam",
+        "domainWorked": "",
+        "domain": "MIoT, Deep Learning",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/smruthilaya-hariharan-22b565226",
+        "mail": "smruthilaya30@gmail.com",
+        "batch": "2021-",
+        "currentPosition": "PhD Student",
+        "year": "present"
+    },
+    
+    {
+        "img": "./assets/img/people/smruthilaya.jpeg",
         "name": "Smruthilaya Hariharan",
         "domainWorked": "",
         "domain": "MIoT",
@@ -486,7 +500,7 @@
         "facebook": "#",
         "twitter": "#",
         "linkedin": "https://www.linkedin.com/in/christ-joe-2a3b69218",
-        "mail": "mchristjoe@gmail.com",
+        "mail": "christjoeofficial@gmail.com",
         "batch": "2023-",
         "currentPosition": "UG Research Intern",
         "year": "present"
