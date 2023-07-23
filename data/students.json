@@ -36,7 +36,8 @@
         "mail": "arunkumar@mitindia.edu",
         "batch": "2016-2022",
         "currentPosition": "PhD Research Scholar",
-        "year": "present"
+        "year": "alumni",
+        "position":"Assistant Professor, VIT Vellore"
     },
     {
         "img": "./assets/img/people/sivasakthi.jpg",
@@ -49,7 +50,8 @@
         "mail": "adhimuga20@gmail.com",
         "batch": "2016-2023",
         "currentPosition": "PhD Research Scholar",
-        "year": "present"
+        "year": "alumni",
+        "position":"Assistant Professor, Sathyabama University"
     },
     {
         "img": "./assets/img/people/sheeba.jpeg",
@@ -285,7 +287,8 @@
         "mail": "thilaksurya29@gmail.com",
         "batch": "2019-2023",
         "currentPosition": "Research Assistant-UG",
-        "year": "present"
+        "year": "alumni",
+        "position":"Wells Fargo"
     },
     {
         "img": "./assets/img/people/srividya.jpg",
@@ -298,19 +301,20 @@
         "mail": "psrivi1234@gmail.com",
         "batch": "2019-2023",
         "currentPosition": "Research Assistant-UG",
-        "year": "present"
+        "year": "alumni",
+        "position":"University of Maryland, College Park"
     },
     {
         "img": "./assets/img/people/selvam.jpg",
         "name": "Selvam Essaky",
         "domainWorked": "UAV",
-        "domain": "UAV, AV, Blockchain",
+        "domain": "Robotics Perception and Navigation, Reinforcement Learning",
         "facebook": "#",
         "twitter": "#",
         "linkedin": "https://www.linkedin.com/in/sai-ganesh-senthivel/",
         "mail": "selvame.mit@@gmail.com",
         "batch": "2021-present",
-        "currentPosition": "PhD Research Scholar",
+        "currentPosition": "Ph.D. Student",
         "year": "present"
     },
     {
@@ -338,7 +342,8 @@
         "mail": "abhimano789@gmail.com",
         "batch": "2019-2023",
         "currentPosition": "Research Assistant-UG",
-        "year": "present"
+        "year": "alumni",
+        "position": "University of Southern California"
     },
     {
         "img": "./assets/img/people/deepak.png",
