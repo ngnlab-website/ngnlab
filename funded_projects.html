@@ -27,7 +27,14 @@
                     <li><a href="./faculty.html">Faculty</a></li>
                     <li><a href="./research_groups.html">Research Groups</a></li>
                     <li><a href="./publications.html">Publications</a></li>
-		    <li><a href="./funded_projects.html" class="active">Research</a></li>
+                    <div class="dropdown">
+                        <li class="dropbtn active">Research<i class="fa fa-caret-down"></i>
+                        </li>
+                        <div class="dropdown-content">
+                            <a href="#funded-projects">Funded Projects</a>
+                            <a href="#patents">Patents</a>
+                        </div>
+                    </div> 
                     <li><a href="./collaborators.html">Collaborators</a></li>
                     
                     <li><a href="./newsroom.html">Newsroom</a></li>
@@ -42,16 +49,20 @@
         </div>
 	</header>
 	<main>
-        <div class="funded-projects-section-container">
-            <div class="heading">Funded Projects (Selective)</div>
+        <section id="funded-projects">
+            <div class="funded-projects-section-container">
+                <div class="heading">Funded Projects (Selective)</div>
             </div>
-        <div class="funded-projects-section-container2">    
-        <div class="heading">Patents</div>
-        <div class="funded-project">
-            <div class="description">A System and Method for Traffic Management of Unmanned Aerial Vehicles based on Blockchain Technology</div>
-            <div class="funding-agency">Status: Published</div>
+        </section>
+        <section id="patents">
+            <div class="funded-projects-section-container2">    
+                <div class="heading">Patents</div>
+                <div class="funded-project">
+                    <div class="description">A System and Method for Traffic Management of Unmanned Aerial Vehicles based on Blockchain Technology</div>
+                    <div class="funding-agency">Status: Published</div>
+                </div>
             </div>
-    </div>
+        </section>
     </main>
     <br>
         <footer id="footer">
