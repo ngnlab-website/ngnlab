@@ -1,6 +1,6 @@
 footer .email, footer .phone-number {
     display: flex;
-    gap: 0.5rem;
+    gap: 0.4rem;
     color: #FFFFFF;
     /* flex-direction: column; */
     justify-content: center;
@@ -37,4 +37,7 @@ footer .social-icons a img {
     width: 25px;
     height: 25px;
     fill: gray;
+}
+footer .comma {
+    margin: 0 -0.25rem;
 }
