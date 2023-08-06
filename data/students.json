@@ -529,5 +529,44 @@
         "batch": "UG: 2019-2023",
         "currentPosition": "Accenture",
         "year": "others"
+    },
+    {
+        "img": "./assets/img/people/Shyamala.jpg",
+        "name": "R B Shyamala",
+        "domain": "",
+        "domainWorked": "Web-Team",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/shyamala2003",
+        "mail": "shyamalamallika@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG Student",
+        "year": "others"
+    },
+    {
+        "img": "./assets/img/people/Shivani.jpg",
+        "name": "Shivani Suresh",
+        "domain": "",
+        "domainWorked": "Web-Team",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/shivani-suresh-2ab644273/",
+        "mail": "shivan.suresh@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG Student",
+        "year": "others"
+    },
+    {
+        "img": "./assets/img/people/Swathy.jpg",
+        "name": "Swathy K S",
+        "domain": "",
+        "domainWorked": "Web-Team",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "linkedin.com/in/swathy-k-s-474341267",
+        "mail": "swathyks78@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG Student",
+        "year": "others"
     }
 ]
