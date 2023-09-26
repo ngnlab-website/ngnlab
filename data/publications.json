@@ -1,4 +1,13 @@
-[
+[    
+     {
+        "title": "Blockchain Assisted Hybrid Intrusion Detection System in Autonomous Vehicles for Industry 5.0",
+        "author": "Sudha Anbalagan, Gunasekaran Raja, Sugeerthi Gurumoorthy, Deepak Suresh R, Kaviyarasu Ayyakannu",
+        "conference": "IEEE Transactions on Consumer Electronics, DOI: 10.1109/TCE.2023.3320282.",
+        "doi": "#",
+        "year": "2023",
+        "domain": ["AV"],
+        "selective": true
+    },
     {
         "title": "IIDS: Intelligent Intrusion Detection System for Sustainable Development in Autonomous Vehicles",
         "author": "Sudha Anbalagan, Gunasekaran Raja, Sugeerthi Gurumoorthy, Deepak Suresh R, Kapal Dev",
