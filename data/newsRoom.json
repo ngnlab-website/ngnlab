@@ -34,5 +34,11 @@
         "title": "NGNs Participate in a Six-Month Work-Based Learning Internship at ERNET India",
         "about": "Four final-year undergraduates from NGNlab, namely Srividya, Nishanthini, Sakthi, and Jagadeesh, have completed a six-month Work-Based Learning Research Internship at Education and Research Network (ERNET), IITM Research Park in Chennai, India. During the internship (November 2022 to April 2023), the students gained valuable insights into Time Sensitive Networking and its implementation on Linux. They also worked on various individual projects covering domains like Blockchain, Natural Language Processing, and Data Analytics. The internship at ERNET India provided the students with an opportunity to apply their theoretical knowledge in a practical setting, preparing them for a successful career ahead.",
         "year": "2023"
+    },
+    {
+        "img": "./assets/img/germany.png",
+        "title": "NGNLab, Ph.D. student attends Research Internship at Ernst-Abbe-Hochschule Jena, Germany",
+        "about": "Selvam Essaky, a Ph.D. student from NGNLab, attends a research internship at Ernst-Abbe-Hochshule Jena, Germany (September 2023 to October 2023) under the DAAD program. The program allowed him to collaborate with researchers from Ernst-Abbe-Hochshule Jena, Germany, share knowledge, and leverage each other's expertise.  This program allowed Selvam to broaden his research horizons and investigate new areas of interest.",
+        "year": "2023"
     }
 ]
