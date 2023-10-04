@@ -148,8 +148,13 @@ let invitedTalks = [
     },
     {
         title: "6G-Assisted UAV-Truck Networks: Towards Efficient Essential Services Delivery Applications",
-        location: "Dept. of Electronic and Electrical Engineering, Trinity College Dublin, Ireland",
+        location: "Department of Electronic and Electrical Engineering, Trinity College Dublin, Ireland",
         date: "February 24, 2023"
+    },
+    {
+        title: "Visiting Researcher:",
+        location: "Department. of Electronic and Electrical Engineering, Trinity College Dublin, Ireland",
+        date: "February 20-24, 2023"
     },
     {
         title: "Convergence of AI and IoT for building Intelligent Society, Rochester Institute of Technology",
