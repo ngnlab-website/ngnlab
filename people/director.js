@@ -137,6 +137,16 @@ function displayPapers() {
 displayPapers()
 let invitedTalks = [
     {
+        title: "Intelligent Autonomous UAV Navigation under Partially Observable Spaces",
+        location: "University of Applied Sciences Jena, Germany",
+        date: "October 4, 2023"
+    },
+    {
+        title: "Visiting Scientist:",
+        location: "Department of Electrical Engineering & Information Technology, University of Applied Sciences Jena, Germany",
+        date: "September 26 to October 02, 2023"
+    },
+    {
         title: "6G-Assisted UAV-Truck Networks: Towards Efficient Essential Services Delivery Applications",
         location: "Dept. of Electronic and Electrical Engineering, Trinity College Dublin, Ireland",
         date: "February 24, 2023"
