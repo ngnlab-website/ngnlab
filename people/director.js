@@ -153,7 +153,7 @@ let invitedTalks = [
     },
     {
         title: "Visiting Researcher:",
-        location: "Department. of Electronic and Electrical Engineering, Trinity College Dublin, Ireland",
+        location: "Department of Electronic and Electrical Engineering, Trinity College Dublin, Ireland",
         date: "February 20-24, 2023"
     },
     {
