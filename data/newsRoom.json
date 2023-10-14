@@ -1,5 +1,11 @@
 [
     {
+        "img": "./assets/img/stanford.jpeg",
+        "title": "NGNLab Principal Investigator is recognized as one of the World’s Top 2% Scientists for 2022",
+        "about": "NGNLab Principal Investigator is recognized as one of the World’s Top 2% Scientists for 2022 by Stanford University, USA, in the field of Information and Communication Technology.",
+        "year": "2023"
+    },
+    {
         "img": "./assets/img/germany.png",
         "title": "NGNLab, Ph.D. student attends Research Internship at Ernst-Abbe-Hochschule Jena, Germany",
         "about": "Selvam Essaky, a Ph.D. student from NGNLab, attends a research internship at Ernst-Abbe-Hochshule Jena, Germany (September 2023 to October 2023) under the DAAD program. The program allowed him to collaborate with researchers from Ernst-Abbe-Hochshule Jena, Germany, share knowledge, and leverage each other's expertise.  This program allowed Selvam to broaden his research horizons and investigate new areas of interest.",
@@ -12,9 +18,9 @@
         "year": "2023"
     },
     {
-        "img": "./assets/img/trinityclgdublin.jpeg",
+        "img": "./assets/img/TCD.jpg",
         "title": "NGNLab Ph.D. Student Attends Exchange Programme at Trinity College Dublin",
-        "about": "Selvam Essaky, a PhD student from NGNLab,  attended an exchange program at Trinity College Dublin in Ireland (November 2022 to April 2023). The program allowed him to collaborate with researchers from Trinity College Dublin, share knowledge, and leverage each other's expertise. While Selvam was at Trinity College Dublin, he participated in diverse academic pursuits and attended workshops related to his field of study. The exchange program allowed Selvam to broaden his research horizons and investigate new areas of interest.",
+        "about": "Selvam Essaky, a PhD student from NGNLab,  attended an exchange program at Trinity College Dublin in Ireland (October 2022 to April 2023). The program allowed him to collaborate with researchers from Trinity College Dublin, share knowledge, and leverage each other's expertise. While Selvam was at Trinity College Dublin, he participated in diverse academic pursuits and attended workshops related to his field of study. The exchange program allowed Selvam to broaden his research horizons and investigate new areas of interest.",
         "year": "2023"
     },
     {
