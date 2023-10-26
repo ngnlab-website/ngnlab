@@ -141,6 +141,11 @@ function displayPapers() {
 displayPapers()
 let invitedTalks = [
     {
+        title: "International External Advisor:",
+        location: "Department of Electrical and  Electronics Engineering, Universiti Teknologi Petronas, Malaysia",
+        date: "October 16-20, 2023"
+    },
+    {
         title: "Intelligent Autonomous UAV Navigation under Partially Observable Spaces",
         location: "University of Applied Sciences Jena, Germany",
         date: "October 4, 2023"
