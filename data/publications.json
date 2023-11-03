@@ -1,5 +1,14 @@
 [  
      {
+        "title": "ZTMP: Zero Touch Management Provisioning Algorithm for the On-boarding of Cloud-native Virtual Network Functions",
+        "author": "Arunkumar Arulappan, Gunasekaran Raja, Ali Kashif Bashir, Aniket Mahanti, Marwan Omar",
+        "conference": "Mobile Networks and Applications, 2023",
+        "doi": "https://link.springer.com/article/10.1007/s11036-023-02260-1",
+        "year": "2023",
+        "domain": ["Networks"],
+        "selective": true
+     },
+     {
         "title": "AI-empowered UAV Trajectory Optimization in 6G Aerial Networks",
         "author": "Gunasekaran Raja, Sivaganesh B, Vishal Ravichandran, Saroja S, Davide Scazzoli, Maurizio Magarini, Kapal Dev",
         "conference": "IEEE GLOBECOM 2023 - Global Communications Conference, Kuala Lumpur, Malaysia, Dec. 4-8, 2023. (Accepted)",
