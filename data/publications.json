@@ -244,15 +244,6 @@
         "selective": true
     },
     {
-        "title": "SOSChain: Self Optimizing StreamChain for Last-Mile 6G UAV-Truck Networks",
-        "author": "Sahaya Beni Prathiba, Gunasekaran Raja, Sudha Anbalagan, Renuka Narayanan, K.Bhavani Venkata Karthik",
-        "conference": "ACM MobiCom 2021 International Conference on Mobile Computing and Networking- Workshop, New Orleans, USA, doi: 10.1145/3477084.3484952.",
-        "doi":"https://dl.acm.org/doi/abs/10.1145/3477084.3484952",
-        "year": "2021",
-        "domain": ["UAV"],
-        "selective": true
-    },
-    {
         "title": "A Hybrid Deep Reinforcement learning for Autonomous Vehicles Smart-Platooning",
         "author": "Sahaya Beni Prathiba, Gunasekaran Raja, Kapal Dev, Neeraj Kumar, Mohsen  Guizani",
         "conference": "IEEE Transactions on Vehicular Technology, vol. 70, no. 12, pp. 13340-13350.",
@@ -340,6 +331,15 @@
         "doi": "https://ieeexplore.ieee.org/abstract/document/9484598",
         "year": "2021",
         "domain": ["Networks"],
+        "selective": true
+    },
+    {
+        "title": "SOSChain: Self Optimizing StreamChain for Last-Mile 6G UAV-Truck Networks",
+        "author": "Sahaya Beni Prathiba, Gunasekaran Raja, Sudha Anbalagan, Renuka Narayanan, K.Bhavani Venkata Karthik",
+        "conference": "ACM MobiCom 2021 International Conference on Mobile Computing and Networking- Workshop, New Orleans, USA, doi: 10.1145/3477084.3484952.",
+        "doi":"https://dl.acm.org/doi/abs/10.1145/3477084.3484952",
+        "year": "2021",
+        "domain": ["UAV"],
         "selective": true
     },
     {
@@ -1081,16 +1081,6 @@
         "domain": ["Networks"],
         "selective": false
     },
-    
-    {
-        "title": "Exploiting On-Demand Differentiated Quality of Service (QoS) for Entities in Infrastructured Wireless Networks with Hybrid Routing",
-        "author": "R. Gunasekaran and V. Rhymend Uthariaraj",
-        "conference": "Proc. National conference on Advanced Computing (NCAC), Chennai, pp. 108-113.",
-        "doi": "https://link.springer.com/article/10.1007/s11390-009-9238-z",
-        "year": "2006",
-        "domain": ["Networks"],
-        "selective": false
-    },
     {
         "title": "Self Organized security system in Mobile Ad Hoc Networks MANET",
         "author": "R. Gunasekaran and T. Ruso",
@@ -1104,6 +1094,15 @@
         "title": "Agent-Based Cluster Routing in Mobile Ad Hoc Networks (MANET)",
         "author": "R. Gunasekaran, K. Prabakaran and S. Kayalvizhi",
         "conference": "Proc. IEEE National Conference on Information Communications and Convergence, Chennai, pp. 12-18.",
+        "doi": "https://link.springer.com/article/10.1007/s11390-009-9238-z",
+        "year": "2006",
+        "domain": ["Networks"],
+        "selective": false
+    },
+    {
+        "title": "Exploiting On-Demand Differentiated Quality of Service (QoS) for Entities in Infrastructured Wireless Networks with Hybrid Routing",
+        "author": "R. Gunasekaran and V. Rhymend Uthariaraj",
+        "conference": "Proc. National conference on Advanced Computing (NCAC), Chennai, pp. 108-113.",
         "doi": "https://link.springer.com/article/10.1007/s11390-009-9238-z",
         "year": "2006",
         "domain": ["Networks"],
