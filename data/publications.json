@@ -1,13 +1,4 @@
-[  
-     {
-        "title": "6G-Assisted UAV-Truck Networks: Toward Efficient Essential Services Delivery",
-        "author": "Gunasekaran Raja, Gayathri Saravanan, Kapal Dev",
-        "conference": "IEEE Internet of Things Journal, doi: 10.1109/JIOT.2023.3244854",
-        "doi": "#",
-        "year": "2023",
-        "domain": ["UAV"],
-        "selective": true
-    },
+[      
      {
         "title": "AI-based Sensor Attack Detection and Classification for Autonomous Vehicles in 6G-V2X Environment",
         "author": "Mubeena Begum, Gunasekaran Raja, Mohsen Guizani",
@@ -60,6 +51,15 @@
         "doi": "https://ieeexplore.ieee.org/document/9863890",
         "year": "2023",
         "domain": ["AV"],
+        "selective": true
+    },
+    {
+        "title": "6G-Assisted UAV-Truck Networks: Toward Efficient Essential Services Delivery",
+        "author": "Gunasekaran Raja, Gayathri Saravanan, Kapal Dev",
+        "conference": "IEEE Communications Standards Magazine, vol. 7, no. 3, pp. 4-9, Sep. 2023",
+        "doi": "#",
+        "year": "2023",
+        "domain": ["UAV"],
         "selective": true
     },
     {
