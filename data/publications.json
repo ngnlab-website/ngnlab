@@ -71,6 +71,15 @@
         "domain": ["AV"],
         "selective": true
     },
+     {
+        "title": "6G-Assisted UAV-Truck Networks: Toward Efficient Essential Services Delivery",
+        "author": "Gunasekaran Raja, Gayathri Saravanan, Kapal Dev",
+        "conference": "IEEE Communications Standards Magazine, vol. 7, no. 3, pp. 4-9.",
+        "doi": "#",
+        "year": "2023",
+        "domain": ["UAV"],
+        "selective": true
+    },
     {
         "title": "DTBV: A Deep Transfer-Based Bone Cancer Diagnosis System Using VGG16 Feature Extraction",
         "author": "G. Suganeshwari, R. Balakumar, Kalimuthu Karuppanan, Sahaya Beni Prathiba, Sudha Anbalagan and Gunasekaran Raja",
