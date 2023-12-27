@@ -7,7 +7,7 @@ footer.innerHTML =
         <a href="tel: +44 22516273"> +91 4422516273</a>
         <div class="social-icons">
             <div class="icon">
-                <a href=""><img src="./assets/img/logos/linkedin.svg" alt=""></a>
+                <a href="https://www.linkedin.com/in/ngnlab-anna-university-544a4b235/"><img src="./assets/img/logos/linkedin.svg" alt=""></a>
             </div>
         </div>
     </div>
