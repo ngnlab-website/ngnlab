@@ -1,4 +1,10 @@
-[
+[    
+    {
+        "img": "./assets/img/Serb.png",
+        "title": "Project Associate Position in NGNLab under SERB project grant",
+        "about": "Under the SERB, DST-Government of India project grant, applications are invited for a Project Associate position in the NGNLab, Dept. of Computer Technology, Anna University, Chennai.<br> <strong>Last Date of Application: 15.01.2024.</strong>",
+        "year": "2024"
+    },
     {
         "img": "./assets/img/klconf.png",
         "title": "NGNLab papers were presented at the IEEE GLOBECOM 2023 conference in Kuala Lumpur, Malaysia",
