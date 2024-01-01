@@ -1,4 +1,12 @@
-[      
+[    {
+        "title": "UGEN: UAV and GAN-aided Ensemble Network for Post-Disaster Survivor Detection through ORAN",
+        "author": "Gunasekaran Raja, Abhishek Manoharan, Harun Siljak",
+        "conference": "IEEE Transactions on Vehicular Technology,  DOI: 10.1109/TVT.2023.3349312.",
+        "doi": "#",
+        "year": "2023",
+        "domain": ["UAV"],
+        "selective": true
+    },  
      {
         "title": "AI-based Sensor Attack Detection and Classification for Autonomous Vehicles in 6G-V2X Environment",
         "author": "Mubeena Begum, Gunasekaran Raja, Mohsen Guizani",
