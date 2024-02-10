@@ -1,8 +1,8 @@
-var yearArray = ["2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016"];
+var yearArray = ["2024","2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016"];
 var overAllDomains = ["Healthcare", "UAV", "AV", "Blockchain", "Networks"]
 const yearContainer = document.querySelector(".year-container")
 let publications = []
-let activeYear = "2023"
+let activeYear = "2024"
 // import publications from "../data/publications.json" assert { type: "json" }
 fetch("../data/publications.json")
     .then(response => response.json())
