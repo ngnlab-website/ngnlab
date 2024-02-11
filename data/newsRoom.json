@@ -1,5 +1,17 @@
 [    
     {
+        "img": "./assets/img/icc.png",
+        "title": "NGNLab paper is accepted for presentation at the IEEE ICC 2024 conference in Denver, USA",
+        "about": "Paper \"Adaptive Model Predictive Control-Driven Approach for Visual Detection of Micro-UAVs\" co-authored by Gunasekaran Raja, Selvam Essaky, Deepak Suresh Rajendran, Sai Ganesh Senthivel, Sebastian Knorr, Kapal Dev, is to be presented in 2024 IEEE ICC International Conference on Communications, June 9-13, 2024, in Denver, USA.",
+        "year": "2024"
+    },
+    {
+        "img": "./assets/img/infocom.png",
+        "title": "NGNLab paper is accepted for presentation at the IEEE INFOCOM 2024 International Conference in Vancouver, Canada",
+        "about": "Paper \"CPP-OTPO: A Cognitive Multi-UAV System for Adaptive Path and Trajectory Optimization\" co-authored by Gunasekaran Raja, Selvam Essaky, Surya Raj M, Jawaharlal Nehru N, Christ Joe, Kapal Dev, Waleed Ejaz, is to be presented in IEEE INFOCOM 2024 International Conference on Computer Communications-Workshop, 20-23 May 2024, in Vancouver, Canada.",
+        "year": "2024"
+    },
+    {
         "img": "./assets/img/Serb.png",
         "title": "<a href='./assets/doc/Recruitment_Proj Associate _SERB_15.1.24.pdf' style='color: black;'>Project Associate Position in NGNLab under SERB project grant</a>",
         "about": "Under the SERB, DST-Government of India project grant, applications are invited for a Project Associate position in the NGNLab, Dept. of Computer Technology, Anna University, Chennai.<br> <strong>Last Date of Application: 15.01.2024.</strong>",
