@@ -7,6 +7,15 @@
         "domain": ["MIoT"],
         "selective": true
     },  
+    {
+        "title": "DQN approach for Adaptive Self-healing of VNFs in Cloud-native Network",
+        "author": "Arunkumar Arulappan, Aniket Mahanti, Kalpdrum Passi, Thiruvenkadam S, Ranesh Naha,  Gunasekaran Raja",
+        "conference": "IEEE ACCESS, DOI: 10.1109/ACCESS.2024.3365635",
+        "doi": "#",
+        "year": "2024",
+        "domain": ["Networks"],
+        "selective": true
+    },  
         {
         "title": "Adaptive Model Predictive Control-Driven Approach for Visual Detection of Micro-UAVs",
         "author": "Gunasekaran Raja, Selvam Essaky, Deepak Suresh Rajendran, Sai Ganesh Senthivel, Sebastian Knorr, Kapal Dev",
