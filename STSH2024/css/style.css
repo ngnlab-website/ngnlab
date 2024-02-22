@@ -109,7 +109,7 @@ h6 {
 }
 
 .section-header::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 60px;
@@ -537,7 +537,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 50%;
@@ -553,7 +553,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 120px;
   height: 120px;
@@ -582,7 +582,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn:hover::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 50%;
@@ -791,7 +791,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 10px;
 }
 
-
 /*--------------------------------------------------------------
 # Delegates Section
 --------------------------------------------------------------*/
@@ -889,6 +888,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 10px;
 }
 
+.delegate {
+  text-align: center;
+}
+
 /*--------------------------------------------------------------
 # Schedule Section
 --------------------------------------------------------------*/
@@ -932,7 +935,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .tab-pane {
-  transition: ease-in-out .2s;
+  transition: ease-in-out 0.2s;
 }
 
 #schedule .schedule-item {
@@ -1159,6 +1162,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index: 1;
 }
 
+#gallery .gallery-carousel img {
+  height: 240px;
+  object-fit: cover;
+}
+
 /*--------------------------------------------------------------
 # Sponsors Section
 --------------------------------------------------------------*/
@@ -1316,7 +1324,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #buy-tickets .card {
   border: none;
   border-radius: 5px;
-  transition: all  0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
 }
 
@@ -1760,3 +1768,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
+.delegate-img {
+  height: 240px;
+  object-fit: fill;
+}
