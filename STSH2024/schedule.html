@@ -580,6 +580,51 @@
       color: #152b79;
       margin-bottom: 0;
     }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .contact-section-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -32px;
+      margin-bottom: 20px;
+    }
+
+    .contact-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 100%;
+      width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    .map-image {
+      flex: 4.5;
+    }
+
+    .map-image iframe {
+      width: 100%;
+      height: 300px;
+      border: 0;
+    }
+
+    .address {
+      flex: 1.5;
+      padding: 0 20px;
+    }
+
+    .address-actual p {
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.5;
+    }
   </style>
 
 </head>
@@ -933,6 +978,29 @@
     </div>
 
   </section>
+  <main>
+    <div class="container" style="margin-top: 20px;">
+      <div class="section-header">
+        <h2>Find us</h2>
+      </div>
+    </div>
+    <div class="contact-section-container">
+      <div class="contact-section">
+        <div class="map-image">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.3717430175934!2d80.13755331503967!3d12.94804799087135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525fac595c29ff%3A0xb76082ae18b51418!2sMadras%20Institute%20of%20Technology%2C%20Anna%20University!5e0!3m2!1sen!2sin!4v1680501539675!5m2!1sen!2sin"
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="address">
+          <div class="address-actual">
+            <p>Department of Computer Technology,</p>
+            <p>Anna University, MIT Campus,</p>
+            <p>Chromepet, Chennai 600044</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
   <!--==========================
     Footer
   ============================-->
