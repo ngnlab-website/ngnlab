@@ -1,93 +1,151 @@
 [
   {
-    "name": "Dr. Veningston K",
-    "designation": "Assistant Professor",
-    "department": "Department of Computer Science and Engineering",
-    "college": "National Institute of Technology Srinagar",
-    "phone": "+919790278826",
-    "email": "veningstonk@gmail.com",
-    "image_url": "1.jpg"
+    "priority": 30,
+    "name": "Prof Seán McLoone",
+    "designation": "Director, Centre for Autonomous Manufacturing Systems (i-AMS), Director, Energy, Power and Intelligent Control Research Centre (EPIC)",
+    "department": "School of Electronics, Electrical Engineering and Computer Science",
+    "college": "Queen’s University Belfast",
+    "phone": "",
+    "email": "haroon.yousaf@uettaxila.edu.pk",
+    "image_url": "30.jpg",
+    "short_bio": "Prof Seán McLoone is Professor of Applied Computational Intelligence and Director of the Centre for Intelligent Autonomous Manufacturing Systems (i-AMS) at Queen’s University Belfast. He is also Director of the Energy, Power and Intelligent Control (EPIC) Research Centre within the School of Electronics, Electrical Engineering and Computer Science at Queen’s University Belfast. Prof McLoone’s research interests are in computational intelligence techniques, machine learning and data analytics with applications in advanced manufacturing and power systems.  His research has a strong application focus, with many projects undertaken in collaboration with industry in areas such as process monitoring, control, optimisation, time series prediction, and in-line sensor characterization.  At a professional level, Prof. McLoone is a Chartered Engineer, a Fellow of the Institute of Engineering Technology (IET), and a Senior Member of the Institute of Electrical and Electronic Engineers (IEEE). He is a member of the IFAC Technical Committees on Computational Intelligence in Control (TC3.2), and Modelling, Identification and Signal Processing (TC1.1) and has previously served as Member of the Accreditation Board of Engineers Ireland and as a non-executive Director on the Board of Directors of Irish Manufacturing Research Ltd. He currently serves as an Associate Editor for the ‘Transactions of the Institute of Measurement and Control’ and as a member of the Editorial Board of ‘Engineering Applications of Artificial Intelligence’"
   },
   {
-    "name": "Dr. Moirangthem Marjit",
+    "priority": 30,
+    "name": "Mr Stephen McIlvanna",
+    "designation": "PhD Student, Centre for Autonomous Manufacturing Systems (i-AMS)",
+    "department": "School of Electronics, Electrical Engineering and Computer Science",
+    "college": "Queen’s University Belfast",
+    "phone": "",
+    "email": "haroon.yousaf@uettaxila.edu.pk",
+    "image_url": "31.jpg",
+    "short_bio": "Stephen Mcllvanna received the MEng degree in Electrical and Electronic Engineering from Queen’s University Belfast in 2007. He is currently pursuing the Ph.D. degree at Queen’s University. His research interests are safety critical control of autonomous systems incorporating machine learning techniques."
+  },
+  {
+    "priority": 25,
+    "name": "Dr Mien Van",
+    "designation": "Senior Lecturer",
+    "department": "Robotics and Intelligent Control",
+    "college": "Queen's University Belfast, Northern Ireland",
+    "phone": "",
+    "email": "m.van@qub.ac.uk",
+    "image_url": "24.jpg",
+    "short_bio": "Dr Mien Van is a Senior Lecturer (a.k.a. Associate Professor) in Robotics and Intelligent Control at the School of Electronics, Electrical Engineering and Computer Science at Queens University Belfast. He received his Ph.D. degree from the School of Electrical Engineering, University of Ulsan, South Korea, in 2015. He has authored and co-authored over 70 journal (first-authored of over 40 journal papers) and conference papers with citations over 2700 and a h-index of 29 (google scholar), since 2013. He has been the PI on 7 projects and Co-I on 1 project within the topics of Robotics and Digital Twins with an added value of ∼￡1.2M. As a research fellow, he has completed many high-profile robotics research projects with an added value of ∼￡10M. Dr. Van is a member of the IFAC Technical Committees on Robotics (TC4.3) and an Associate Editor for IJCAS (Springer), Scientific Report (Nature), Sensors, etc. His research interests include Collaborative Robotics, Digital Twins, AI/Machine learning, Smart Manufacturing, and Intelligent Control for Robotics."
+  },
+  {
+    "priority": 26,
+    "name": "Dr Pantelis Sopasakis",
+    "designation": "lecturer",
+    "department": "School of Electronics, Electrical Engineering and Computer Science (EEECS)",
+    "college": "Queen's University Belfast, Northern Ireland",
+    "phone": "",
+    "email": "p.sopasakis@qub.ac.uk",
+    "image_url": "25.jpg",
+    "short_bio": "Dr Pantelis Sopasakis holds a diploma (MEng) in Chemical Engineering (2007), an MSc, with honours, in Applied Mathematics (2009) and a PhD in Control Engineering (2013), from the National Technical University of Athens. He is a lecturer in the School of Electronics, Electrical Engineering and Computer Science (EEECS) at Queen's University Belfast. Previously, he held postdoctoral research positions in KU Leuven, University of Cyprus and IMT School for Advanced Studies Lucca. His research focuses on the development of fast numerical algorithms for large-scale convex and nonconvex optimisation and the design of model predictive control methods for uncertain nonlinear systems. His research outcomes have been published in top-tier journals and conferences such as the IEEE Trans. on Control Systems Technology, IEEE TAC, Automatica, IEEE CDC and IFAC WC."
+  },
+  {
+    "priority": 27,
+    "name": "Dr Ché Cameron",
+    "designation": "",
+    "department": "",
+    "college": "Queen's University Belfast, Northern Ireland",
+    "phone": "",
+    "email": "c.cameron@qub.ac.uk",
+    "image_url": "26.jpg",
+    "short_bio": "Dr Che Cameron works as a Research Fellow in System Modelling and Optimisation at Queen's University Belfast, where he is assessing pathways for future energy system decarbonisation. He holds a PhD in Manufacturing Digitalisation and an MEng in Electrical and Electronic Engineering which were both awarded by Queen's University Belfast. Examples of his work are an automated sensor-to-simulation pipeline for discrete event simulation, techno-economic analysis of a geospatial water treatment network, and automatic translation techniques for integrated energy system model conversion. His industrial collaborations include process optimisation for multi-national manufacturers, sectoral landscape scoping, and supporting commercial IoT development. His research focuses on Meta-Heuristic Optimisation and Systems Analysis, with an emphasis on data-driven instantiation and validation. His other professional interests include Retrofit Digitalisation, Industrial IoT, Time Series Segmentation, Wireless Sensor Networks, Additive Manufacturing, and Human-Centric Engineering."
+  },
+  {
+    "priority": 28,
+    "name": "Dr Wasif Naeem",
     "designation": "Associate Professor",
-    "department": "Department of Computer Science and Engineering",
-    "college": "North Eastern Regional Institute of Science and Technology",
-    "phone": "+91 9862567389",
-    "email": "marjitm@gmail.com",
-    "image_url": "2.jpg"
+    "department": "School of Electronics, Electrical Engineering and Computer Science",
+    "college": "Queens's University Belfast, Northern Ireland",
+    "phone": "",
+    "email": "w.naeem@qub.ac.uk",
+    "image_url": "27.jpg",
+    "short_bio": "Dr Wasif Naeem BEng, MSc, PhD is an Associate Professor in the School of Electronics, Electrical Engineering and Computer Science at QUB and is also a member of the Centres for Intelligent Autonomous Manufacturing Systems and Energy, Power and Intelligent Control. His doctoral research was part of an EPSRC-funded academia-industry collaborative project to develop an autonomous underwater vehicle. He is currently leading collision avoidance research for a hydrofoiling ferry as part of a £35M project led by Artemis Technologies. He was also the Principle Investigator from QUB on an £1.3M InnovateUK-funded Rolls Royce led MAXCMAS research grant developing path planning and collision avoidance strategies for marine vehicles. He was the coordinator of an EU-funded Erasmus+ project on development of training programmes in the area of Industry 4.0 related smart manufacturing. Dr Naeem's research interests span optimal control, system identification, process control and systems engineering. He has authored over 100 peer-reviewed journal and conference papers and 3 book chapters. Two journal papers in the area of guidance of unmanned marine vehicles were awarded the Michael Richey Medal and IMarEST Denny Medal respectively by the Royal Institute of Navigation and Institute of Marine Engineering Science and Technology (IMarEST). Another conference presentation on the subject of COLREGs-based collision avoidance was awarded the 'Most Innovative Research' prize by the IMarEST. Dr Naeem has successfully supervised over 10 PhD students in the general area of robotics Dr Naeem is a member of the prestigious EPSRC College, a member of IFAC Technical Committee on Marine Systems and an Executive Committee member of the UK Automatic Control Council."
   },
   {
-    "name": "Ms. Prathyusha",
-    "designation": "Ph.D. student",
-    "department": "Department of Medical Devices and Engineering",
-    "college": "Division of Polymeric Medical Devices, SCTIMST",
-    "phone": "+91 7591910413",
-    "email": "prathyusharavi95@gmail.com",
-    "image_url": "3.jpg"
+    "priority": 1,
+    "name": "Dr John Oyekan",
+    "designation": "Senior Lecturer",
+    "department": "Department of Computer Science",
+    "college": "University of York, United Kingdom",
+    "phone": "",
+    "email": "john.oyekan@york.ac.uk",
+    "image_url": "29.jpg",
+    "short_bio": "Dr John Oyekan is a Chartered Engineer (CEng) and Senior Lecturer in Human-Centred AI for Autonomous Manufacturing in the Department of Computer Science at the University of York. He was previously a Lecturer in Digital Manufacturing at the University of Sheffield. He received a Ph.D degree in Computer Science and Electronic Engineering from the University of Essex as well as a MSc Robotics and Embedded Systems from same. Prior to the University of Sheffield, he was an Engineer at the Manufacturing Technology Centre in Coventry where he developed software architectures and algorithms for Autonomous Systems and a Research Fellow at Cranfield University carrying out research in Manufacturing Informatics. He has over 3 years of experience working in industry and his work is characterised by both fundamental and applied research in collaboration with partners in the automotive, aerospace and manufacturing sectors. He has over 30 publications in the areas of swarm robotics, manufacturing informatics, bio-inspired algorithms, and sensing."
   },
   {
-    "name": "Er. Jithin Krishnan",
-    "designation": "Scientist",
-    "department": "Dept of Medical Devices Engineering",
-    "college": "Division of Medical Instrumentation, BMT Wing, SCTIMST",
-    "phone": "+91 9447332373",
-    "email": "jithinkrishnan@sctimst.ac.in",
-    "image_url": "4.jpg"
+    "priority": 22,
+    "name": "Dr Van-Truong Nguyen",
+    "designation": "Dean, Head of the Intelligent Robotics Laboratory, Director of Robot and Artificial Intelligence Program",
+    "department": "Faculty of Mechatronics",
+    "college": "Hanoi University of Industry, Hanoi, Vietnam",
+    "phone": "",
+    "email": "nguyenvantruong@haui.edu.vn",
+    "image_url": "21.jpg",
+    "short_bio": "Van-Truong Nguyen received the B.S. and M.S. degrees in mechatronics engineering from the School of Mechanical Engineering, Hanoi University of Science and Technology, Hanoi, Vietnam, in 2012 and 2014, respectively, and the Ph.D. degree in mechanical engineering from the National Taiwan University of Science and Technology, Taipei, Taiwan, in 2018. Since 2013, he has been a Lecturer with the Faculty of Mechatronics, Hanoi University of Industry, Hanoi. He is currently Dean of the Faculty of Mechatronics, Head of the Intelligent Robotics Laboratory, ​Director of Robot and Artificial Intelligence Program, HaUI, Hanoi, Vietnam. He is also the Co-Founder of Robot STEAM Vietnam. Dr. Truong was a recipient of the National Outstanding Innovation Award in 2015, the Best Student Paper Award of the International Automatic Control Conference in 2018. His current research interests include robotics, mobile robots, AI, intelligent control systems, and computer vision applications."
   },
   {
-    "name": "Ms. Athira Murali",
-    "designation": "Ph.D. student",
-    "department": "Medical Devices Engineering",
-    "college": "Sree Chitra Tirunal Institute for Med Sci & Tech, Kerala",
-    "phone": "+91 9495362173",
-    "email": "athiramurali@sctimst.ac.in",
-    "image_url": "5.jpg"
+    "priority": 23,
+    "name": "Dr. Xiem Hoang Van",
+    "designation": "Head",
+    "department": "Department of Robotics Engineering",
+    "college": "Vietnam National University - University of Engineering and Technology, Hanoi, Vietnam",
+    "phone": "",
+    "email": "xiemhoang@vnu.edu.vn",
+    "image_url": "22.jpg",
+    "short_bio": "A/Prof. Hoang Van Xiem is the Head and founding member of the Department of Robotics Engineering, Vietnam National University - University of Engineering and Technology (VNU-UET). He was the former Director of the Center for Quality Assurance in VNU - UET (2021 - 2022 term).  He received a Ph.D. degree from Lisbon University, Portugal, in 2015, a M.Sc. degree from Sungkyunkwan University, South Korea, in 2011, and BE degree from Hanoi University of Science and Technology, 2009, all in Electrical and Computer Engineering.  He has published nearly 100 papers on image/video processing and robotics vision. He is an editor of the Frontiers in Signal Processing Journal and VNU-Journal of Science and reviewed for a number of top IEEE, Elsevier and Springer Journals. He has received a number of prestigious awards including 2023 IEEE RIVF, 2022 REV-ECIT, 2018 IWAIT and 2015 PCS best paper awards, his work on distributed video coding received the 2021 REV-AWARD, 2020 Innova Patent Silver Award (Croatia), and the Fraunhofer Portugal Challenge Award 2015.  He is one of ten young research scientists (one of two in ICT) was awarded the Golden Globe in Science and Technology 2019 and in 2021 - 2022 term, he was one of the youngest associate professors appointed by the State council for professorship in Vietnam."
   },
   {
-    "name": "Er. Thamodharan Arumugam",
-    "designation": "Ph.D. student",
-    "department": "NGN Lab, Department of Computer Technology",
-    "college": "Anna University, MIT Campus, Chennai 600044",
-    "phone": "+919976413557",
-    "email": "thamodharan@gmail.com",
-    "image_url": "6.jpg"
+    "priority": 24,
+    "name": "Dr Tien-Dung Hoang",
+    "designation": "Lecturer",
+    "department": "Faculty of Mechanical Engineering",
+    "college": "Hanoi University of Industry",
+    "phone": "",
+    "email": "tiendung@haui.edu.vn",
+    "image_url": "23.jpg",
+    "short_bio": "Tien-Dung Hoang received the B.Sc., M.Sc. and Ph.D. degree from Hanoi University of Science and Technology in 2003, 2007 and 2016 respectively in Viet Nam. Currently, he is a lecturer at the Faculty of Mechanical Engineering, Hanoi University of Industry, Hanoi, Vietnam. His research interests include Dynamic Machining, Modelling and Optimization, CAD/CAM/CAE/CNC, AM/3D printing Technology, Mold Manufacturing, optimization and intelligent manufacturing system."
   },
   {
-    "name": "Er. Akoramurthy B",
-    "designation": "Ph.D. student",
-    "department": "CSE",
-    "college": "National Institute of Technology, Puducherry",
-    "phone": "+91 8870790898",
-    "email": "akor.theanchor@gmail.com",
-    "image_url": "7.jpg"
-  },
-  {
-    "name": "Er. Chander Shekhar Sharma",
-    "designation": "Scientist",
-    "department": "Council of Scientific and Industrial Research",
-    "college": "Institute of Microbial Technology (IMTECH), Chandigarh",
-    "phone": "+918696679611",
-    "email": "shekhar@imtech.res.in",
-    "image_url": "8.png"
+    "name": "Mr. Herbert Potechius",
+    "designation": "Research Assistant",
+    "department": "University of Applied Sciences",
+    "college": "Ernst-Abbe-Hochshule,Jena Germany",
+    "image_url": "32.jpg",
+    "short_bio": "Herbert Potechius is a academic and researcher based in Germany. He holds a Bachelor of Science in Computer Engineering and a Master of Science in Computer Science, both from the Technical University Berlin. Currently, he serves as a research assistant at the University of Applied Sciences Jena, where he is involved in a project funded by the Federal Ministry of Education and Research. The project focuses on the development of AI-related teaching materials suitable for universitystudents across various disciplines. Additionally, Herbert is pursuing his PhD at the same institution, researching the virtualization of shared environments in XR telecommunication scenarios. His work primarily explores color transfer techniques and investigates how the results of these algorithms are subjectively perceived by humans."
   },
   {
     "name": "Dr. Rajasekar V R",
     "designation": "Assistant Professor",
     "department": "Department of Information Technology",
-    "college": "University of Technology and Applied Sciences, Sur, Oman",
+    "college": "University of Technology and Applied Sciences, Sur, Oman.",
     "phone": "+968 92229686",
     "email": "rajasekar.sur@cas.edu.om",
-    "image_url": "9.png"
+    "image_url": "9.png",
+    "short_bio": "Dr. Ashish Kumar has done his Ph.D. on the topic 'Atmospheric Studies using Remote Sensing Techniques and In-Situ Measurements over the Himalayan Region', from IIT Dhanbad in 2019. During his Ph.D. tenure, he worked on the plethora of in-situ, ground and satellite data in the domain of the atmosphere, mainly the aerosols, clouds, precipitation, and associated meteorology over the Himalayan region. He did his M.Tech and B.E. in the field of Electronics & Comm. Engg. To his credit more than 35 technical and scientific publications are there, including refereed journals, conferences, proceedings, etc. He joined ARIES in 2007 as an Engineer. He has taken the engineering responsibilities in the major projects under atmospheric division like ST radar, LiDAR, trace gas, meteorology, etc. He has a significant contribution to the Engineering design development, including instrumentation and data science. He possesses command over different programming languages, and has developed a number of data analysis packages for Atmospheric studies. Additionally, he is also involved in handling and managing the Computer section activities of the institute."
+  },
+  {
+    "name": "Er. Chander Shekhar Sharma",
+    "designation": "Scientist",
+    "department": "Council of Scientific and Industrial Research",
+    "college": "Institute of Microbial Technology (IMTECH), CSIR-IMTECH, Sector 39A, Chandigarh",
+    "phone": "+918696679611",
+    "email": "shekhar@imtech.res.in",
+    "image_url": "8.png",
+    "short_bio": "Chander Shekhar Sharma is a seasoned professional with a passion for scientific exploration and technological innovation. Currently serving as a Senior Scientist at CSIR IMTECH, Chandigarh, his expertise spans various domains, with a primary focus on Smart IoT devices, network administration, and cybersecurity. With additional responsibilities as the Chief Information Security Officer (CISO), he ensures the organization's integrity and security of digital assets. Furthermore, he is entrusted with the pivotal role of Principal Project Coordinator (Investigator) for the Science, Technology, and Innovation Hub in Leh Ladakh, which receives funding from the Department of Science and Technology (DST). In this capacity, he orchestrates collaborative efforts to foster scientific advancements and technological breakthroughs in the Ladakh region. Beyond his technical responsibilities, Mr. Sharma is deeply committed to science communication and dissemination. Leveraging electronic media channels, he effectively communicates complex scientific concepts to diverse audiences, bridging the gap between scientific research and public understanding. Moreover, Mr. Sharma spearheads the 'Jigyasa' program, facilitating meaningful interactions between scientists and students. This initiative nurtures budding talent and fosters a culture of scientific inquiry and exploration among the youth. With an illustrious career spanning 17 years, Mr. Sharma has honed his skills through diverse roles in various research and development institutions. His journey reflects a steadfast dedication to advancing scientific knowledge, promoting cybersecurity best practices, and fostering innovation-driven ecosystems."
   },
   {
     "name": "Dr. Ashish Kumar",
     "designation": "Engineer-E",
     "department": "Department of Science & Technology (DST)",
-    "college": "Aryabhatta Research Institute, Uttarakhand",
+    "college": "Aryabhatta Research Institute of observational sciences, Nainital, Uttarakhand 263001",
     "phone": "+91 6396686935",
     "email": "ashish@aries.res.in",
-    "image_url": "10.png"
+    "image_url": "10.png",
+    "short_bio": "Dr. Ashish Kumar has done his Ph.D. on the topic 'Atmospheric Studies using Remote Sensing Techniques and In-Situ Measurements over the Himalayan Region', from IIT Dhanbad in 2019. During his Ph.D. tenure, he worked on the plethora of in-situ, ground and satellite data in the domain of the atmosphere, mainly the aerosols, clouds, precipitation, and associated meteorology over the Himalayan region. He did his M.Tech and B.E. in the field of Electronics & Comm. Engg. To his credit more than 35 technical and scientific publications are there, including refereed journals, conferences, proceedings, etc. He joined ARIES in 2007 as an Engineer. He has taken the engineering responsibilities in the major projects under atmospheric division like ST radar, LiDAR, trace gas, meteorology, etc. He has a significant contribution to the Engineering design development, including instrumentation and data science. He possesses command over different programming languages, and has developed a number of data analysis packages for Atmospheric studies. Additionally, he is also involved in handling and managing the Computer section activities of the institute."
   },
   {
     "name": "Dr. Praveen Kumar P",
@@ -96,43 +154,88 @@
     "college": "P.O.Kanchanbagh, Hyderabad (TS). PIN-500058",
     "phone": "+919959616190",
     "email": "praveenkp.am@gmail.com",
-    "image_url": "11.png"
+    "image_url": "11.png",
+    "short_bio": "Dr. P. Praveen Kumar is a Scientist in Advanced Systems Laboratory of DRDO at Hyderabad. He was awarded a PhD in Applied Mechanics from IIT Delhi. His current areas of research include solid mechanics, composite materials, material modeling, FEM and computational modeling. He taught courses on “Aerospace Structures” and “Missile Structures” for M.Tech (Aerospace Engineering) at Defence Institute of Advanced Technology (Deemed University), Pune. He received the Laboratory Scientist of the year award for the year 2020."
   },
   {
-    "name": "Dr. Arun Kumar A",
-    "designation": "Assistant Professor",
-    "department": "School of Computer Science Engineering and Information Systems (SCORE)",
-    "college": "Vellore Institute of Technology, Vellore",
-    "phone": "+91 9578332627",
-    "email": "arunkumar.a@vit.ac.in",
-    "image_url": "12.png"
+    "name": "Ms. Prathyusha",
+    "designation": "Ph.D. student",
+    "department": "Department of Medical Devices and Engineering",
+    "college": "Division of Polymeric Medical Devices, SCTIMST",
+    "phone": "+91 7591910413",
+    "email": "prathyusharavi95@gmail.com",
+    "image_url": "3.jpg",
+    "short_bio": "Ms. Prathyusha's academic achievements include second place in the MSc Biotechnology (2018), qualification for the GATE 2018 and JOINT CSIR-UGC NET test 2019, and fourth rank in the BSc BT & SP (2016). Distinction was achieved in both secondary and higher secondary education. Since school, she has passed numerous competitive tests, such as PCM and Orchard. Additionally, she earned a certificate of appreciation for organizing and carrying out seminars and conferences. Prizes were received for poster presentations in the respective fields. Recently, she won first place in a poster presentation at the International Biotechnology Conclave-Biozion, co-hosted by the Sree Chitra Tirunal Institute for Medical Sciences & Technology and the College of Agriculture, Vellayani, Kerala Agricultural University, Thiruvananthapuram. Currently employed by SCTIMST as a research student in the medical devices and engineering department, focusing on the development of polymeric biomedical devices for use in wound healing, including drug delivery to the created scaffold to improve its ability to heal wounds. Additionally, she completed her postgraduate research at the Department of Marine Biotechnology, CMFRI, on 'Partial mitogenome characterizations of purple-colored shovel-nosed lobster Thenus unimaculatus, Burton and Davie 2007,' using bioinformatic techniques."
   },
   {
-    "name": "Dr. Sahaya Beni Prathiba",
+    "name": "Er. Jithin Krishnan",
+    "designation": "Scientist",
+    "department": "Dept of Medical Devices Engineering",
+    "college": "Division of Medical Instrumentation, BMT Wing, SCTIMST",
+    "phone": "+91 9447332373",
+    "email": "jithinkrishnan@sctimst.ac.in",
+    "image_url": "4.jpg",
+    "short_bio": "Jithin Krishnan is currently working as a Scientist/Engineer at Sree Chitra Tirunal Institute for Medical Sciences and Technology, An Institute of National Importance under Gov. of India. He is working as a specialist research engineer in the Division of Medical Instrumentation. His core expertise areas are active implants and sensors, Ultra low power electronic circuits, Electromagnetic Interference and Mitigation strategies etc. He has more than 12 years of experience in active implantable medical devices, particularly in the area of Neuroprosthetic devices and allied passive devices. He has 6 granted patents,3 design registrations and has filed 16 patent applications so far. He has 10 international journal publications too. He has served as the Expert Panel Member for the Evaluation of the Swadeshi Microprocessor Challenge, a Pan-India contest with more than 100K entries conducted by the Ministry of Electronics and Communication. He also served as the Expert Panel member for Defence Innovation Organization, Ministry of Defence, Government of India for IDEX -Defence India Startup Challenge for 2021,2022. Recently he was awarded the BRICS Young Scientist 23 and was part of the Indian Delegation for BRICS Conclave 23 happened in South Africa."
+  },
+  {
+    "name": "Ms. Athira Murali",
+    "designation": "Ph.D. student",
+    "department": "Medical Devices Engineering",
+    "college": "Biomedical Technology Wing, Sree Chitra Tirunal Institute for Medical Sciences and Technology",
+    "phone": "+91 9495362173",
+    "email": "athiramurali@sctimst.ac.in",
+    "image_url": "5.jpg",
+    "short_bio": "Ms. Athira Murali is a research scholar at the Biomedical Technology Wing, Sree Chitra Tirunal Institute for Medical Sciences and Technology, Thiruvananthapuram, India. Her Master's in Chemistry was pursued at the University of Kerala, India. Her areas of research include 3D printing of polymers and composites and bone tissue engineering. Currently, 3D printing of polymer composites, their physico-chemical characterization, and biocompatibility evaluation are being worked on by her."
+  },
+  {
+    "name": "Dr. Moirangthem Marjit",
+    "designation": "Associate Professor",
+    "department": "Department of Computer Science and Engineering",
+    "college": "North Eastern Regional Institute of Science and Technology",
+    "phone": "+91 9862567389",
+    "email": "marjitm@gmail.com",
+    "image_url": "2.jpg",
+    "short_bio": "Dr. Moirangthem Marjit Singh is currently an Associate Professor in Computer Science & Engineering Department at North Eastern Regional Institute of Science & Technology (NERIST), Arunachal Pradesh, India. He received B.Tech. and M.Tech. in Computer Science & Engineering degrees from NERIST and was awarded Gold Medal for securing top position in M.Tech. He received his PhD (Engineering) degree in computer Science and Engineering from University of Kalyani, West Bengal,India. He was the Head of the Department of Computer Science and Engineering, NERIST during 2018 to 2022. He was also the founder Honorary Joint Secretary of the Institution of Engineers, Arunachal Pradesh State Centre, India during 2019-2021. Dr. Marjit is a Fellow of IETE New Delhi, India and Fellow of the Institutions of Engineers (India) and the senior member IEEE, USA. Dr. Marjit was honored with “Academic Excellence Award” by Taylor's University, Malaysia in recognition of his outstanding academic performance on 13 September 2023 at Taylor's University in association International Conference on Evolutionary Artificial Intelligence (ICEAI 2023). He was awarded the IE(I) Young Engineers Award 2014-2015 from the Computer Engineering Division, Institution of Engineers, India. He received the Best Paper Awards at international conferences namely the ICEAI 2023(held at Taylors' University, Malaysia) and the ICACCT 2016, (held at APIIT, India) published by springer. Dr. Marjit secured First Position in X and Second Position in XII Examinations conducted by CBSE, New Delhi, India, amongst the candidates sent up from Jawahar Navodaya Vidyalayas (JNVs) of North Eastern region states of India, in 1995 and 1997, respectively. He was awarded the Gold Medal for getting top position in the M.Tech.(CSE) at NERIST in 2010 He has more than 20 years of teaching and research experience. He has published several research papers in journals and conferences of repute. He has organized/associated with several technical conferences held in India and abroad. His research interests include mobile adhoc networks, wireless sensor networks, network security, AI, machine learning, and deep learning."
+  },
+  {
+    "name": "Dr. Veningston K",
     "designation": "Assistant Professor",
-    "department": "SCOPE, Centre for Cyber Physical Systems",
-    "college": "School of Computer Science and Engineering, VIT, Chennai",
-    "phone": "+91 7373888115",
-    "email": "Sahayabeni@gmail.com",
-    "image_url": "13.png"
+    "department": "Department of Computer Science and Engineering",
+    "college": "National Institute of Technology Srinagar",
+    "phone": "+919790278826",
+    "email": "veningstonk@gmail.com",
+    "image_url": "1.jpg",
+    "short_bio": "Veningston K received a Ph.D. degree in Computer Science and Engineering from Anna University, Chennai, INDIA in 2015 and is currently Assistant Professor in the Department of Computer Science and Engineering at National Institute of Technology Srinagar, INDIA. His expertise areas include design and implementation of Computer Vision (CV) and Natural Language Processing (NLP) systems using machine learning and deep learning algorithms. His current work includes CV applications in health, clean India and NLP applications in legal domain. He is a recipient of prestigious INSPIRE fellowship by the Department of Science and Technology, Government of India in 2011. He has chaired technical sessions in several international conferences within and outside India and delivered numerous technical talks on the areas of his research. He has published over 20 research papers in reputed journals and conferences, besides undertaking a research project being contributed to the Swachh Bharat mission of Government of India."
+  },
+  {
+    "name": "Er. Akoramurthy B",
+    "designation": "Ph.D. student",
+    "department": "CSE",
+    "college": "National Institute of Technology Puducherry",
+    "phone": "+91 8870790898",
+    "email": "akor.theanchor@gmail.com",
+    "image_url": "7.jpg",
+    "short_bio": "Full-time Ph.D. Scholar (Visvesvaraya Fellowship) of the Institute registered vide No. CS22D1005 dated 01/02/2023 under the supervision of Dr.B. Surendiran, Associate Professor of Computer Science &  Engineering, National Institute of Technology Puducherry."
+  },
+  {
+    "name": "Dr. Geetha G",
+    "designation": "Associate Professor",
+    "department": "Information Science and Technology",
+    "college": "CEG Campus, Anna University",
+    "phone": "+91 9600100255",
+    "email": "ggeetha@annauniv.edu",
+    "image_url": "18.png",
+    "short_bio": "Dr. G. Geetha , an energetic academician, a vibrant researcher and a dynamic administrator had 20+ years of experience. She is a recognised supervisor with 45 publications in IEEE, Scopus and SCI journals and 8 PHD scholars awarded with her guidance and received two patent grants. She has received funds from MHRD, AICTE and IE India. She has organized various workshops, seminars,guest lectures, FDP's and conferences in current trends. She had various administrative positions such as Head of Department, Head of IPR Cell and Dean Innovation To add feather to her cap, she is a trained scientist by Indian patent office, Chennai under Kiran IPR Women Scientist C Scheme. She has also done Patent related courses in NPTEL and WIPO PCT Distance learning courses. Around 3000+ students, 400+ Faculties, 15+ institutions have benefited from her guidance in filing a patent . She has conducted 50+ seminars, 10 FDP's , 5 Workshops in Intellectual property rights."
   },
   {
     "name": "Dr. Balaji C",
     "designation": "Assistant Professor",
     "department": "Dept. of CSE",
-    "college": "CEG Campus, Anna University, Chennai",
+    "college": "CEG, Anna University Chennai 60025",
     "phone": "+91 9489949299",
     "email": "cbalaji1988@gmail.com",
-    "image_url": "14.png"
-  },
-  {
-    "name": "Er. Sreenivas Rao",
-    "designation": "Research and Project Associate",
-    "department": "Department of Artificial Intelligence",
-    "college": "Society for Electronics Transactions and Security, Chennai",
-    "phone": "+91 8608825924",
-    "email": "sreeias2020@gmail.com",
-    "image_url": "15.png"
+    "image_url": "14.png",
+    "short_bio": "Balaji Chandrasekaran received his BE degree in computer science and engineering from Anna University, Chennai, Tamil Nadu, India, in 2009; his ME degree in software engineering from Anna University, Tiruchirappalli, Tamil Nadu, India, in 2011, and his PhD degree in computer applications from National Institute of Technology, Tiruchirappalli, Tamil Nadu, India, in 2019. Currently, he is working as an Assistant Professor in the Department of Computer Science and Engineering at Anna University CEG Campus, Tamil Nadu, India. His main research interests are cryptography, cloud computing, and information security."
   },
   {
     "name": "Dr. Kaviyarasu Ayakkannu",
@@ -141,34 +244,18 @@
     "college": "Anna University, MIT Campus, Chennai 600044",
     "phone": "+91 9551235989",
     "email": "kavimitaero@annauniv.edu",
-    "image_url": "16.png"
-  },
-  {
-    "name": "Dr. Kalimuthu Karuppanan",
-    "designation": "Assistant Professor (Research)",
-    "department": "Department of BioTechnology",
-    "college": "SRM University, KTR Campus, Chennai",
-    "phone": "+91 8148807232",
-    "email": "kalimutk1@srmist.edu.in",
-    "image_url": "17.png"
-  },
-  {
-    "name": "Dr. Geetha G",
-    "designation": "Associate Professor",
-    "department": "Information Science and Technology",
-    "college": "CEG Campus, Anna University, Chennai",
-    "phone": "+91 9600100255",
-    "email": "ggeetha@annauniv.edu",
-    "image_url": "18.png"
+    "image_url": "16.png",
+    "short_bio": "Dr. A. Kaviyarasu obtained his Doctorate from Anna University in Chennai. For the past fourteen years, he has worked as an Assistant Professor in the Division of Avionics at the Department of Aerospace Engineering, MIT campus, Anna University. He completed his research program and master's degree (Avionics) in the same department. Dr. Kaviyarasu's areas of interest are UAV modeling & simulation and Avionics systems. He is one of the active members of the team 'DHAKSHA,' a small unmanned aerial vehicle developed by his team that has been utilized for various civil and military applications. He has been involved in multiple development activities. He has been awarded by former Indian President Dr. A.P.J Abdul Kalam for his innovative ideas, skills, and contribution to science and technology. The former Vice Chancellor of Anna University also awarded him the 'Excellence in Innovation' award for his contribution to the field of Unmanned Aerial Vehicles. Dr. Kaviyarasu has published over 17 papers in reputed international journals and 15 at national and international conferences. Currently, he is working on the Robot Operating System (ROS) and Swarm of Drones. As a part of his academic activities, he is interested in radio communication, antennas, and home brewing."
   },
   {
     "name": "Dr. Sriram S R",
     "designation": "Assistant Professor",
     "department": "Electronics and Communication Engineering",
-    "college": "CEG Campus, Anna University, Chennai",
+    "college": "CEG Campus, Anna University",
     "phone": "+91 9487262906",
     "email": "srsriramsrs@gmail.com",
-    "image_url": "19.png"
+    "image_url": "19.png",
+    "short_bio": "S. R. Sriram received a Ph.D. degree in Nanoelectronics from VIT University, Chennai. He received an M.E. degree in VLSI design from Anna University. He is currently working as an Assistant Professor in College of Engineering Guindy, Anna University, Chennai, Department of ECE. He was an Assistant Professor with the SRM Easwari Engineering College and SKP Institute of Technology. He is a recognized research supervisor from Anna University, Faculty of Information and Communication Engineering. He worked as JRF in VIT Chennai under the DST-SERB project, “Development of a Modelling Framework for Variability-Aware Design of Strained FinFET-based Mixed Signal Circuits.” He published nine SCI journals and four IEEE conferences and published a patent, “Techniques to Protect Electronic Circuit Boards from Maturization.” His current research interests are semiconductor device modeling and analog circuit design, developing analytical models of variability and reliability effects in non-classical MOSFETs, and investigation of these effects in CMOS VLSI circuits."
   },
   {
     "name": "Dr. Sudhakar T",
@@ -177,6 +264,68 @@
     "college": "Anna University, MIT Campus, Chennai 600044",
     "phone": "+91 9942290298",
     "email": "tsudhakar105@gmail.com",
-    "image_url": "20.png"
+    "image_url": "20.png",
+    "short_bio": "Dr.T.Sudhakar is working as an Assistant Professor in the Department of Computer Technology, Anna University, MIT campus, Chennai. He completed his Doctoral degree at Anna University in the year 2020 in the faculty of information and communication engineering. He has published several research articles in various reputed international journals and conferences. He has more than 17 years of teaching experience and research experience. His research interests include Cryptography and network security, Cyber security, Image processing, and deep learning."
+  },
+  {
+    "name": "Er. Thamodharan Arumugam",
+    "designation": "Ph.D. student",
+    "department": "NGN Lab, Department of Computer Technology",
+    "college": "Anna University, MIT Campus, Chennai 600044",
+    "phone": "+919976413557",
+    "email": "thamodharan@gmail.com",
+    "image_url": "6.jpg",
+    "short_bio": "Thamodharan Arumugam is a Ph.D. student who possesses 10+ years of experience in the medical field with India's premier medical institutions such as AIIMS, NIMHANS, PGI Chandigarh, JIPMER, Sree Chitra, etc. Additionally, he is keen on learning medical concepts and IoT-based techniques to apply in real-world scenarios. He is currently working on cancer patients' heart failure prediction using deep learning concepts and aims to generate an IoT-based device for the same purpose. He has a good educational background."
+  },
+  {
+    "name": "Dr. Arun Kumar A",
+    "designation": "Assistant Professor",
+    "department": "School of Computer Science Engineering and Information Systems (SCORE)",
+    "college": "Vellore Institute of Technology, Vellore",
+    "phone": "+91 9578332627",
+    "email": "arunkumar.a@vit.ac.in",
+    "image_url": "12.png",
+    "short_bio": "Arunkumar Arulappan is working as an Assistant Professor in the School of Computer Science Engineering and Information Systems (SCORE) at Vellore Institute of Technology, Vellore, India. He received a Ph.D. degree from the Faculty of Information and Communication Engineering, Anna University, Chennai, India, in 2023 and his B.Tech in Information Technology at Anna University and M.Tech in Computer Science and Engineering at Vellore Institute of Technology. His research interests include the Cloud-native deployment, SDN, NFV, 5G/6G Networks, AI/ML based Networking, Internet of Vehicles, and UAV Communications. He is proficient with simulator tools MATLAB, ns-3, Mininet, OpenNet VM, and P4 programming. He is exposed to open source tools such as OpenStack, Cloudify, OPNFV, and Cloud-Native Computing Foundation (CNCF)."
+  },
+  {
+    "name": "Dr. Sahaya Beni Prathiba",
+    "designation": "Assistant Professor",
+    "department": "SCOPE, Centre for Cyber Physical Systems",
+    "college": "School of Computer Science and Engineering, VIT, Chennai",
+    "phone": "+91 7373888115",
+    "email": "Sahayabeni@gmail.com",
+    "image_url": "13.png",
+    "short_bio": "Dr. Sahaya Beni Prathiba received Bachelor's and Master's degrees in Computer Science and Engineering from Anna University, Chennai. She secured the 23rd rank among 2581 candidates in the Master of Engineering program. In the year 2022, she completed her Ph.D. at Anna University, Chennai. Currently, she is working as an Assistant Professor at the Centre for Cyber Physical Systems, School of Computer Science and Engineering, Vellore Institute of Technology, Chennai. She was also a recipient of the Anna Centenary Research Fellowship. Her research interests include 5G/6G, Vehicle-to-Everything, Software Defined Networking, Autonomous Vehicular Networks, Industry 5.0, and Metaverse. She serves as a reviewer for IEEE TRANSACTIONS and reputed Elsevier journals."
+  },
+  {
+    "name": "Er. Sreenivas Rao",
+    "designation": "Research and Project Associate",
+    "department": "Department of Artificial Intelligence",
+    "college": "Society for Electronics Transactions and Security, Chennai",
+    "phone": "+91 8608825924",
+    "email": "sreeias2020@gmail.com",
+    "image_url": "15.png",
+    "short_bio": "Sreenivas R is presently serving for the Society for Electronics Transactions and Security (SETS). He has completed his MCA from VIT Chennai and has worked on projects in various domains. During his coursework, he published a paper in the field of Medical Imaging using Computer Vision. Additionally, he authored three chapters, two of which have been provisionally accepted, with the second being in the field of Medical Imaging. Throughout his tenure at the workplace, he has trained various models from scratch for confidential projects, including LLama2 and Bloom 560m models. He believes that participating in this workshop will be highly beneficial for himself to contribute towards projects related to the healthcare domain."
+  },
+  {
+    "name": "Dr. Kalimuthu Karuppanan",
+    "designation": "Assistant Professor (Research)",
+    "department": "Department of BioTechnology",
+    "college": "SRM University, KTR Campus, Chennai",
+    "phone": "+91 8148807232",
+    "email": "kalimutk1@srmist.edu.in",
+    "image_url": "17.png",
+    "short_bio": "Dr. K. Kalimuthu is working as a Research Assistant Professor in Department of Biotechnology at SRM Institute of Science and Technology, KTR campus. His research focuses on developing protein and peptide based therapeutics for infectious (e.g. Ebola, Anthrax, SARS CoV-2) and metabolic (e.g. Lung, Cardiovascular Inflammation) diseases."
+  },
+  {
+    "priority": 29,
+    "name": "Prof. Muhammad Haroon Yousaf",
+    "designation": "",
+    "department": "",
+    "college": "University of Engineering and Technology Taxila, Pakistan",
+    "phone": "",
+    "email": "haroon.yousaf@uettaxila.edu.pk",
+    "image_url": "28.jpg",
+    "short_bio": "Prof Muhammad Haroon Yousaf is currently working as a Professor of Computer Engineering at University of Engineering and Technology Taxila. He is the Director/Principal Investigator of Swarm Robotics Lab under the National Centre of Robotics & Automation (NCRA).  His research interests are in computer vision research particularly in the areas of object detection, object recognition, scene understanding, action/activity recognition, Robotics and multi-modal recognition. He is also working as Associate Editor of IEEE Transactions on Circuits and Systems on Video Technology (TCSVT), and Academic Editor of Mathematical Problems in Engineering journal. He is the recipient of the Best University Teacher Award by the Higher Education Commission for the years 2012-2013."
   }
 ]

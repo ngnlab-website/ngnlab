@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Delegates | STSH'24</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <style>
+    .profile-card {
+      padding: 20px;
+    }
+
+    .profile-card-row {
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    @media screen and (max-width: 767px) {
+      .profile-card {
+        padding: 10px;
+        margin-bottom: 0px;
+      }
+
+      .profile-card-row {
+        padding: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+    }
+
+    .profile-img-div {
+      text-align: center;
+    }
+
+    .profile-img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+    }
+
+
+    .vertical-line {
+      border-left: 1px solid #ccc;
+      /* Default rule for all screen sizes */
+    }
+
+    /* Hide the vertical line on mobile and tablet views */
+    @media only screen and (max-width: 767px) {
+      .vertical-line {
+        border-left: none;
+      }
+    }
+
+    .bio-content {
+      max-height: 100px;
+      overflow: hidden;
+    }
+
+    p {
+      margin: 0 0 10px 0 !important;
+    }
+
+    #header {
+      background: rgba(6, 12, 34, 0.98);
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!--==========================
+      Header
+    ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <a href="#intro" class="scrollto"><img style="width: 240px;" src="img/logo.png" alt="" title=""></a>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="keynote-speakers.html">Speakers</a></li>
+          <li class="menu-active"><a href="#">Delegates</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="index.html#gallery">Gallery</a></li>
+          <li><a href="#footer">Contact</a></li>
+          <li class="buy-tickets"><a
+              href="../assets/doc/STSH_Workshop_March_4&5_2024_Call_for_participants_FINAL.pdf">Register</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header>
+  <!-- #header -->
+
+  <main id="main" class="main-page">
+
+    <section id="delegates" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Delegates</h2>
+          <p>Here are some of our delegates</p>
+        </div>
+
+        <div class="container" id="delegates-profile-cards">
+          <!-- Profile cards will be dynamically added here -->
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong> NGNLab</strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer>
+  <!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      fetch('delegates.json')
+        .then(response => response.json())
+        .then(data => {
+          const container = document.getElementById('delegates-profile-cards');
+
+          data.forEach(delegate => {
+            const profileCard = document.createElement('div');
+            profileCard.classList.add('row', 'border', 'rounded', 'profile-card-row');
+            profileCard.innerHTML = `
+                          <div class="col-lg-2 col-md-6 profile-img-div">
+                              <img src="img/delegates/${delegate.image_url}" alt="${delegate.name}" class="profile-img">
+                          </div>
+                          <div class="col-lg-4 col-md-6 vertical-line">
+                              <div class="profile-card">
+                                  <h3>${delegate.name}</h3>
+                                  <p>${delegate.designation}</p>
+                                  <p>${delegate.department}, ${delegate.college}</p>
+                              </div>
+                          </div>
+                          <div class="col-lg-6 col-md-12 vertical-line">
+                              <div class="profile-card">
+                                  <h3>Short Biography</h3>
+                                  <div class="bio-content">
+                                      <p>${delegate.short_bio}</p>
+                                  </div>
+                                  <a href="#" class="read-more">Read More</a>
+                              </div>
+                          </div>
+                      `;
+
+            container.appendChild(profileCard);
+
+            // Selecting elements within the created profile card
+            const bioContent = profileCard.querySelector('.bio-content');
+            const readMoreBtn = profileCard.querySelector('.read-more');
+
+            // Adding click event listener to the read more button
+            readMoreBtn.addEventListener('click', function (e) {
+              e.preventDefault();
+              if (bioContent.classList.contains('expanded')) {
+                bioContent.style.maxHeight = '100px';
+                bioContent.classList.remove('expanded');
+                readMoreBtn.textContent = 'Read More';
+              } else {
+                bioContent.style.maxHeight = bioContent.scrollHeight + 'px';
+                bioContent.classList.add('expanded');
+                readMoreBtn.textContent = 'Read Less';
+              }
+            });
+          });
+        })
+        .catch(error => console.error('Error fetching data:', error));
+    });
+  </script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
