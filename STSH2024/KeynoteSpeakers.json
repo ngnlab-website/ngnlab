@@ -7,7 +7,7 @@
     "college": "Queen's University Belfast, Northern Ireland",
     "phone": "",
     "email": "m.van@qub.ac.uk",
-    "image_url": "25.png",
+    "image_url": "24.jpg",
     "keynotes": "Learning and Digital Twins-based Control for Autonomous Robotics Systems subject to Safety Constraints"
   },
   {
@@ -18,7 +18,7 @@
     "college": "Queen's University Belfast, Northern Ireland",
     "phone": "",
     "email": "p.sopasakis@qub.ac.uk",
-    "image_url": "26.png",
+    "image_url": "25.jpg",
     "keynotes": "Safe operation of autonomous vehicles under uncertainty"
   },
   {
@@ -29,7 +29,7 @@
     "college": "Queen's University Belfast, Northern Ireland",
     "phone": "",
     "email": "c.cameron@qub.ac.uk",
-    "image_url": "27.png",
+    "image_url": "26.jpg",
     "keynotes": "Critical asset management and emergency communications infrastructure "
   },
   {
@@ -40,7 +40,7 @@
     "college": "Queens's University Belfast, Northern Ireland",
     "phone": "",
     "email": "w.naeem@qub.ac.uk",
-    "image_url": "28.png",
+    "image_url": "27.jpg",
     "keynotes": "Future Maritime Transportation - Avoiding the Titanic Tragedy  <strong>(ONLINE ONLY)</strong>"
   },
   {
@@ -51,7 +51,7 @@
     "college": "University of York, United Kingdom",
     "phone": "",
     "email": "john.oyekan@york.ac.uk",
-    "image_url": "30.png",
+    "image_url": "29.jpg",
     "keynotes": "Human-Centred AI for Autonomous Systems <strong>(ONLINE ONLY)</strong>"
   },
   {
@@ -62,7 +62,7 @@
     "college": "Hanoi University of Industry, Hanoi, Vietnam",
     "phone": "",
     "email": "nguyenvantruong@haui.edu.vn",
-    "image_url": "22.png",
+    "image_url": "21.jpg",
     "keynotes": "AI and Applications in Society: A Look from Vietnam (50 minutes)"
   },
   {
@@ -73,7 +73,7 @@
     "college": "Vietnam National University - University of Engineering and Technology, Hanoi, Vietnam",
     "phone": "",
     "email": "xiemhoang@vnu.edu.vn",
-    "image_url": "23.png",
+    "image_url": "22.jpg",
     "keynotes": "AI and Applications in Society: A Look from Vietnam (50 minutes)"
   },
   {
@@ -84,7 +84,7 @@
     "college": "Hanoi University of Industry",
     "phone": "",
     "email": "tiendung@haui.edu.vn",
-    "image_url": "24.png",
+    "image_url": "23.jpg",
     "keynotes": "AI and Applications in Society: A Look from Vietnam (50 minutes)"
   },
   {
@@ -92,7 +92,7 @@
     "designation": "Research Assistant",
     "department": "University of Applied Sciences",
     "college": "Ernst-Abbe-Hochshule,Jena Germany",
-    "image_url": "21.jpg",
+    "image_url": "32.jpg",
     "short_bio": "Herbert Potechius is a academic and researcher based in Germany. He holds a Bachelor of Science in Computer Engineering and a Master of Science in Computer Science, both from the Technical University Berlin. Currently, he serves as a research assistant at the University of Applied Sciences Jena, where he is involved in a project funded by the Federal Ministry of Education and Research. The project focuses on the development of AI-related teaching materials suitable for universitystudents across various disciplines. Additionally, Herbert is pursuing his PhD at the same institution, researching the virtualization of shared environments in XR telecommunication scenarios. His work primarily explores color transfer techniques and investigates how the results of these algorithms are subjectively perceived by humans."
   },
   {
@@ -303,7 +303,29 @@
     "college": "University of Engineering and Technology Taxila, Pakistan",
     "phone": "",
     "email": "haroon.yousaf@uettaxila.edu.pk",
-    "image_url": "29.png",
-    "keynotes": "Edge-AI and Unmanned Aerial Systems: A Practical Perspective <strong>(ONLINE ONLY)</strong>"
+    "image_url": "28.jpg",
+    "short_bio": "Prof Muhammad Haroon Yousaf is currently working as a Professor of Computer Engineering at University of Engineering and Technology Taxila. He is the Director/Principal Investigator of Swarm Robotics Lab under the National Centre of Robotics & Automation (NCRA).  His research interests are in computer vision research particularly in the areas of object detection, object recognition, scene understanding, action/activity recognition, Robotics and multi-modal recognition. He is also working as Associate Editor of IEEE Transactions on Circuits and Systems on Video Technology (TCSVT), and Academic Editor of Mathematical Problems in Engineering journal. He is the recipient of the Best University Teacher Award by the Higher Education Commission for the years 2012-2013."
+  },
+  {
+    "priority": 30,
+    "name": "Mr Stephen McIlvanna",
+    "designation": "PhD Student, Centre for Autonomous Manufacturing Systems (i-AMS)",
+    "department": "School of Electronics, Electrical Engineering and Computer Science",
+    "college": "Queen’s University Belfast",
+    "phone": "",
+    "email": "haroon.yousaf@uettaxila.edu.pk",
+    "image_url": "31.jpg",
+    "short_bio": "Stephen Mcllvanna received the MEng degree in Electrical and Electronic Engineering from Queen’s University Belfast in 2007. He is currently pursuing the Ph.D. degree at Queen’s University. His research interests are safety critical control of autonomous systems incorporating machine learning techniques."
+  },
+  {
+    "priority": 30,
+    "name": "Prof Seán McLoone",
+    "designation": "Director, Centre for Autonomous Manufacturing Systems (i-AMS), Director, Energy, Power and Intelligent Control Research Centre (EPIC)",
+    "department": "School of Electronics, Electrical Engineering and Computer Science",
+    "college": "Queen’s University Belfast",
+    "phone": "",
+    "email": "haroon.yousaf@uettaxila.edu.pk",
+    "image_url": "30.jpg",
+    "short_bio": "Prof Seán McLoone is Professor of Applied Computational Intelligence and Director of the Centre for Intelligent Autonomous Manufacturing Systems (i-AMS) at Queen’s University Belfast. He is also Director of the Energy, Power and Intelligent Control (EPIC) Research Centre within the School of Electronics, Electrical Engineering and Computer Science at Queen’s University Belfast. Prof McLoone’s research interests are in computational intelligence techniques, machine learning and data analytics with applications in advanced manufacturing and power systems.  His research has a strong application focus, with many projects undertaken in collaboration with industry in areas such as process monitoring, control, optimisation, time series prediction, and in-line sensor characterization.  At a professional level, Prof. McLoone is a Chartered Engineer, a Fellow of the Institute of Engineering Technology (IET), and a Senior Member of the Institute of Electrical and Electronic Engineers (IEEE). He is a member of the IFAC Technical Committees on Computational Intelligence in Control (TC3.2), and Modelling, Identification and Signal Processing (TC1.1) and has previously served as Member of the Accreditation Board of Engineers Ireland and as a non-executive Director on the Board of Directors of Irish Manufacturing Research Ltd. He currently serves as an Associate Editor for the ‘Transactions of the Institute of Measurement and Control’ and as a member of the Editorial Board of ‘Engineering Applications of Artificial Intelligence’"
   }
 ]

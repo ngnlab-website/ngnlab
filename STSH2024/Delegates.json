@@ -1,5 +1,27 @@
 [
   {
+    "priority": 30,
+    "name": "Prof Seán McLoone",
+    "designation": "Director, Centre for Autonomous Manufacturing Systems (i-AMS), Director, Energy, Power and Intelligent Control Research Centre (EPIC)",
+    "department": "School of Electronics, Electrical Engineering and Computer Science",
+    "college": "Queen’s University Belfast",
+    "phone": "",
+    "email": "haroon.yousaf@uettaxila.edu.pk",
+    "image_url": "30.jpg",
+    "short_bio": "Prof Seán McLoone is Professor of Applied Computational Intelligence and Director of the Centre for Intelligent Autonomous Manufacturing Systems (i-AMS) at Queen’s University Belfast. He is also Director of the Energy, Power and Intelligent Control (EPIC) Research Centre within the School of Electronics, Electrical Engineering and Computer Science at Queen’s University Belfast. Prof McLoone’s research interests are in computational intelligence techniques, machine learning and data analytics with applications in advanced manufacturing and power systems.  His research has a strong application focus, with many projects undertaken in collaboration with industry in areas such as process monitoring, control, optimisation, time series prediction, and in-line sensor characterization.  At a professional level, Prof. McLoone is a Chartered Engineer, a Fellow of the Institute of Engineering Technology (IET), and a Senior Member of the Institute of Electrical and Electronic Engineers (IEEE). He is a member of the IFAC Technical Committees on Computational Intelligence in Control (TC3.2), and Modelling, Identification and Signal Processing (TC1.1) and has previously served as Member of the Accreditation Board of Engineers Ireland and as a non-executive Director on the Board of Directors of Irish Manufacturing Research Ltd. He currently serves as an Associate Editor for the ‘Transactions of the Institute of Measurement and Control’ and as a member of the Editorial Board of ‘Engineering Applications of Artificial Intelligence’"
+  },
+  {
+    "priority": 30,
+    "name": "Mr Stephen McIlvanna",
+    "designation": "PhD Student, Centre for Autonomous Manufacturing Systems (i-AMS)",
+    "department": "School of Electronics, Electrical Engineering and Computer Science",
+    "college": "Queen’s University Belfast",
+    "phone": "",
+    "email": "haroon.yousaf@uettaxila.edu.pk",
+    "image_url": "31.jpg",
+    "short_bio": "Stephen Mcllvanna received the MEng degree in Electrical and Electronic Engineering from Queen’s University Belfast in 2007. He is currently pursuing the Ph.D. degree at Queen’s University. His research interests are safety critical control of autonomous systems incorporating machine learning techniques."
+  },
+  {
     "priority": 25,
     "name": "Dr Mien Van",
     "designation": "Senior Lecturer",
@@ -7,7 +29,7 @@
     "college": "Queen's University Belfast, Northern Ireland",
     "phone": "",
     "email": "m.van@qub.ac.uk",
-    "image_url": "25.png",
+    "image_url": "24.jpg",
     "short_bio": "Dr Mien Van is a Senior Lecturer (a.k.a. Associate Professor) in Robotics and Intelligent Control at the School of Electronics, Electrical Engineering and Computer Science at Queens University Belfast. He received his Ph.D. degree from the School of Electrical Engineering, University of Ulsan, South Korea, in 2015. He has authored and co-authored over 70 journal (first-authored of over 40 journal papers) and conference papers with citations over 2700 and a h-index of 29 (google scholar), since 2013. He has been the PI on 7 projects and Co-I on 1 project within the topics of Robotics and Digital Twins with an added value of ∼￡1.2M. As a research fellow, he has completed many high-profile robotics research projects with an added value of ∼￡10M. Dr. Van is a member of the IFAC Technical Committees on Robotics (TC4.3) and an Associate Editor for IJCAS (Springer), Scientific Report (Nature), Sensors, etc. His research interests include Collaborative Robotics, Digital Twins, AI/Machine learning, Smart Manufacturing, and Intelligent Control for Robotics."
   },
   {
@@ -18,7 +40,7 @@
     "college": "Queen's University Belfast, Northern Ireland",
     "phone": "",
     "email": "p.sopasakis@qub.ac.uk",
-    "image_url": "26.png",
+    "image_url": "25.jpg",
     "short_bio": "Dr Pantelis Sopasakis holds a diploma (MEng) in Chemical Engineering (2007), an MSc, with honours, in Applied Mathematics (2009) and a PhD in Control Engineering (2013), from the National Technical University of Athens. He is a lecturer in the School of Electronics, Electrical Engineering and Computer Science (EEECS) at Queen's University Belfast. Previously, he held postdoctoral research positions in KU Leuven, University of Cyprus and IMT School for Advanced Studies Lucca. His research focuses on the development of fast numerical algorithms for large-scale convex and nonconvex optimisation and the design of model predictive control methods for uncertain nonlinear systems. His research outcomes have been published in top-tier journals and conferences such as the IEEE Trans. on Control Systems Technology, IEEE TAC, Automatica, IEEE CDC and IFAC WC."
   },
   {
@@ -29,7 +51,7 @@
     "college": "Queen's University Belfast, Northern Ireland",
     "phone": "",
     "email": "c.cameron@qub.ac.uk",
-    "image_url": "27.png",
+    "image_url": "26.jpg",
     "short_bio": "Dr Che Cameron works as a Research Fellow in System Modelling and Optimisation at Queen's University Belfast, where he is assessing pathways for future energy system decarbonisation. He holds a PhD in Manufacturing Digitalisation and an MEng in Electrical and Electronic Engineering which were both awarded by Queen's University Belfast. Examples of his work are an automated sensor-to-simulation pipeline for discrete event simulation, techno-economic analysis of a geospatial water treatment network, and automatic translation techniques for integrated energy system model conversion. His industrial collaborations include process optimisation for multi-national manufacturers, sectoral landscape scoping, and supporting commercial IoT development. His research focuses on Meta-Heuristic Optimisation and Systems Analysis, with an emphasis on data-driven instantiation and validation. His other professional interests include Retrofit Digitalisation, Industrial IoT, Time Series Segmentation, Wireless Sensor Networks, Additive Manufacturing, and Human-Centric Engineering."
   },
   {
@@ -40,7 +62,7 @@
     "college": "Queens's University Belfast, Northern Ireland",
     "phone": "",
     "email": "w.naeem@qub.ac.uk",
-    "image_url": "28.png",
+    "image_url": "27.jpg",
     "short_bio": "Dr Wasif Naeem BEng, MSc, PhD is an Associate Professor in the School of Electronics, Electrical Engineering and Computer Science at QUB and is also a member of the Centres for Intelligent Autonomous Manufacturing Systems and Energy, Power and Intelligent Control. His doctoral research was part of an EPSRC-funded academia-industry collaborative project to develop an autonomous underwater vehicle. He is currently leading collision avoidance research for a hydrofoiling ferry as part of a £35M project led by Artemis Technologies. He was also the Principle Investigator from QUB on an £1.3M InnovateUK-funded Rolls Royce led MAXCMAS research grant developing path planning and collision avoidance strategies for marine vehicles. He was the coordinator of an EU-funded Erasmus+ project on development of training programmes in the area of Industry 4.0 related smart manufacturing. Dr Naeem's research interests span optimal control, system identification, process control and systems engineering. He has authored over 100 peer-reviewed journal and conference papers and 3 book chapters. Two journal papers in the area of guidance of unmanned marine vehicles were awarded the Michael Richey Medal and IMarEST Denny Medal respectively by the Royal Institute of Navigation and Institute of Marine Engineering Science and Technology (IMarEST). Another conference presentation on the subject of COLREGs-based collision avoidance was awarded the 'Most Innovative Research' prize by the IMarEST. Dr Naeem has successfully supervised over 10 PhD students in the general area of robotics Dr Naeem is a member of the prestigious EPSRC College, a member of IFAC Technical Committee on Marine Systems and an Executive Committee member of the UK Automatic Control Council."
   },
   {
@@ -51,7 +73,7 @@
     "college": "University of York, United Kingdom",
     "phone": "",
     "email": "john.oyekan@york.ac.uk",
-    "image_url": "30.png",
+    "image_url": "29.jpg",
     "short_bio": "Dr John Oyekan is a Chartered Engineer (CEng) and Senior Lecturer in Human-Centred AI for Autonomous Manufacturing in the Department of Computer Science at the University of York. He was previously a Lecturer in Digital Manufacturing at the University of Sheffield. He received a Ph.D degree in Computer Science and Electronic Engineering from the University of Essex as well as a MSc Robotics and Embedded Systems from same. Prior to the University of Sheffield, he was an Engineer at the Manufacturing Technology Centre in Coventry where he developed software architectures and algorithms for Autonomous Systems and a Research Fellow at Cranfield University carrying out research in Manufacturing Informatics. He has over 3 years of experience working in industry and his work is characterised by both fundamental and applied research in collaboration with partners in the automotive, aerospace and manufacturing sectors. He has over 30 publications in the areas of swarm robotics, manufacturing informatics, bio-inspired algorithms, and sensing."
   },
   {
@@ -62,7 +84,7 @@
     "college": "Hanoi University of Industry, Hanoi, Vietnam",
     "phone": "",
     "email": "nguyenvantruong@haui.edu.vn",
-    "image_url": "22.png",
+    "image_url": "21.jpg",
     "short_bio": "Van-Truong Nguyen received the B.S. and M.S. degrees in mechatronics engineering from the School of Mechanical Engineering, Hanoi University of Science and Technology, Hanoi, Vietnam, in 2012 and 2014, respectively, and the Ph.D. degree in mechanical engineering from the National Taiwan University of Science and Technology, Taipei, Taiwan, in 2018. Since 2013, he has been a Lecturer with the Faculty of Mechatronics, Hanoi University of Industry, Hanoi. He is currently Dean of the Faculty of Mechatronics, Head of the Intelligent Robotics Laboratory, ​Director of Robot and Artificial Intelligence Program, HaUI, Hanoi, Vietnam. He is also the Co-Founder of Robot STEAM Vietnam. Dr. Truong was a recipient of the National Outstanding Innovation Award in 2015, the Best Student Paper Award of the International Automatic Control Conference in 2018. His current research interests include robotics, mobile robots, AI, intelligent control systems, and computer vision applications."
   },
   {
@@ -73,7 +95,7 @@
     "college": "Vietnam National University - University of Engineering and Technology, Hanoi, Vietnam",
     "phone": "",
     "email": "xiemhoang@vnu.edu.vn",
-    "image_url": "23.png",
+    "image_url": "22.jpg",
     "short_bio": "A/Prof. Hoang Van Xiem is the Head and founding member of the Department of Robotics Engineering, Vietnam National University - University of Engineering and Technology (VNU-UET). He was the former Director of the Center for Quality Assurance in VNU - UET (2021 - 2022 term).  He received a Ph.D. degree from Lisbon University, Portugal, in 2015, a M.Sc. degree from Sungkyunkwan University, South Korea, in 2011, and BE degree from Hanoi University of Science and Technology, 2009, all in Electrical and Computer Engineering.  He has published nearly 100 papers on image/video processing and robotics vision. He is an editor of the Frontiers in Signal Processing Journal and VNU-Journal of Science and reviewed for a number of top IEEE, Elsevier and Springer Journals. He has received a number of prestigious awards including 2023 IEEE RIVF, 2022 REV-ECIT, 2018 IWAIT and 2015 PCS best paper awards, his work on distributed video coding received the 2021 REV-AWARD, 2020 Innova Patent Silver Award (Croatia), and the Fraunhofer Portugal Challenge Award 2015.  He is one of ten young research scientists (one of two in ICT) was awarded the Golden Globe in Science and Technology 2019 and in 2021 - 2022 term, he was one of the youngest associate professors appointed by the State council for professorship in Vietnam."
   },
   {
@@ -84,7 +106,7 @@
     "college": "Hanoi University of Industry",
     "phone": "",
     "email": "tiendung@haui.edu.vn",
-    "image_url": "24.png",
+    "image_url": "23.jpg",
     "short_bio": "Tien-Dung Hoang received the B.Sc., M.Sc. and Ph.D. degree from Hanoi University of Science and Technology in 2003, 2007 and 2016 respectively in Viet Nam. Currently, he is a lecturer at the Faculty of Mechanical Engineering, Hanoi University of Industry, Hanoi, Vietnam. His research interests include Dynamic Machining, Modelling and Optimization, CAD/CAM/CAE/CNC, AM/3D printing Technology, Mold Manufacturing, optimization and intelligent manufacturing system."
   },
   {
@@ -92,7 +114,7 @@
     "designation": "Research Assistant",
     "department": "University of Applied Sciences",
     "college": "Ernst-Abbe-Hochshule,Jena Germany",
-    "image_url": "21.jpg",
+    "image_url": "32.jpg",
     "short_bio": "Herbert Potechius is a academic and researcher based in Germany. He holds a Bachelor of Science in Computer Engineering and a Master of Science in Computer Science, both from the Technical University Berlin. Currently, he serves as a research assistant at the University of Applied Sciences Jena, where he is involved in a project funded by the Federal Ministry of Education and Research. The project focuses on the development of AI-related teaching materials suitable for universitystudents across various disciplines. Additionally, Herbert is pursuing his PhD at the same institution, researching the virtualization of shared environments in XR telecommunication scenarios. His work primarily explores color transfer techniques and investigates how the results of these algorithms are subjectively perceived by humans."
   },
   {
@@ -303,7 +325,7 @@
     "college": "University of Engineering and Technology Taxila, Pakistan",
     "phone": "",
     "email": "haroon.yousaf@uettaxila.edu.pk",
-    "image_url": "29.png",
+    "image_url": "28.jpg",
     "short_bio": "Prof Muhammad Haroon Yousaf is currently working as a Professor of Computer Engineering at University of Engineering and Technology Taxila. He is the Director/Principal Investigator of Swarm Robotics Lab under the National Centre of Robotics & Automation (NCRA).  His research interests are in computer vision research particularly in the areas of object detection, object recognition, scene understanding, action/activity recognition, Robotics and multi-modal recognition. He is also working as Associate Editor of IEEE Transactions on Circuits and Systems on Video Technology (TCSVT), and Academic Editor of Mathematical Problems in Engineering journal. He is the recipient of the Best University Teacher Award by the Higher Education Commission for the years 2012-2013."
   }
 ]
