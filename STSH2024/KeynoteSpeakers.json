@@ -375,7 +375,7 @@
 {
     "priority": 34,
     "name": "Dr. Ashish Kumar",
-    "designation": "",
+    "designation": "Engineer",
     "department": "Atmospheric Division",
     "college": "Aryabhatta Research Institute of observational sciencES (ARIES), Uttarakhand",
     "phone": "",
@@ -420,7 +420,7 @@
     "priority": 38,
     "name": "Dr. Mahesh Veezhinathan",
     "designation": "Associate Vice President",
-    "department": "",
+    "department": "Bio Medical Engineering",
     "college": "Forge Innovation & Ventures, India",
     "phone": "",
     "email": "mahesh.v@forgeforward.in",
