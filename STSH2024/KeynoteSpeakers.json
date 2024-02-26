@@ -1,7 +1,7 @@
 [
   {
     "priority": 25,
-    "name": "Dr Mien Van",
+    "name": "Dr. Mien Van",
     "designation": "Senior Lecturer",
     "department": "Robotics and Intelligent Control",
     "college": "Queen's University Belfast, Northern Ireland",
@@ -12,8 +12,8 @@
   },
   {
     "priority": 26,
-    "name": "Dr Pantelis Sopasakis",
-    "designation": "lecturer",
+    "name": "Dr. Pantelis Sopasakis",
+    "designation": "Lecturer",
     "department": "School of Electronics, Electrical Engineering and Computer Science (EEECS)",
     "college": "Queen's University Belfast, Northern Ireland",
     "phone": "",
@@ -23,9 +23,9 @@
   },
   {
     "priority": 27,
-    "name": "Dr Ché Cameron",
-    "designation": "",
-    "department": "",
+    "name": "Dr. Ché Cameron",
+    "designation": "Research Fellow",
+    "department": "System Modelling and Optimisation",
     "college": "Queen's University Belfast, Northern Ireland",
     "phone": "",
     "email": "c.cameron@qub.ac.uk",
@@ -34,36 +34,36 @@
   },
   {
     "priority": 28,
-    "name": "Dr Wasif Naeem",
+    "name": "Dr. Wasif Naeem",
     "designation": "Associate Professor",
     "department": "School of Electronics, Electrical Engineering and Computer Science",
     "college": "Queens's University Belfast, Northern Ireland",
     "phone": "",
     "email": "w.naeem@qub.ac.uk",
     "image_url": "27.jpg",
-    "keynotes": "Future Maritime Transportation - Avoiding the Titanic Tragedy  <strong>(ONLINE ONLY)</strong>"
+    "keynotes": "Future Maritime Transportation - Avoiding the Titanic Tragedy  <strong>(ONLINE)</strong>"
   },
   {
     "priority": 1,
-    "name": "Dr John Oyekan",
+    "name": "Dr. John Oyekan",
     "designation": "Senior Lecturer",
     "department": "Department of Computer Science",
     "college": "University of York, United Kingdom",
     "phone": "",
     "email": "john.oyekan@york.ac.uk",
     "image_url": "29.jpg",
-    "keynotes": "Human-Centred AI for Autonomous Systems <strong>(ONLINE ONLY)</strong>"
+    "keynotes": "Human-Centred AI for Autonomous Systems <strong>(ONLINE)</strong>"
   },
   {
     "priority": 22,
-    "name": "Dr Van-Truong Nguyen",
+    "name": "Dr. Van-Truong Nguyen",
     "designation": "Dean, Head of the Intelligent Robotics Laboratory, Director of Robot and Artificial Intelligence Program",
     "department": "Faculty of Mechatronics",
     "college": "Hanoi University of Industry, Hanoi, Vietnam",
     "phone": "",
     "email": "nguyenvantruong@haui.edu.vn",
     "image_url": "21.jpg",
-    "keynotes": "AI and Applications in Society: A Look from Vietnam (50 minutes)"
+    "keynotes": "AI and Applications in Society: A Look from Vietnam"
   },
   {
     "priority": 23,
@@ -74,18 +74,18 @@
     "phone": "",
     "email": "xiemhoang@vnu.edu.vn",
     "image_url": "22.jpg",
-    "keynotes": "AI and Applications in Society: A Look from Vietnam (50 minutes)"
+    "keynotes": "AI and Applications in Society: A Look from Vietnam"
   },
   {
     "priority": 24,
-    "name": "Dr Tien-Dung Hoang",
+    "name": "Dr. Tien-Dung Hoang",
     "designation": "Lecturer",
     "department": "Faculty of Mechanical Engineering",
     "college": "Hanoi University of Industry",
     "phone": "",
     "email": "tiendung@haui.edu.vn",
     "image_url": "23.jpg",
-    "keynotes": "AI and Applications in Society: A Look from Vietnam (50 minutes)"
+    "keynotes": "AI and Applications in Society: A Look from Vietnam"
   },
   {
     "name": "Mr. Herbert Potechius",
@@ -308,7 +308,7 @@
   },
   {
     "priority": 30,
-    "name": "Mr Stephen McIlvanna",
+    "name": "Mr. Stephen McIlvanna",
     "designation": "PhD Student, Centre for Autonomous Manufacturing Systems (i-AMS)",
     "department": "School of Electronics, Electrical Engineering and Computer Science",
     "college": "Queen’s University Belfast",
@@ -327,5 +327,104 @@
     "email": "haroon.yousaf@uettaxila.edu.pk",
     "image_url": "30.jpg",
     "short_bio": "Prof Seán McLoone is Professor of Applied Computational Intelligence and Director of the Centre for Intelligent Autonomous Manufacturing Systems (i-AMS) at Queen’s University Belfast. He is also Director of the Energy, Power and Intelligent Control (EPIC) Research Centre within the School of Electronics, Electrical Engineering and Computer Science at Queen’s University Belfast. Prof McLoone’s research interests are in computational intelligence techniques, machine learning and data analytics with applications in advanced manufacturing and power systems.  His research has a strong application focus, with many projects undertaken in collaboration with industry in areas such as process monitoring, control, optimisation, time series prediction, and in-line sensor characterization.  At a professional level, Prof. McLoone is a Chartered Engineer, a Fellow of the Institute of Engineering Technology (IET), and a Senior Member of the Institute of Electrical and Electronic Engineers (IEEE). He is a member of the IFAC Technical Committees on Computational Intelligence in Control (TC3.2), and Modelling, Identification and Signal Processing (TC1.1) and has previously served as Member of the Accreditation Board of Engineers Ireland and as a non-executive Director on the Board of Directors of Irish Manufacturing Research Ltd. He currently serves as an Associate Editor for the ‘Transactions of the Institute of Measurement and Control’ and as a member of the Editorial Board of ‘Engineering Applications of Artificial Intelligence’"
-  }
+  },
+  {
+    "priority": 29,
+    "name": "Prof. Muhammad Haroon Yousaf",
+    "designation": "Professor",
+    "department": "Computer Engineering",
+    "college": "University of Engineering and Technology Taxila, Pakistan",
+    "phone": "",
+    "email": "haroon.yousaf@uettaxila.edu.pk",
+    "image_url": "",
+    "keynotes": "Edge-AI and Unmanned Aerial Systems: A Practical Perspective <strong>(ONLINE)</strong>"
+},
+  {
+    "priority": 31,
+    "name": "Dr. Ramani Kannan",
+    "designation": "Senior Lecturer",
+    "department": "Electrical and Electronics Engineering",
+    "college": "Universiti Teknologi PETRONAS, Malaysia",
+    "phone": "",
+    "email": "ramani.kannan@utp.edu.my",
+    "image_url": "",
+    "keynotes": "Malaysia's path to a Sustainable Society: Pioneering with Advanced Technology"
+},
+{
+    "priority": 32,
+    "name": "Dr. Sathishkumar V E",
+    "designation": "Lecturer",
+    "department": "Department of Computing and Information Systems",
+    "college": "Sunway University, Malaysia",
+    "phone": "",
+    "email": "sathishv@sunway.edu.my",
+    "image_url": "",
+    "keynotes": "Malaysia's path to a Sustainable Society: Pioneering with Advanced Technology"
+},
+{
+    "priority": 33,
+    "name": "Mr. Chander Shekhar Sharma",
+    "designation": "Senior Scientist",
+    "department": "CSIR- Institute of Microbial Technology (IMTECH)",
+    "college": "Chandigarh",
+    "phone": "",
+    "email": "shekhar@imtech.res.in",
+    "image_url": "",
+    "keynotes": "Empowering Communities: STI Hub Ladakh's Journey to Health Innovation"
+},
+{
+    "priority": 34,
+    "name": "Dr. Ashish Kumar",
+    "designation": "",
+    "department": "Atmospheric Division",
+    "college": "Aryabhatta Research Institute of observational sciencES (ARIES), Uttarakhand",
+    "phone": "",
+    "email": "ashish@aries.res.in",
+    "image_url": "",
+    "keynotes": "A Portable, Low-Cost Multispectral System for Monitoring Night Sky Brightness over the Astronomical Sites"
+},
+{
+    "priority": 35,
+    "name": "Mr. Jithin Krishnan",
+    "designation": "Scientist/Engineer",
+    "department": "Division of Medical Instrumentation",
+    "college": "Sree Chitra Thirunal Institute of Medical Sciences and Technology, Trivandrum",
+    "phone": "",
+    "email": "jithinkrishnan@sctimst.ac.in",
+    "image_url": "",
+    "keynotes": "Science and Technology Interventions in Primary Healthcare for Greater Society Using New Age Tools - an SCTIMST Perspective"
+},
+{
+    "priority": 36,
+    "name": "Dr. Kalimuthu Karuppanan",
+    "designation": "Research Assistant Professor",
+    "department": "Department of Biotechnology",
+    "college": "SRM Institute of Science and Technology, Chennai",
+    "phone": "",
+    "email": "kalimutk1@srmist.edu.in",
+    "image_url": "",
+    "keynotes": "SMART Technology Aided Monitoring of Metabolic and Emerging Infectious Diseases"
+},
+{
+    "priority": 37,
+    "name": "Dr. P. Praveen Kumar",
+    "designation": "Scientist",
+    "department": "Advanced Systems Laboratory",
+    "college": "DRDO, Hyderabad",
+    "phone": "",
+    "email": "praveenkp.am@gmail.com",
+    "image_url": "",
+    "keynotes": "Advanced Materials for Aerospace and Defence Applications"
+},
+{
+    "priority": 38,
+    "name": "Dr. Mahesh Veezhinathan",
+    "designation": "Associate Vice President",
+    "department": "",
+    "college": "Forge Innovation & Ventures, India",
+    "phone": "",
+    "email": "mahesh.v@forgeforward.in",
+    "image_url": "",
+    "keynotes": "Which Innovation will Win?"
+}
 ]
