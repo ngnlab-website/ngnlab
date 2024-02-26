@@ -1,7 +1,7 @@
 [
   {
     "priority": 30,
-    "name": "Prof Seán McLoone",
+    "name": "Prof. Seán McLoone",
     "designation": "Director, Centre for Autonomous Manufacturing Systems (i-AMS), <br>Director, Energy, Power and Intelligent Control Research Centre (EPIC)",
     "department": "School of Electronics, Electrical Engineering and Computer Science",
     "college": "Queen’s University Belfast",
@@ -12,7 +12,7 @@
   },
   {
     "priority": 30,
-    "name": "Mr Stephen McIlvanna",
+    "name": "Mr. Stephen McIlvanna",
     "designation": "PhD Student, Centre for Autonomous Manufacturing Systems (i-AMS)",
     "department": "School of Electronics, Electrical Engineering and Computer Science",
     "college": "Queen’s University Belfast",
@@ -24,7 +24,7 @@
   {
     "priority": 25,
     "name": "Dr. Mien Van",
-    "designation": "Senior Lecturer (a.k.a. Associate Professor)",
+    "designation": "Senior Lecturer, Associate Professor",
     "department": "Robotics and Intelligent Control",
     "college": "Queen's University Belfast, Northern Ireland",
     "phone": "",
@@ -35,7 +35,7 @@
   {
     "priority": 26,
     "name": "Dr. Pantelis Sopasakis",
-    "designation": "lecturer",
+    "designation": "Lecturer",
     "department": "School of Electronics, Electrical Engineering and Computer Science (EEECS)",
     "college": "Queen's University Belfast, Northern Ireland",
     "phone": "",
