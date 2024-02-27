@@ -691,7 +691,6 @@
       <div class="container">
         <div class="section-header">
           <h2>Delegates</h2>
-          <p>Here are some of our delegates</p>
         </div>
 
         <div class="container" id="delegates-profile-cards">
@@ -782,8 +781,10 @@
                               </div>
                           </div>`;
 
+            var org = `<h4 class="mb-2" style="color: #f82249">Organizer</h4>`;
             var content1 = `<div class="col-lg-6 col-md-12 vertical-line" style="text-align:justify">
                               <div class="profile-card">
+                                  ${delegate.organizer === "yes" ? org : ""}
                                   <h4 class="short-bio"> <img src="img/bio.png" class="keynote-logo"/>Short Biography</h4>
                                   <div class="bio-content">
                                       <p>${delegate.short_bio}</p>
@@ -794,6 +795,7 @@
 
             var content2 = `<div class="col-lg-6 col-md-12 vertical-line" style="text-align:justify">
                               <div class="profile-card">
+                                  ${delegate.organizer === "yes" ? org : ""}
                                   <h4 class="short-bio"> <img src="img/keynote.png" class="keynote-logo"/> Keynote Talk </h4>
                                   <div class="keynotes-content">
                                        <span> ${delegate.keynotes}</span>

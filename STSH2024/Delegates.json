@@ -1,7 +1,8 @@
 [
   {
-    "priority": 1,
+    "priority": 2,
     "name": "Prof. Seán McLoone",
+    "organizer": "yes",
     "designation": "Director, Centre for Autonomous Manufacturing Systems (i-AMS), <br>Director, Energy, Power and Intelligent Control Research Centre (EPIC)",
     "department": "School of Electronics, Electrical Engineering and Computer Science",
     "college": "Queen’s University Belfast",
@@ -11,8 +12,9 @@
     "short_bio": "Prof Seán McLoone is Professor of Applied Computational Intelligence and Director of the Centre for Intelligent Autonomous Manufacturing Systems (i-AMS) at Queen’s University Belfast. He is also Director of the Energy, Power and Intelligent Control (EPIC) Research Centre within the School of Electronics, Electrical Engineering and Computer Science at Queen’s University Belfast. Prof McLoone’s research interests are in computational intelligence techniques, machine learning and data analytics with applications in advanced manufacturing and power systems.  His research has a strong application focus, with many projects undertaken in collaboration with industry in areas such as process monitoring, control, optimisation, time series prediction, and in-line sensor characterization.  At a professional level, Prof. McLoone is a Chartered Engineer, a Fellow of the Institute of Engineering Technology (IET), and a Senior Member of the Institute of Electrical and Electronic Engineers (IEEE). He is a member of the IFAC Technical Committees on Computational Intelligence in Control (TC3.2), and Modelling, Identification and Signal Processing (TC1.1) and has previously served as Member of the Accreditation Board of Engineers Ireland and as a non-executive Director on the Board of Directors of Irish Manufacturing Research Ltd. He currently serves as an Associate Editor for the ‘Transactions of the Institute of Measurement and Control’ and as a member of the Editorial Board of ‘Engineering Applications of Artificial Intelligence’."
   },
   {
-    "priority": 2,
+    "priority": 1,
     "name": "Prof. Gunasekaran Raja",
+    "organizer": "yes",
     "designation": "Professor <br>Director - Internal Quality Assurance Cell (IQAC)",
     "department": "Department of Computer Technology",
     "college": "Anna University, Chennai",
@@ -82,8 +84,9 @@
     "keynotes": "Critical asset management and emergency communications infrastructure "
   },
   {
-    "priority": 9,
+    "priority": 2.5,
     "name": "Dr. Wasif Naeem",
+    "organizer": "yes",
     "designation": "Associate Professor",
     "department": "School of Electronics, Electrical Engineering and Computer Science",
     "college": "Queens's University Belfast, Northern Ireland",
