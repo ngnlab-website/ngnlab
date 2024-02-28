@@ -127,6 +127,10 @@
       height: 400px;
       object-fit: cover;
     }
+
+    #moreText {
+      display: none;
+    }
   </style>
 </head>
 
@@ -179,7 +183,7 @@
     <!--==========================
       About Section
     ============================-->
-    <section id="about" style="margin-bottom: -40px;">
+    <!-- <section id="about" style="margin-bottom: -40px;">
       <div class="container" style="margin-top: -40px; margin-bottom: -40px">
         <div class="row">
           <div class="col-lg-6">
@@ -198,18 +202,44 @@
           </div>
         </div>
       </div>
+    </section> -->
+
+    <section id="about" style="margin-bottom: -40px;">
+      <div class="container" style="margin-top: -40px; margin-bottom: -40px">
+        <div class="row">
+          <div class="col-lg-6">
+            <h3>Where <i class="ri-map-pin-line" style="margin: 16px"></i></h3>
+            <p>Department of Computer Technology, Anna University, MIT Campus, Chrompet, Chennai 600044, India</p>
+          </div>
+          <div class="col-lg-6">
+            <h3>When <i class="ri-calendar-schedule-line" style="margin: 16px"></i></h3>
+            <p>4th & 5th March, 2024</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="speakers" class="wow fadeInUp" style="margin-top: -40px; margin-bottom: -40px">
-      <div class="container" >
+      <div class="container">
         <div class="section-header">
-          <h2>Our aim</h2>
+          <h2>About the Workshop</h2>
         </div>
-        <p style="margin-top: -36px; text-align: justify;">This workshop aims to bring together experts and researchers from the UK, India,
-          Germany, Vietnam, Malaysia and Oman to explore how Smart Technologies (AI, computer vision, robotics and
-          autonomous systems) can be better utilized to improve Societal Health in regions impacted by natural disasters.
-          The workshop further intends to identify technical challenges in their development and establish a
-          collaborative action plan for research activities to overcome these challenges.</p>
+        <p id="introText" style="margin-top: -36px; text-align: justify;">As the Madras Institute of Technology (MIT) Campus at Anna University commemorates its 75th anniversary,
+          the Department of Computer Technology, in partnership with Queen's University Belfast, UK is set to
+          host a two-day Transnational Workshop on 'Smart Technologies for Societal Health'. This workshop seeks to bring together researchers and stakeholders from the UK, India, Vietnam and Malaysia to explore how Smart Technologies (AI, computer vision, robotics and autonomous systems) can be better utilized to improve Societal Health in regions impacted by natural disasters. 
+          <span><a id="readMoreBtn" href="#about" onclick="toggleReadMore()">Read more</a></span>
+        </p>
+        
+        <div id="moreText" style="margin-top: -24px; text-align: justify;">
+            <p style="margin-top: -24px; text-align: justify;">Monsoon season, for instance, is one of the major annual climatic cycles that causes substantial devastation for the population in these countries with flooding particularly in low lying areas. Additionally, global warming is impacting the region at an unprecedented scale. According to The Washington Post, Pakistan alone hosts more glacial ice than anywhere on Earth outside the polar regions. These glaciers feed rivers providing water supply for a large part of the country. Unfortunately, the glaciers are receding due to both natural (higher temperatures, reduced snowfall, heavier summer rainfalls) and man-made (deforestation) reasons. This causes havoc in the form of catastrophic floods as witnessed in the summer of 2022. India and Vietnam also experience flooding every year causing significant damage to their infrastructure, with knock-on effects on societal health, especially in rural areas where the population is heavily reliant on farming and livestock. Stagnant water provides a perfect breeding ground for mosquitoes and other insects causing endemics such as malaria, dengue fever in addition to other water borne diseases (diarrhoea, skin infections) according to the World Health Organisation in all three countries.</p>
+            <p style="margin-top: -24px; text-align: justify;">Pakistan and India, which are located on Tectonic plate fault lines, also frequently experience earthquakes that cause high numbers of fatalities and infrastructure damage on a regular basis. Difficult terrain, weaker infrastructure, and poverty in some of these areas mean that search and rescue operations can take much longer than average, thereby increasing the human suffering and casualties.</p>
+            <p style="margin-top: -24px; text-align: justify;">Utilisation of smart technology can help to alleviate some of these challenges. For example, autonomous vehicles, including drones and ground robots, could support search and rescue operations by mapping the affected areas where humans are unable to go. Computer vision can play a vital role in searching for and tracking trapped people hence accelerating crucial rescue efforts, where needed. AI and data analytics could play a vital role in improving the intelligence of such systems for their quick deployment, which could be the difference between life and death in rescue operations.</p>
+            <p style="margin-top: -24px; text-align: justify;">Smart technology could also be utilised to detect mosquito breeding ground hot spots to either promptly action an autonomous response and/or provide data to relevant agencies for further processing and action, as needed. Other areas where smart technology could support disaster relief and recovery include, remote triage, transport and delivery of essential medical and food supplies, automated damage and infrastructure integrity assessments, and communication infrastructure reinstatement.</p>
+            <p style="margin-top: -24px; text-align: justify;">The goals of the workshop are to explore these and other areas where smart technologies could be brought to bear to improve societal health when a region is impacted by a natural disaster, identify technical challenges to their development, and devise an action plan for collaborative research activities to overcome these challenges.</p>
+            <p style="margin-top: -24px; text-align: justify;">The workshop will consist of a series of keynote lectures, panel discussions and breakout sessions with input from both experienced and early career researchers from the participating countries. <span style="margin-top: -24px; text-align: justify;"><a id="readLessBtn" href="#about" onclick="toggleReadMore()" style="display:none;">Read less</a></span></p>
+          
+        </div>
+        
       </div>
     </section>
 
@@ -220,7 +250,7 @@
 
       <div class="container" style="margin-top: -30px; margin-bottom: -50px;">
         <div class="section-header">
-          <h2>Organizers</h2>
+          <h2>Conveners</h2>
         </div>
 
         <div class="row" style="width: 80%; display: flex; justify-content: center;  margin: auto;">
@@ -375,7 +405,7 @@
           </div>
           <div class="address">
             <div class="address-actual">
-              <h6 style="font-family: 'Arial';">Department of Computer Technology<br>Anna University<br>MIT Campus<br>Chromepet<br>Chennai 600044</p>
+              <h6 style="font-family: 'Arial';">Department of Computer Technology<br>Anna University<br>MIT Campus<br>Chromepet<br>Chennai 600044<br>India</p>
             </div>
           </div>
         </div>
@@ -496,6 +526,24 @@
 
       startAutoScroll();
     </script>
+
+<script>
+  function toggleReadMore() {
+    var moreText = document.getElementById("moreText");
+    var readMoreBtn = document.getElementById("readMoreBtn");
+    var readLessBtn = document.getElementById("readLessBtn");
+
+    if (moreText.style.display === "none") {
+      moreText.style.display = "block";
+      readMoreBtn.style.display = "none";
+      readLessBtn.style.display = "inline";
+    } else {
+      moreText.style.display = "none";
+      readMoreBtn.style.display = "inline";
+      readLessBtn.style.display = "none";
+    }
+  }
+</script>
 </body>
 
 </html>
