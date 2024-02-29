@@ -217,7 +217,7 @@
     "phone": 919960000000,
     "email": "praveenkp.am@gmail.com",
     "image_url": "11.png",
-    "short_bio": "Dr. P. Praveen Kumar is a Scientist in Advanced Systems Laboratory of DRDO at Hyderabad. He was awarded a PhD in Applied Mechanics from IIT Delhi. His current areas of research include solid mechanics, composite materials, material modeling, FEM and computational modeling. He taught courses on “Aerospace Structures” and “Missile Structures” for M.Tech (Aerospace Engineering) at Defence Institute of Advanced Technology (Deemed University), Pune. He received the Laboratory Scientist of the year award for the year 2020.",
+    "short_bio": "Dr. P. Praveen Kumar is a scientist in the Advanced Systems Laboratory of DRDO in Hyderabad. He holds a Bachelor’s and Master’s degree in Mechanical Engineering. He obtained his Ph.D. in Applied Mechanics in 2009 from the Indian Institute of Technology Delhi. He later worked as a Project Scientist in TRIPP, a WHO-collaborating centre for injury prevention and safety promotion at IIT Delhi. His work involved the study of helmet impact and head injury biomechanics. He was a visiting researcher in the Institute of Fluid and Solid Mechanics (IMFS) at the University of Louis Pasteur (ULP) in Strasbourg, France, in 2007. He joined DRDO in 2010 and was involved in designing and analyzing aerospace structures. He has been instrumental in developing advanced analysis methodologies for assessing the structural integrity of solid rocket motors and integrated launch vehicle systems. He was awarded the Laboratory Scientist of the Year for the year 2020. He was a guest faculty at DIAT (DU), Pune and taught courses on Aerospace Structures and Composite Materials for the M.Tech (Aerospace Engineering) programme. He is a member of many professional societies.",
     "keynotes": "Advanced Materials for Aerospace and Defence Applications"
   },
   {
@@ -452,19 +452,6 @@
     "email": "sreeias2020@gmail.com",
     "image_url": "15.png",
     "short_bio": "Mr. Sreenivas R is presently serving for the Society for Electronics Transactions and Security (SETS). He has completed his MCA from VIT Chennai and has worked on projects in various domains. During his coursework, he published a paper in the field of Medical Imaging using Computer Vision. Additionally, he authored three chapters, two of which have been provisionally accepted, with the second being in the field of Medical Imaging. Throughout his tenure at the workplace, he has trained various models from scratch for confidential projects, including LLama2 and Bloom 560m models. He believes that participating in this workshop will be highly beneficial for himself to contribute towards projects related to the healthcare domain.",
-    "keynotes": ""
-  },
-  {
-    "priority": 37,
-    "name": "Mr. Herbert Potechius",
-    "organizer": "",
-    "designation": "Research Assistant",
-    "department": "University of Applied Sciences",
-    "college": "Ernst-Abbe-Hochshule,Jena Germany",
-    "phone": "",
-    "email": "",
-    "image_url": "32.jpg",
-    "short_bio": "Herbert Potechius is a academic and researcher based in Germany. He holds a Bachelor of Science in Computer Engineering and a Master of Science in Computer Science, both from the Technical University Berlin. Currently, he serves as a research assistant at the University of Applied Sciences Jena, where he is involved in a project funded by the Federal Ministry of Education and Research. The project focuses on the development of AI-related teaching materials suitable for universitystudents across various disciplines. Additionally, Herbert is pursuing his PhD at the same institution, researching the virtualization of shared environments in XR telecommunication scenarios. His work primarily explores color transfer techniques and investigates how the results of these algorithms are subjectively perceived by humans.",
     "keynotes": ""
   }
 ]
