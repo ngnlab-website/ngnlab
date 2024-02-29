@@ -26,7 +26,7 @@
     "keynotes": ""
   },
   {
-    "priority": 3,
+    "priority": 18,
     "name": "Dr. Wasif Naeem",
     "organizer": "yes",
     "designation": "Associate Professor",
@@ -78,19 +78,6 @@
     "keynotes": "Critical asset management and emergency communications infrastructure"
   },
   {
-    "priority": 8,
-    "name": "Dr. Van-Truong Nguyen",
-    "organizer": "",
-    "designation": "Dean, Head of the Intelligent Robotics Laboratory, Director of Robot and Artificial Intelligence Program",
-    "department": "Faculty of Mechatronics",
-    "college": "Hanoi University of Industry, Hanoi, Vietnam",
-    "phone": "",
-    "email": "nguyenvantruong@haui.edu.vn",
-    "image_url": "21.jpg",
-    "short_bio": "Van-Truong Nguyen received the B.S. and M.S. degrees in mechatronics engineering from the School of Mechanical Engineering, Hanoi University of Science and Technology, Hanoi, Vietnam, in 2012 and 2014, respectively, and the Ph.D. degree in mechanical engineering from the National Taiwan University of Science and Technology, Taipei, Taiwan, in 2018. Since 2013, he has been a Lecturer with the Faculty of Mechatronics, Hanoi University of Industry, Hanoi. He is currently Dean of the Faculty of Mechatronics, Head of the Intelligent Robotics Laboratory, ​Director of Robot and Artificial Intelligence Program, HaUI, Hanoi, Vietnam. He is also the Co-Founder of Robot STEAM Vietnam. Dr. Truong was a recipient of the National Outstanding Innovation Award in 2015, the Best Student Paper Award of the International Automatic Control Conference in 2018. His current research interests include robotics, mobile robots, AI, intelligent control systems, and computer vision applications.",
-    "keynotes": "AI and Applications in Society: A Look from Vietnam"
-  },
-  {
     "priority": 7,
     "name": "Mr. Stephen McIlvanna",
     "organizer": "",
@@ -102,6 +89,19 @@
     "image_url": "31.jpg",
     "short_bio": "Stephen Mcllvanna received the MEng degree in Electrical and Electronic Engineering from Queen’s University Belfast in 2007. He is currently pursuing the Ph.D. degree at Queen’s University. His research interests are safety critical control of autonomous systems incorporating machine learning techniques.",
     "keynotes": "Learning and Digital Twins-based Control for Autonomous Robotics Systems subject to Safety Constraints"
+  },
+  {
+    "priority": 8,
+    "name": "Dr. Van-Truong Nguyen",
+    "organizer": "",
+    "designation": "Dean, Head of the Intelligent Robotics Laboratory, Director of Robot and Artificial Intelligence Program",
+    "department": "Faculty of Mechatronics",
+    "college": "Hanoi University of Industry, Hanoi, Vietnam",
+    "phone": "",
+    "email": "nguyenvantruong@haui.edu.vn",
+    "image_url": "21.jpg",
+    "short_bio": "Van-Truong Nguyen received the B.S. and M.S. degrees in mechatronics engineering from the School of Mechanical Engineering, Hanoi University of Science and Technology, Hanoi, Vietnam, in 2012 and 2014, respectively, and the Ph.D. degree in mechanical engineering from the National Taiwan University of Science and Technology, Taipei, Taiwan, in 2018. Since 2013, he has been a Lecturer with the Faculty of Mechatronics, Hanoi University of Industry, Hanoi. He is currently Dean of the Faculty of Mechatronics, Head of the Intelligent Robotics Laboratory, ​Director of Robot and Artificial Intelligence Program, HaUI, Hanoi, Vietnam. He is also the Co-Founder of Robot STEAM Vietnam. Dr. Truong was a recipient of the National Outstanding Innovation Award in 2015, the Best Student Paper Award of the International Automatic Control Conference in 2018. His current research interests include robotics, mobile robots, AI, intelligent control systems, and computer vision applications.",
+    "keynotes": "AI and Applications in Society: A Look from Vietnam"
   },
   {
     "priority": 9,
@@ -117,7 +117,7 @@
     "keynotes": "AI and Applications in Society: A Look from Vietnam"
   },
   {
-    "priority": 9,
+    "priority": 10,
     "name": "Dr. Tien-Dung Hoang",
     "organizer": "",
     "designation": "Lecturer",
@@ -130,7 +130,7 @@
     "keynotes": "AI and Applications in Society: A Look from Vietnam"
   },
   {
-    "priority": 10,
+    "priority": 20,
     "name": "Dr. John Oyekan",
     "organizer": "",
     "designation": "Senior Lecturer",
@@ -169,7 +169,7 @@
     "keynotes": "Malaysia's path to a Sustainable Society: Pioneering with Advanced Technology"
   },
   {
-    "priority": 13,
+    "priority": 22,
     "name": "Mr. Rajasekar V R",
     "organizer": "",
     "designation": "Assistant Professor",
@@ -182,7 +182,7 @@
     "keynotes": ""
   },
   {
-    "priority": 14,
+    "priority": 19,
     "name": "Prof. Muhammad Haroon Yousaf",
     "organizer": "",
     "designation": "Professor",
@@ -195,7 +195,7 @@
     "keynotes": "Edge-AI and Unmanned Aerial Systems: A Practical Perspective <strong>(ONLINE)</strong>"
   },
   {
-    "priority": 15,
+    "priority": 21,
     "name": "Dr. Mahesh Veezhinathan",
     "organizer": "",
     "designation": "Associate Vice President",
@@ -208,7 +208,7 @@
     "keynotes": "Which Innovation will Win?"
   },
   {
-    "priority": 16,
+    "priority": 13,
     "name": "Dr. Praveen Kumar P",
     "organizer": "",
     "designation": "Scientist",
@@ -221,7 +221,7 @@
     "keynotes": "Advanced Materials for Aerospace and Defence Applications"
   },
   {
-    "priority": 17,
+    "priority": 15,
     "name": "Mr. Chander Shekhar Sharma",
     "organizer": "",
     "designation": "Scientist",
@@ -234,7 +234,7 @@
     "keynotes": "Empowering Communities: STI Hub Ladakh's Journey to Health Innovation"
   },
   {
-    "priority": 18,
+    "priority": 14,
     "name": "Dr. Ashish Kumar",
     "organizer": "",
     "designation": "Engineer-E",
@@ -247,7 +247,7 @@
     "keynotes": "A Portable, Low-Cost Multispectral System for Monitoring Night Sky Brightness over the Astronomical Sites"
   },
   {
-    "priority": 19,
+    "priority": 36,
     "name": "Ms. Athira Murali",
     "organizer": "",
     "designation": "Ph.D. student",
@@ -260,7 +260,7 @@
     "keynotes": ""
   },
   {
-    "priority": 20,
+    "priority": 35,
     "name": "Ms. Prathyusha",
     "organizer": "",
     "designation": "Ph.D. student",
@@ -273,7 +273,7 @@
     "keynotes": ""
   },
   {
-    "priority": 21,
+    "priority": 16,
     "name": "Mr. Jithin Krishnan",
     "organizer": "",
     "designation": "Scientist/Engineer",
@@ -286,7 +286,7 @@
     "keynotes": "Science and Technology Interventions in Primary Healthcare for Greater Society Using New Age Tools - an SCTIMST Perspective"
   },
   {
-    "priority": 22,
+    "priority": 23,
     "name": "Dr. Moirangthem Marjit",
     "organizer": "",
     "designation": "Associate Professor",
@@ -299,7 +299,7 @@
     "keynotes": ""
   },
   {
-    "priority": 23,
+    "priority": 24,
     "name": "Dr. Veningston K",
     "organizer": "",
     "designation": "Assistant Professor",
@@ -312,7 +312,7 @@
     "keynotes": ""
   },
   {
-    "priority": 24,
+    "priority": 34,
     "name": "Mr. Akoramurthy B",
     "organizer": "",
     "designation": "Ph.D. student",
@@ -325,7 +325,7 @@
     "keynotes": ""
   },
   {
-    "priority": 25,
+    "priority": 17,
     "name": "Dr. Kalimuthu Karuppanan",
     "organizer": "",
     "designation": "Assistant Professor (Research)",
@@ -338,7 +338,7 @@
     "keynotes": "SMART Technology Aided Monitoring of Metabolic and Emerging Infectious Diseases"
   },
   {
-    "priority": 26,
+    "priority": 27,
     "name": "Dr. Geetha G",
     "organizer": "",
     "designation": "Associate Professor",
@@ -351,7 +351,7 @@
     "keynotes": ""
   },
   {
-    "priority": 27,
+    "priority": 29,
     "name": "Dr. Balaji C",
     "organizer": "",
     "designation": "Assistant Professor",
@@ -364,7 +364,7 @@
     "keynotes": ""
   },
   {
-    "priority": 28,
+    "priority": 30,
     "name": "Dr. Sriram S R",
     "organizer": "",
     "designation": "Assistant Professor",
@@ -377,7 +377,7 @@
     "keynotes": ""
   },
   {
-    "priority": 29,
+    "priority": 28,
     "name": "Dr. Kaviyarasu Ayakkannu",
     "organizer": "",
     "designation": "Assistant Professor",
@@ -390,7 +390,7 @@
     "keynotes": ""
   },
   {
-    "priority": 30,
+    "priority": 31,
     "name": "Dr. Sudhakar T",
     "organizer": "",
     "designation": "Assistant Professor",
@@ -403,7 +403,7 @@
     "keynotes": ""
   },
   {
-    "priority": 31,
+    "priority": 33,
     "name": "Mr. Thamodharan Arumugam",
     "organizer": "",
     "designation": "Ph.D. student",
@@ -416,7 +416,7 @@
     "keynotes": ""
   },
   {
-    "priority": 32,
+    "priority": 25,
     "name": "Dr. Sahaya Beni Prathiba",
     "organizer": "",
     "designation": "Assistant Professor",
@@ -429,7 +429,7 @@
     "keynotes": ""
   },
   {
-    "priority": 33,
+    "priority": 26,
     "name": "Dr. Arun Kumar A",
     "organizer": "",
     "designation": "Assistant Professor",
@@ -442,7 +442,7 @@
     "keynotes": ""
   },
   {
-    "priority": 34,
+    "priority": 32,
     "name": "Mr. Sreenivas Rao",
     "organizer": "",
     "designation": "Research and Project Associate",
@@ -455,7 +455,7 @@
     "keynotes": ""
   },
   {
-    "priority": 35,
+    "priority": 37,
     "name": "Mr. Herbert Potechius",
     "organizer": "",
     "designation": "Research Assistant",
