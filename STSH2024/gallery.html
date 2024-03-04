@@ -578,6 +578,7 @@
       color: #152b79;
       margin-bottom: 0;
     }
+
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -623,211 +624,207 @@
       font-size: 16px;
       line-height: 1.5;
     }
+
     .chair-tag {
-    font-weight: italic;
-    color: #a0241c;
-  }
-  a{
-    color: #f82249;
-  }
-  h4{
-    color: #a0241c;
-  }
-  
-/*--------------------------------------------------------------
+      font-weight: italic;
+      color: #a0241c;
+    }
+
+    a {
+      color: #f82249;
+    }
+
+    h4 {
+      color: #a0241c;
+    }
+
+    /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
-  margin-bottom: 30px;
-}
+    .portfolio .portfolio-item {
+      margin-bottom: 30px;
+    }
 
-.portfolio #portfolio-flters {
-  padding: 0;
-  margin: 0 auto 20px auto;
-  list-style: none;
-  text-align: center;
-}
+    .portfolio #portfolio-flters {
+      padding: 0;
+      margin: 0 auto 20px auto;
+      list-style: none;
+      text-align: center;
+    }
 
-.portfolio #portfolio-flters li {
-  cursor: pointer;
-  display: inline-block;
-  padding: 8px 15px 10px 15px;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1;
-  text-transform: uppercase;
-  color: #444444;
-  margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
-  border-radius: 3px;
-}
+    .portfolio #portfolio-flters li {
+      cursor: pointer;
+      display: inline-block;
+      padding: 8px 15px 10px 15px;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1;
+      text-transform: uppercase;
+      color: #444444;
+      margin-bottom: 5px;
+      transition: all 0.3s ease-in-out;
+      border-radius: 3px;
+    }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
-  color: #151515;
-  background: #ffc451;
-}
+    .portfolio #portfolio-flters li:hover,
+    .portfolio #portfolio-flters li.filter-active {
+      color: #151515;
+      background: #ffc451;
+    }
 
-.portfolio #portfolio-flters li:last-child {
-  margin-right: 0;
-}
+    .portfolio #portfolio-flters li:last-child {
+      margin-right: 0;
+    }
 
-.portfolio .portfolio-wrap {
-  transition: 0.3s;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  background: rgba(21, 21, 21, 0.6);
-}
+    .portfolio .portfolio-wrap {
+      transition: 0.3s;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+      background: rgba(21, 21, 21, 0.6);
+    }
 
-.portfolio .portfolio-wrap::before {
-  content: "";
-  background: rgba(21, 21, 21, 0.6);
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  transition: all ease-in-out 0.3s;
-  z-index: 2;
-  opacity: 0;
-}
+    .portfolio .portfolio-wrap::before {
+      content: "";
+      background: rgba(21, 21, 21, 0.6);
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      transition: all ease-in-out 0.3s;
+      z-index: 2;
+      opacity: 0;
+    }
 
-.portfolio .portfolio-wrap img {
-  transition: all ease-in-out 0.3s;
-}
+    .portfolio .portfolio-wrap img {
+      transition: all ease-in-out 0.3s;
+    }
 
-.portfolio .portfolio-wrap .portfolio-info {
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 3;
-  transition: all ease-in-out 0.3s;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-  padding: 20px;
-}
+    .portfolio .portfolio-wrap .portfolio-info {
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 3;
+      transition: all ease-in-out 0.3s;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-start;
+      padding: 20px;
+    }
 
-.portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 20px;
-  color: #fff;
-  font-weight: 600;
-}
+    .portfolio .portfolio-wrap .portfolio-info h4 {
+      font-size: 20px;
+      color: #fff;
+      font-weight: 600;
+    }
 
-.portfolio .portfolio-wrap .portfolio-info p {
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 14px;
-  text-transform: uppercase;
-  padding: 0;
-  margin: 0;
-  font-style: italic;
-}
+    .portfolio .portfolio-wrap .portfolio-info p {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 14px;
+      text-transform: uppercase;
+      padding: 0;
+      margin: 0;
+      font-style: italic;
+    }
 
-.portfolio .portfolio-wrap .portfolio-links {
-  text-align: center;
-  z-index: 4;
-}
+    .portfolio .portfolio-wrap .portfolio-links {
+      text-align: center;
+      z-index: 4;
+    }
 
-.portfolio .portfolio-wrap .portfolio-links a {
-  color: #fff;
-  margin: 0 5px 0 0;
-  font-size: 28px;
-  display: inline-block;
-  transition: 0.3s;
-}
+    .portfolio .portfolio-wrap .portfolio-links a {
+      color: #fff;
+      margin: 0 5px 0 0;
+      font-size: 28px;
+      display: inline-block;
+      transition: 0.3s;
+    }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #ffc451;
-}
+    .portfolio .portfolio-wrap .portfolio-links a:hover {
+      color: #ffc451;
+    }
 
-.portfolio .portfolio-wrap:hover::before {
-  opacity: 1;
-}
+    .portfolio .portfolio-wrap:hover::before {
+      opacity: 1;
+    }
 
-.portfolio .portfolio-wrap:hover img {
-  transform: scale(1.2);
-}
+    .portfolio .portfolio-wrap:hover img {
+      transform: scale(1.2);
+    }
 
-.portfolio .portfolio-wrap:hover .portfolio-info {
-  opacity: 1;
-}
+    .portfolio .portfolio-wrap:hover .portfolio-info {
+      opacity: 1;
+    }
 
-/*--------------------------------------------------------------
+    /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-.portfolio-details {
-  padding-top: 40px;
-}
+    .portfolio-details {
+      padding-top: 40px;
+    }
 
-.portfolio-details .portfolio-details-slider img {
-  width: 100%;
-}
+    .portfolio-details .portfolio-details-slider img {
+      width: 100%;
+    }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
+    .portfolio-details .portfolio-details-slider .swiper-pagination {
+      margin-top: 20px;
+      position: relative;
+    }
 
-.portfolio-details
-  .portfolio-details-slider
-  .swiper-pagination
-  .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #ffc451;
-}
+    .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+      width: 12px;
+      height: 12px;
+      background-color: #fff;
+      opacity: 1;
+      border: 1px solid #ffc451;
+    }
 
-.portfolio-details
-  .portfolio-details-slider
-  .swiper-pagination
-  .swiper-pagination-bullet-active {
-  background-color: #ffc451;
-}
+    .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+      background-color: #ffc451;
+    }
 
-.portfolio-details .portfolio-info {
-  padding: 30px;
-  box-shadow: 0px 0 30px rgba(21, 21, 21, 0.08);
-}
+    .portfolio-details .portfolio-info {
+      padding: 30px;
+      box-shadow: 0px 0 30px rgba(21, 21, 21, 0.08);
+    }
 
-.portfolio-details .portfolio-info h3 {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
-}
+    .portfolio-details .portfolio-info h3 {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #eee;
+    }
 
-.portfolio-details .portfolio-info ul {
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-}
+    .portfolio-details .portfolio-info ul {
+      list-style: none;
+      padding: 0;
+      font-size: 15px;
+    }
 
-.portfolio-details .portfolio-info ul li + li {
-  margin-top: 10px;
-}
+    .portfolio-details .portfolio-info ul li+li {
+      margin-top: 10px;
+    }
 
-.portfolio-details .portfolio-description {
-  padding-top: 30px;
-}
+    .portfolio-details .portfolio-description {
+      padding-top: 30px;
+    }
 
-.portfolio-details .portfolio-description h2 {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
+    .portfolio-details .portfolio-description h2 {
+      font-size: 26px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
 
-.portfolio-details .portfolio-description p {
-  padding: 0;
-}
-
+    .portfolio-details .portfolio-description p {
+      padding: 0;
+    }
   </style>
 
 </head>
@@ -855,259 +852,78 @@
           <li><a href="#footer">Contact</a></li>
           <li class="downloads"><a href="#">Downloads</a>
             <ul>
-                <li><a href="call_for_participants.html">Call for Participants</a></li>
-                <li><a href="workshop-brochure.html">Workshop brochure</a></li>
-                <li><a href="invitation.html">Inauguration Invitation</a></li>
+              <li><a href="call_for_participants.html">Call for Participants</a></li>
+              <li><a href="workshop-brochure.html">Workshop brochure</a></li>
+              <li><a href="invitation.html">Inauguration Invitation</a></li>
             </ul>
-        </li>
+          </li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
-    
-
-    <section id="portfolio" class="portfolio section-with-bg" style="margin-top: 150px;">
-        <div class="container wow fadeInUp">
-            <div class="section-header" style="padding-top: 12px">
-              <h2>Gallery</h2>
-              <p>Here is our event photos</p>
-            </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-award">Inauguration</li>
-              <li data-filter=".filter-workshop">Delegates</li>
-              <li data-filter=".filter-social">Keynote Talks</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-award">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Gallery/Awards1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Award 1</h4>
-                <p>Awards</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/Gallery/Awards1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Award 1"><i class="bx bx-plus"></i></a>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-social">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Gallery/extracurricular1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Music</h4>
-                <p>Extracurricular Activity</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/Gallery/extracurricular1.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="Music"><i class="bx bx-plus"></i></a>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-award">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Gallery/Awards2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Awards 2</h4>
-                <p>Award</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/Gallery/Awards2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Awards 2"><i class="bx bx-plus"></i></a>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-workshop">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Gallery/workshop2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Mural Workshop</h4>
-                <p>Workshop</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/Gallery/workshop2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Mural Workshop"><i class="bx bx-plus"></i></a>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-social">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Gallery/extracurricular2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Dancing</h4>
-                <p>Extracurricular Activity</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/Gallery/extracurricular2.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="Dancing"><i class="bx bx-plus"></i></a>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-award">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Gallery/Awards3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Award 3</h4>
-                <p>Awards</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/Gallery/Awards3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Award 3"><i class="bx bx-plus"></i></a>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-social">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Gallery/social1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Painting</h4>
-                <p>Social Activity</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/Gallery/social1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Painting"><i class="bx bx-plus"></i></a>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-workshop">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Gallery/workshop1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Skeching Workshop</h4>
-                <p>Workshop</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/Gallery/workshop1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Skeching Workshop"><i class="bx bx-plus"></i></a>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-workshop">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Gallery/workshop3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Light Workshop</h4>
-                <p>Workshop</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/Gallery/workshop3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Light Workshop"><i class="bx bx-plus"></i></a>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-workshop">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Gallery/workshop4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Brick Workshop</h4>
-                <p>Workshop</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/Gallery/workshop4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Brick Workshop"><i class="bx bx-plus"></i></a>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-workshop">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Gallery/workshop5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Model Making Workshop</h4>
-                <p>Workshop</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/Gallery/workshop5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Model Making Workshop"><i class="bx bx-plus"></i></a>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-social">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Gallery/social2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Helping Carpenters</h4>
-                <p>Social Activity</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/Gallery/social2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Helping Carpenters"><i class="bx bx-plus"></i></a>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-social">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Gallery/social3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Social 3</h4>
-                <p>Social Activity</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/Gallery/social3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Social 3"><i class="bx bx-plus"></i></a>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-social">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Gallery/social4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Social 4</h4>
-                <p>Social Activity</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/Gallery/social4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Social 4"><i class="bx bx-plus"></i></a>
-
-                </div>
-              </div>
-            </div>
-          </div>
 
 
-        </div>
-
+  <section id="portfolio" class="portfolio section-with-bg" style="margin-top: 150px;">
+    <div class="container wow fadeInUp">
+      <div class="section-header" style="padding-top: 12px">
+        <h2>Gallery</h2>
+        <p>Here is our event photos</p>
       </div>
-    </section><!-- End Portfolio Section -->
 
+      <div class="row" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-inaug">Inauguration</li>
+            <li data-filter=".filter-delegates">Delegates</li>
+            <li data-filter=".filter-talks">Keynote Talks</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-talks">
+          <div class="portfolio-wrap">
+            <img src="assets/img/Gallery/extracurricular1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Music</h4>
+              <p>Extracurricular Activity</p>
+              <div class="portfolio-links">
+                <a href="assets/img/Gallery/extracurricular1.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Music"><i class="bx bx-plus"></i></a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-inaug">
+          <div class="portfolio-wrap">
+            <img src="assets/img/Gallery/Awards2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Awards 2</h4>
+              <p>Award</p>
+              <div class="portfolio-links">
+                <a href="assets/img/Gallery/Awards2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Awards 2"><i class="bx bx-plus"></i></a>
+
+              </div>
+            </div>
+          </div>
+        </div> -->
 
       </div>
 
     </div>
   </section><!-- End Portfolio Section -->
-  
+
+
+  </div>
+
+  </div>
+  </section><!-- End Portfolio Section -->
+
   <main style="margin-top: 5px; margin-bottom: -20px;">
     <div class="container">
       <div class="section-header">
@@ -1123,7 +939,8 @@
         </div>
         <div class="address">
           <div class="address-actual">
-            <h6 style="font-family: 'Arial';">Department of Computer Technology<br>Anna University<br>MIT Campus<br>Chromepet<br>Chennai 600044<br>India</p>
+            <h6 style="font-family: 'Arial';">Department of Computer Technology<br>Anna University<br>MIT
+              Campus<br>Chromepet<br>Chennai 600044<br>India</p>
           </div>
         </div>
       </div>
@@ -1136,9 +953,12 @@
     <div class="container">
       <div class="copyright" style="font-size: 16px;">
         <em>Contact: </em><br>
-        <strong>Prof. Gunasekaran Raja:</strong> <a style="color: white;" href="mailto:gunasekaran@mitindia.edu">gunasekaran@mitindia.edu</a><br>
-        <strong>Prof. Seán McLoone:</strong> <a style="color: white;" href="mailto:s.mcloone@qub.ac.uk">s.mcloone@qub.ac.uk</a><br>
-        <strong>Prof. Wasif Naeem:</strong> <a style="color: white;" href="mailto:w.naeem@qub.ac.uk">w.naeem@qub.ac.uk</a><br><br>       
+        <strong>Prof. Gunasekaran Raja:</strong> <a style="color: white;"
+          href="mailto:gunasekaran@mitindia.edu">gunasekaran@mitindia.edu</a><br>
+        <strong>Prof. Seán McLoone:</strong> <a style="color: white;"
+          href="mailto:s.mcloone@qub.ac.uk">s.mcloone@qub.ac.uk</a><br>
+        <strong>Prof. Wasif Naeem:</strong> <a style="color: white;"
+          href="mailto:w.naeem@qub.ac.uk">w.naeem@qub.ac.uk</a><br><br>
         &copy; Copyright <strong> NGNLab</strong>. All Rights Reserved
       </div>
     </div>
@@ -1156,17 +976,91 @@
   <script src="lib/wow/wow.min.js"></script>
   <script src="lib/venobox/venobox.min.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js" integrity="sha512-S/H9RQ6govCzeA7F9D0m8NGfsGf0/HjJEiLEfWGaMCjFzavo+DkRbYtZLSO+X6cZsIKQ6JvV/7Y9YMaYnSGnAA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/isotope-packery/2.0.1/packery-mode.pkgd.min.js" integrity="sha512-76zYP8p3l0eyuqOmksU8GGbeVhNhvw1FTIT90+qZpdynbBJrqOU1Y9tM721oGcM3KLrgqmZQiGlIiO93oi3Geg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"
+    integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"
+    integrity="sha512-S/H9RQ6govCzeA7F9D0m8NGfsGf0/HjJEiLEfWGaMCjFzavo+DkRbYtZLSO+X6cZsIKQ6JvV/7Y9YMaYnSGnAA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/isotope-packery/2.0.1/packery-mode.pkgd.min.js"
+    integrity="sha512-76zYP8p3l0eyuqOmksU8GGbeVhNhvw1FTIT90+qZpdynbBJrqOU1Y9tM721oGcM3KLrgqmZQiGlIiO93oi3Geg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+    integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
 
   <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>\
- <script>
+  <script src="js/main.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const container = document.querySelector(".portfolio-container");
+
+      const folders = {
+        "filter-inaug": "inauguration",
+        "filter-talks": "talks",
+        "filter-venue": "venue",
+        "filter-delegates": "delegates"
+      };
+
+      Object.keys(folders).forEach(filter => {
+        const folderName = folders[filter];
+        const count = (folderName === 'venue') ? 5 : (folderName === 'talks') ? 10 : (folderName === 'delegates') ? 11 : 18;
+
+        for (let i = 1; i <= count; i++) {
+          const imgPath = `img/day-1/${folderName}/${i}.jpg`;
+          const portfolioItem = document.createElement("div");
+          portfolioItem.classList.add("col-lg-4", "col-md-6", "portfolio-item", filter);
+
+          const portfolioWrap = document.createElement("div");
+          portfolioWrap.classList.add("portfolio-wrap");
+
+          const img = document.createElement("img");
+          img.setAttribute("src", imgPath);
+          img.classList.add("img-fluid");
+          img.setAttribute("alt", "");
+
+          const portfolioInfo = document.createElement("div");
+          portfolioInfo.classList.add("portfolio-info");
+
+          const title = document.createElement("h4");
+          title.textContent = `Image ${i}`;
+
+          const category = document.createElement("p");
+          category.textContent = folderName;
+
+          const portfolioLinks = document.createElement("div");
+          portfolioLinks.classList.add("portfolio-links");
+
+          const link = document.createElement("a");
+          link.setAttribute("href", imgPath);
+          link.setAttribute("data-gallery", "portfolioGallery");
+          link.classList.add("portfolio-lightbox");
+          link.setAttribute("title", `Image ${i}`);
+
+          const icon = document.createElement("i");
+          icon.classList.add("bx", "bx-plus");
+
+          link.appendChild(icon);
+          portfolioLinks.appendChild(link);
+
+          portfolioInfo.appendChild(title);
+          portfolioInfo.appendChild(category);
+          portfolioInfo.appendChild(portfolioLinks);
+
+          portfolioWrap.appendChild(img);
+          portfolioWrap.appendChild(portfolioInfo);
+
+          portfolioItem.appendChild(portfolioWrap);
+          container.appendChild(portfolioItem);
+        }
+      });
+    });
+  </script>
+
+  <script>
     /**
 * Template Name: Gp
 * Updated: Sep 18 2023 with Bootstrap v5.3.2
@@ -1174,128 +1068,128 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-(function() {
-  "use strict";
+    (function () {
+      "use strict";
 
-  /**
-   * Easy selector helper function
-   */
-  const select = (el, all = false) => {
-    el = el.trim()
-    if (all) {
-      return [...document.querySelectorAll(el)]
-    } else {
-      return document.querySelector(el)
-    }
-  }
-
-  /**
-   * Easy event listener function
-   */
-  const on = (type, el, listener, all = false) => {
-    let selectEl = select(el, all)
-    if (selectEl) {
-      if (all) {
-        selectEl.forEach(e => e.addEventListener(type, listener))
-      } else {
-        selectEl.addEventListener(type, listener)
+      /**
+       * Easy selector helper function
+       */
+      const select = (el, all = false) => {
+        el = el.trim()
+        if (all) {
+          return [...document.querySelectorAll(el)]
+        } else {
+          return document.querySelector(el)
+        }
       }
-    }
-  }
 
-
-  /**
-   * Clients Slider
-   */
-  new Swiper('.clients-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 1200,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 2,
-        spaceBetween: 40
-      },
-      480: {
-        slidesPerView: 3,
-        spaceBetween: 60
-      },
-      640: {
-        slidesPerView: 4,
-        spaceBetween: 80
-      },
-      992: {
-        slidesPerView: 6,
-        spaceBetween: 120
+      /**
+       * Easy event listener function
+       */
+      const on = (type, el, listener, all = false) => {
+        let selectEl = select(el, all)
+        if (selectEl) {
+          if (all) {
+            selectEl.forEach(e => e.addEventListener(type, listener))
+          } else {
+            selectEl.addEventListener(type, listener)
+          }
+        }
       }
-    }
-  });
 
-  /**
-   * Porfolio isotope and filter
-   */
-  window.addEventListener('load', () => {
-    let portfolioContainer = select('.portfolio-container');
-    if (portfolioContainer) {
-      let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item'
+
+      /**
+       * Clients Slider
+       */
+      new Swiper('.clients-slider', {
+        speed: 400,
+        loop: true,
+        autoplay: {
+          delay: 1200,
+          disableOnInteraction: false
+        },
+        slidesPerView: 'auto',
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+          clickable: true
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 2,
+            spaceBetween: 40
+          },
+          480: {
+            slidesPerView: 3,
+            spaceBetween: 60
+          },
+          640: {
+            slidesPerView: 4,
+            spaceBetween: 80
+          },
+          992: {
+            slidesPerView: 6,
+            spaceBetween: 120
+          }
+        }
       });
 
-      let portfolioFilters = select('#portfolio-flters li', true);
+      /**
+       * Porfolio isotope and filter
+       */
+      window.addEventListener('load', () => {
+        let portfolioContainer = select('.portfolio-container');
+        if (portfolioContainer) {
+          let portfolioIsotope = new Isotope(portfolioContainer, {
+            itemSelector: '.portfolio-item'
+          });
 
-      on('click', '#portfolio-flters li', function(e) {
-        e.preventDefault();
-        portfolioFilters.forEach(function(el) {
-          el.classList.remove('filter-active');
-        });
-        this.classList.add('filter-active');
+          let portfolioFilters = select('#portfolio-flters li', true);
 
-        portfolioIsotope.arrange({
-          filter: this.getAttribute('data-filter')
-        });
-        portfolioIsotope.on('arrangeComplete', function() {
-          AOS.refresh()
-        });
-      }, true);
-    }
+          on('click', '#portfolio-flters li', function (e) {
+            e.preventDefault();
+            portfolioFilters.forEach(function (el) {
+              el.classList.remove('filter-active');
+            });
+            this.classList.add('filter-active');
 
-  });
+            portfolioIsotope.arrange({
+              filter: this.getAttribute('data-filter')
+            });
+            portfolioIsotope.on('arrangeComplete', function () {
+              AOS.refresh()
+            });
+          }, true);
+        }
 
-  /**
-   * Initiate portfolio lightbox 
-   */
-  const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
-  });
+      });
 
-  /**
-   * Portfolio details slider
-   */
-  new Swiper('.portfolio-details-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
+      /**
+       * Initiate portfolio lightbox 
+       */
+      const portfolioLightbox = GLightbox({
+        selector: '.portfolio-lightbox'
+      });
 
-})()
- </script>
+      /**
+       * Portfolio details slider
+       */
+      new Swiper('.portfolio-details-slider', {
+        speed: 400,
+        loop: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+          clickable: true
+        }
+      });
+
+    })()
+  </script>
 </body>
 
 </html>
