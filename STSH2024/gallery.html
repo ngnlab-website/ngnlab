@@ -1011,8 +1011,6 @@
     integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
@@ -1030,7 +1028,7 @@
 
       Object.keys(folders).forEach(filter => {
         const folderName = folders[filter];
-        const count = (folderName === 'venue') ? 5 : (folderName === 'inauguration') ? 26 : (folderName === 'delegates') ? 12 : (folderName === 'talks-day-1') ? 15 : 29;
+        const count = (folderName === 'venue') ? 5 : (folderName === 'inauguration') ? 26 : (folderName === 'delegates') ? 28 : (folderName === 'talks-day-1') ? 15 : 29;
 
         for (let i = 1; i <= count; i++) {
           const imgPath = `img/day-1/${folderName}/${i}.jpg`;
