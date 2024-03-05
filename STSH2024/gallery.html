@@ -825,6 +825,25 @@
     .portfolio-details .portfolio-description p {
       padding: 0;
     }
+    @keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#feedback-link {
+  animation: blink 0.5s infinite; /* Adjust the duration of the blink as per your preference */
+}
+#feedback-link:hover {
+  animation: none; 
+  opacity: 1; 
+}
   </style>
 
 </head>
@@ -857,6 +876,7 @@
               <li><a href="invitation.html">Inauguration Invitation</a></li>
             </ul>
           </li>
+          <li id="feedback-link" class="buy-tickets"><a href="https://forms.office.com/pages/responsepage.aspx?id=6ner6qW040mh6NbdI6HyhnAFXS0JxgRGpGhh4F_GE75URUFYUk0yNzhETlNXQUpJUVE1RVVYSzlPNS4u&origin=lprLink">Feedback</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -876,7 +896,8 @@
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-inaug">Inauguration</li>
             <li data-filter=".filter-delegates">Delegates</li>
-            <li data-filter=".filter-talks">Keynote Talks</li>
+            <li data-filter=".filter-talks-1">Keynote Talks - Day 1</li>
+            <li data-filter=".filter-talks-2">Keynote Talks - Day 2</li>
             <li data-filter=".filter-venue">Workshop Venue</li>
           </ul>
         </div>
@@ -1001,14 +1022,15 @@
 
       const folders = {
         "filter-inaug": "inauguration",
-        "filter-talks": "talks",
+        "filter-talks-1": "talks-day-1",
+        "filter-talks-2": "talks-day-2",
         "filter-venue": "venue",
         "filter-delegates": "delegates"
       };
 
       Object.keys(folders).forEach(filter => {
         const folderName = folders[filter];
-        const count = (folderName === 'venue') ? 5 : (folderName === 'talks') ? 15 : (folderName === 'delegates') ? 12 : 19;
+        const count = (folderName === 'venue') ? 5 : (folderName === 'delegates') ? 12 : (folderName === 'talks-day-1') ? 15 : 18;
 
         for (let i = 1; i <= count; i++) {
           const imgPath = `img/day-1/${folderName}/${i}.jpg`;
@@ -1027,7 +1049,8 @@
           portfolioInfo.classList.add("portfolio-info");
 
           const title = document.createElement("h4");
-          title.textContent = `Image ${i}`;
+          // title.textContent = `Image ${i}`;
+          title.textContent = ``;
 
           const category = document.createElement("p");
           category.textContent = folderName;

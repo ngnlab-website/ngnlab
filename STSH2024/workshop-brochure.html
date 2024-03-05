@@ -625,6 +625,25 @@
       font-size: 16px;
       line-height: 1.5;
     }
+    @keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#feedback-link {
+  animation: blink 0.5s infinite; /* Adjust the duration of the blink as per your preference */
+}
+#feedback-link:hover {
+  animation: none; 
+  opacity: 1; 
+}
   </style>
 
 </head>
@@ -657,6 +676,7 @@
                 <li><a href="invitation.html">Inauguration Invitation</a></li>
             </ul>
         </li>
+        <li id="feedback-link" class="buy-tickets"><a href="https://forms.office.com/pages/responsepage.aspx?id=6ner6qW040mh6NbdI6HyhnAFXS0JxgRGpGhh4F_GE75URUFYUk0yNzhETlNXQUpJUVE1RVVYSzlPNS4u&origin=lprLink">Feedback</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
