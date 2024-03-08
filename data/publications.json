@@ -1,4 +1,22 @@
-[    {
+[   {
+        "title": "PointGAN: A Catalyst for Enhanced Vulnerable Road User Detection in Autonomous Navigation",
+        "author": "Gunasekaran Raja, Hosam Alhakami, Sahaya Beni Prathiba, Jeyadev Needhidevan, Priyadarshni Vasudevan, Rupali Subramanian, Kapal Dev",
+        "conference": "IEEE: VTC 2024-Spring 99th Vehicular Technology Conference, Singapore, June 24-27.",
+        "doi": "#",
+        "year": "2024",
+        "domain": ["AV"],
+        "selective": true
+    }, 
+    {
+        "title": "Next-Gen Security: Enhanced DDoS Attack Detection for Autonomous Vehicles in 6G Networks",
+        "author": "Sudha Anbalagan, Wajdi Alhakami, Mugundh Jambukeswaran Bhooma, Vijai Suria Marimuthu, Kapal Dev, Gunasekaran Raja",
+        "conference": "IEEE: VTC 2024-Spring 99th Vehicular Technology Conference, Singapore, June 24-27.",
+        "doi": "#",
+        "year": "2024",
+        "domain": ["AV"],
+        "selective": true
+    },         
+    {
         "title": "Synergistic Analysis of Lung Cancer’s Impact on Cardiovascular Disease using ML-Based Techniques",
         "author": "Gunasekaran Raja, Balakumar Ramkumar, Bhargavi Rajendiran, Sahaya Beni Prathiba, Thamodharan Arumugam, Kalimuthu Karuppanan, Lewis Nkenyereye, Kapal Dev",
         "conference": "IEEE Journal of Biomedical and Health Informatics, DOI: 10.1109/JBHI.2024.3365176",
@@ -19,7 +37,7 @@
         {
         "title": "Adaptive Model Predictive Control-Driven Approach for Visual Detection of Micro-UAVs",
         "author": "Gunasekaran Raja, Selvam Essaky, Deepak Suresh Rajendran, Sai Ganesh Senthivel, Sebastian Knorr, Kapal Dev",
-        "conference": "IEEE ICC International Conference on Communications, Denver,  USA,  June 9-13, 2024",
+        "conference": "IEEE ICC 2024 International Conference on Communications, Denver, USA, June 9-13.",
         "doi": "#",
         "year": "2024",
         "domain": ["UAV"],
