@@ -142,7 +142,7 @@ main {
 	display: block;
 }
 
-@media screen and (max-width:1220px) {
+@media screen and (max-width:1023px) {
 	body {
 		overflow-x: hidden;
 	}
@@ -165,7 +165,7 @@ main {
 		overflow: hidden;
 		position: sticky;
 		height: 100%;
-		margin-right: 10%;
+		margin-right: 5%;
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 	}
@@ -233,4 +233,16 @@ main {
 
 .toggle .line3 {
 	transform: rotate(45deg) translate(-6px, -5px);
+}
+
+@media screen and (max-width:1219px){
+	nav{
+		font-size: 0.7rem;
+	}
+	ul.nav-links{ 
+		font-size: 0.7rem;
+	}
+	.nav-links a{
+		font-size: 0.7rem;
+	}
 }
