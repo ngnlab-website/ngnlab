@@ -1,48 +1,51 @@
-const peopleSectionContainer = document.querySelector(".people-section-container")
-// import newsRoom from "../data/newsRoom.json" assert { type: "json" }
-let newsRoom = []
+const peopleSectionContainer = document.querySelector(".people-section-container");
+
 fetch("../data/newsRoom.json")
     .then(response => response.json())
     .then(data => {
-        newsRoom=data
-        renderNews()
+        renderSlides(data);
+        startSlideshows();
     })
     .catch(error => {
         console.error("Error fetching JSON:", error);
     });
-function renderNews () {
-    newsRoom.forEach((news, index) => {
-        if(index%2 !== 0) {
-            let newsContent =   `
-                                <div class="people-section-cont">
-                                    <div class="director even">
-                                        <div class="photo">
-                                            <img src="${news.img}" alt="">
-                                        </div>
-                                        <div class="details">
-                                            <div class="name">${news.title}</div>
-                                            <div class="about">${news.about}</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            `
-            peopleSectionContainer.innerHTML += newsContent
-        }
-        else {
-            let newsContent =   `
-                                <div class="people-section-cont">
-                                    <div class="director">
-                                        <div class="photo">
-                                            <img src="${news.img}" alt="">
-                                        </div>
-                                        <div class="details">
-                                            <div class="name">${news.title}</div>
-                                            <div class="about">${news.about}</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            `
-            peopleSectionContainer.innerHTML += newsContent
-        }
-    })
+
+function renderSlides(slidesData) {
+    slidesData.forEach(slide => {
+        const slideContent = `
+            <div class="people-section-cont">
+                <div class="director">
+                    <div class="slideshow">
+                        ${renderImages(slide.images)}
+                    </div>
+                    <div class="details">
+                        <div class="name">${slide.title}</div>
+                        <div class="about">${slide.description}</div>
+                    </div>
+                </div>
+            </div>
+        `;
+        peopleSectionContainer.innerHTML += slideContent;
+    });
 }
+
+function renderImages(images) {
+    return images.map(image => `<div class="slideshow-slide"><img src="${image}" alt=""></div>`).join('');
+}
+
+function startSlideshows() {
+    const slideshows = document.querySelectorAll('.slideshow');
+    slideshows.forEach(slideshow => {
+        let currentIndex = 0;
+        const slides = slideshow.querySelectorAll('.slideshow-slide');
+        setInterval(() => {
+            currentIndex = (currentIndex + 1) % slides.length;
+            slides.forEach(slide => {
+                slide.style.display = 'none';
+            });
+            slides[currentIndex].style.display = 'block';
+        }, 5000); // Change the duration as needed (in milliseconds)
+    });
+}
+
+
