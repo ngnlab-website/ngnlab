@@ -903,7 +903,7 @@
             <li data-filter=".filter-delegates">Delegates</li>
             <li data-filter=".filter-talks-1">Keynote Talks - Day 1</li>
             <li data-filter=".filter-talks-2">Keynote Talks - Day 2</li>
-            <li data-filter=".filter-venue">Workshop Venue</li>
+            <li data-filter=".filter-end">Closing moments</li>
           </ul>
         </div>
       </div>
@@ -998,13 +998,13 @@
         "filter-inaug": "inauguration",
         "filter-talks-1": "talks-day-1",
         "filter-talks-2": "talks-day-2",
-        "filter-venue": "venue",
-        "filter-delegates": "delegates"
+        "filter-delegates": "delegates",
+        "filter-end": "end"
       };
 
       Object.keys(folders).forEach(filter => {
         const folderName = folders[filter];
-        const count = (folderName === 'group') ? 11 : (folderName === 'venue') ? 5 : (folderName === 'inauguration') ? 25 : (folderName === 'delegates') ? 28 : (folderName === 'talks-day-1') ? 15 : 29;
+        const count = (folderName === 'group') ? 11 : (folderName === 'inauguration') ? 30 : (folderName === 'delegates') ? 28 : (folderName === 'talks-day-1') ? 15 : (folderName === "end") ? 17 : 29;
 
         for (let i = 1; i <= count; i++) {
           const imgPath = `img/day-1/${folderName}/${i}.jpg`;
@@ -1037,11 +1037,22 @@
           link.setAttribute("target", "_blank");
           link.setAttribute("title", `Image ${i}`);
 
+          const link1 = document.createElement("a");
+          link1.setAttribute("href", imgPath);
+          link1.setAttribute("download", `${folderName} ${i}.jpg`);
+          link1.setAttribute("title", `Image ${i}`);
+
           const icon = document.createElement("i");
-          icon.textContent = "+";
+          icon.classList.add("fa", "fa-arrows-alt", "mx-2");
+
+          const DwnIcon = document.createElement("i");
+          DwnIcon.classList.add("fa", "fa-download");
 
           link.appendChild(icon);
+          link1.appendChild(DwnIcon);
           portfolioLinks.appendChild(link);
+          portfolioLinks.appendChild(link1);
+
 
           portfolioInfo.appendChild(title);
           portfolioInfo.appendChild(category);
