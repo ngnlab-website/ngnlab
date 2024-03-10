@@ -1,4 +1,10 @@
 [    
+     {
+        "img": "./assets/img/STSH_Group_Pic.jpeg",
+        "title": "NGNLab and Department of Computer Technology Present: Two-Day Transnational Workshop on 'Smart Technologies for Societal Health'",
+        "about": "On March 4th and 5th, 2024, the two-day Transnational Workshop on Smart Technologies for Societal Health brought together experts and researchers from the UK, India, Vietnam, and Malaysia. The workshop aimed to explore the utilization of Smart Technologies (AI, computer vision, robotics, and autonomous systems) to improve Societal Health in regions affected by natural disasters. It further intended to identify technical challenges and establish a collaborative action plan for research activities. The event featured keynote lectures, panel discussions, and breakout sessions with insights from experienced and early-career researchers.",
+        "year": "2024"
+    },
     {
         "img": "./assets/img/VTC.png",
         "title": "NGNLab papers are accepted for presentation at the IEEE VTC 2024-Spring conference in Singapore",
