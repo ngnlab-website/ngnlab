@@ -1,86 +1,117 @@
-[    
-     {
-        "img": "./assets/img/STSH_Group_Pic.jpeg",
-        "title": "NGNLab and Department of Computer Technology Present: Two-Day Transnational Workshop on 'Smart Technologies for Societal Health'",
-        "about": "On March 4th and 5th, 2024, the two-day Transnational Workshop on Smart Technologies for Societal Health convened experts from the UK, India, Malaysia, Vietnam, and Oman. Centered on AI, computer vision, robotics, and autonomous systems, it aimed to improve Societal Health in disaster-stricken regions. Featuring keynote lectures, panel discussions, and breakout sessions, participants addressed technical challenges and forged collaborative research plans.",    
-         "year": "2024"
-    },
-    {
-        "img": "./assets/img/VTC.png",
-        "title": "NGNLab papers are accepted for presentation at the IEEE VTC 2024-Spring conference in Singapore",
-        "about": "Papers \"PointGAN: A Catalyst for Enhanced Vulnerable Road User Detection in Autonomous Navigation\" co-authored by Gunasekaran Raja, Hosam Alhakami, Sahaya Beni Prathiba, Jeyadev Needhidevan, Priyadarshni Vasudevan, Rupali Subramanian, Kapal Dev and \"Next-Gen Security: Enhanced DDoS Attack Detection for Autonomous Vehicles in 6G Networks\" co-authored by Sudha Anbalagan, Wajdi Alhakami, Mugundh Jambukeswaran Bhooma, Vijai Suria Marimuthu, Kapal Dev, Gunasekaran Raja are to be presented in IEEE: VTC 2024-Spring 99th Vehicular Technology Conference, June 24-27, 2024, in Singapore.",
-        "year": "2024"
-    },
-    {
-        "img": "./assets/img/icc.jpeg",
-        "title": "NGNLab paper is accepted for presentation at the IEEE ICC 2024 conference in Denver, USA",
-        "about": "Paper \"Adaptive Model Predictive Control-Driven Approach for Visual Detection of Micro-UAVs\" co-authored by Gunasekaran Raja, Selvam Essaky, Deepak Suresh Rajendran, Sai Ganesh Senthivel, Sebastian Knorr, Kapal Dev, is to be presented in 2024 IEEE ICC International Conference on Communications, June 9-13, 2024, in Denver, USA.",
-        "year": "2024"
-    },
-    {
-        "img": "./assets/img/infocom.jpeg",
-        "title": "NGNLab paper is accepted for presentation at the IEEE INFOCOM 2024 International Conference in Vancouver, Canada",
-        "about": "Paper \"CPP-OTPO: A Cognitive Multi-UAV System for Adaptive Path and Trajectory Optimization\" co-authored by Gunasekaran Raja, Selvam Essaky, Surya Raj M, Jawaharlal Nehru N, Christ Joe, Kapal Dev, Waleed Ejaz, is to be presented in IEEE INFOCOM 2024 International Conference on Computer Communications-Workshop, 20-23 May 2024, in Vancouver, Canada.",
-        "year": "2024"
-    },
-    {
-        "img": "./assets/img/Serb.png",
-        "title": "<a href='./assets/doc/Recruitment_Proj Associate _SERB_15.1.24.pdf' style='color: black;'>Project Associate Position in NGNLab under SERB project grant</a>",
-        "about": "Under the SERB, DST-Government of India project grant, applications are invited for a Project Associate position in the NGNLab, Dept. of Computer Technology, Anna University, Chennai.<br> <strong>Last Date of Application: 15.01.2024.</strong>",
-        "year": "2024"
-    },
-    {
-        "img": "./assets/img/klconf.png",
-        "title": "NGNLab papers were presented at the IEEE GLOBECOM 2023 conference in Kuala Lumpur, Malaysia",
-        "about": "Papers \"AI-empowered UAV Trajectory Optimization in 6G Aerial Networks\" and  \"TVUB: Thermal Vision-based UAV and Blockchain-aided Poaching Prevention System,\" co-authored by  Sai Ganesh, Sivaganesh B, Vishal Ravichandran, Saroja S, and Abhishek Manoharan, were presented in IEEE GLOBECOM 2023 conference, December 4-8, 2023, in Kuala Lumpur, Malaysia.",
-        "year": "2023"
-    },
-    {
-        "img": "./assets/img/Top2.png",
-        "title": "NGNLab Principal Investigator recognized as one of the World’s Top 2% Scientists for 2022",
-        "about": "NGNLab Principal Investigator is recognized as one of the World’s Top 2% Scientists for 2022 by Stanford University, USA, in the field of Information and Communication Technology.",
-        "year": "2023"
-    },
-    {
-        "img": "./assets/img/germany.png",
-        "title": "NGNLab, Ph.D. student attends Research Internship at Ernst-Abbe-Hochschule Jena, Germany",
-        "about": "Selvam Essaky, a Ph.D. student from NGNLab, attends a research internship at Ernst-Abbe-Hochshule Jena, Germany (September 2023 to October 2023) under the DAAD program. The program allowed him to collaborate with researchers from Ernst-Abbe-Hochshule Jena, Germany, share knowledge, and leverage each other's expertise.  This program allowed Selvam to broaden his research horizons and investigate new areas of interest.",
-        "year": "2023"
-    },
-    {
-        "img": "./assets/img/Sai-CMU.png",
-        "title": "NGNLab Alumnus Sai Ganesh Senthivel Admitted into a Master's Program at CMU",
-        "about": "Sai Ganesh Senthivel, a current alumnus of NGNLab, was accepted into the Masters in Information Technology - Information Security program at the esteemed Carnegie Mellon University (CMU) for the Fall 2022 term. CMU is consistently ranked among the top 5 universities in the United States for computer science-related programs, making this a significant accomplishment for Sai.",
-        "year": "2023"
-    },
-    {
-        "img": "./assets/img/TCD.jpg",
-        "title": "NGNLab Ph.D. Student Attends Exchange Programme at Trinity College Dublin",
-        "about": "Selvam Essaky, a PhD student from NGNLab,  attended an exchange program at Trinity College Dublin in Ireland (October 2022 to April 2023). The program allowed him to collaborate with researchers from Trinity College Dublin, share knowledge, and leverage each other's expertise. While Selvam was at Trinity College Dublin, he participated in diverse academic pursuits and attended workshops related to his field of study. The exchange program allowed Selvam to broaden his research horizons and investigate new areas of interest.",
-        "year": "2023"
-    },
-    {
-        "img": "./assets/img/arizonna.png",
-        "title": "NGNs Admitted into Master's Programs at US Universities",
-        "about": "Abhishek and Srividya have been accepted into graduate programs at two prestigious universities in the United States for the Fall 2023 term. Abhishek has been accepted into the University of Southern California (USC), while Srividya has been accepted into the University of Maryland, College Park (UMCP). USC and UMCP are renowned for their high-quality education and immense research opportunities. Their acceptance reflects their hard work, dedication, and research potential.",
-        "year": "2023"
-    },
-    {
-        "img": "./assets/img/placements.png",
-        "title": "NGNs Secure High-Paying Jobs with Top Companies",
-        "about": "NGNs have secured placements in leading companies with lucrative compensation packages for June 2023. Thilaksurya was hired by Wells Fargo, while Balakumar was recruited by Tekion Corp. During the campus placement season, businesses from different industries, such as IT, manufacturing, and consulting, displayed a strong interest in hiring NGNLab students. The lab attributes the successful placements of its students to its strong academic programs, industry partnerships, and well-established alumni network.",
-        "year": "2023"
-    },
-    {
-        "img": "./assets/img/prayatna.jpeg",
-        "title": "NGNs bag First prize at Prayatna 22' National level hackathon",
-        "about": "Students from NGNLab, have been declared the champions of the Prayatna National level hackathon. The winning team comprising Deepak Suresh, Sree Vinay, and Sidhaarthan VM secured the top position in the event organized by AUSEC-MIT and ACT, Anna University.",
-        "year": "2023"
-    },
-    {
-        "img": "./assets/img/ernet.png",
-        "title": "NGNs Participate in a Six-Month Work-Based Learning Internship at ERNET India",
-        "about": "Four final-year undergraduates from NGNlab, namely Srividya, Nishanthini, Sakthi, and Jagadeesh, have completed a six-month Work-Based Learning Research Internship at Education and Research Network (ERNET), IITM Research Park in Chennai, India. During the internship (November 2022 to April 2023), the students gained valuable insights into Time Sensitive Networking and its implementation on Linux. They also worked on various individual projects covering domains like Blockchain, Natural Language Processing, and Data Analytics. The internship at ERNET India provided the students with an opportunity to apply their theoretical knowledge in a practical setting, preparing them for a successful career ahead.",
-        "year": "2023"
-    }
+[
+  {
+    "title": "NGNLab and Department of Computer Technology Present: Two-Day Transnational Workshop on 'Smart Technologies for Societal Health'",
+    "about": "On March 4th and 5th, 2024, the two-day Transnational Workshop on Smart Technologies for Societal Health convened experts from the UK, India, Malaysia, Vietnam, and Oman. Centered on AI, computer vision, robotics, and autonomous systems, it aimed to improve Societal Health in disaster-stricken regions. Featuring keynote lectures, panel discussions, and breakout sessions, participants addressed technical challenges and forged collaborative research plans.",
+    "images": [
+      "./assets/img/STSH1.jpeg",
+      "./assets/img/STSH2.jpeg",
+      "./assets/img/STSH3.jpeg",
+      "./assets/img/STSH4.jpeg"
+    ],
+    "year": 2024
+  },
+  {
+    "title": "NGNLab papers are accepted for presentation at the IEEE VTC 2024-Spring conference in Singapore",
+    "about": "Papers \"PointGAN: A Catalyst for Enhanced Vulnerable Road User Detection in Autonomous Navigation\" co-authored by Gunasekaran Raja, Hosam Alhakami, Sahaya Beni Prathiba, Jeyadev Needhidevan, Priyadarshni Vasudevan, Rupali Subramanian, Kapal Dev and \"Next-Gen Security: Enhanced DDoS Attack Detection for Autonomous Vehicles in 6G Networks\" co-authored by Sudha Anbalagan, Wajdi Alhakami, Mugundh Jambukeswaran Bhooma, Vijai Suria Marimuthu, Kapal Dev, Gunasekaran Raja are to be presented in IEEE: VTC 2024-Spring 99th Vehicular Technology Conference, June 24-27, 2024, in Singapore.",
+    "images": [
+      "./assets/img/VTC.png"
+    ],
+    "year": 2024
+  },
+  {
+    "title": "NGNLab paper is accepted for presentation at the IEEE ICC 2024 conference in Denver, USA",
+    "about": "Paper \"Adaptive Model Predictive Control-Driven Approach for Visual Detection of Micro-UAVs\" co-authored by Gunasekaran Raja, Selvam Essaky, Deepak Suresh Rajendran, Sai Ganesh Senthivel, Sebastian Knorr, Kapal Dev, is to be presented in 2024 IEEE ICC International Conference on Communications, June 9-13, 2024, in Denver, USA.",
+    "images": [
+      "./assets/img/icc.jpeg"
+    ],
+    "year": "2024"
+  },
+  {
+    "title": "NGNLab paper is accepted for presentation at the IEEE INFOCOM 2024 International Conference in Vancouver, Canada",
+    "about": "Paper \"CPP-OTPO: A Cognitive Multi-UAV System for Adaptive Path and Trajectory Optimization\" co-authored by Gunasekaran Raja, Selvam Essaky, Surya Raj M, Jawaharlal Nehru N, Christ Joe, Kapal Dev, Waleed Ejaz, is to be presented in IEEE INFOCOM 2024 International Conference on Computer Communications-Workshop, 20-23 May 2024, in Vancouver, Canada.",
+    "images": [
+      "./assets/img/infocom.jpeg"
+    ],
+    "year": "2024"
+  },
+  {
+    "title": "<a href='./assets/doc/Recruitment_Proj Associate _SERB_15.1.24.pdf' style='color: black;'>Project Associate Position in NGNLab under SERB project grant</a>",
+    "about": "Under the SERB, DST-Government of India project grant, applications are invited for a Project Associate position in the NGNLab, Dept. of Computer Technology, Anna University, Chennai.<br> <strong>Last Date of Application: 15.01.2024.</strong>",
+    "images": [
+      "./assets/img/Serb.png"
+    ],
+    "year": "2024"
+  },
+  {
+    "title": "NGNLab papers were presented at the IEEE GLOBECOM 2023 conference in Kuala Lumpur, Malaysia",
+    "about": "Papers \"AI-empowered UAV Trajectory Optimization in 6G Aerial Networks\" and  \"TVUB: Thermal Vision-based UAV and Blockchain-aided Poaching Prevention System,\" co-authored by  Sai Ganesh, Sivaganesh B, Vishal Ravichandran, Saroja S, and Abhishek Manoharan, were presented in IEEE GLOBECOM 2023 conference, December 4-8, 2023, in Kuala Lumpur, Malaysia.",
+    "images": [
+      "./assets/img/klconf.png"
+    ],
+    "year": "2023"
+  },
+  {
+    "title": "NGNLab Principal Investigator recognized as one of the World’s Top 2% Scientists for 2022",
+    "about": "NGNLab Principal Investigator is recognized as one of the World’s Top 2% Scientists for 2022 by Stanford University, USA, in the field of Information and Communication Technology.",
+    "images": [
+      "./assets/img/Top2.png"
+    ],
+    "year": "2023"
+  },
+  {
+    "title": "NGNLab, Ph.D. student attends Research Internship at Ernst-Abbe-Hochschule Jena, Germany",
+    "about": "Selvam Essaky, a Ph.D. student from NGNLab, attends a research internship at Ernst-Abbe-Hochshule Jena, Germany (September 2023 to October 2023) under the DAAD program. The program allowed him to collaborate with researchers from Ernst-Abbe-Hochshule Jena, Germany, share knowledge, and leverage each other's expertise.  This program allowed Selvam to broaden his research horizons and investigate new areas of interest.",
+    "images": [
+      "./assets/img/germany.png"
+    ],
+    "year": "2023"
+  },
+  {
+    "title": "NGNLab Alumnus Sai Ganesh Senthivel Admitted into a Master's Program at CMU",
+    "about": "Sai Ganesh Senthivel, a current alumnus of NGNLab, was accepted into the Masters in Information Technology - Information Security program at the esteemed Carnegie Mellon University (CMU) for the Fall 2022 term. CMU is consistently ranked among the top 5 universities in the United States for computer science-related programs, making this a significant accomplishment for Sai.",
+    "images": [
+      "./assets/img/Sai-CMU.png"
+    ],
+    "year": "2023"
+  },
+  {
+    "title": "NGNLab Ph.D. Student Attends Exchange Programme at Trinity College Dublin",
+    "about": "Selvam Essaky, a PhD student from NGNLab,  attended an exchange program at Trinity College Dublin in Ireland (October 2022 to April 2023). The program allowed him to collaborate with researchers from Trinity College Dublin, share knowledge, and leverage each other's expertise. While Selvam was at Trinity College Dublin, he participated in diverse academic pursuits and attended workshops related to his field of study. The exchange program allowed Selvam to broaden his research horizons and investigate new areas of interest.",
+    "images": [
+      "./assets/img/TCD.jpg"
+    ],
+    "year": "2023"
+  },
+  {
+    "title": "NGNs Admitted into Master's Programs at US Universities",
+    "about": "Abhishek and Srividya have been accepted into graduate programs at two prestigious universities in the United States for the Fall 2023 term. Abhishek has been accepted into the University of Southern California (USC), while Srividya has been accepted into the University of Maryland, College Park (UMCP). USC and UMCP are renowned for their high-quality education and immense research opportunities. Their acceptance reflects their hard work, dedication, and research potential.",
+    "images": [
+      "./assets/img/arizonna.png"
+    ],
+    "year": "2023"
+  },
+  {
+    "title": "NGNs Secure High-Paying Jobs with Top Companies",
+    "about": "NGNs have secured placements in leading companies with lucrative compensation packages for June 2023. Thilaksurya was hired by Wells Fargo, while Balakumar was recruited by Tekion Corp. During the campus placement season, businesses from different industries, such as IT, manufacturing, and consulting, displayed a strong interest in hiring NGNLab students. The lab attributes the successful placements of its students to its strong academic programs, industry partnerships, and well-established alumni network.",
+    "images": [
+      "./assets/img/placements.png"
+    ],
+    "year": "2023"
+  },
+  {
+    "title": "NGNs bag First prize at Prayatna 22' National level hackathon",
+    "about": "Students from NGNLab, have been declared the champions of the Prayatna National level hackathon. The winning team comprising Deepak Suresh, Sree Vinay, and Sidhaarthan VM secured the top position in the event organized by AUSEC-MIT and ACT, Anna University.",
+    "images": [
+      "./assets/img/prayatna.jpeg"
+    ],
+    "year": "2023"
+  },
+  {
+    "title": "NGNs Participate in a Six-Month Work-Based Learning Internship at ERNET India",
+    "about": "Four final-year undergraduates from NGNlab, namely Srividya, Nishanthini, Sakthi, and Jagadeesh, have completed a six-month Work-Based Learning Research Internship at Education and Research Network (ERNET), IITM Research Park in Chennai, India. During the internship (November 2022 to April 2023), the students gained valuable insights into Time Sensitive Networking and its implementation on Linux. They also worked on various individual projects covering domains like Blockchain, Natural Language Processing, and Data Analytics. The internship at ERNET India provided the students with an opportunity to apply their theoretical knowledge in a practical setting, preparing them for a successful career ahead.",
+    "images": [
+      "./assets/img/ernet.png"
+    ],
+    "year": "2023"
+  }
 ]
