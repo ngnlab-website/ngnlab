@@ -1,4 +1,13 @@
 [   {
+        "title": "DQN approach for Adaptive Self-healing of VNFs in Cloud-native Network",
+        "author": "Arunkumar Arulappan, Aniket Mahanti, Kalpdrum Passi, Thiruvenkadam S, Ranesh Naha,  Gunasekaran Raja",
+        "conference": "IEEE ACCESS, vol. 12, pp. 34489-34504",
+        "doi": "#",
+        "year": "2024",
+        "domain": ["AV"],
+        "selective": true
+    },       
+        {
         "title": "PointGAN: A Catalyst for Enhanced Vulnerable Road User Detection in Autonomous Navigation",
         "author": "Gunasekaran Raja, Hosam Alhakami, Sahaya Beni Prathiba, Jeyadev Needhidevan, Priyadarshni Vasudevan, Rupali Subramanian, Kapal Dev",
         "conference": "IEEE: VTC 2024-Spring 99th Vehicular Technology Conference, Singapore, June 24-27.",
