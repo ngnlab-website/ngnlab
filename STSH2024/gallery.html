@@ -825,25 +825,30 @@
     .portfolio-details .portfolio-description p {
       padding: 0;
     }
-    @keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
-#feedback-link {
-  animation: blink 0.5s infinite; /* Adjust the duration of the blink as per your preference */
-}
-#feedback-link:hover {
-  animation: none; 
-  opacity: 1; 
-}
+    @keyframes blink {
+      0% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    #feedback-link {
+      animation: blink 0.5s infinite;
+      /* Adjust the duration of the blink as per your preference */
+    }
+
+    #feedback-link:hover {
+      animation: none;
+      opacity: 1;
+    }
   </style>
 
 </head>
@@ -904,36 +909,6 @@
       </div>
 
       <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-talks">
-          <div class="portfolio-wrap">
-            <img src="assets/img/Gallery/extracurricular1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Music</h4>
-              <p>Extracurricular Activity</p>
-              <div class="portfolio-links">
-                <a href="assets/img/Gallery/extracurricular1.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="Music"><i class="bx bx-plus"></i></a>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-inaug">
-          <div class="portfolio-wrap">
-            <img src="assets/img/Gallery/Awards2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Awards 2</h4>
-              <p>Award</p>
-              <div class="portfolio-links">
-                <a href="assets/img/Gallery/Awards2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                  title="Awards 2"><i class="bx bx-plus"></i></a>
-
-              </div>
-            </div>
-          </div>
-        </div> -->
 
       </div>
 
@@ -1019,6 +994,7 @@
       const container = document.querySelector(".portfolio-container");
 
       const folders = {
+        "filter-group": "group",
         "filter-inaug": "inauguration",
         "filter-talks-1": "talks-day-1",
         "filter-talks-2": "talks-day-2",
@@ -1028,7 +1004,7 @@
 
       Object.keys(folders).forEach(filter => {
         const folderName = folders[filter];
-        const count = (folderName === 'venue') ? 5 : (folderName === 'inauguration') ? 26 : (folderName === 'delegates') ? 28 : (folderName === 'talks-day-1') ? 15 : 29;
+        const count = (folderName === 'group') ? 11 : (folderName === 'venue') ? 5 : (folderName === 'inauguration') ? 25 : (folderName === 'delegates') ? 28 : (folderName === 'talks-day-1') ? 15 : 29;
 
         for (let i = 1; i <= count; i++) {
           const imgPath = `img/day-1/${folderName}/${i}.jpg`;
@@ -1058,12 +1034,11 @@
 
           const link = document.createElement("a");
           link.setAttribute("href", imgPath);
-          link.setAttribute("data-gallery", "portfolioGallery");
-          link.classList.add("portfolio-lightbox");
+          link.setAttribute("target", "_blank");
           link.setAttribute("title", `Image ${i}`);
 
           const icon = document.createElement("i");
-          icon.classList.add("bx", "bx-plus");
+          icon.textContent = "+";
 
           link.appendChild(icon);
           portfolioLinks.appendChild(link);
