@@ -44,7 +44,7 @@ function startSlideshows() {
                 slide.style.display = 'none';
             });
             slides[currentIndex].style.display = 'block';
-        }, 5000); // Change the duration as needed (in milliseconds)
+        }, 2500); // Change the duration as needed (in milliseconds)
     });
 }
 
