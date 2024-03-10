@@ -20,7 +20,7 @@ function renderSlides(slidesData) {
                     </div>
                     <div class="details">
                         <div class="name">${slide.title}</div>
-                        <div class="about">${slide.description}</div>
+                        <div class="about">${slide.about}</div>
                     </div>
                 </div>
             </div>
