@@ -131,25 +131,30 @@
     #moreText {
       display: none;
     }
-    @keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
-#feedback-link {
-  animation: blink 0.5s infinite; /* Adjust the duration of the blink as per your preference */
-}
-#feedback-link:hover {
-  animation: none; 
-  opacity: 1; 
-}
+    @keyframes blink {
+      0% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    #feedback-link {
+      animation: blink 0.5s infinite;
+      /* Adjust the duration of the blink as per your preference */
+    }
+
+    #feedback-link:hover {
+      animation: none;
+      opacity: 1;
+    }
   </style>
 </head>
 
@@ -176,12 +181,13 @@
           <li><a href="#footer">Contact</a></li>
           <li class="downloads"><a href="#">Downloads</a>
             <ul>
-                <li><a href="call_for_participants.html">Call for Participants</a></li>
-                <li><a href="workshop-brochure.html">Workshop brochure</a></li>
-                <li><a href="invitation.html">Inauguration Invitation</a></li>
+              <li><a href="call_for_participants.html">Call for Participants</a></li>
+              <li><a href="workshop-brochure.html">Workshop brochure</a></li>
+              <li><a href="invitation.html">Inauguration Invitation</a></li>
             </ul>
           </li>
-          <li class="buy-tickets"><a href="https://ngnlab.org/">NGN Home</a></li>
+          <li class="menu-active"><a href="https://ngnlab.org/"><img src="img/ngnlogo-nobg.png" width="80" alt=""></a>
+          </li>
         </ul>
       </nav><!-- #nav-menu-container -->
 
@@ -199,7 +205,7 @@
       <p class="mb-4 pb-0">Jointly organized by Anna University, Chennai, India & Queen's University Belfast, UK</p>
       <!-- <p class="mb-4 pb-0"><i class="ri-calendar-schedule-line" style="margin: 16px"></i>4th & 5th March 2024</p>
       <p class="mb-4 pb-0"><i class="ri-map-pin-line" style="margin: 16px"></i>Department of Computer Technology, Anna University, MIT, Chennai 600044, India</p> -->
-      <a href="invitation.html" class="about-btn scrollto">Click here for Invitation to Workshop!</a>
+      <a href="gallery.html" class="about-btn scrollto">Click here to view Workshop Gallery!</a>
     </div>
   </section>
 
@@ -250,22 +256,59 @@
         <div class="section-header">
           <h2>About the Workshop</h2>
         </div>
-        <p id="introText" style="margin-top: -36px; text-align: justify;">As the Madras Institute of Technology (MIT) Campus at Anna University commemorates its 75th anniversary,
+        <p id="introText" style="margin-top: -36px; text-align: justify;">As the Madras Institute of Technology (MIT)
+          Campus at Anna University commemorates its 75th anniversary,
           the Department of Computer Technology, in partnership with Queen's University Belfast, UK is set to
-          host a two-day Transnational Workshop on 'Smart Technologies for Societal Health'. This workshop seeks to bring together researchers and stakeholders from the UK, India, Vietnam and Malaysia to explore how Smart Technologies (AI, computer vision, robotics and autonomous systems) can be better utilized to improve Societal Health in regions impacted by natural disasters. 
+          host a two-day Transnational Workshop on 'Smart Technologies for Societal Health'. This workshop seeks to
+          bring together researchers and stakeholders from the UK, India, Vietnam and Malaysia to explore how Smart
+          Technologies (AI, computer vision, robotics and autonomous systems) can be better utilized to improve Societal
+          Health in regions impacted by natural disasters.
           <span><a id="readMoreBtn" href="#about" onclick="toggleReadMore()">Read more</a></span>
         </p>
-        
+
         <div id="moreText" style="margin-top: -24px; text-align: justify;">
-            <p style="margin-top: -24px; text-align: justify;">Monsoon season, for instance, is one of the major annual climatic cycles that causes substantial devastation for the population in these countries with flooding particularly in low lying areas. Additionally, global warming is impacting the region at an unprecedented scale. According to The Washington Post, Pakistan alone hosts more glacial ice than anywhere on Earth outside the polar regions. These glaciers feed rivers providing water supply for a large part of the country. Unfortunately, the glaciers are receding due to both natural (higher temperatures, reduced snowfall, heavier summer rainfalls) and man-made (deforestation) reasons. This causes havoc in the form of catastrophic floods as witnessed in the summer of 2022. India and Vietnam also experience flooding every year causing significant damage to their infrastructure, with knock-on effects on societal health, especially in rural areas where the population is heavily reliant on farming and livestock. Stagnant water provides a perfect breeding ground for mosquitoes and other insects causing endemics such as malaria, dengue fever in addition to other water borne diseases (diarrhoea, skin infections) according to the World Health Organisation in all three countries.</p>
-            <p style="margin-top: -24px; text-align: justify;">Pakistan and India, which are located on Tectonic plate fault lines, also frequently experience earthquakes that cause high numbers of fatalities and infrastructure damage on a regular basis. Difficult terrain, weaker infrastructure, and poverty in some of these areas mean that search and rescue operations can take much longer than average, thereby increasing the human suffering and casualties.</p>
-            <p style="margin-top: -24px; text-align: justify;">Utilisation of smart technology can help to alleviate some of these challenges. For example, autonomous vehicles, including drones and ground robots, could support search and rescue operations by mapping the affected areas where humans are unable to go. Computer vision can play a vital role in searching for and tracking trapped people hence accelerating crucial rescue efforts, where needed. AI and data analytics could play a vital role in improving the intelligence of such systems for their quick deployment, which could be the difference between life and death in rescue operations.</p>
-            <p style="margin-top: -24px; text-align: justify;">Smart technology could also be utilised to detect mosquito breeding ground hot spots to either promptly action an autonomous response and/or provide data to relevant agencies for further processing and action, as needed. Other areas where smart technology could support disaster relief and recovery include, remote triage, transport and delivery of essential medical and food supplies, automated damage and infrastructure integrity assessments, and communication infrastructure reinstatement.</p>
-            <p style="margin-top: -24px; text-align: justify;">The goals of the workshop are to explore these and other areas where smart technologies could be brought to bear to improve societal health when a region is impacted by a natural disaster, identify technical challenges to their development, and devise an action plan for collaborative research activities to overcome these challenges.</p>
-            <p style="margin-top: -24px; text-align: justify;">The workshop will consist of a series of keynote lectures, panel discussions and breakout sessions with input from both experienced and early career researchers from the participating countries. <span style="margin-top: -24px; text-align: justify;"><a id="readLessBtn" href="#about" onclick="toggleReadMore()" style="display:none;">Read less</a></span></p>
-          
+          <p style="margin-top: -24px; text-align: justify;">Monsoon season, for instance, is one of the major annual
+            climatic cycles that causes substantial devastation for the population in these countries with flooding
+            particularly in low lying areas. Additionally, global warming is impacting the region at an unprecedented
+            scale. According to The Washington Post, Pakistan alone hosts more glacial ice than anywhere on Earth
+            outside the polar regions. These glaciers feed rivers providing water supply for a large part of the
+            country. Unfortunately, the glaciers are receding due to both natural (higher temperatures, reduced
+            snowfall, heavier summer rainfalls) and man-made (deforestation) reasons. This causes havoc in the form of
+            catastrophic floods as witnessed in the summer of 2022. India and Vietnam also experience flooding every
+            year causing significant damage to their infrastructure, with knock-on effects on societal health,
+            especially in rural areas where the population is heavily reliant on farming and livestock. Stagnant water
+            provides a perfect breeding ground for mosquitoes and other insects causing endemics such as malaria, dengue
+            fever in addition to other water borne diseases (diarrhoea, skin infections) according to the World Health
+            Organisation in all three countries.</p>
+          <p style="margin-top: -24px; text-align: justify;">Pakistan and India, which are located on Tectonic plate
+            fault lines, also frequently experience earthquakes that cause high numbers of fatalities and infrastructure
+            damage on a regular basis. Difficult terrain, weaker infrastructure, and poverty in some of these areas mean
+            that search and rescue operations can take much longer than average, thereby increasing the human suffering
+            and casualties.</p>
+          <p style="margin-top: -24px; text-align: justify;">Utilisation of smart technology can help to alleviate some
+            of these challenges. For example, autonomous vehicles, including drones and ground robots, could support
+            search and rescue operations by mapping the affected areas where humans are unable to go. Computer vision
+            can play a vital role in searching for and tracking trapped people hence accelerating crucial rescue
+            efforts, where needed. AI and data analytics could play a vital role in improving the intelligence of such
+            systems for their quick deployment, which could be the difference between life and death in rescue
+            operations.</p>
+          <p style="margin-top: -24px; text-align: justify;">Smart technology could also be utilised to detect mosquito
+            breeding ground hot spots to either promptly action an autonomous response and/or provide data to relevant
+            agencies for further processing and action, as needed. Other areas where smart technology could support
+            disaster relief and recovery include, remote triage, transport and delivery of essential medical and food
+            supplies, automated damage and infrastructure integrity assessments, and communication infrastructure
+            reinstatement.</p>
+          <p style="margin-top: -24px; text-align: justify;">The goals of the workshop are to explore these and other
+            areas where smart technologies could be brought to bear to improve societal health when a region is impacted
+            by a natural disaster, identify technical challenges to their development, and devise an action plan for
+            collaborative research activities to overcome these challenges.</p>
+          <p style="margin-top: -24px; text-align: justify;">The workshop will consist of a series of keynote lectures,
+            panel discussions and breakout sessions with input from both experienced and early career researchers from
+            the participating countries. <span style="margin-top: -24px; text-align: justify;"><a id="readLessBtn"
+                href="#about" onclick="toggleReadMore()" style="display:none;">Read less</a></span></p>
+
         </div>
-        
+
       </div>
     </section>
 
@@ -281,10 +324,11 @@
 
         <div class="row" style="width: 80%; display: flex; justify-content: center;  margin: auto;">
 
-          <div class="col-lg-4 col-md-6"> 
+          <div class="col-lg-4 col-md-6">
             <div class="organizer" style="margin-top: -30px">
               <div class="organizer-img">
-                <img src="img/organizers/1.jpg" alt="organizer 1" class="img-fluid" style="width: 100%; height: 280px; object-fit: cover;">
+                <img src="img/organizers/1.jpg" alt="organizer 1" class="img-fluid"
+                  style="width: 100%; height: 280px; object-fit: cover;">
               </div>
               <h3><a href="#">Prof. Gunasekaran Raja</a></h3>
               <p>Department of <br>Computer Technology<br>Anna University, MIT Campus<br>Chennai 600044, India</p>
@@ -294,20 +338,24 @@
           <div class="col-lg-4 col-md-6">
             <div class="organizer" style="margin-top: -30px">
               <div class="organizer-img">
-                <img src="img/organizers/5.jpg" alt="organizer 2" class="img-fluid" style="width: 100%; height: 280px; object-fit: cover;">
+                <img src="img/organizers/5.jpg" alt="organizer 2" class="img-fluid"
+                  style="width: 100%; height: 280px; object-fit: cover;">
               </div>
               <h3><a href="#">Prof. Seán McLoone</a></h3>
-              <p>School of Electronics<br>Electrical Engineering &<br>Computer Science<br>Queen’s University Belfast, UK</p>
+              <p>School of Electronics<br>Electrical Engineering &<br>Computer Science<br>Queen’s University Belfast, UK
+              </p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6">
             <div class="organizer" style="margin-top: -30px">
               <div class="organizer-img">
-                <img src="img/organizers/4.jpg" alt="organizer 3" class="img-fluid" style="width: 100%; height: 280px; object-fit: cover;">
+                <img src="img/organizers/4.jpg" alt="organizer 3" class="img-fluid"
+                  style="width: 100%; height: 280px; object-fit: cover;">
               </div>
               <h3><a href="#">Dr. Wasif Naeem</a></h3>
-              <p>School of Electronics<br>Electrical Engineering &<br>Computer Science<br>Queen’s University Belfast, UK</p>
+              <p>School of Electronics<br>Electrical Engineering &<br>Computer Science<br>Queen’s University Belfast, UK
+              </p>
             </div>
           </div>
 
@@ -373,7 +421,7 @@
             </div>
           </div> -->
 
-          <!-- <div class="col-lg-3 col-md-4 col-xs-6">
+    <!-- <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="sponsor-logo">
               <img src="img/sponsors/1.jpg" class="img-fluid" alt="">
             </div>
@@ -385,7 +433,7 @@
             </div>
           </div> -->
 
-          <!-- <div class="col-lg-3 col-md-4 col-xs-6">
+    <!-- <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="sponsor-logo">
               <img src="img/sponsors/5.png" class="img-fluid" alt="">
             </div>
@@ -409,7 +457,7 @@
             </div>
           </div> -->
 
-        <!-- </div>
+    <!-- </div>
 
       </div>
 
@@ -431,7 +479,8 @@
           </div>
           <div class="address">
             <div class="address-actual">
-              <h6 style="font-family: 'Arial';">Department of Computer Technology<br>Anna University<br>MIT Campus<br>Chromepet<br>Chennai 600044<br>India</p>
+              <h6 style="font-family: 'Arial';">Department of Computer Technology<br>Anna University<br>MIT
+                Campus<br>Chromepet<br>Chennai 600044<br>India</p>
             </div>
           </div>
         </div>
@@ -440,18 +489,21 @@
     <!--==========================
     Footer
   ============================-->
-  <footer id="footer" style="margin-top: -40px;">
-    <div class="container">
-      <div class="copyright" style="font-size: 16px;">
-        <em>Contact: </em><br>
-        <strong>Prof. Gunasekaran Raja:</strong> <a style="color: white;" href="mailto:gunasekaran@mitindia.edu">gunasekaran@mitindia.edu</a><br>
-        <strong>Prof. Seán McLoone:</strong> <a style="color: white;" href="mailto:s.mcloone@qub.ac.uk">s.mcloone@qub.ac.uk</a><br>
-        <strong>Prof. Wasif Naeem:</strong> <a style="color: white;" href="mailto:w.naeem@qub.ac.uk">w.naeem@qub.ac.uk</a><br><br>        
-        &copy; Copyright <strong> NGNLab</strong>. All Rights Reserved
+    <footer id="footer" style="margin-top: -40px;">
+      <div class="container">
+        <div class="copyright" style="font-size: 16px;">
+          <em>Contact: </em><br>
+          <strong>Prof. Gunasekaran Raja:</strong> <a style="color: white;"
+            href="mailto:gunasekaran@mitindia.edu">gunasekaran@mitindia.edu</a><br>
+          <strong>Prof. Seán McLoone:</strong> <a style="color: white;"
+            href="mailto:s.mcloone@qub.ac.uk">s.mcloone@qub.ac.uk</a><br>
+          <strong>Prof. Wasif Naeem:</strong> <a style="color: white;"
+            href="mailto:w.naeem@qub.ac.uk">w.naeem@qub.ac.uk</a><br><br>
+          &copy; Copyright <strong> NGNLab</strong>. All Rights Reserved
+        </div>
       </div>
-    </div>
-  </footer><!-- #footer -->
-  
+    </footer><!-- #footer -->
+
 
     <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
@@ -553,23 +605,23 @@
       startAutoScroll();
     </script>
 
-<script>
-  function toggleReadMore() {
-    var moreText = document.getElementById("moreText");
-    var readMoreBtn = document.getElementById("readMoreBtn");
-    var readLessBtn = document.getElementById("readLessBtn");
+    <script>
+      function toggleReadMore() {
+        var moreText = document.getElementById("moreText");
+        var readMoreBtn = document.getElementById("readMoreBtn");
+        var readLessBtn = document.getElementById("readLessBtn");
 
-    if (moreText.style.display === "none") {
-      moreText.style.display = "block";
-      readMoreBtn.style.display = "none";
-      readLessBtn.style.display = "inline";
-    } else {
-      moreText.style.display = "none";
-      readMoreBtn.style.display = "inline";
-      readLessBtn.style.display = "none";
-    }
-  }
-</script>
+        if (moreText.style.display === "none") {
+          moreText.style.display = "block";
+          readMoreBtn.style.display = "none";
+          readLessBtn.style.display = "inline";
+        } else {
+          moreText.style.display = "none";
+          readMoreBtn.style.display = "inline";
+          readLessBtn.style.display = "none";
+        }
+      }
+    </script>
 </body>
 
 </html>
