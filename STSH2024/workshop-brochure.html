@@ -580,6 +580,7 @@
       color: #152b79;
       margin-bottom: 0;
     }
+
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -625,25 +626,30 @@
       font-size: 16px;
       line-height: 1.5;
     }
-    @keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
-#feedback-link {
-  animation: blink 0.5s infinite; /* Adjust the duration of the blink as per your preference */
-}
-#feedback-link:hover {
-  animation: none; 
-  opacity: 1; 
-}
+    @keyframes blink {
+      0% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    #feedback-link {
+      animation: blink 0.5s infinite;
+      /* Adjust the duration of the blink as per your preference */
+    }
+
+    #feedback-link:hover {
+      animation: none;
+      opacity: 1;
+    }
   </style>
 
 </head>
@@ -671,19 +677,19 @@
           <li><a href="#footer">Contact</a></li>
           <li class="downloads"><a href="#">Downloads</a>
             <ul>
-                <li><a href="call_for_participants.html">Call for Participants</a></li>
-                <li><a href="workshop-brochure.html">Workshop brochure</a></li>
-                <li><a href="invitation.html">Inauguration Invitation</a></li>
+              <li><a href="call_for_participants.html">Call for Participants</a></li>
+              <li><a href="workshop-brochure.html">Workshop brochure</a></li>
+              <li><a href="invitation.html">Inauguration Invitation</a></li>
             </ul>
-        </li>
-        <li class="buy-tickets"><a href="https://ngnlab.org/">NGN Home</a></li>
+          </li>
+          <li class="menu-active"><a href="https://ngnlab.org/"><img src="img/ngn.png" width="80" alt=""></a>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
 
   <section id="speakers" class="wow fadeInUp" style="margin-top: 60px; margin-bottom: 20px">
-    <div class="container" >
+    <div class="container">
       <div class="section-header">
         <h2>Workshop Brochure</h2>
       </div>
@@ -693,7 +699,7 @@
 
 
 
-  
+
   <main style="margin-top: 5px; margin-bottom: -20px;">
     <div class="container">
       <div class="section-header">
@@ -709,7 +715,8 @@
         </div>
         <div class="address">
           <div class="address-actual">
-            <h6 style="font-family: 'Arial';">Department of Computer Technology<br>Anna University<br>MIT Campus<br>Chromepet<br>Chennai 600044<br>India</p>
+            <h6 style="font-family: 'Arial';">Department of Computer Technology<br>Anna University<br>MIT
+              Campus<br>Chromepet<br>Chennai 600044<br>India</p>
           </div>
         </div>
       </div>
@@ -722,9 +729,12 @@
     <div class="container">
       <div class="copyright" style="font-size: 16px;">
         <em>Contact: </em><br>
-        <strong>Prof. Gunasekaran Raja:</strong> <a style="color: white;" href="mailto:gunasekaran@mitindia.edu">gunasekaran@mitindia.edu</a><br>
-        <strong>Prof. Seán McLoone:</strong> <a style="color: white;" href="mailto:s.mcloone@qub.ac.uk">s.mcloone@qub.ac.uk</a><br>
-        <strong>Prof. Wasif Naeem:</strong> <a style="color: white;" href="mailto:w.naeem@qub.ac.uk">w.naeem@qub.ac.uk</a><br><br>      
+        <strong>Prof. Gunasekaran Raja:</strong> <a style="color: white;"
+          href="mailto:gunasekaran@mitindia.edu">gunasekaran@mitindia.edu</a><br>
+        <strong>Prof. Seán McLoone:</strong> <a style="color: white;"
+          href="mailto:s.mcloone@qub.ac.uk">s.mcloone@qub.ac.uk</a><br>
+        <strong>Prof. Wasif Naeem:</strong> <a style="color: white;"
+          href="mailto:w.naeem@qub.ac.uk">w.naeem@qub.ac.uk</a><br><br>
         &copy; Copyright <strong> NGNLab</strong>. All Rights Reserved
       </div>
     </div>

@@ -580,6 +580,7 @@
       color: #152b79;
       margin-bottom: 0;
     }
+
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -625,35 +626,43 @@
       font-size: 16px;
       line-height: 1.5;
     }
-    .chair-tag {
-    font-weight: italic;
-    color: #a0241c;
-  }
-  a{
-    color: #f82249;
-  }
-  h4{
-    color: #a0241c;
-  }
-  @keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
-#feedback-link {
-  animation: blink 0.5s infinite; /* Adjust the duration of the blink as per your preference */
-}
-#feedback-link:hover {
-  animation: none; 
-  opacity: 1; 
-}
+    .chair-tag {
+      font-weight: italic;
+      color: #a0241c;
+    }
+
+    a {
+      color: #f82249;
+    }
+
+    h4 {
+      color: #a0241c;
+    }
+
+    @keyframes blink {
+      0% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    #feedback-link {
+      animation: blink 0.5s infinite;
+      /* Adjust the duration of the blink as per your preference */
+    }
+
+    #feedback-link:hover {
+      animation: none;
+      opacity: 1;
+    }
   </style>
 
 </head>
@@ -676,17 +685,17 @@
           <li><a href="index.html#about">About</a></li>
           <!-- <li><a href="keynote-speakers.html">Speakers</a></li> -->
           <li><a href="delegates.html">Delegates</a></li>
-          <li  class="menu-active"><a href="schedule.html">Schedule</a></li>
+          <li class="menu-active"><a href="schedule.html">Schedule</a></li>
           <li><a href="gallery.html">Gallery</a></li>
           <li><a href="#footer">Contact</a></li>
           <li class="downloads"><a href="#">Downloads</a>
             <ul>
-                <li><a href="call_for_participants.html">Call for Participants</a></li>
-                <li><a href="workshop-brochure.html">Workshop brochure</a></li>
-                <li><a href="invitation.html">Inauguration Invitation</a></li>
+              <li><a href="call_for_participants.html">Call for Participants</a></li>
+              <li><a href="workshop-brochure.html">Workshop brochure</a></li>
+              <li><a href="invitation.html">Inauguration Invitation</a></li>
             </ul>
-        </li>
-        <li class="buy-tickets"><a href="https://ngnlab.org/">NGN Home</a></li>
+          </li>
+          <li class="menu-active"><a href="https://ngnlab.org/"><img src="img/ngn.png" width="80" alt=""></a>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -735,7 +744,8 @@
           </div>
 
           <div class="row schedule-item">
-            <div class="col-md-2"><time>11:00 AM <br><span style="display: flex; justify-content: center;">|</span>11:15 AM</time></div>
+            <div class="col-md-2"><time>11:00 AM <br><span style="display: flex; justify-content: center;">|</span>11:15
+                AM</time></div>
             <div class="col-md-10">
               <h4>Introduction to the workshop</h4>
               <p>Prof. Seán McLoone, Queen’s University Belfast, UK</p>
@@ -743,16 +753,19 @@
           </div>
 
           <div class="row schedule-item">
-            <div class="col-md-2"><time>11:15 AM <br><span style="display: flex; justify-content: center;">|</span>12:05 PM</time></div>
+            <div class="col-md-2"><time>11:15 AM <br><span style="display: flex; justify-content: center;">|</span>12:05
+                PM</time></div>
             <div class="col-md-10">
               <h4>Keynote 1: AI and Applications in Society: A Look from Vietnam</h4>
-              <p>Dr. Van-Truong Nguyen, Hanoi University of Industry<br>Dr. Tien-Dung Hoang, Hanoi University of Industry<br>Dr. Xiem Hoang Van, Vietnam National University, Hanoi</p>
+              <p>Dr. Van-Truong Nguyen, Hanoi University of Industry<br>Dr. Tien-Dung Hoang, Hanoi University of
+                Industry<br>Dr. Xiem Hoang Van, Vietnam National University, Hanoi</p>
               <a class="chair-tag">Chair: Prof. Seán McLoone</a>
             </div>
           </div>
 
           <div class="row schedule-item">
-            <div class="col-md-2"><time>12:05 PM <br><span style="display: flex; justify-content: center;">|</span>12:35 PM</time></div>
+            <div class="col-md-2"><time>12:05 PM <br><span style="display: flex; justify-content: center;">|</span>12:35
+                PM</time></div>
             <div class="col-md-10">
               <h4>Keynote 2: Critical asset management and emergency communications infrastructure</h4>
               <p>Dr. Ché Cameron, Queen’s University Belfast, UK</p>
@@ -761,16 +774,18 @@
           </div>
 
           <div class="row schedule-item">
-            <div class="col-md-2"><time>12:35 PM <br><span style="display: flex; justify-content: center;">|</span>01:05 PM</time></div>
+            <div class="col-md-2"><time>12:35 PM <br><span style="display: flex; justify-content: center;">|</span>01:05
+                PM</time></div>
             <div class="col-md-10">
-              <h4>Keynote 3:  Empowering Communities: STI Hub Ladakh's Journey to Health Innovation</h4>
+              <h4>Keynote 3: Empowering Communities: STI Hub Ladakh's Journey to Health Innovation</h4>
               <p>Mr. Chander Shekhar Sharma, CSIR- Institute of Microbial Technology (IMTECH), Chandigarh</p>
               <a class="chair-tag">Chair: Prof. Seán McLoone</a>
             </div>
           </div>
 
           <div class="row schedule-item">
-            <div class="col-md-2"><time>01:05 PM <br><span style="display: flex; justify-content: center;">|</span>02:00 PM</time></div>
+            <div class="col-md-2"><time>01:05 PM <br><span style="display: flex; justify-content: center;">|</span>02:00
+                PM</time></div>
             <div class="col-md-10">
               <h4>Lunch and Networking</h4>
               <p>All delegates</p>
@@ -778,7 +793,8 @@
           </div>
 
           <div class="row schedule-item">
-            <div class="col-md-2"><time>02:00 PM <br><span style="display: flex; justify-content: center;">|</span>02:30 PM</time></div>
+            <div class="col-md-2"><time>02:00 PM <br><span style="display: flex; justify-content: center;">|</span>02:30
+                PM</time></div>
             <div class="col-md-10">
               <h4>Virtual Keynote 4: Edge-AI and Unmanned Aerial Systems: A Practical Perspective</h4>
               <p>Prof. Muhammad Haroon Yousaf, University of Engineering and Technology Taxila, Pakistan</p>
@@ -787,24 +803,29 @@
           </div>
 
           <div class="row schedule-item">
-            <div class="col-md-2"><time>02:30 PM <br><span style="display: flex; justify-content: center;">|</span>03:00 PM</time></div>
+            <div class="col-md-2"><time>02:30 PM <br><span style="display: flex; justify-content: center;">|</span>03:00
+                PM</time></div>
             <div class="col-md-10">
               <h4>Keynote 5: Malaysia's path to a Sustainable Society: Pioneering with Advanced Technology</h4>
-              <p>Dr. Ramani Kannan, Universiti Teknologi PETRONAS, Malaysia<br>Dr. Sathish Kumar V. E, Sunway University, Malaysia</p>
+              <p>Dr. Ramani Kannan, Universiti Teknologi PETRONAS, Malaysia<br>Dr. Sathish Kumar V. E, Sunway
+                University, Malaysia</p>
               <a class="chair-tag">Chair: Prof. Seán McLoone</a>
             </div>
           </div>
 
           <div class="row schedule-item">
-            <div class="col-md-2"><time>03:00 PM <br><span style="display: flex; justify-content: center;">|</span>04:00 PM</time></div>
+            <div class="col-md-2"><time>03:00 PM <br><span style="display: flex; justify-content: center;">|</span>04:00
+                PM</time></div>
             <div class="col-md-10">
-              <h4>Breakout Session 1:  Opportunities and research challenges in robotics and autonomous systems for societal health</h4>
+              <h4>Breakout Session 1: Opportunities and research challenges in robotics and autonomous systems for
+                societal health</h4>
               <p>All delegates</p>
             </div>
           </div>
 
           <div class="row schedule-item">
-            <div class="col-md-2"><time>04:00 PM <br><span style="display: flex; justify-content: center;">|</span>04:30 PM</time></div>
+            <div class="col-md-2"><time>04:00 PM <br><span style="display: flex; justify-content: center;">|</span>04:30
+                PM</time></div>
             <div class="col-md-10">
               <h4>Virtual Keynote 6: Future Maritime Transportation - Avoiding the Titanic Tragedy</h4>
               <p>Dr. Wasif Naeem, Queens’s University Belfast, UK</p>
@@ -813,16 +834,19 @@
           </div>
 
           <div class="row schedule-item">
-            <div class="col-md-2"><time>04:30 PM <br><span style="display: flex; justify-content: center;">|</span>05:00 PM</time></div>
+            <div class="col-md-2"><time>04:30 PM <br><span style="display: flex; justify-content: center;">|</span>05:00
+                PM</time></div>
             <div class="col-md-10">
-              <h4>Keynote 7: A Portable, Low-Cost Multispectral System for Monitoring Night Sky Brightness over the Astronomical Sites</h4>
+              <h4>Keynote 7: A Portable, Low-Cost Multispectral System for Monitoring Night Sky Brightness over the
+                Astronomical Sites</h4>
               <p>Dr. Ashish Kumar, Aryabhatta Research Institute of observational sciences (ARIES), Uttarakhand</p>
               <a class="chair-tag">Chair: Prof. Gunasekaran Raja</a>
             </div>
           </div>
 
           <div class="row schedule-item">
-            <div class="col-md-2"><time>05:00 PM <br><span style="display: flex; justify-content: center;">|</span>05:05 PM</time></div>
+            <div class="col-md-2"><time>05:00 PM <br><span style="display: flex; justify-content: center;">|</span>05:05
+                PM</time></div>
             <div class="col-md-10">
               <h4>Day 1 Concluding Remarks</h4>
               <p>Prof. Gunasekaran Raja, Anna University</p>
@@ -841,7 +865,8 @@
                   style="display: flex; justify-content: center; align-items: center;">|</span>10:00 AM</time>
             </div>
             <div class="col-md-10">
-              <h4>Keynote 8:  Learning and Digital Twins-based Control for Autonomous Robotics Systems subject to Safety Constraints</h4>
+              <h4>Keynote 8: Learning and Digital Twins-based Control for Autonomous Robotics Systems subject to Safety
+                Constraints</h4>
               <p>Dr. Mien Van, Queen’s University Belfast, UK</p>
               <a class="chair-tag">Chair: Dr. Geetha G</a>
             </div>
@@ -853,8 +878,10 @@
                   style="display: flex; justify-content: center; align-items: center;">|</span>10:30 AM</time>
             </div>
             <div class="col-md-10">
-              <h4>Keynote 9: Science and Technology Interventions in Primary Healthcare for Greater Society Using New Age Tools - an SCTIMST Perspective</h4>
-              <p>Mr. Jithin Krishnan, Sree Chithira Thirunal Institute of Medical Sciences and Technology, Trivandrum</p>
+              <h4>Keynote 9: Science and Technology Interventions in Primary Healthcare for Greater Society Using New
+                Age Tools - an SCTIMST Perspective</h4>
+              <p>Mr. Jithin Krishnan, Sree Chithira Thirunal Institute of Medical Sciences and Technology, Trivandrum
+              </p>
               <a class="chair-tag">Chair: Dr. Moirangthem Marjit</a>
             </div>
           </div>
@@ -877,16 +904,18 @@
                   style="display: flex; justify-content: center; align-items: center;">|</span>12:30 PM</time>
             </div>
             <div class="col-md-10">
-              <h4>Breakout session 2: Transnational moon-shot projects on smart technology for disaster relief and recovery operations.</p>
+              <h4>Breakout session 2: Transnational moon-shot projects on smart technology for disaster relief and
+                recovery operations.</p>
             </div>
           </div>
 
           <div class="row schedule-item">
             <div class="col-md-2">
-              <time>12:30 PM <br><span style="display: flex; justify-content: center; align-items: center;">|</span>1:00 PM</time>
+              <time>12:30 PM <br><span style="display: flex; justify-content: center; align-items: center;">|</span>1:00
+                PM</time>
             </div>
             <div class="col-md-10">
-              <h4>Keynote 11:  Advanced Materials for Aerospace and Defence Applications</h4>
+              <h4>Keynote 11: Advanced Materials for Aerospace and Defence Applications</h4>
               <p>Dr. P. Praveen Kumar, DRDO, Hyderabad</p>
               <a class="chair-tag">Chair: Dr. Moirangthem Marjit</a>
             </div>
@@ -894,7 +923,8 @@
 
           <div class="row schedule-item">
             <div class="col-md-2">
-              <time>1:00 PM <br><span style="display: flex; justify-content: center; align-items: center;">|</span>2:00 PM</time>
+              <time>1:00 PM <br><span style="display: flex; justify-content: center; align-items: center;">|</span>2:00
+                PM</time>
             </div>
             <div class="col-md-10">
               <h4>Lunch and Networking</h4>
@@ -904,18 +934,21 @@
 
           <div class="row schedule-item">
             <div class="col-md-2">
-              <time>2:00 PM <br><span style="display: flex; justify-content: center; align-items: center;">|</span>2:45 PM</time>
+              <time>2:00 PM <br><span style="display: flex; justify-content: center; align-items: center;">|</span>2:45
+                PM</time>
             </div>
             <div class="col-md-10">
-              <h4>Panel discussion: The role of AI in improving Societal Health in regions impacted by natural disasters</h4>
+              <h4>Panel discussion: The role of AI in improving Societal Health in regions impacted by natural disasters
+              </h4>
               <p>Panel: Delegate from India, Malaysia, Vietnam and Northern Ireland</p>
-              <a class="chair-tag">Chair: Prof. Seán McLoone</a>  
+              <a class="chair-tag">Chair: Prof. Seán McLoone</a>
             </div>
           </div>
 
           <div class="row schedule-item">
             <div class="col-md-2">
-              <time>2:45 PM <br><span style="display: flex; justify-content: center; align-items: center;">|</span>3:30 PM</time>
+              <time>2:45 PM <br><span style="display: flex; justify-content: center; align-items: center;">|</span>3:30
+                PM</time>
             </div>
             <div class="col-md-10">
               <h4>Keynote 12: Which Innovation will Win?</h4>
@@ -926,7 +959,8 @@
 
           <div class="row schedule-item">
             <div class="col-md-2">
-              <time>3:45 PM <br><span style="display: flex; justify-content: center; align-items: center;">|</span>4:15 PM</time>
+              <time>3:45 PM <br><span style="display: flex; justify-content: center; align-items: center;">|</span>4:15
+                PM</time>
             </div>
             <div class="col-md-10">
               <h4>Virtual Keynote 13: Human-Centred AI for Autonomous Systems</h4>
@@ -937,10 +971,11 @@
 
           <div class="row schedule-item">
             <div class="col-md-2">
-              <time>4:15 PM <br><span style="display: flex; justify-content: center; align-items: center;">|</span>4:45 PM</time>
+              <time>4:15 PM <br><span style="display: flex; justify-content: center; align-items: center;">|</span>4:45
+                PM</time>
             </div>
             <div class="col-md-10">
-              <h4>Keynote 14:  Intelligent cognitive autonomous vehicles and robots</h4>
+              <h4>Keynote 14: Intelligent cognitive autonomous vehicles and robots</h4>
               <p>Dr. Pantelis Sopasakis, Queen’s University Belfast, UK</p>
               <a class="chair-tag">Chair: Dr Wasif Naeem</a>
             </div>
@@ -948,7 +983,8 @@
 
           <div class="row schedule-item">
             <div class="col-md-2">
-              <time>4:45 PM <br><span style="display: flex; justify-content: center; align-items: center;">|</span>5:15 PM</time>
+              <time>4:45 PM <br><span style="display: flex; justify-content: center; align-items: center;">|</span>5:15
+                PM</time>
             </div>
             <div class="col-md-10">
               <h4>Feedback and closing</h4>
@@ -959,14 +995,14 @@
 
 
 
-        </div>
-
       </div>
 
     </div>
 
+    </div>
+
   </section>
-  
+
   <main style="margin-top: 5px; margin-bottom: -20px;">
     <div class="container">
       <div class="section-header">
@@ -982,7 +1018,8 @@
         </div>
         <div class="address">
           <div class="address-actual">
-            <h6 style="font-family: 'Arial';">Department of Computer Technology<br>Anna University<br>MIT Campus<br>Chromepet<br>Chennai 600044<br>India</p>
+            <h6 style="font-family: 'Arial';">Department of Computer Technology<br>Anna University<br>MIT
+              Campus<br>Chromepet<br>Chennai 600044<br>India</p>
           </div>
         </div>
       </div>
@@ -995,9 +1032,12 @@
     <div class="container">
       <div class="copyright" style="font-size: 16px;">
         <em>Contact: </em><br>
-        <strong>Prof. Gunasekaran Raja:</strong> <a style="color: white;" href="mailto:gunasekaran@mitindia.edu">gunasekaran@mitindia.edu</a><br>
-        <strong>Prof. Seán McLoone:</strong> <a style="color: white;" href="mailto:s.mcloone@qub.ac.uk">s.mcloone@qub.ac.uk</a><br>
-        <strong>Prof. Wasif Naeem:</strong> <a style="color: white;" href="mailto:w.naeem@qub.ac.uk">w.naeem@qub.ac.uk</a><br><br>       
+        <strong>Prof. Gunasekaran Raja:</strong> <a style="color: white;"
+          href="mailto:gunasekaran@mitindia.edu">gunasekaran@mitindia.edu</a><br>
+        <strong>Prof. Seán McLoone:</strong> <a style="color: white;"
+          href="mailto:s.mcloone@qub.ac.uk">s.mcloone@qub.ac.uk</a><br>
+        <strong>Prof. Wasif Naeem:</strong> <a style="color: white;"
+          href="mailto:w.naeem@qub.ac.uk">w.naeem@qub.ac.uk</a><br><br>
         &copy; Copyright <strong> NGNLab</strong>. All Rights Reserved
       </div>
     </div>
