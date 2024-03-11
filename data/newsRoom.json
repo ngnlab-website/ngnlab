@@ -1,5 +1,14 @@
 [
   {
+    "title": "Ph.D Scholar from Ernst-Abbe-Hochschule, Jena embarks on Research Internship at Anna University, Chennai",
+    "about": "Herbert Potechius, a Ph.D. student from the University of Applied Sciences Jena in Germany, undertakes a research internship at Anna University, Chennai in March 2024, facilitated by the DST-DAAD's 'Project-Related Personal Exchange (PPP)' funding program. During his time at Anna University, Herbert will engage in research activities at the NGNLab, focusing on immersive imaging, virtual reality, and UAV communications.",
+    "images": [
+      "./assets/img/Herbert2.jpeg",
+      "./assets/img/Herbert1.jpeg",
+    ],
+    "year": 2024
+  },
+  {
     "title": "NGNLab and Department of Computer Technology Present: Two-Day Transnational Workshop on 'Smart Technologies for Societal Health'",
     "about": "On March 4th and 5th, 2024, the two-day Transnational Workshop on Smart Technologies for Societal Health convened experts from the UK, India, Malaysia, Vietnam, and Oman. Centered on AI, computer vision, robotics, and autonomous systems, it aimed to improve Societal Health in disaster-stricken regions. Featuring keynote lectures, panel discussions, and breakout sessions, participants addressed technical challenges and forged collaborative research plans.",
     "images": [
