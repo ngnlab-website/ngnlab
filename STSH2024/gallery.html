@@ -903,6 +903,7 @@
             <li data-filter=".filter-delegates">Delegates</li>
             <li data-filter=".filter-talks-1">Keynote Talks - Day 1</li>
             <li data-filter=".filter-talks-2">Keynote Talks - Day 2</li>
+            <li data-filter=".filter-dinner">Dinner</li>
             <li data-filter=".filter-end">Closing moments</li>
           </ul>
         </div>
@@ -999,12 +1000,13 @@
         "filter-talks-1": "talks-day-1",
         "filter-talks-2": "talks-day-2",
         "filter-delegates": "delegates",
+        "filter-dinner": "dinner",
         "filter-end": "end"
       };
 
       Object.keys(folders).forEach(filter => {
         const folderName = folders[filter];
-        const count = (folderName === 'group') ? 11 : (folderName === 'inauguration') ? 30 : (folderName === 'delegates') ? 28 : (folderName === 'talks-day-1') ? 15 : (folderName === "end") ? 17 : 29;
+        const count = (folderName === 'group') ? 11 : (folderName === 'inauguration') ? 30 : (folderName === 'delegates') ? 28 : (folderName === 'talks-day-1') ? 15 : (folderName === "end") ? 17 : (folderName === "dinner") ? 10 : 29;
 
         for (let i = 1; i <= count; i++) {
           const imgPath = `img/day-1/${folderName}/${i}.jpg`;
