@@ -1,5 +1,13 @@
 [
   {
+    "title": "NGNLab Alumnus Vishal Ravichandran Admitted into a Master's Program at University of Illinois Urbana",
+    "about": "Vishal Ravichandran, a current alumnus of NGNLab, was accepted into the Masters in Computer Science program at the University of Illinois Urbana-Champaign for the Fall 2024 term.  Illinois is consistently ranked among the top 5 universities in the United States for computer science-related programs, making this a significant accomplishment for Vishal.",
+    "images": [
+      "./assets/img/VishalRavichandran.jpeg",
+    ],
+    "year": 2024
+  },
+  {
     "title": "Ph.D Scholar from Ernst-Abbe-Hochschule, Jena, Germany embarks on Research Internship at Anna University, Chennai",
     "about": "Herbert Potechius, a Ph.D. student from the University of Applied Sciences Jena in Germany, undertakes a research internship at Anna University, Chennai in March 2024, facilitated by the DST-DAAD's 'Project-Related Personal Exchange (PPP)' funding program. During his time at Anna University, Herbert will engage in research activities at the NGNLab, focusing on immersive imaging, virtual reality, and UAV communications.",
     "images": [
