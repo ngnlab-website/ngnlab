@@ -400,19 +400,6 @@
         "year": "present"
     },
     {
-        "img": "./assets/img/people/Jawaharlal.jpg",
-        "name": "Jawaharlal Nehru N",
-        "domainWorked": "UAV",
-        "domain": "UAV",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/jawaharlal-nehru-n-359aa7289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "mail": "jawaharnesamaniofficial@gmail.com",
-        "batch": "UG: 2021-2025",
-        "currentPosition": "UG Research Assistant",
-        "year": "present"
-    },
-    {
         "img": "./assets/img/people/praveenkumar.jpg",
         "name": "Praveen Kumar Selvam",
         "domainWorked": "UAV",
@@ -490,6 +477,19 @@
         "batch": "2023-",
         "currentPosition": "UG Research Assistent",
         "year": "present"
+    },
+    {
+        "img": "./assets/img/people/VishalRavichandran.jpeg",
+        "name": "Vishal Ravichandran",
+        "domain": "UAV",
+        "domainWorked": "UAV",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/vishal1101",
+        "mail": "rvishalravi@gmail.com",
+        "batch": "UG: 2018-2022",
+        "currentPosition": "Walmart",
+        "year": "others"
     },
     {
         "img": "./assets/img/people/sudarsan.jpg",
