@@ -488,8 +488,9 @@
         "linkedin": "https://www.linkedin.com/in/vishal1101",
         "mail": "rvishalravi@gmail.com",
         "batch": "UG: 2018-2022",
-        "currentPosition": "SDE-II at Walmart",
-        "year": "alumni"
+        "position": "Walmart",
+        "year": "alumni",
+        "currentPosition":""
     },
     {
         "img": "./assets/img/people/sudarsan.jpg",
