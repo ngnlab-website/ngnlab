@@ -102,3 +102,29 @@
                 "currentPosition": "UG Research Assistant",
                 "year": "present"
             },
+{
+        "img": "./assets/img/people/faheema.jpeg",
+        "name": "Faheema Gullnaas",
+        "domainWorked": "",
+        "domain": "MIoT",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/faheema-gullnaas-0a0a28284",
+        "mail": "ahfgulnaz@gmail.com",
+        "batch": "2023-",
+        "currentPosition": "UG Research Intern",
+        "year": "present"
+    },
+    {
+        "img": "./assets/img/people/monish.jpeg",
+        "name": "Monish R",
+        "domainWorked": "",
+        "domain": "MIoT",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/monish-ramesha-6570b322b",
+        "mail": "monishramesha@gmail.com",
+        "batch": "2023-",
+        "currentPosition": "UG Research Intern",
+        "year": "present"
+    },
