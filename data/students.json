@@ -306,6 +306,33 @@
         "year": "alumni",
         "position":"University of Maryland, College Park"
     },
+    ,
+    {
+        "img": "./assets/img/people/Shyamala.jpg",
+        "name": "R B Shyamala",
+        "domain": "AV",
+        "domainWorked": "AV",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/shyamala2003",
+        "mail": "shyamalamallika@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG Student",
+        "year": "present"
+    },
+    {
+        "img": "./assets/img/people/Shivani.jpg",
+        "name": "Shivani Suresh",
+        "domain": "AV",
+        "domainWorked": "AV",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/shivani-suresh-2ab644273/",
+        "mail": "shivan.suresh@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG Student",
+        "year": "present"
+    },
     {
         "img": "./assets/img/people/selvam.jpg",
         "name": "Selvam Essaky",
@@ -452,32 +479,5 @@
         "batch": "UG: 2021-2025",
         "currentPosition": "UG Student",
         "year": "others"
-    },
-    {
-        "img": "./assets/img/people/Shyamala.jpg",
-        "name": "R B Shyamala",
-        "domain": "AV",
-        "domainWorked": "AV",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/shyamala2003",
-        "mail": "shyamalamallika@gmail.com",
-        "batch": "UG: 2021-2025",
-        "currentPosition": "UG Student",
-        "year": "others"
-    },
-    {
-        "img": "./assets/img/people/Shivani.jpg",
-        "name": "Shivani Suresh",
-        "domain": "AV",
-        "domainWorked": "AV",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/shivani-suresh-2ab644273/",
-        "mail": "shivan.suresh@gmail.com",
-        "batch": "UG: 2021-2025",
-        "currentPosition": "UG Student",
-        "year": "others"
     }
-
 ]
