@@ -346,51 +346,12 @@
         "currentPosition": "Research Assistant-UG",
         "year": "alumni",
         "position": "University of Southern California"
-    },
-    {
-        "img": "./assets/img/people/deepak.png",
-        "name": "Deepak Suresh R",
-        "domainWorked": "UAV",
-        "domain": "UAV, Blockchain",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/deepak-suresh-a0b57020a/",
-        "mail": "deepaksuresh1406@gmail.com",
-        "batch": "2020-2024",
-        "currentPosition": "Research Assistant-UG",
-        "year": "present"
-    },
-    {
-        "img": "./assets/img/people/sreevinay.jpg",
-        "name": "Sree Vinay R",
-        "domainWorked": "UAV",
-        "domain": "UAV, Blockchain",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/sree-vinay-r-523998211",
-        "mail": "rsreevinay@gmail.com",
-        "batch": "2020-2024",
-        "currentPosition": "Research Assistant-UG",
-        "year": "present"
-    },
-    {
-        "img": "./assets/img/people/sidhaarthan.png",
-        "name": "Sidhaarthan VM",
-        "domainWorked": "UAV",
-        "domain": "UAV",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/sidharthan-vm-261b2a220/",
-        "mail": "sidharth2405@gmail.com",
-        "batch": "2020-2024",
-        "currentPosition": "Research Assistant-UG",
-        "year": "present"
-    },
+    },    
     {
         "img": "./assets/img/people/Surya.jpg",
         "name": "Surya Raj M",
-        "domainWorked": "UAV",
-        "domain": "UAV",
+        "domainWorked": "MIoT",
+        "domain": "MIoT, UAV",
         "facebook": "#",
         "twitter": "#",
         "linkedin": "https://www.linkedin.com/in/surya-raj-m",
@@ -425,45 +386,18 @@
         "batch": "2021-",
         "currentPosition": "PhD Student",
         "year": "present"
-    },
-    {
-        "img": "./assets/img/people/christjoe.jpeg",
-        "name": "Christ Joe",
-        "domainWorked": "",
-        "domain": "MIoT",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/christ-joe-2a3b69218",
-        "mail": "christjoeofficial@gmail.com",
-        "batch": "2023-",
-        "currentPosition": "UG Research Intern",
-        "year": "present"
-    },
-    
-    {
-        "img": "./assets/img/people/smruthilaya.jpeg",
-        "name": "Smruthilaya Hariharan",
-        "domainWorked": "MIoT",
-        "domain": "UAV",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/smruthilaya-hariharan-22b565226",
-        "mail": "smruthilaya30@gmail.com",
-        "batch": "2023-",
-        "currentPosition": "UG Research Assistent",
-        "year": "present"
-    },
+    },    
     {
         "img": "./assets/img/people/VishalRavichandran.jpeg",
         "name": "Vishal Ravichandran",
-        "domain": "",
+        "domain": "UAV",
         "domainWorked": "UAV",
         "facebook": "#",
         "twitter": "#",
         "linkedin": "https://www.linkedin.com/in/vishal1101",
         "mail": "rvishalravi@gmail.com",
         "batch": "UG: 2018-2022",
-        "position": "Walmart",
+        "position": "University of Illinois Urbana-Champaign",
         "year": "alumni",
         "currentPosition":""
     },
@@ -496,7 +430,7 @@
     {
         "img": "./assets/img/people/Shyamala.jpg",
         "name": "R B Shyamala",
-        "domain": "",
+        "domain": "AV",
         "domainWorked": "Web-Team",
         "facebook": "#",
         "twitter": "#",
@@ -509,7 +443,7 @@
     {
         "img": "./assets/img/people/Shivani.jpg",
         "name": "Shivani Suresh",
-        "domain": "",
+        "domain": "AV",
         "domainWorked": "Web-Team",
         "facebook": "#",
         "twitter": "#",
@@ -520,16 +454,30 @@
         "year": "others"
     },
     {
-        "img": "./assets/img/people/Swathy.jpg",
-        "name": "Swathy K S",
-        "domain": "",
-        "domainWorked": "Web-Team",
+        "img": "./assets/img/people/Shyamala.jpg",
+        "name": "R B Shyamala",
+        "domain": "AV",
+        "domainWorked": "AV",
         "facebook": "#",
         "twitter": "#",
-        "linkedin": "linkedin.com/in/swathy-k-s-474341267",
-        "mail": "swathyks78@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/shyamala2003",
+        "mail": "shyamalamallika@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG Student",
+        "year": "others"
+    },
+    {
+        "img": "./assets/img/people/Shivani.jpg",
+        "name": "Shivani Suresh",
+        "domain": "AV",
+        "domainWorked": "AV",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/shivani-suresh-2ab644273/",
+        "mail": "shivan.suresh@gmail.com",
         "batch": "UG: 2021-2025",
         "currentPosition": "UG Student",
         "year": "others"
     }
+
 ]
