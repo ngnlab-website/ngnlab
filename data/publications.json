@@ -11,7 +11,7 @@
         "title": "DQN approach for Adaptive Self-healing of VNFs in Cloud-native Network",
         "author": "Arunkumar Arulappan, Aniket Mahanti, Kalpdrum Passi, Thiruvenkadam S, Ranesh Naha,  Gunasekaran Raja",
         "conference": "IEEE ACCESS, vol. 12, pp. 34489-34504",
-        "doi": "#",
+        "doi": "https://ieeexplore.ieee.org/document/10433492",
         "year": "2024",
         "domain": ["AV"],
         "selective": true
@@ -38,18 +38,9 @@
         "title": "Synergistic Analysis of Lung Cancer’s Impact on Cardiovascular Disease using ML-Based Techniques",
         "author": "Gunasekaran Raja, Balakumar Ramkumar, Bhargavi Rajendiran, Sahaya Beni Prathiba, Thamodharan Arumugam, Kalimuthu Karuppanan, Lewis Nkenyereye, Kapal Dev",
         "conference": "IEEE Journal of Biomedical and Health Informatics, DOI: 10.1109/JBHI.2024.3365176",
-        "doi": "#",
+        "doi": "https://ieeexplore.ieee.org/document/10433650",
         "year": "2024",
         "domain": ["MIoT"],
-        "selective": true
-    },  
-    {
-        "title": "DQN approach for Adaptive Self-healing of VNFs in Cloud-native Network",
-        "author": "Arunkumar Arulappan, Aniket Mahanti, Kalpdrum Passi, Thiruvenkadam S, Ranesh Naha,  Gunasekaran Raja",
-        "conference": "IEEE ACCESS, DOI: 10.1109/ACCESS.2024.3365635",
-        "doi": "#",
-        "year": "2024",
-        "domain": ["Networks"],
         "selective": true
     },  
         {
@@ -74,7 +65,7 @@
         "title": "UGEN: UAV and GAN-aided Ensemble Network for Post-Disaster Survivor Detection through ORAN",
         "author": "Gunasekaran Raja, Abhishek Manoharan, Harun Siljak",
         "conference": "IEEE Transactions on Vehicular Technology,  DOI: 10.1109/TVT.2023.3349312.",
-        "doi": "#",
+        "doi": "https://ieeexplore.ieee.org/document/10380459",
         "year": "2023",
         "domain": ["UAV"],
         "selective": true
@@ -83,7 +74,7 @@
         "title": "AI-based Sensor Attack Detection and Classification for Autonomous Vehicles in 6G-V2X Environment",
         "author": "Mubeena Begum, Gunasekaran Raja, Mohsen Guizani",
         "conference": "IEEE Transactions on Vehicular Technology, DOI:10.1109/TVT.2023.3334257",
-        "doi": "#",
+        "doi": "https://ieeexplore.ieee.org/document/10323101",
         "year": "2023",
         "domain": ["UAV"],
         "selective": true
@@ -92,7 +83,7 @@
         "title": "AI-empowered UAV Trajectory Optimization in 6G Aerial Networks",
         "author": "Gunasekaran Raja, Sivaganesh B, Vishal Ravichandran, Saroja S, Davide Scazzoli, Maurizio Magarini, Kapal Dev",
         "conference": "IEEE GLOBECOM 2023 - Global Communications Conference, Kuala Lumpur, Malaysia, Dec. 4-8, 2023. (Accepted)",
-        "doi": "#",
+        "doi": "https://ieeexplore.ieee.org/document/10436836",
         "year": "2023",
         "domain": ["UAV"],
         "selective": true
@@ -101,7 +92,7 @@
         "title": "TVUB: Thermal Vision-based UAV and Blockchain-aided Poaching Prevention System",
         "author": "Sudha Anbalagan, Wajdi Alhakami, Abhishek Manoharan, Sai Ganesh S, Anushka Nehra, Hosam Alhakami, Gunasekaran Raja",
         "conference": "IEEE GLOBECOM 2023 - Global Communications Conference, Kuala Lumpur, Malaysia, Dec. 4-8, 2023. (Accepted)",
-        "doi": "#",
+        "doi": "https://ieeexplore.ieee.org/document/10437160",
         "year": "2023",
         "domain": ["UAV"],
         "selective": true
@@ -110,7 +101,7 @@
         "title": "Blockchain Assisted Hybrid Intrusion Detection System in Autonomous Vehicles for Industry 5.0",
         "author": "Sudha Anbalagan, Gunasekaran Raja, Sugeerthi Gurumoorthy, Deepak Suresh R, Kaviyarasu Ayyakannu",
         "conference": "IEEE Transactions on Consumer Electronics, DOI: 10.1109/TCE.2023.3320282.",
-        "doi": "#",
+        "doi": "https://ieeexplore.ieee.org/document/10266719",
         "year": "2023",
         "domain": ["AV"],
         "selective": true
@@ -119,7 +110,7 @@
         "title": "IIDS: Intelligent Intrusion Detection System for Sustainable Development in Autonomous Vehicles",
         "author": "Sudha Anbalagan, Gunasekaran Raja, Sugeerthi Gurumoorthy, Deepak Suresh R, Kapal Dev",
         "conference": "IEEE Transactions on Intelligent Transportation Systems, vol. 24, no. 12, pp. 15866-15875, Dec. 2023.",
-        "doi": "#",
+        "doi": "https://ieeexplore.ieee.org/document/10144487",
         "year": "2023",
         "domain": ["AV"],
         "selective": true
@@ -146,7 +137,7 @@
         "title": "6G-Assisted UAV-Truck Networks: Toward Efficient Essential Services Delivery",
         "author": "Gunasekaran Raja, Gayathri Saravanan, Kapal Dev",
         "conference": "IEEE Communications Standards Magazine, vol. 7, no. 3, pp. 4-9.",
-        "doi": "#",
+        "doi": "https://ieeexplore.ieee.org/document/10287320/",
         "year": "2023",
         "domain": ["UAV"],
         "selective": true
