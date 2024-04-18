@@ -400,6 +400,20 @@
         "year": "visiting-scholar",
         "position": "German Aerospace Center (DLR) "
     },
+     {
+        "img": "./assets/img/people/HerbertPotechius.jpeg",
+        "name": "Herbert Potechius",
+        "domainWorked": "UAV",
+        "domain": "UAV",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/herbert-p-2154a1216/",
+        "mail": "herbert.potechius@eah-jena.de",
+        "batch": "March 2024",
+        "currentPosition": "Research Assistant-Ph.D",
+        "year": "visiting-scholar",
+        "position": "Ernst-Abbe-Hochschule, Jena, Germany"
+    },
     {
         "img": "./assets/img/people/thamodharan.jpeg",
         "name": "Thamodharan Arumugam",
