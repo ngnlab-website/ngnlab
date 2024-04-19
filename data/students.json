@@ -492,5 +492,70 @@
         "batch": "UG: 2021-2025",
         "currentPosition": "UG Student",
         "year": "others"
+    },
+    {
+        "img": "./assets/img/people/Dharshini.jpg",
+        "name": "Dharshini J",
+        "domain": "AV",
+        "domainWorked": "",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/darshini-jegathesan-0841942a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "mail": "darshinij19@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG Student",
+        "year": "others"
+    },
+    {
+        "img": "./assets/img/people/Niveditha.jpg",
+        "name": "Niveditha Girivel",
+        "domain": "AV",
+        "domainWorked": "",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/niveditha-subramanian-girivel-081a37226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "mail": "nivedithagirivel@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG Student",
+        "year": "others"
+    },
+    {
+        "img": "./assets/img/people/Varsha.jpg",
+        "name": "Varsha M S",
+        "domain": "AV",
+        "domainWorked": "",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/varsha-m-s-50b73a304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "mail": "msvarsha02@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG Student",
+        "year": "others"
+    },
+    {
+        "img": "./assets/img/people/Shruthi.jpg",
+        "name": "Shruthi N",
+        "domain": "AV",
+        "domainWorked": "",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/shruthi-n-a54056288/",
+        "mail": "shruthinarendran@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG Student",
+        "year": "others"
+    },
+    {
+        "img": "./assets/img/people/Harishma.jpg",
+        "name": "Harishma Sabu",
+        "domain": "AV",
+        "domainWorked": "",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://in.linkedin.com/in/harishma-sabu-287a24276",
+        "mail": "harishmasabuu@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG Student",
+        "year": "others"
     }
 ]
