@@ -346,6 +346,58 @@
         "year": "present"
     },
     {
+        "img": "./assets/img/people/Niveditha.jpg",
+        "name": "Niveditha Girivel",
+        "domain": "AV",
+        "domainWorked": "AV",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/niveditha-subramanian-girivel-081a37226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "mail": "nivedithagirivel@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG Student",
+        "year": "present"
+    },
+    {
+        "img": "./assets/img/people/Varsha.jpg",
+        "name": "Varsha M S",
+        "domain": "AV",
+        "domainWorked": "AV",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/varsha-m-s-50b73a304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "mail": "msvarsha02@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG Student",
+        "year": "present"
+    },
+    {
+        "img": "./assets/img/people/Shruthi.jpg",
+        "name": "Shruthi N",
+        "domain": "AV",
+        "domainWorked": "AV",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/shruthi-n-a54056288/",
+        "mail": "shruthinarendran@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG Student",
+        "year": "present"
+    },
+    {
+        "img": "./assets/img/people/Harishma.jpg",
+        "name": "Harishma Sabu",
+        "domain": "AV",
+        "domainWorked": "AV",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://in.linkedin.com/in/harishma-sabu-287a24276",
+        "mail": "harishmasabuu@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG Student",
+        "year": "present"
+    },
+    {
         "img": "./assets/img/people/selvam.jpg",
         "name": "Selvam Essaky",
         "domainWorked": "UAV",
@@ -356,6 +408,32 @@
         "mail": "selvame.mit@@gmail.com",
         "batch": "2021-present",
         "currentPosition": "Ph.D. Student",
+        "year": "present"
+    },
+    {
+        "img": "./assets/img/people/Pronoy.jpg",
+        "name": "Pronoy Kundu",
+        "domain": "UAV",
+        "domainWorked": "UAV",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "www.linkedin.com/in/pronoy-kundu-615947272",
+        "mail": "pronoykundu513@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG Student",
+        "year": "present"
+    },
+    {
+        "img": "./assets/img/people/Mugundh.jpg",
+        "name": "Mugundh J B",
+        "domain": "UAV",
+        "domainWorked": "UAV",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/mugundhjb/",
+        "mail": "mugundhjb@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG Student",
         "year": "present"
     },
     {
@@ -395,6 +473,19 @@
         "twitter": "#",
         "linkedin": "https://www.linkedin.com/in/surya-raj-m",
         "mail": "suryarajmuthuofficial@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG Research Assistant",
+        "year": "present"
+    },
+    {
+        "img": "./assets/img/people/Aishwarya.jpg",
+        "name": "Aishwarya Devi",
+        "domainWorked": "MIoT",
+        "domain": "MIoT",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/aishwarya-devi-r",
+        "mail": "aishwaryadevi2004@gmail.com",
         "batch": "UG: 2021-2025",
         "currentPosition": "UG Research Assistant",
         "year": "present"
