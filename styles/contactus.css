@@ -127,6 +127,7 @@ main .people-section-container .director .photo img {
 main .people-section-container .fourth-year, 
 main .people-section-container .third-year, 
 main .people-section-container .others, 
+main .people-section-container .passout,
 main .people-section-container .alumni, 
 main .people-section-container .pg,
 main .people-section-container .phd {
@@ -343,6 +344,7 @@ main .people-section-container .phd {
     main .people-section-container .fourth-year, 
     main .people-section-container .third-year, 
     main .people-section-container .others, 
+    main .people-section-container .passout,
     main .people-section-container .alumni, 
     main .people-section-container .pg,
     main .people-section-container .phd {
@@ -353,6 +355,7 @@ main .people-section-container .phd {
     main .people-section-container .fourth-year, 
     main .people-section-container .third-year, 
     main .people-section-container .others, 
+    main .people-section-container .passout,
     main .people-section-container .alumni, 
     main .people-section-container .pg,
     main .people-section-container .phd {
