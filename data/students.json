@@ -557,5 +557,44 @@
         "batch": "UG: 2021-2025",
         "currentPosition": "UG Student",
         "year": "others"
+    },
+    {
+        "img": "./assets/img/people/Pronoy.jpg",
+        "name": "Pronoy Kundu",
+        "domain": "UAV",
+        "domainWorked": "",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "www.linkedin.com/in/pronoy-kundu-615947272",
+        "mail": "pronoykundu513@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG Student",
+        "year": "others"
+    },
+    {
+        "img": "./assets/img/people/Aishwarya.jpg",
+        "name": "Aishwarya Devi",
+        "domain": "UAV",
+        "domainWorked": "",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/aishwarya-devi-r",
+        "mail": "aishwaryadevi2004@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG Student",
+        "year": "others"
+    },
+    {
+        "img": "./assets/img/people/Mugundh.jpg",
+        "name": "Mugundh J B",
+        "domain": "UAV",
+        "domainWorked": "",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://in.linkedin.com/in/harishma-sabu-287a24276",
+        "mail": "mugundhjb@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG Student",
+        "year": "others"
     }
 ]
