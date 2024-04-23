@@ -437,6 +437,19 @@
         "year": "present"
     },
     {
+        "img": "./assets/img/people/Rahul.jpeg",
+        "name": "Selva Ragul Kumar",
+        "domain": "UAV",
+        "domainWorked": "UAV",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://in.linkedin.com/in/selva-ragul-kumar-balakrishnan-96729111a",
+        "mail": "selvaragulkumar@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG Student",
+        "year": "present"
+    },
+    {
         "img": "./assets/img/people/saiganesh.jpg",
         "name": "Sai Ganesh Senthivel",
         "domainWorked": "UAV",
