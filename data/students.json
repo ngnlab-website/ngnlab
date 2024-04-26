@@ -476,7 +476,20 @@
         "currentPosition": "Research Assistant-UG",
         "year": "alumni",
         "position": "University of Southern California"
-    },    
+    },  
+    {
+        "img": "./assets/img/people/thamodharan.jpeg",
+        "name": "Thamodharan Arumugam",
+        "domainWorked": "MIoT",
+        "domain": "MIoT, Deep Learning",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/thamodharan-arumugam-05881341/",
+        "mail": "thamodharan@gmail.com",
+        "batch": "2021-",
+        "currentPosition": "PhD Student",
+        "year": "present"
+    }, 
     {
         "img": "./assets/img/people/Surya.jpg",
         "name": "Surya Raj M",
@@ -530,20 +543,7 @@
         "currentPosition": "Research Assistant-Ph.D",
         "year": "visiting-scholar",
         "position": "Ernst-Abbe-Hochschule, Jena, Germany"
-    },
-    {
-        "img": "./assets/img/people/thamodharan.jpeg",
-        "name": "Thamodharan Arumugam",
-        "domainWorked": "MIoT",
-        "domain": "MIoT, Deep Learning",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/thamodharan-arumugam-05881341/",
-        "mail": "thamodharan@gmail.com",
-        "batch": "2021-",
-        "currentPosition": "PhD Student",
-        "year": "present"
-    },    
+    },   
     {
         "img": "./assets/img/people/VishalRavichandran.jpeg",
         "name": "Vishal Ravichandran",
