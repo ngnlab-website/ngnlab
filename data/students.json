@@ -516,6 +516,19 @@
         "currentPosition": "UG Research Assistant",
         "year": "present"
     },
+        {
+        "img": "./assets/img/people/Babith.jpeg",
+        "name": "Babith Sarish S",
+        "domainWorked": "MIoT",
+        "domain": "MIoT",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/babith-sarish-s",
+        "mail": "bmsbabithsarish@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG Research Assistant",
+        "year": "present"
+    },
     {
         "img": "./assets/img/people/praveenkumar.jpg",
         "name": "Praveen Kumar Selvam",
