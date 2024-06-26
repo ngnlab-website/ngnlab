@@ -3,11 +3,11 @@
     "title": "NGNLab paper was presented at the IEEE ICC 2024 conference in Denver, USA",
     "about": "Paper 'Adaptive Model Predictive Control-Driven Approach for Visual Detection of Micro-UAVs' co-authored by Gunasekaran Raja, Selvam Essaky, Deepak Suresh Rajendran, Sai Ganesh Senthivel, Sebastian Knorr, Kapal Dev, was presented in 2024 IEEE ICC International Conference on Communications, June 9-13, 2024, in Denver, USA.",
     "images": [
+       "./assets/img/Denver4.jpeg",
       "./assets/img/icc.jpeg",
       "./assets/img/Denver1.jpeg",
       "./assets/img/Denver2.jpeg",
-     "./assets/img/Denver3.jpeg",
-      "./assets/img/Denver4.jpeg"
+     "./assets/img/Denver3.jpeg"     
     ],
     "year": 2024
   },
