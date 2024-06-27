@@ -1,4 +1,16 @@
-[
+[ 
+  {
+    "title": "NGNLab papers were presented at the IEEE VTC 2024-Spring conference in Singapore",
+    "about": "Papers \"PointGAN: A Catalyst for Enhanced Vulnerable Road User Detection in Autonomous Navigation\" co-authored by Gunasekaran Raja, Hosam Alhakami, Sahaya Beni Prathiba, Jeyadev Needhidevan, Priyadarshni Vasudevan, Rupali Subramanian, Kapal Dev and \"Next-Gen Security: Enhanced DDoS Attack Detection for Autonomous Vehicles in 6G Networks\" co-authored by Sudha Anbalagan, Wajdi Alhakami, Mugundh Jambukeswaran Bhooma, Vijai Suria Marimuthu, Kapal Dev, Gunasekaran Raja were presented in IEEE: VTC 2024-Spring 99th Vehicular Technology Conference, June 24-27, 2024, in Singapore.",
+    "images": [
+      "./assets/img/VTC1.jpeg",
+      "./assets/img/VTC.png",
+      "./assets/img/VTC2.jpeg",
+      "./assets/img/VTC3.jpeg",
+      "./assets/img/VTC4.jpeg"    
+    ],
+    "year": 2024
+  },
   {
     "title": "NGNLab paper was presented at the IEEE ICC 2024 conference in Denver, USA",
     "about": "Paper 'Adaptive Model Predictive Control-Driven Approach for Visual Detection of Micro-UAVs' co-authored by Gunasekaran Raja, Selvam Essaky, Deepak Suresh Rajendran, Sai Ganesh Senthivel, Sebastian Knorr, Kapal Dev, was presented in 2024 IEEE ICC International Conference on Communications, June 9-13, 2024, in Denver, USA.",
@@ -46,14 +58,6 @@
       "./assets/img/VTC.png"
     ],
     "year": 2024
-  },
-  {
-    "title": "NGNLab paper is accepted for presentation at the IEEE ICC 2024 conference in Denver, USA",
-    "about": "Paper \"Adaptive Model Predictive Control-Driven Approach for Visual Detection of Micro-UAVs\" co-authored by Gunasekaran Raja, Selvam Essaky, Deepak Suresh Rajendran, Sai Ganesh Senthivel, Sebastian Knorr, Kapal Dev, is to be presented in 2024 IEEE ICC International Conference on Communications, June 9-13, 2024, in Denver, USA.",
-    "images": [
-      "./assets/img/icc.jpeg"
-    ],
-    "year": "2024"
   },
   {
     "title": "NGNLab paper is accepted for presentation at the IEEE INFOCOM 2024 International Conference in Vancouver, Canada",
