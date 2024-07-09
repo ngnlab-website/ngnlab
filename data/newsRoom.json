@@ -1,16 +1,17 @@
-[ {
-    "title": "<a href='https://ngnlabweb.github.io/AIDM-AS-2024/' style='color: black;'>NGNLab invites paper submissions to the workshop at the IEEE ICDM 2024 conference.",
-    "about": "Paper submissions are invited to the workshop on 'Advances in AI-Driven Data Mining for Autonomous Systems workshop (AIDM-AS 2024)' in conjunction with the '2024 IEEE International Conference on Data Mining (ICDM 2024)' which is to be held in Abu Dhabi, UAE, from December 9-12, 2024. <br> <strong>Last date to submit papers:  September 10, 2024.</strong>",
+[
+  {
+    "title": "<a href='https://ngnlabweb.github.io/AIDM-AS-2024/' style='color: black;'>NGNLab invites paper submissions to the workshop at the IEEE ICDM 2024 conference.</a>",
+    "about": "Paper submissions are invited to the workshop on 'Advances in AI-Driven Data Mining for Autonomous Systems workshop (AIDM-AS 2024)' in conjunction with the '2024 IEEE International Conference on Data Mining (ICDM 2024)' which is to be held in Abu Dhabi, UAE, from December 9-12, 2024. <br> <strong>Last date to submit papers: September 10, 2024.</strong>",
     "images": [
-      "./assets/img/AIDM-AS.jpeg",   
+      "./assets/img/AIDM-AS.jpeg"
     ],
     "year": 2024
-  },  
+  },
   {
-    "title": "<a href='https://fnwf2024.ieee.org/' style='color: black;'>NGNLab invites paper submissions to the IEEE FNWF 2024 conference",
+    "title": "<a href='https://fnwf2024.ieee.org/' style='color: black;'>NGNLab invites paper submissions to the IEEE FNWF 2024 conference</a>",
     "about": "Paper submissions are invited to the IEEE FNWF 2024 conference. Paper submissions are invited to Track 4: 5G and Future Network Special Verticals at the IEEE Future Networks World Forum, held in Dubai, UAE, from October 15-17, 2024. <br> <strong>Last date to submit papers: July 31, 2024.</strong>",
     "images": [
-      "./assets/img/FNWF2024.png",   
+      "./assets/img/FNWF2024.png"
     ],
     "year": 2024
   },
