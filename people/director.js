@@ -80,6 +80,21 @@ function displayAwards() {
 displayAwards()
 let paperPresentations = [
     {
+        title: "PointGAN: A Catalyst for Enhanced Vulnerable Road User Detection in Autonomous Navigation",
+        conference: "IEEE VTC 2024",
+        country: "Singapore"
+    },
+    {
+        title: "Adaptive Model Predictive Control-Driven Approach for Visual Detection of Micro-UAVs",
+        conference: "IEEE ICC 2024",
+        country: "Denver, USA"
+    },
+    {
+        title: "AI-empowered UAV Trajectory Optimization in 6G Aerial Networks",
+        conference: "IEEE GLOBECOM 2023",
+        country: "Kuala Lumpur, Malaysia"
+    },
+    {
         title: "Inter UAV Collision Avoidance using Deep-Q-Learning in Flocking Environment",
         conference: "IEEE UEMCOM 2019",
         country: "New York, USA"
