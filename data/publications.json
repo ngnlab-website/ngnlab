@@ -1,4 +1,13 @@
 [   {
+        "title": "Harnessing Generative Modeling and Autoencoders Against Adversarial Threats in Autonomous Vehicles",
+        "author": "Kathiroli Raja, Sudhakar Theerthagiri, Sriram Venkataraman Swaminathan, Sivasri Suresh, Gunasekaran Raja",
+        "conference": "IEEE Transactions on Consumer Electronics,  DOI: 10.1109/TCE.2024.3437419",
+        "doi": "#",
+        "year": "2024",
+        "domain": ["AV"],
+        "selective": true
+    },  
+    {
         "title": "An Efficient 6G Federated Learning-enabled Energy-Efficient Scheme for UAV Deployment",
         "author": "Kathiroli Raja, Kottilingam Kottursamy, Vishal Ravichandran, Sivaganesh Balaganesh, Kapal Dev, Lewis Nkenyereye, Gunasekaran Raja",
         "conference": "IEEE Transactions on Vehicular Technology, DOI: 10.1109/TVT.2024.3390226.",
