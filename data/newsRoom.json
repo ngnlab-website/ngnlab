@@ -1,9 +1,25 @@
 [
   {
-    "title": "Department Of Telecommunications, India, Grants NGNLab 3-Year Research Grant for '6G Ubiquitous Connectivity Lab'",
+    "title": "DoT Research Grants for NGNLab to Establish '6G Ubiquitous Connectivity Lab and Cutting-Edge Research'",
     "about": "The Department of Telecommunications, India, has sanctioned a three-year research grant for NGNLab to establish the '6G Ubiquitous Connectivity Lab: Advancing India's Health and Agriculture through Innovative Technologies.'",
     "images": [
       "./assets/img/dot_logo.png"
+    ],
+    "year": 2024
+  },
+  {
+    "title": "NGNLab paper, in collaboration with Samsung R&D India, has been selected for presentation at the IEEE GLOBECOM 2024 conference in Cape Town, South Africa.",
+    "about": "The paper  'OBSDNN: Optimal Beam Selection employing Deep Neural Networks in 6G Environment',  co-authored by Gunasekaran Raja, Madhan Raj Kanagarahinam, Deepak Suresh Rajendran, Sree Vinay Ravuru and Sidhaarthan Mamalaivasan has been selected for presentation in the 2024 IEEE GLOBECOM Global Communications Conference Workshop,  December 8-12, 2024, in Cape Town, South Africa.",
+    "images": [
+      "./assets/img/GLOBECOM_11.png"
+    ],
+    "year": 2024
+  },
+  {
+    "title": "NGNLab paper has been selected for presentation at the IEEE FNWF 2024 in Dubai, UAE.",
+    "about": "The paper 'Advanced Cognitive System for Reliable Lane Switch Prediction in Autonomous Vehicles.' co-authored by Gunasekaran Raja, Shivani Suresh, Jeyadev Needhidevan, and Shajina Anand, has been selected for presentation in the 2024 IEEE FNWF Future Networks World Forum,  October 15-17, 2024, in Dubai, UAE.",
+    "images": [
+      "./assets/img/FNWF2024_11.png"
     ],
     "year": 2024
   },
