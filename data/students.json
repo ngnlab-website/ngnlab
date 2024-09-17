@@ -28,6 +28,34 @@
         "position":"Bank of America"
     },
     {
+        "img": "./assets/img/people/KartikeyanTR.jpg",
+        "name": "Kartikeyan T R",
+        "domainWorked": "",
+        "domain": "MIoT",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "linkedin.com/in/kartikeyan-tr-6927191a2",
+        "mail": "kartikeyantr@gmail.com",
+        "batch": "2020-2024",
+        "currentPosition": "UG Research Assistant",
+        "year": "alumni",
+        "position":"Caterpillar"
+    },
+    {
+        "img": "./assets/img/people/Srikantan.jpeg",
+        "name": "Srikantan U",
+        "domainWorked": "",
+        "domain": "MIoT",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/srikantan-umasankar-58b542247/",
+        "mail": "usrikantan@gmail.com",
+        "batch": "2020-2024",
+        "currentPosition": "UG Research Assistant",
+        "year": "alumni",
+        "position":"IDFC First Bank"
+    },
+    {
         "img": "./assets/img/people/Arun.jpg",
         "name": "Arunkumar Arulappan",
         "domainWorked": "Networks",
