@@ -39,11 +39,11 @@ function displayProjects() {
 }
 const awards = [
     {
-        title: "World’s Top 2% Scientists in the field of Information and Communication Technology, 2022",
+        title: "World’s Top 2% Scientists in the field of Information and Communication Technology, 2022 and 2023",
         awardingAgency: "Stanford University, USA"
     },
     {
-        title: "IEEE Publication Award, 2021",
+        title: "IEEE Publication Award, 2021 and 2023",
         awardingAgency: "IEEE Madras Section"
     },
     {
