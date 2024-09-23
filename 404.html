@@ -9,7 +9,9 @@ permalink: /404.html
 </head>
 <body>
     <script>
-        window.location.href = "./gunasekaran.html"; 
+        if (window.location.pathname !== window.location.pathname.toLowerCase()) {
+            window.location.replace(window.location.pathname.toLowerCase());
+        }
     </script>
 </body>
 </html>
