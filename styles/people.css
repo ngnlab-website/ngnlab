@@ -1,7 +1,7 @@
 main .people-section-container {
     font-size: 1.5rem;
     text-align: justify;
-    width: 75%;
+    width: 93%;
     margin: auto;
     margin-top: 140px;
 }
@@ -16,16 +16,16 @@ main .people-section-container {
 }
 .faculty{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 2rem; 
+    grid-template-columns: repeat(6, 1fr);
+    /* grid-column-gap: 2rem;  */
     /* grid-gap: 25; */
     background-color: #FEFEFE;
-    padding: 1rem 0;
+    /* padding: 1rem 0; */
 }
 
 .faculty .directors {
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 6;
 }
 .faculty .staff1 {
     grid-column-start: 1;
@@ -34,6 +34,11 @@ main .people-section-container {
 .faculty .staff2 {
     grid-column-start: 3;
     grid-column-end: 5;
+}
+
+.faculty .staff3 {
+    grid-column-start: 5;
+    grid-column-end: 7;
 }
 
 .faculty .wrp{
@@ -507,6 +512,12 @@ main .people-section-container .phd {
         grid-row-end: unset;
     }
     .faculty .staff2 {
+        grid-column-start: unset;
+        grid-column-end: unset;
+        grid-row-start: unset;
+        grid-row-end: unset;
+    }
+    .faculty .staff3 {
         grid-column-start: unset;
         grid-column-end: unset;
         grid-row-start: unset;

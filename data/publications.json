@@ -1,4 +1,22 @@
 [   {
+    "title": "OBSDNN: Optimal Beam Selection employing Deep Neural Networks in 6G Environment",
+    "author": "Gunasekaran Raja, Madhan Raj Kanagarahinam, Deepak Suresh Rajendran, Sree Vinay Ravuru and Sidhaarthan Mamalaivasan",
+    "conference": "IEEE GLOBECOM 2024 Global Communications Conference Workshop, Cape Town, South Africa, December 8-12, 2024. (Accepted)",
+    "doi": "#",
+    "year": "2024",
+    "domain": ["Networks"],
+    "selective": true   
+    }, 
+    {
+        "title": "Advanced Cognitive System for Reliable Lane Switch Prediction in Autonomous Vehicles",
+        "author": "Gunasekaran Raja, Shivani Suresh, Jeyadev Needhidevan, and Shajina Anand",
+        "conference": "IEEE FNWF 2024 Future Networks World Forum, Dubai, UAE,  October 15-17, 2024. (Accepted)",
+        "doi": "#",
+        "year": "2024",
+        "domain": ["AV"],
+        "selective": true
+    },     
+    {
         "title": "Harnessing Generative Modeling and Autoencoders Against Adversarial Threats in Autonomous Vehicles",
         "author": "Kathiroli Raja, Sudhakar Theerthagiri, Sriram Venkataraman Swaminathan, Sivasri Suresh, Gunasekaran Raja",
         "conference": "IEEE Transactions on Consumer Electronics,  DOI: 10.1109/TCE.2024.3437419",
