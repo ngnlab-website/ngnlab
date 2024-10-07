@@ -149,7 +149,7 @@ let paperPresentationContainer = document.querySelector(".paper-presentation-con
 function displayPapers() {
     paperPresentations.forEach(paperPresentation => {
         let returnHtml = document.createElement("li")
-        returnHtml.innerHTML =  `"${paperPresentation.title}", ${paperPresentation.conference}, <span>${paperPresentation.country}</span>`
+        returnHtml.innerHTML =  `${paperPresentation.title}, <span>${paperPresentation.conference}</span>, <span>${paperPresentation.country}</span>`
         paperPresentationContainer.appendChild(returnHtml)
     })
 }
@@ -225,7 +225,7 @@ let invitedTalksContainer = document.querySelector(".invited-talks-container ul"
 function displayTalks() {
     invitedTalks.forEach(invitedTalks => {
         let talkHtml = document.createElement("li")
-        talkHtml.innerHTML =  `"${invitedTalks.title}", <span>${invitedTalks.location}</span>, ${invitedTalks.date}`
+        talkHtml.innerHTML =  `${invitedTalks.title}, <span>${invitedTalks.location}</span>, ${invitedTalks.date}`
         invitedTalksContainer.appendChild(talkHtml)
     })
 }

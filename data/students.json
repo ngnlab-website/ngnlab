@@ -347,19 +347,7 @@
         "currentPosition": "Research Assistant - UG",
         "year": "present"
     },
-    {
-        "img": "./assets/img/people/Shivani.jpg",
-        "name": "Shivani Suresh",
-        "domain": "AV",
-        "domainWorked": "Quantum",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/shivani-suresh-2ab644273/",
-        "mail": "shivan.suresh@gmail.com",
-        "batch": "UG: 2021-2025",
-        "currentPosition": "Research Assistant - UG",
-        "year": "present"
-    },
+
     {
         "img": "./assets/img/people/Priyasahaana.jpeg",
         "name": "Priyasahaana M",
@@ -373,6 +361,21 @@
         "currentPosition": "Research Assistant - UG",
         "year": "present"
     },
+    
+    {
+        "img": "./assets/img/people/Shivani.jpg",
+        "name": "Shivani Suresh",
+        "domain": "AV",
+        "domainWorked": "Quantum",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/shivani-suresh-2ab644273/",
+        "mail": "shivan.suresh@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "Research Assistant - UG",
+        "year": "present"
+    },
+    
     {
         "img": "./assets/img/people/Dharshini.jpg",
         "name": "Dharshini J",
