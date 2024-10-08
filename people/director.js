@@ -225,7 +225,7 @@ let invitedTalksContainer = document.querySelector(".invited-talks-container ul"
 function displayTalks() {
     invitedTalks.forEach(invitedTalks => {
         let talkHtml = document.createElement("li")
-        talkHtml.innerHTML =  `${invitedTalks.title}, <span>${invitedTalks.location}</span>, ${invitedTalks.date}`
+        talkHtml.innerHTML =  `${invitedTalks.title} <span>${invitedTalks.location}</span>, ${invitedTalks.date}`
         invitedTalksContainer.appendChild(talkHtml)
     })
 }
