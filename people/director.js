@@ -80,6 +80,11 @@ function displayAwards() {
 displayAwards()
 let paperPresentations = [
     {
+        title: "Advanced Cognitive System for Reliable Lane Switch Prediction in Autonomous Vehicles",
+        conference: "IEEE FNWF 2024 Future Networks World Forum",
+        country: "Dubai, UAE"
+    },
+    {
         title: "PointGAN: A Catalyst for Enhanced Vulnerable Road User Detection in Autonomous Navigation",
         conference: "IEEE VTC 2024",
         country: "Singapore"
