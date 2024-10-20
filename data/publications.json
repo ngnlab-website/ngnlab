@@ -56,7 +56,7 @@
         "title": "PointGAN: A Catalyst for Enhanced Vulnerable Road User Detection in Autonomous Navigation",
         "author": "Gunasekaran Raja, Hosam Alhakami, Sahaya Beni Prathiba, Jeyadev Needhidevan, Priyadarshni Vasudevan, Rupali Subramanian, Kapal Dev",
         "conference": "IEEE: VTC 2024-Spring 99th Vehicular Technology Conference, Singapore, June 24-27.",
-        "doi": "#",
+        "doi": "10.1109/VTC2024-Spring62846.2024.10683061",
         "year": "2024",
         "domain": ["AV"],
         "selective": true
@@ -65,7 +65,7 @@
         "title": "Next-Gen Security: Enhanced DDoS Attack Detection for Autonomous Vehicles in 6G Networks",
         "author": "Sudha Anbalagan, Wajdi Alhakami, Mugundh Jambukeswaran Bhooma, Vijai Suria Marimuthu, Kapal Dev, Gunasekaran Raja",
         "conference": "IEEE: VTC 2024-Spring 99th Vehicular Technology Conference, Singapore, June 24-27.",
-        "doi": "#",
+        "doi": "10.1109/VTC2024-Spring62846.2024.10683431",
         "year": "2024",
         "domain": ["AV"],
         "selective": true
@@ -83,7 +83,7 @@
         "title": "Adaptive Model Predictive Control-Driven Approach for Visual Detection of Micro-UAVs",
         "author": "Gunasekaran Raja, Selvam Essaky, Deepak Suresh Rajendran, Sai Ganesh Senthivel, Sebastian Knorr, Kapal Dev",
         "conference": "IEEE ICC 2024 International Conference on Communications, Denver, USA, June 9-13.",
-        "doi": "#",
+        "doi": "10.1109/ICC51166.2024.10622480",
         "year": "2024",
         "domain": ["UAV"],
         "selective": true
@@ -92,7 +92,7 @@
         "title": "CPP-OTPO: A Cognitive Multi-UAV System for Adaptive Path and Trajectory Optimization",
         "author": "Gunasekaran Raja, Selvam Essaky, Surya Raj M, Jawaharlal Nehru N, Christ Joe, Kapal Dev, Waleed Ejaz",
         "conference": "IEEE INFOCOM 2024 International Conference on Computer Communications -Workshop, Vancouver, Canada 20-23 May 2024",
-        "doi": "#",
+        "doi": "10.1109/INFOCOMWKSHPS61880.2024.10620813",
         "year": "2024",
         "domain": ["UAV"],
         "selective": true
