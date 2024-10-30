@@ -1,4 +1,31 @@
 [   {
+    "title": "Intuitive and Privacy-Preserving Traffic Light Control System for Autonomous Vehicles",
+    "author": "Gunasekaran Raja, Lewis Nkenyereye, Ponnada Srividya, Thilaksurya Balachandar, Sai Ganesh Senthivel, Libin K Mathew, Kapal Dev",
+    "conference": "IEEE Internet of Things Journal (Accepted)",
+    "doi": "#",
+    "year": "2024",
+    "domain": ["AV"],
+    "selective": true   
+    }, 
+    {
+    "title": "Advanced Decision Making and Motion Planning Framework for Autonomous Navigation in Unsignalized Intersections",
+    "author": "Gunasekaran Raja, Kathiroli Raja, Madhan Raj Kanagarathinam, Jeydev Needhidevan, Priyadarshni Vasudevan",
+    "conference": "IEEE Access",
+    "doi": "10.1109/ACCESS.2024.3487195",
+    "year": "2024",
+    "domain": ["AV"],
+    "selective": true   
+    }, 
+    {
+    "title": "CardioNetFusion: A Deep Learning and Explainable AI Integrated System for Cardiovascular Disease Detection",
+    "author": "Gunasekaran Raja, Selvam Essaky, Surya Raj Muthu, Babith Sarish Suresh, Jaehyuk Cho, Seohyun Yoo, Sathishkumar V E",
+    "conference": "IEEE ICDM 2024 International Conference on Data Mining, December 9-12, 2024. (Accepted)",
+    "doi": "#",
+    "year": "2024",
+    "domain": ["MIoT"],
+    "selective": true   
+    }, 
+    {
     "title": "OBSDNN: Optimal Beam Selection employing Deep Neural Networks in 6G Environment",
     "author": "Gunasekaran Raja, Madhan Raj Kanagarahinam, Deepak Suresh Rajendran, Sree Vinay Ravuru and Sidhaarthan Mamalaivasan",
     "conference": "IEEE GLOBECOM 2024 Global Communications Conference Workshop, Cape Town, South Africa, December 8-12, 2024. (Accepted)",
