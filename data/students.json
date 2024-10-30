@@ -56,6 +56,20 @@
         "position":"IDFC First Bank"
     },
     {
+        "img": "./assets/img/people/Bharathkumaran.jpg",
+        "name": "Bharathkumaran Mohanraj",
+        "domainWorked": "",
+        "domain": "MIoT",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/bharathkumaran-mohanraj/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "mail": "bharathkumaran2003@gmail.com",
+        "batch": "2020-2024",
+        "currentPosition": "Research Assistant - UG",
+        "year": "alumni",
+        "position":"Barclays"
+    },
+    {
         "img": "./assets/img/people/Arun.jpg",
         "name": "Arunkumar Arulappan",
         "domainWorked": "Networks",
