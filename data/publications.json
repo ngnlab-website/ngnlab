@@ -2,7 +2,7 @@
     "title": "Intuitive and Privacy-Preserving Traffic Light Control System for Autonomous Vehicles",
     "author": "Gunasekaran Raja, Lewis Nkenyereye, Ponnada Srividya, Thilaksurya Balachandar, Sai Ganesh Senthivel, Libin K Mathew, Kapal Dev",
     "conference": "IEEE Internet of Things Journal (Accepted)",
-    "doi": "#",
+    "doi": "https://www.researchgate.net/publication/385581248_Intuitive_and_Privacy-Preserving_Traffic_Light_Control_System_for_Autonomous_Vehicles",
     "year": "2024",
     "domain": ["AV"],
     "selective": true   
@@ -11,7 +11,7 @@
     "title": "Advanced Decision Making and Motion Planning Framework for Autonomous Navigation in Unsignalized Intersections",
     "author": "Gunasekaran Raja, Kathiroli Raja, Madhan Raj Kanagarathinam, Jeydev Needhidevan, Priyadarshni Vasudevan",
     "conference": "IEEE ACCESS, DOI: 10.1109/ACCESS.2024.3487195",
-    "doi": "10.1109/ACCESS.2024.3487195",
+    "doi": "https://ieeexplore.ieee.org/abstract/document/10737074",
     "year": "2024",
     "domain": ["AV"],
     "selective": true   
@@ -47,7 +47,7 @@
         "title": "Harnessing Generative Modeling and Autoencoders Against Adversarial Threats in Autonomous Vehicles",
         "author": "Kathiroli Raja, Sudhakar Theerthagiri, Sriram Venkataraman Swaminathan, Sivasri Suresh, Gunasekaran Raja",
         "conference": "IEEE Transactions on Consumer Electronics,  DOI: 10.1109/TCE.2024.3437419",
-        "doi": "#",
+        "doi": "https://www.researchgate.net/publication/382900825_Harnessing_Generative_Modeling_and_Autoencoders_Against_Adversarial_Threats_in_Autonomous_Vehicles",
         "year": "2024",
         "domain": ["AV"],
         "selective": true
@@ -56,7 +56,7 @@
         "title": "An Efficient 6G Federated Learning-enabled Energy-Efficient Scheme for UAV Deployment",
         "author": "Kathiroli Raja, Kottilingam Kottursamy, Vishal Ravichandran, Sivaganesh Balaganesh, Kapal Dev, Lewis Nkenyereye, Gunasekaran Raja",
         "conference": "IEEE Transactions on Vehicular Technology, DOI: 10.1109/TVT.2024.3390226.",
-        "doi": "#",
+        "doi": "https://ieeexplore.ieee.org/document/10504793",
         "year": "2024",
         "domain": ["UAV"],
         "selective": true
