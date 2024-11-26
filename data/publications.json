@@ -2,7 +2,7 @@
     "title": "Intuitive and Privacy-Preserving Traffic Light Control System for Autonomous Vehicles",
     "author": "Gunasekaran Raja, Lewis Nkenyereye, Ponnada Srividya, Thilaksurya Balachandar, Sai Ganesh Senthivel, Libin K Mathew, Kapal Dev",
     "conference": "IEEE Internet of Things Journal, DOI: 10.1109/JIOT.2024.3491973",
-    "doi": "https://www.researchgate.net/publication/385581248_Intuitive_and_Privacy-Preserving_Traffic_Light_Control_System_for_Autonomous_Vehicles",
+    "doi": "https://ieeexplore.ieee.org/abstract/document/10742631",
     "year": "2024",
     "domain": ["AV"],
     "selective": true   
@@ -47,7 +47,7 @@
         "title": "Harnessing Generative Modeling and Autoencoders Against Adversarial Threats in Autonomous Vehicles",
         "author": "Kathiroli Raja, Sudhakar Theerthagiri, Sriram Venkataraman Swaminathan, Sivasri Suresh, Gunasekaran Raja",
         "conference": "IEEE Transactions on Consumer Electronics,  DOI: 10.1109/TCE.2024.3437419",
-        "doi": "https://www.researchgate.net/publication/382900825_Harnessing_Generative_Modeling_and_Autoencoders_Against_Adversarial_Threats_in_Autonomous_Vehicles",
+        "doi": "https://ieeexplore.ieee.org/document/10623540",
         "year": "2024",
         "domain": ["AV"],
         "selective": true
@@ -74,7 +74,7 @@
         "title": "PointGAN: A Catalyst for Enhanced Vulnerable Road User Detection in Autonomous Navigation",
         "author": "Gunasekaran Raja, Hosam Alhakami, Sahaya Beni Prathiba, Jeyadev Needhidevan, Priyadarshni Vasudevan, Rupali Subramanian, Kapal Dev",
         "conference": "IEEE: VTC 2024-Spring 99th Vehicular Technology Conference, Singapore, June 24-27.",
-        "doi": "https://ieeevtc.org/vtc2024spring/DATA/PID2024002071.pdf",
+        "doi": "https://ieeexplore.ieee.org/document/10683061",
         "year": "2024",
         "domain": ["AV"],
         "selective": true
