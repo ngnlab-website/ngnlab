@@ -130,7 +130,7 @@
         "conference": "IEEE Transactions on Vehicular Technology, DOI:10.1109/TVT.2023.3334257",
         "doi": "https://ieeexplore.ieee.org/document/10323101",
         "year": "2023",
-        "domain": ["UAV"],
+        "domain": ["AV"],
         "selective": true
     },
      {
@@ -193,7 +193,7 @@
         "conference": "IEEE Communications Standards Magazine, vol. 7, no. 3, pp. 4-9.",
         "doi": "https://ieeexplore.ieee.org/document/10287320/",
         "year": "2023",
-        "domain": ["UAV"],
+        "domain": ["AV"],
         "selective": true
     },
     {
@@ -311,7 +311,7 @@
         "conference": "IEEE Transactions on Vehicular Technology, vol. 71, no. 8, pp. 8853-8863.",
         "doi": "https://ieeexplore.ieee.org/abstract/document/9773976",
         "year": "2022",
-        "domain": ["Networks"],
+        "domain": ["AV"],
         "selective": false
     },
     {
@@ -320,7 +320,7 @@
         "conference": "IEEE Transactions on Vehicular Technology, vol. 71, no. 1, pp. 112-122.",
         "doi": "https://ieeexplore.ieee.org/abstract/document/9612041",
         "year": "2022",
-        "domain": ["Networks"],
+        "domain": ["AV"],
         "selective": true
     },
     {
@@ -365,7 +365,7 @@
         "conference": "IEEE Transactions on Industrial Informatics, vol. 17, no. 8, pp. 5730-5737.",
         "doi": "https://ieeexplore.ieee.org/abstract/document/9151385",
         "year": "2021",
-        "domain": ["Networks"],
+        "domain": ["AV"],
         "selective": false
     },
     {
@@ -374,7 +374,7 @@
         "conference": "IEEE Transactions on Vehicular Technology, vol. 71, no. 5, pp. 4632-4641.",
         "doi": "https://ieeexplore.ieee.org/abstract/document/9645064",
         "year": "2021",
-        "domain": ["Networks"],
+        "domain": ["AV"],
         "selective": true
     },
     {
@@ -392,7 +392,7 @@
         "conference": "IEEE Transactions on Network Science and Engineering, vol. 9, no. 5, pp. 3234-3243.",
         "doi": "https://ieeexplore.ieee.org/abstract/document/9511234",
         "year": "2021",
-        "domain": ["Networks"],
+        "domain": ["AV"],
         "selective": true
     },
     {
@@ -428,17 +428,8 @@
         "conference": "IEEE Internet of Things Journal, vol. 8, no. 18, pp. 13950-13957.",
         "doi": "https://ieeexplore.ieee.org/abstract/document/9390178",
         "year": "2021",
-        "domain": ["Networks"],
+        "domain": ["AV"],
         "selective": true
-    },
-    {
-        "title": "Machine Learning-based Efficient and Secured RSU Placement Mechanism for Software Defined-IoV",
-        "author": "Sudha Anbalagan, Ali Kashif Bashir, Gunasekaran Raja, Priyanka Dhanasekaran, Geetha Vijayaraghavan, Usman Tariq, Mohsen Guizani",
-        "conference": "IEEE Internet of Things Journal, vol. 8, no. 18, pp. 13950-13957.",
-        "doi": "https://ieeexplore.ieee.org/abstract/document/9390178",
-        "year": "2021",
-        "domain": ["Networks"],
-        "selective": false
     },
     {
         "title": "AV-CPS: Audio Visual Cognitive Processing System for Critical Intervention in Autonomous Vehicles",
@@ -473,7 +464,7 @@
         "conference": "ACM MobiCom 2021 International Conference on Mobile Computing and Networking- Workshop, New Orleans, USA, doi: 10.1145/3477084.3484952.",
         "doi":"https://dl.acm.org/doi/abs/10.1145/3477084.3484952",
         "year": "2021",
-        "domain": ["UAV"],
+        "domain": ["AV"],
         "selective": true
     },
     {
@@ -510,7 +501,7 @@
         "conference": "IEEE Internet of Things Journal, vol. 7, no. 5, pp. 3747-3758.",
         "doi": "https://ieeexplore.ieee.org/document/9001008",
         "year": "2020",
-        "domain": ["Networks"],
+        "domain": ["AV"],
         "selective": true
     },
     {
@@ -582,7 +573,7 @@
         "conference": "IEEE INFOCOM 2020, International Conference on Computer Communications -Workshop Toronto, Canada, Jul. 6-9, pp. 1093-1098.",
         "doi": "https://ieeexplore.ieee.org/abstract/document/9162888",
         "year": "2020",
-        "domain": ["Networks"],
+        "domain": ["AV"],
         "selective": true
     },
     {
