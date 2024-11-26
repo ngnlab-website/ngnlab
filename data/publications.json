@@ -1,7 +1,7 @@
 [   {
     "title": "Intuitive and Privacy-Preserving Traffic Light Control System for Autonomous Vehicles",
     "author": "Gunasekaran Raja, Lewis Nkenyereye, Ponnada Srividya, Thilaksurya Balachandar, Sai Ganesh Senthivel, Libin K Mathew, Kapal Dev",
-    "conference": "IEEE Internet of Things Journal (Accepted)",
+    "conference": "IEEE Internet of Things Journal, DOI: 10.1109/JIOT.2024.3491973",
     "doi": "https://www.researchgate.net/publication/385581248_Intuitive_and_Privacy-Preserving_Traffic_Light_Control_System_for_Autonomous_Vehicles",
     "year": "2024",
     "domain": ["AV"],
@@ -74,7 +74,7 @@
         "title": "PointGAN: A Catalyst for Enhanced Vulnerable Road User Detection in Autonomous Navigation",
         "author": "Gunasekaran Raja, Hosam Alhakami, Sahaya Beni Prathiba, Jeyadev Needhidevan, Priyadarshni Vasudevan, Rupali Subramanian, Kapal Dev",
         "conference": "IEEE: VTC 2024-Spring 99th Vehicular Technology Conference, Singapore, June 24-27.",
-        "doi": "#",
+        "doi": "https://ieeevtc.org/vtc2024spring/DATA/PID2024002071.pdf",
         "year": "2024",
         "domain": ["AV"],
         "selective": true
@@ -83,7 +83,7 @@
         "title": "Next-Gen Security: Enhanced DDoS Attack Detection for Autonomous Vehicles in 6G Networks",
         "author": "Sudha Anbalagan, Wajdi Alhakami, Mugundh Jambukeswaran Bhooma, Vijai Suria Marimuthu, Kapal Dev, Gunasekaran Raja",
         "conference": "IEEE: VTC 2024-Spring 99th Vehicular Technology Conference, Singapore, June 24-27.",
-        "doi": "#",
+        "doi": "https://ieeexplore.ieee.org/document/10683431",
         "year": "2024",
         "domain": ["AV"],
         "selective": true
