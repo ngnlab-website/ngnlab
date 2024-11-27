@@ -81,22 +81,29 @@ priceInput = document.querySelectorAll(".price-input input"),
 range = document.querySelector(".slider .progress");
 let priceGap = 1;
 
-priceInput.forEach(input =>{
-    input.addEventListener("input", e =>{
-        let minPrice = parseInt(priceInput[0].value),
-        maxPrice = parseInt(priceInput[1].value);
+priceInput.forEach(input => {
+    input.addEventListener("input", e => {
+        let minPrice = parseInt(priceInput[0].value) || 0; 
+        let maxPrice = parseInt(priceInput[1].value) || parseInt(rangeInput[1].max); 
+
         
-        if((maxPrice - minPrice >= priceGap) && maxPrice <= rangeInput[1].max){
-            if(e.target.className === "input-min"){
+        if (maxPrice - minPrice >= priceGap && maxPrice <= parseInt(rangeInput[1].max)) {
+            if (e.target.classList.contains("input-min")) {               
                 rangeInput[0].value = minPrice;
                 range.style.left = ((minPrice / rangeInput[0].max) * 100) + "%";
-            }else{
+            } else if (e.target.classList.contains("input-max")) {
                 rangeInput[1].value = maxPrice;
-                range.style.right = 100 - (maxPrice / rangeInput[1].max) * 100 + "%";
+                range.style.right = 100 - ((maxPrice / rangeInput[1].max) * 100) + "%";
             }
+
+            renderPublication();
+        } else {
+            priceInput[0].value = rangeInput[0].value;
+            priceInput[1].value = rangeInput[1].value;
         }
     });
 });
+
 
 rangeInput.forEach(input =>{
     input.addEventListener("input", e =>{
