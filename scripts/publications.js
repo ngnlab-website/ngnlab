@@ -7,12 +7,29 @@ let activeYear = "2024"
 fetch("../data/publications.json")
     .then(response => response.json())
     .then(data => {
-        publications=data
-        renderPublication()
+        publications = data;
+        const years = publications.map(pub => parseInt(pub.year));
+        const minYear = Math.min(...years);
+        const maxYear = Math.max(...years);
+
+        const inputMin = document.querySelector(".input-min");
+        const inputMax = document.querySelector(".input-max");
+        inputMin.min = minYear;
+        inputMin.value = minYear; 
+        inputMax.max = maxYear;
+        inputMax.value = maxYear;
+
+        // Update slider inputs
+        rangeInput[0].min = minYear;
+        rangeInput[0].value = minYear;
+        rangeInput[1].max = maxYear;
+        rangeInput[1].value = maxYear;
+        renderPublication();
     })
     .catch(error => {
         console.error("Error fetching JSON:", error);
     });
+
 let currentYear = null
 const publicationsContainer = document.querySelector(".publications-container")
 function renderPublication() {
