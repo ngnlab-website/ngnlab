@@ -84,7 +84,7 @@ let priceGap = 1;
 priceInput.forEach(input => {
     input.addEventListener("input", e => {
         let minPrice = parseInt(priceInput[0].value) || 0; 
-        let maxPrice = parseInt(priceInput[1].value) || parseInt(rangeInput[1].max); 
+        let maxPrice = parseInt(priceInput[1].value); 
 
         
         if (maxPrice - minPrice >= priceGap && maxPrice <= parseInt(rangeInput[1].max)) {
