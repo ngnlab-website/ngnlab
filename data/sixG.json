@@ -6,5 +6,15 @@
       "./assets/img/dot_logo.png"
     ],
     "year": 2024
+  },
+  {
+    "title": "NGNLab Alumnus Visit: Dr. Sheeba Backia Mary, Lead Security Architect at Lenovo, Germany",
+    "about": "On October 21, 2024, NGNLab proudly welcomed its esteemed alumnus, Dr. Sheeba Backia Mary, who currently serves as the Lead Security Architect at Lenovo, Germany. Dr. Sheeba plays a pivotal role in Lenovo’s global telecommunications standardization efforts, with a focus on next-generation networks and security development. She represents both Lenovo and Motorola Mobility in key international bodies, including the 3GPP Security Architecture Working Group (SA WG3) and the ETSI Permissioned Distributed Ledger Working Group (ETSI PDL). During her visit, Dr. Sheeba engaged with NGNLab students, sharing valuable insights and encouraging them to pursue advanced research in 5G and 6G security and standardization efforts.",
+    "images": [
+      "./assets/img/Sheeba2.jpg",
+      "./assets/img/Sheeba1.jpg"
+    ],
+    "year": 2024
   }
+  
 ]
