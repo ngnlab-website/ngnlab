@@ -8,6 +8,25 @@
     "year": 2024
   },
    {
+    "title": "NGNLab paper was presented at the EAI-BODYNETS 2024 conference at IIT BHU, Varanasi",
+    "about": "The paper 'AI/ML-driven Early Detection of Chemotherapy-induced Renal Vascular Tissue Damage.' co-authored by Gunasekaran Raja, Selvam Essaky, Kalimuthu Karuppanan,  Sudhakar Theerthagiri, Bharathkumaran Mohanraj, Gopi Agasthia Senniappan, Logeswari Sureshkumar presented at the 19th EAI International Conference on Body Area Networks & Bharat 6G Workshop held on December 15-16, 2024, in IIT BHU, Varanasi, India.",
+    "images": [
+      "./assets/img/IITBHU3.jpeg",
+      "./assets/img/IITBHU2.jpeg",
+      "./assets/img/IITBHU1.jpeg"
+    ],
+    "year": 2024
+  },
+  {
+    "title": "NGNLab paper was presented at the IEEE ICDM 2024 conference in Abu Dhabi",
+    "about": "The paper 'CardioNetFusion: A Deep Learning and Explainable AI Integrated System for Cardiovascular Disease Detection.' co-authored by Gunasekaran Raja, Selvam Essaky, Surya Raj Muthu, Babith Sarish Suresh, Jaehyuk Cho, Seohyun Yoo, Sathishkumar, was presented at the 2024 IEEE ICDM International Conference on Data Mining, December 09-12, 2024, in Abu Dhabi, UAE.",
+    "images": [
+      "./assets/img/ICDM_2.jpeg",
+      "./assets/img/ICDM_1.jpeg"
+    ],
+    "year": 2024
+  },
+   {
     "title": "NGNLab Alumnus Visit: Dr. Sheeba Backia Mary, Lead Security Architect at Lenovo, Germany",
     "about": "On October 21, 2024, NGNLab proudly welcomed its esteemed alumnus, Dr. Sheeba Backia Mary, who serves as the Lead Security Architect at Lenovo, Germany. <br><br>Dr. Sheeba plays a pivotal role in Lenovo’s global telecommunications standardization efforts, with a focus on next-generation networks and security development. She represents both Lenovo and Motorola Mobility in key international bodies, including the 3GPP Security Architecture Working Group (SA WG3) and the ETSI Permissioned Distributed Ledger Working Group (ETSI PDL). During her visit, Dr. Sheeba engaged with NGNLab students, sharing valuable insights and encouraging them to pursue advanced research in 5G and 6G security and standardization efforts.",
     "images": [
