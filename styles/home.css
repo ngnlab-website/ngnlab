@@ -358,6 +358,20 @@ main .contact-section-container .heading {
     font-size: 1.8rem;
 }
 
+main .logo-section-container {
+    width: 85%;
+    margin: 2rem auto;
+}
+
+main .logo-section-container .heading {
+    width: 100%;
+    color: #891515;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.8rem;
+    margin-top: 3%;
+}
+
 main .news {
     width: 65%;
     margin: 1.5rem auto;
