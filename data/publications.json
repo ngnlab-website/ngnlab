@@ -1,4 +1,13 @@
-[   {
+[  {
+    "title": "AI/ML-driven Early Detection of Chemotherapy-induced Renal Vascular Tissue Damage",
+    "author": "Gunasekaran Raja, Selvam Essaky, Kalimuthu Karuppanan, Sudhakar Theerthagiri, Bharathkumaran Mohanraj, Gopi Agasthia Senniappan, Logeswari Sureshkumar",
+    "conference": "IIT BHU, Varanasi, India, December 15-16, 2024",
+    "doi": "#",
+    "year": "2024",
+    "domain": ["MIoT"],
+    "selective": true   
+    },
+    {
     "title": "Intuitive and Privacy-Preserving Traffic Light Control System for Autonomous Vehicles",
     "author": "Gunasekaran Raja, Lewis Nkenyereye, Ponnada Srividya, Thilaksurya Balachandar, Sai Ganesh Senthivel, Libin K Mathew, Kapal Dev",
     "conference": "IEEE Internet of Things Journal, DOI: 10.1109/JIOT.2024.3491973",
