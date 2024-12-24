@@ -6,6 +6,14 @@ main .people-section-container {
     margin-top: 0px;
 }
 
+main .collaborator-section-container {
+    /* font-size: 1.3rem; */
+    text-align: justify;
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+}
+
 .director {
     display: grid;
     grid-template-columns: 40% 60%;
