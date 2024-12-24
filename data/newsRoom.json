@@ -7,9 +7,25 @@
     ],
     "year": 2024
   },
+  {
+    "title": "Joint Collaboration with Technology Innovation Institute (TII)",
+    "about": "NGNLab has established a collaboration with the Technology Innovation Institute (TII), UAE, to conduct joint research on Secure Systems, focusing on Autonomous Vehicles, Unmanned Aerial Vehicles, and 5G/6G networks.",
+    "images": [
+      "./assets/img/TII_Logo.png"
+    ],
+    "year": 2024
+  },
+  {
+    "title": "Joint Collaboration with Samsung R&D Institute India-Bangalore (SRI-B)",
+    "about": "NGNLab has partnered with Samsung R&D Institute India-Bangalore (SRI-B) to carry out joint research in 5G/6G networks and Autonomous Systems, emphasizing AI/ML technologies and transport layer protocols.",
+    "images": [
+      "./assets/img/samsung_research.jpg"
+    ],
+    "year": 2024
+  },
    {
-    "title": "NGNLab paper was presented at the EAI-BODYNETS 2024 conference at IIT BHU, Varanasi",
-    "about": "The paper 'AI/ML-driven Early Detection of Chemotherapy-induced Renal Vascular Tissue Damage.' co-authored by Gunasekaran Raja, Selvam Essaky, Kalimuthu Karuppanan,  Sudhakar Theerthagiri, Bharathkumaran Mohanraj, Gopi Agasthia Senniappan, Logeswari Sureshkumar presented at the 19th EAI International Conference on Body Area Networks & Bharat 6G Workshop held on December 15-16, 2024, in IIT BHU, Varanasi, India.",
+    "title": "NGNLab paper was presented at the EAI BODYNETS 2024 conference at IIT BHU, Varanasi",
+    "about": "The paper 'AI/ML-driven Early Detection of Chemotherapy-induced Renal Vascular Tissue Damage.' co-authored by Gunasekaran Raja, Selvam Essaky, Kalimuthu Karuppanan, Sudhakar Theerthagiri, Bharathkumaran Mohanraj, Gopi Agasthia Senniappan, Logeswari Sureshkumar was presented at the 2024 EAI BODYNETS 19th EAI International Conference on Body Area Networks, December 15-16, 2024, in IIT BHU, Varanasi, India.",
     "images": [
       "./assets/img/IITBHU3.jpeg",
       "./assets/img/IITBHU2.jpeg",
