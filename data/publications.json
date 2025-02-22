@@ -1,4 +1,13 @@
 [  {
+    "title": "Emergency Vehicle Navigation in Connected Autonomous Systems using Enhanced Traffic Management System",
+    "author": "Gunasekaran Raja, Sudha Anbalagan, Sugeerthi Gurumoorthy, Darshini Jegathesan, Niveditha Subramanian Girivel, Varsha Mani Shanmuga Sundaram, Sunder Ali Khowaja, Kapal Dev",
+    "conference": "IEEE Internet of Things Journal (Accepted)",
+    "doi": "#",
+    "year": "2025",
+    "domain": ["AV"],
+    "selective": true   
+    },
+    {
     "title": "Next-Generation 5G Mobile Hotspot: AI-Powered Traffic Optimization and Enhanced User Control",
     "author": "Madhan Raj Kanagarathinam, Khuong N. Nguyen, Jayendra Reddy Kovvuri, Yuming Zhu, Jong-Mu Choi, Ankit Vakil, Sukhdeep Singh, and Gunasekaran Raja",
     "conference": "IEEE ICC 2024 International Conference on Communications, Montreal, Canada,  June 8-12, 2025, (Accepted)",
@@ -75,7 +84,7 @@
         "author": "Kathiroli Raja, Kottilingam Kottursamy, Vishal Ravichandran, Sivaganesh Balaganesh, Kapal Dev, Lewis Nkenyereye, Gunasekaran Raja",
         "conference": "IEEE Transactions on Vehicular Technology, vol. 74, issue 2, pp. 2057-2066, Feb. 2025.",
         "doi": "https://ieeexplore.ieee.org/document/10504793",
-        "year": "2024",
+        "year": "2025",
         "domain": ["UAV"],
         "selective": true
     },      
