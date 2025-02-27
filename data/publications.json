@@ -17,6 +17,15 @@
     "selective": true   
     },
     {
+        "title": "An Efficient 6G Federated Learning-enabled Energy-Efficient Scheme for UAV Deployment",
+        "author": "Kathiroli Raja, Kottilingam Kottursamy, Vishal Ravichandran, Sivaganesh Balaganesh, Kapal Dev, Lewis Nkenyereye, Gunasekaran Raja",
+        "conference": "IEEE Transactions on Vehicular Technology, vol. 74, issue 2, pp. 2057-2066, Feb. 2025.",
+        "doi": "https://ieeexplore.ieee.org/document/10504793",
+        "year": "2025",
+        "domain": ["UAV"],
+        "selective": true
+    },    
+    {
     "title": "AI/ML-driven Early Detection of Chemotherapy-induced Renal Vascular Tissue Damage",
     "author": "Gunasekaran Raja, Selvam Essaky, Kalimuthu Karuppanan, Sudhakar Theerthagiri, Bharathkumaran Mohanraj, Gopi Agasthia Senniappan, Logeswari Sureshkumar",
     "conference": "IIT BHU, Varanasi, India, December 15-16, 2024",
@@ -78,16 +87,7 @@
         "year": "2024",
         "domain": ["AV"],
         "selective": true
-    },  
-    {
-        "title": "An Efficient 6G Federated Learning-enabled Energy-Efficient Scheme for UAV Deployment",
-        "author": "Kathiroli Raja, Kottilingam Kottursamy, Vishal Ravichandran, Sivaganesh Balaganesh, Kapal Dev, Lewis Nkenyereye, Gunasekaran Raja",
-        "conference": "IEEE Transactions on Vehicular Technology, vol. 74, issue 2, pp. 2057-2066, Feb. 2025.",
-        "doi": "https://ieeexplore.ieee.org/document/10504793",
-        "year": "2025",
-        "domain": ["UAV"],
-        "selective": true
-    },      
+    },    
     {
         "title": "DQN approach for Adaptive Self-healing of VNFs in Cloud-native Network",
         "author": "Arunkumar Arulappan, Aniket Mahanti, Kalpdrum Passi, Thiruvenkadam S, Ranesh Naha,  Gunasekaran Raja",
