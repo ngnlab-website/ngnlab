@@ -1,4 +1,14 @@
-[  {
+[  
+    {
+    "title": "Intuitive and Privacy-Preserving Traffic Light Control System for Autonomous Vehicles",
+    "author": "Gunasekaran Raja,Lewis Nkenyereye,Ponnada Srividya,Thilaksurya Balachandar,Sai Ganesh Senthivel,Libin K Mathew,Kapal Dev",
+    "conference": "IEEE Internet of Things Journal, vol.12,no.6,pp.6563-6572,15 Mar 2025.",
+    "doi": "#",
+    "year": "2025",
+    "domain": ["AV"],
+    "selective": true   
+    },
+    {
     "title": "Emergency Vehicle Navigation in Connected Autonomous Systems using Enhanced Traffic Management System",
     "author": "Gunasekaran Raja, Sudha Anbalagan, Sugeerthi Gurumoorthy, Darshini Jegathesan, Niveditha Subramanian Girivel, Varsha Mani Shanmuga Sundaram, Sunder Ali Khowaja, Kapal Dev",
     "conference": "IEEE Internet of Things Journal, DOI 10.1109/JIOT.2025.3545424",
