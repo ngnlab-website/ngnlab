@@ -428,6 +428,45 @@
         "year": "present"
     },
     {
+        "img": "./assets/img/people/sanjaykumarv.jpeg",
+        "name": "Sanjaykumar Vinayagam",
+        "domain": "Networks",
+        "domainWorked": "Networks",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/sanjaykumar-vinayagam-056ab3288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "mail": "sanjayvwin@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "Research Assistant - UG",
+        "year": "present"
+    },
+    {
+        "img": "./assets/img/people/sanjeeva.jpeg",
+        "name": "Sanjeev A",
+        "domain": "Networks",
+        "domainWorked": "Networks",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/sanjeev-a-54a800280/",
+        "mail": "sanjeevananth2211@gmail.com",
+        "batch": "UG: 2022-2026",
+        "currentPosition": "Research Assistant - UG",
+        "year": "present"
+    },
+    {
+        "img": "./assets/img/people/yogendren.jpeg",
+        "name": "Yogendren R",
+        "domain": "Networks",
+        "domainWorked": "Networks",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/yogendren-rajaram-410411278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "mail": "yogendren89@gmail.com",
+        "batch": "2025-present",
+        "currentPosition": "PhD Scholar",
+        "year": "present"
+    },
+    {
         "img": "./assets/img/people/santhoshkumart.jpeg",
         "name": "Santhosh Kumar T",
         "domain": "Quantum",
