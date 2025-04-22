@@ -1,4 +1,18 @@
 [
+     {
+        "img": "./assets/img/people/SridharP.png",
+        "name": "Sridhar P",
+        "domainWorked": "MIoT",
+        "domain": "MIoT",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/sridhar-p-167189286",
+        "mail": "sridharpalanisamy1706@gmail.com",
+        "batch": "2021-2025",
+        "currentPosition": "Research Assistant - UG",
+        "year": "present",
+        "position":""
+    },
     {
         "img": "./assets/img/people/balakumar.jpg",
         "name": "Balakumar R",
