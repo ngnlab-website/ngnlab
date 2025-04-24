@@ -1,0 +1,76 @@
+main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  }
+main .student-projects-section-container {
+  font-size: 0.9rem;
+  text-align: justify;
+  width: 100%;
+  margin: auto;
+  margin-top: 60px;
+  font-weight: 400;
+  color: #333333; 
+  }
+
+main .student-projects-section-container .heading {
+  font-size: 1.8rem;
+  font-weight: 800;
+  text-align: center;
+  color: #891515;
+}
+main .student-projects-section-container .student-project {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  background-color: #FEFEFE;
+  box-shadow: 5px 30px 30px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  margin: 0 auto 1rem auto;
+  padding: 1.5rem 2rem;
+  border-radius: 6px;
+  color: #295FAF;
+} 
+main .student-projects-section-container .student-project .description {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #295FAF;
+}
+#imageModal {
+  padding-top: 80px;
+}
+#modalImage {
+  max-width: 100%;
+  max-height: 100vh;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #fff;
+  object-fit: contain;
+}
+#imageModal {
+  display: none;
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 80px;
+  background-color: rgba(0,0,0,0.85);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 994px) {
+  main .student-projects-section-container {
+      width: 100%;
+  }
+  main .student-projects-section-container .student-project {
+      width: 90%;
+  }
+  main .student-projects-section-container2 {
+      width: 100%;
+  }
+  main .student-projects-section-container2 .student-project {
+      width: 90%;
+  }
+}

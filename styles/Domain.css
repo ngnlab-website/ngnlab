@@ -72,7 +72,6 @@ main .about-section .wrp{
 main .about-section img {
    /* margin: 1.5rem auto; */
     max-width: 100%;
-    max-height: 55%;
     align-items: center;
     order: -1;
     margin-right: 0px; 
@@ -89,6 +88,18 @@ main .about-section ol li{
     font-weight: 600;
     margin: 1rem;
 }
+.research-topic {
+    background-color: #295FAF;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    display: inline-block;
+    margin: 2px;
+    text-align: center;
+    white-space: nowrap;
+} 
 @media screen and (max-width: 994px) {
     main .about-section {
         width: 90%;

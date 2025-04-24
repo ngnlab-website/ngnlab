@@ -1,11 +1,11 @@
 [
   {
-    "title": "DoT Research Grants for NGNLab to Establish '6G Ubiquitous Connectivity Lab and Cutting-Edge Research'",
-    "about": "The Department of Telecommunications, India, has sanctioned a three-year research grant for NGNLab to establish the '6G Ubiquitous Connectivity Lab: Advancing India's Health and Agriculture through Innovative Technologies.'",
+    "title": "NGNs Secure Government of India Internship for Quantum 6G Research",
+    "about": "NGNs Ms. Shivani Suresh and Ms. Priyadharshini V, have secured a six-month Work-Based Learning Research Internship from the Government of India. They will conduct research on Quantum Technologies for 6G Networks at the Education and Research Network (ERNET), IITM Research Park, Chennai, India.",
     "images": [
-      "./assets/img/dot_logo.png"
+      "./assets/img/ernet.png"
     ],
-    "year": 2024
+    "year": 2025
   },
   {
     "title": "Joint Collaboration with Technology Innovation Institute (TII)",
@@ -15,6 +15,15 @@
     ],
     "year": 2024
   },
+  {
+    "title": "DoT Research Grants for NGNLab to Establish '6G Ubiquitous Connectivity Lab and Cutting-Edge Research'",
+    "about": "The Department of Telecommunications, India, has sanctioned a three-year research grant for NGNLab to establish the '6G Ubiquitous Connectivity Lab: Advancing India's Health and Agriculture through Innovative Technologies.'",
+    "images": [
+      "./assets/img/dot_logo.png"
+    ],
+    "year": 2024
+  },
+
   {
     "title": "Joint Collaboration with Samsung R&D Institute India-Bangalore (SRI-B)",
     "about": "NGNLab has partnered with Samsung R&D Institute India-Bangalore (SRI-B) to carry out joint research in 5G/6G networks and Autonomous Systems, emphasizing AI/ML technologies and transport layer protocols.",

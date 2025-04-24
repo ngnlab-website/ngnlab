@@ -1,4 +1,16 @@
-[  {
+[  
+    
+    {
+    "title": "Intuitive and Privacy-Preserving Traffic Light Control System for Autonomous Vehicles",
+    "author": "Gunasekaran Raja,Lewis Nkenyereye,Ponnada Srividya,Thilaksurya Balachandar,Sai Ganesh Senthivel,Libin K Mathew,Kapal Dev",
+    "conference": "IEEE Internet of Things Journal, vol.12,no.6,pp.6563-6572,15 Mar 2025.",
+    "doi": "#",
+    "year": "2025",
+    "domain": ["AV"],
+    "selective": true   
+    },
+
+    {
     "title": "Emergency Vehicle Navigation in Connected Autonomous Systems using Enhanced Traffic Management System",
     "author": "Gunasekaran Raja, Sudha Anbalagan, Sugeerthi Gurumoorthy, Darshini Jegathesan, Niveditha Subramanian Girivel, Varsha Mani Shanmuga Sundaram, Sunder Ali Khowaja, Kapal Dev",
     "conference": "IEEE Internet of Things Journal, DOI 10.1109/JIOT.2025.3545424",
@@ -55,7 +67,7 @@
     {
     "title": "CardioNetFusion: A Deep Learning and Explainable AI Integrated System for Cardiovascular Disease Detection",
     "author": "Gunasekaran Raja, Selvam Essaky, Surya Raj Muthu, Babith Sarish Suresh, Jaehyuk Cho, Seohyun Yoo, Sathishkumar V E",
-    "conference": "IEEE ICDM 2024 International Conference on Data Mining, December 9-12, 2024.",
+    "conference": "IEEE ICDM 2024 International Conference on Data Mining, December 9-12, 2024, DOI 10.1109/ICDMW65004.2024.00056.",
     "doi": "#",
     "year": "2024",
     "domain": ["MIoT"],
