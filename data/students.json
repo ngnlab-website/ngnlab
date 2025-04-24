@@ -1,4 +1,18 @@
 [
+     {
+        "img": "./assets/img/people/SridharP.png",
+        "name": "Sridhar P",
+        "domainWorked": "MIoT",
+        "domain": "MIoT",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/sridhar-p-167189286",
+        "mail": "sridharpalanisamy1706@gmail.com",
+        "batch": "2021-2025",
+        "currentPosition": "Research Assistant - UG",
+        "year": "present",
+        "position":""
+    },
     {
         "img": "./assets/img/people/balakumar.jpg",
         "name": "Balakumar R",
@@ -224,19 +238,6 @@
         "year": "present"
     },
     {
-        "img": "./assets/img/people/sreenithi.jpg",
-        "name": "Sreenithi Ramesh",
-        "currentPosition": "Research Assistant-PG",
-        "domainWorked": "AV",
-        "domain": "AV",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/sreenithi-r-14b48b1b1",
-        "mail": "snithi2112@gmail.com",
-        "batch": "2022-2023",
-        "year": "alumni"
-    },
-    {
         "img": "./assets/img/people/Sahaya Beni Prathiba.jpg",
         "name": "Dr. Sahaya Beni Prathiba B",
         "domainWorked": "AV",
@@ -361,20 +362,6 @@
         "currentPosition": "Research Assistant - UG",
         "year": "present"
     },
-
-    {
-        "img": "./assets/img/people/Priyasahaana.jpeg",
-        "name": "Priyasahaana M",
-        "domain": "Quantum",
-        "domainWorked": "Quantum",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://linkedin.com/in/priyasahaana",
-        "mail": "mspd3847@gmail.com",
-        "batch": "UG: 2021-2025",
-        "currentPosition": "Research Assistant - UG",
-        "year": "present"
-    },
     {
         "img": "./assets/img/people/Kirankumar.jpg",
         "name": "Kirankumar M",
@@ -402,20 +389,6 @@
         "currentPosition": "Research Assistant - UG",
         "year": "present"
     },
-    
-    {
-        "img": "./assets/img/people/Dharshini.jpg",
-        "name": "Dharshini J",
-        "domain": "AV",
-        "domainWorked": "AV",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/darshini-jegathesan-0841942a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "mail": "darshinij19@gmail.com",
-        "batch": "UG: 2021-2025",
-        "currentPosition": "Research Assistant - UG",
-        "year": "present"
-    },
     {
         "img": "./assets/img/people/Niveditha.jpg",
         "name": "Niveditha Girivel",
@@ -430,36 +403,10 @@
         "year": "present"
     },
     {
-        "img": "./assets/img/people/Varsha.jpg",
-        "name": "Varsha M S",
-        "domain": "AV",
-        "domainWorked": "AV",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/varsha-m-s-50b73a304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "mail": "msvarsha02@gmail.com",
-        "batch": "UG: 2021-2025",
-        "currentPosition": "Research Assistant - UG",
-        "year": "present"
-    },
-    {
-        "img": "./assets/img/people/jeyadev.png",
-        "name": "Jeyadev Needhi",
-        "domain": "AV",
-        "domainWorked": "AV",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://linkedin.com/in/jeyadev-needhi-8957ab274/",
-        "mail": "jeyadevneedhi@ieee.org",
-        "batch": "UG: 2021-2025",
-        "currentPosition": "Research Assistant - UG",
-        "year": "present"
-    },
-    {
         "img": "./assets/img/people/priyadarshini_v.jpeg",
         "name": "Priyadarshini V",
         "domain": "AV",
-        "domainWorked": "Quantum",
+        "domainWorked": "AV",
         "facebook": "#",
         "twitter": "#",
         "linkedin": "https://in.linkedin.com/in/priyadarshniv",
@@ -485,13 +432,78 @@
         "img": "./assets/img/people/Pronoy.jpg",
         "name": "Pronoy Kundu",
         "domain": "UAV",
-        "domainWorked": "UAV",
+        "domainWorked": "Networks",
         "facebook": "#",
         "twitter": "#",
         "linkedin": "https://www.linkedin.com/in/pronoy-kundu-615947272",
         "mail": "pronoykundu513@gmail.com",
         "batch": "UG: 2021-2025",
         "currentPosition": "Research Assistant - UG",
+        "year": "present"
+    },
+    {
+        "img": "./assets/img/people/sanjaykumarv.jpeg",
+        "name": "Sanjaykumar Vinayagam",
+        "domain": "Networks",
+        "domainWorked": "Networks",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/sanjaykumar-vinayagam-056ab3288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "mail": "sanjayvwin@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "Research Assistant - UG",
+        "year": "present"
+    },
+    {
+        "img": "./assets/img/people/sanjeeva.jpeg",
+        "name": "Sanjeev A",
+        "domain": "Networks",
+        "domainWorked": "Networks",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/sanjeev-a-54a800280/",
+        "mail": "sanjeevananth2211@gmail.com",
+        "batch": "UG: 2022-2026",
+        "currentPosition": "Research Assistant - UG",
+        "year": "present"
+    },
+    {
+        "img": "./assets/img/people/yogendren.jpeg",
+        "name": "Yogendren R",
+        "domain": "Networks",
+        "domainWorked": "Networks",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/yogendren-rajaram-410411278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "mail": "yogendren89@gmail.com",
+        "batch": "2025-present",
+        "currentPosition": "PhD Scholar",
+        "year": "present"
+    },
+    {
+        "img": "./assets/img/people/santhoshkumart.jpeg",
+        "name": "Santhosh Kumar T",
+        "domain": "Quantum",
+        "domainWorked": "Quantum",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/tsanthoshkumar/",
+        "mail": "santhosht@setsindia.net",
+        "batch": "2025-present",
+        "currentPosition": "Ph.D. Student",
+        "year": "present"
+    },
+    {
+        "img": "./assets/img/people/rajalakshmis.jpeg",
+        "name": "Rajalakshmi S",
+        "domain": "Networks",
+        "domainWorked": "Networks",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/rajalakshmi20/",
+        "mail": "rajalakshmi.sarangan20@gmail.com",
+        "batch": "PG: 2024-2026",
+        "currentPosition": "Research Assistant - PG",
         "year": "present"
     },
     {
@@ -570,32 +582,6 @@
         "twitter": "#",
         "linkedin": "https://www.linkedin.com/in/surya-raj-m",
         "mail": "suryarajmuthuofficial@gmail.com",
-        "batch": "UG: 2021-2025",
-        "currentPosition": "Research Assistant - UG",
-        "year": "present"
-    },
-    {
-        "img": "./assets/img/people/Babith.jpeg",
-        "name": "Babith Sarish S",
-        "domainWorked": "MIoT",
-        "domain": "MIoT",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/babith-sarish-s",
-        "mail": "bmsbabithsarish@gmail.com",
-        "batch": "UG: 2021-2025",
-        "currentPosition": "Research Assistant - UG",
-        "year": "present"
-    },
-    {
-        "img": "./assets/img/people/Aishwarya.jpg",
-        "name": "Aishwarya Devi",
-        "domainWorked": "MIoT",
-        "domain": "MIoT",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/aishwarya-devi-r",
-        "mail": "aishwaryadevi2004@gmail.com",
         "batch": "UG: 2021-2025",
         "currentPosition": "Research Assistant - UG",
         "year": "present"

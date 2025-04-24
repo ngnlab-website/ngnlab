@@ -8,6 +8,22 @@
     "year": 2025
   },
   {
+    "title": "NGNs Secure Department of Telecommunications Internship for  6G Research",
+    "about": "NGNs Rajalakshmi S, Sanjeev A, Krithika R, Sachin K S, and Hirthik Raj A have secured a Research Internship as part of the 6G research project funded by the Department of Telecommunications, Government of India. They will engage in cutting-edge research in 5G, beyond 5G, and 6G technologies, with a focus on establishing end-to-end connectivity at the 6G Ubiquitous Connectivity Lab, Department of Computer Technology, Anna University.",
+    "images": [
+      "./assets/img/interns_6g.jpeg"
+    ],
+    "year": 2025
+  },
+  {
+    "title": "NGNs Secure Government of India Internship for Quantum 6G Research",
+    "about": "NGNs Ms. Shivani Suresh and Ms. Priyadharshini V, have secured a six-month Work-Based Learning Research Internship from the Government of India. They will conduct research on Quantum Technologies for 6G Networks at the Education and Research Network (ERNET), IITM Research Park, Chennai, India.",
+    "images": [
+      "./assets/img/ernet.png"
+    ],
+    "year": 2025
+  },
+  {
     "title": "Joint Collaboration with Technology Innovation Institute (TII)",
     "about": "NGNLab has established a collaboration with the Technology Innovation Institute (TII), UAE, to conduct joint research on Secure Systems, focusing on Autonomous Vehicles, Unmanned Aerial Vehicles, and 5G/6G networks.",
     "images": [
