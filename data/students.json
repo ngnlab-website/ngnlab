@@ -1,4 +1,30 @@
 [
+      {
+        "img": "./assets/img/people/thamodharan.jpeg",
+        "name": "Thamodharan Arumugam",
+        "domainWorked": "MIoT",
+        "domain": "MIoT, Deep Learning",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/thamodharan-arumugam-05881341/",
+        "mail": "thamodharan@gmail.com",
+        "batch": "2021-",
+        "currentPosition": "PhD Scholar",
+        "year": "present"
+    }, 
+    {
+        "img": "./assets/img/people/Surya.jpg",
+        "name": "Surya Raj M",
+        "domainWorked": "MIoT",
+        "domain": "MIoT, UAV",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/surya-raj-m",
+        "mail": "suryarajmuthuofficial@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG - Research Intern",
+        "year": "present"
+    },
      {
         "img": "./assets/img/people/SridharP.png",
         "name": "Sridhar P",
@@ -560,32 +586,6 @@
         "year": "alumni",
         "position": "University of Southern California"
     },  
-    {
-        "img": "./assets/img/people/thamodharan.jpeg",
-        "name": "Thamodharan Arumugam",
-        "domainWorked": "MIoT",
-        "domain": "MIoT, Deep Learning",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/thamodharan-arumugam-05881341/",
-        "mail": "thamodharan@gmail.com",
-        "batch": "2021-",
-        "currentPosition": "PhD Scholar",
-        "year": "present"
-    }, 
-    {
-        "img": "./assets/img/people/Surya.jpg",
-        "name": "Surya Raj M",
-        "domainWorked": "MIoT",
-        "domain": "MIoT, UAV",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/surya-raj-m",
-        "mail": "suryarajmuthuofficial@gmail.com",
-        "batch": "UG: 2021-2025",
-        "currentPosition": "UG - Research Intern",
-        "year": "present"
-    },
     {
         "img": "./assets/img/people/praveenkumar.jpg",
         "name": "Praveen Kumar Selvam",
