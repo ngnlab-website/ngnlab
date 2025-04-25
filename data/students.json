@@ -12,6 +12,19 @@
         "currentPosition": "PhD Scholar",
         "year": "present"
     }, 
+      {
+        "img": "./assets/img/people/thamodhara.jpeg",
+        "name": "Shri Janani M",
+        "domainWorked": "MIoT",
+        "domain": "MIoT, Deep Learning",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/shri-janani-m/",
+        "mail": "mshrijanani@gmail.com",
+        "batch": "2021-",
+        "currentPosition": "PG-Research Intern",
+        "year": "present"
+    }, 
     {
         "img": "./assets/img/people/Surya.jpg",
         "name": "Surya Raj M",
