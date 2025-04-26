@@ -533,6 +533,19 @@
         "year": "present"
     },
     {
+        "img": "./assets/img/people/JananiA.jpg",
+        "name": "Janani A",
+        "domain": "Quantum",
+        "domainWorked": "Quantum",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/janani-a-4b6b872aa",
+        "mail": "jananialagar.2410@gmail.com",
+        "batch": "UG: 2022-2026",
+        "currentPosition": "UG - Research Intern",
+        "year": "present"
+    },
+    {
         "img": "./assets/img/people/rajalakshmis.jpeg",
         "name": "Rajalakshmi S",
         "domain": "Networks",
