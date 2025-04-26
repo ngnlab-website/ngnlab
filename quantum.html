@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="./styles/home.css">
     <link rel="stylesheet" href="./styles/Domain.css">
     <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/project_highlights.css">
     <link rel="shortcut icon" href="assets/img/logos/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./styles/domains_peop.css">
 	<script charset="utf-8" src="./scripts/script.js" defer></script>
@@ -67,10 +68,41 @@
                 <div class="cc">About</div>
                 <div class="wrp">
                     <div class="cd">
-                        Quantum Key Distribution (QKD) is one of the most groundbreaking advancements in the field of cryptography, offering a level of security that classical cryptographic methods cannot match, particularly in the face of emerging quantum technologies. Unlike traditional key exchange mechanisms that rely on the computational difficulty of mathematical problems (e.g., RSA, Diffie-Hellman), QKD leverages the intrinsic principles of quantum mechanics, fundamentally reshaping the way we think about secure communication. At its core, QKD provides an unbreakable method of sharing encryption keys between two parties, typically referred to as Alice (the sender) and Bob (the receiver). The revolutionary aspect of QKD is its use of quantum particles—often photons—to transmit key information. Due to the unique nature of quantum particles, any attempt by a third party (commonly referred to as Eve, the eavesdropper) to intercept or measure these particles alters their state. This property ensures that Alice and Bob can detect the presence of an eavesdropper with absolute certainty, guaranteeing that the communication channel is secure.</div>
+                        Quantum Network Security is a research group focused on developing cryptographic systems that can withstand the threats posed by quantum computing. Our research spans core areas such as Quantum Key Distribution (QKD) for physically secure key exchange, Post-Quantum Cryptography (PQC) for integrating quantum-resistant algorithms into classical systems, and the development of quantum-safe communication protocols. We also explore quantum cryptography standards to ensure future interoperability and security compliance, and conduct performance benchmarking of PQC-enabled TLS in real-world scenarios. In addition, we investigate the integration of quantum-safe security mechanisms into 5G/6G communication systems to safeguard next-generation networks against emerging quantum threats. Our goal is to build resilient, scalable, and secure communication infrastructures for the quantum era.
+                    </div>                                                  
                     <div class="pic"><img src="./assets/img/domains/QKD.png" alt=""></div>
                 </div>
             </div>
+
+            <div class="proj">
+                <div class="pc">Research Topics</div>
+                <div class="pd">
+                    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                        <div class="research-topic">Quantum Key Distribution</div>
+                        <div class="research-topic">Post-Quantum Cryptography</div>
+                        <div class="research-topic">Quantum-Safe Communication</div>
+                        <div class="research-topic">Quantum Cryptography Standards</div>
+                        <div class="research-topic">Quantum-Enhanced 5G/6G Security</div>
+                      </div>                      
+                </div>
+            </div>
+            
+            <div>
+                <section id="Student-projects">
+                    <div class="student-projects-section-container">
+                        <div class="cc">Research Highlights</div>
+                    </div>
+                </section>
+        
+                <div id="imageModal" 
+                style="display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%;  align-items: center; justify-content: center; flex-direction: column;">
+
+                <img id="modalImage" 
+                    src="" 
+                    style="max-width: 75%; max-height: 75vh; border-radius: 10px; box-shadow: 0 0 10px #fff; margin: 10px;" />
+                </div>
+            </div>
+
             <div class="pc">People</div>
             <div class="people-section-container">
                 <div class="students">
@@ -126,34 +158,12 @@
                     <a href="./publications.html">Publications &#8594;</a>
                 </div>
             </div> -->
-            <div class="proj">
-                <div class="pc">Research Topics</div>
-                <div class="pd">
-                    <ol class="pe">
-                        <li>
-                            <div class="paper-title"> Implementation and testing of standard QKD protocols such as BB84, B92, and EPR-based protocols.</div>
-                            
-                        </li>
-                        <li>
-                            <div class="paper-title">Evaluation of QKD protocols and development of security standards.                            </div>  
-                           
-                        </li>
-                        <li>
-                            <div class="paper-title">Integration of QKD with 6G infrastructure.</div>
-                        </li>
-                        <li>
-                            <div class="paper-title">Implementation of QKD in autonomous systems</div>
-                        </li>
-                        
-                        
-                        
-                    </ol>
-                </div>
-               <div class="L">
+            <div class="L">
                 <a href="./publications.html">Publications &#8594;</a>
             </div>
         </div>
     </main>
     <footer id="footer"></footer>
+    <script charset="utf-8" type="module" src="./scripts/quantumProjects.js" defer></script>
 </body>
 </html>

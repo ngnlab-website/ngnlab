@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="./styles/home.css">
     <link rel="stylesheet" href="./styles/Domain.css">
     <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/project_highlights.css">
     <link rel="shortcut icon" href="assets/img/logos/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./styles/domains_peop.css">
 	<script charset="utf-8" src="./scripts/script.js" defer></script>
@@ -67,11 +68,42 @@
                 <div class="cc">About</div>
                 <div class="wrp">
                     <div class="cd">
-                        As a future technology, they are predicted to comprehensively impact the automobile industry, health, welfare, urban planning, traffic, insurance, labor market, and other fields. Level 5 Full Driving Automation aims for ultra-low latency, fuel and traffic efficiency, prevention of car crashes, and environmental-friendly.<br><br>The research focus of this group is mainly on 6G-V2X, AI-assisted Lane and Intersection Management, Smart Platooning, Latency, and Energy Optimization, Blockchain assisted IoV. 
+                        Autonomous vehicles (AVs) are expected to transform multiple industries, including transportation, urban planning, and insurance, by offering enhanced efficiency, safety, and environmental sustainability. Our research focuses on key areas including AI-Based Vehicle Security to enhance safety, Smart Platooning for optimized traffic flow, and Intelligent Traffic Management that leverages AI and IoT for dynamic traffic control. We also explore Cooperative Autonomous Driving, enabling real-time collaboration between vehicles, and Advanced Navigation and Perception to improve navigation accuracy. Additionally, our research investigates the integration of 5G/6G-V2X for ultra-low latency communication between vehicles and infrastructure, aiming to build resilient, scalable, and intelligent AV systems for future smart cities.
                     </div>
                     <div class="pic"><img src="./assets/img/domains/av.gif" alt=""></div>
                 </div>
             </div>
+
+            <div class="proj">
+                <div class="pc">Research Topics</div>
+                <div class="pd">
+                    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                        <div class="research-topic">AI-Based Vehicle Security</div>
+                        <div class="research-topic">Smart Platooning</div>
+                        <div class="research-topic">Intelligent Traffic Management</div>
+                        <div class="research-topic">Cooperative Autonomous Driving</div>
+                        <div class="research-topic">Advanced Navigation and Perception</div>
+                        <div class="research-topic">5G/6G-Enabled Autonomous Systems</div>
+                      </div>                      
+                </div>
+            </div>
+            
+            <div>
+                <section id="Student-projects">
+                    <div class="student-projects-section-container">
+                        <div class="cc">Research Highlights</div>
+                    </div>
+                </section>
+        
+                <div id="imageModal" 
+                style="display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%;  align-items: center; justify-content: center; flex-direction: column;">
+
+                <img id="modalImage" 
+                    src="" 
+                    style="max-width: 75%; max-height: 75vh; border-radius: 10px; box-shadow: 0 0 10px #fff; margin: 10px;" />
+                </div>
+            </div>
+
             <div class="pc">People</div>
             <div class="people-section-container">
                 <div class="students">
@@ -130,12 +162,11 @@
                 </div>
             </div> -->
             <div class="proj">
-                <div class="pc">Research Topics</div>
-                <div class="pd">
+                <!-- <div class="pc">Research Topics</div> -->
+                <!-- <div class="pd">
                     <ol class="pe">
                         <li>
                             <div class="paper-title">Intuitive and Privacy-Preserving Traffic Light Control System</div>
-                            
                         </li>
                         <li>
                             <div class="paper-title">AI-based Sensor Attack Detection and Classification</div>  
@@ -186,15 +217,14 @@
                         <li>
                             <div class="paper-title">Audio Video Cognitive Processing System</div>
                         </li>
-                        
-                        
                     </ol>
-                </div>
+                </div> -->
                <div class="L">
                 <a href="./publications.html">Publications &#8594;</a>
             </div>
         </div>
     </main>
     <footer id="footer"></footer>
+    <script charset="utf-8" type="module" src="./scripts/avProjects.js" defer></script>
 </body>
 </html>
