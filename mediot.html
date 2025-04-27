@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="./styles/home.css">
     <link rel="stylesheet" href="./styles/Domain.css">
     <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/project_highlights.css">
     <link rel="shortcut icon" href="assets/img/logos/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./styles/domains_peop.css">
 	<script charset="utf-8" src="./scripts/script.js" defer></script>
@@ -67,8 +68,9 @@
                 <div class="cc">About</div>
                 <div class="wrp">
                     <div class="cd">
-                       The integration of AI and IoT in medical diagnostics is a transformative domain, aiming to enhance early disease detection and personalized care. With the increasing complexity of conditions like cancer and cardiotoxicity, there is a growing need for intelligent systems that can analyze multimodal health data efficiently. Our technical collaboration addresses this by applying deep learning, transfer learning, and attention-based neural networks to imaging data, biomarkers, and bio-signals. Key developments include CNN models for image-based diagnosis, multimodal fusion frameworks like TLCD-Net, and explainable AI tools for cardiotoxic risk stratification. Benefiting the medical field, this work supports early intervention, risk prediction, and continuous monitoring, particularly in oncology and cardiology, paving the way for smarter, IoT-enabled healthcare infrastructure.    
-                       </div>
+                        IoMT (Internet of Medical Things) combines healthcare devices and IoT technology to address the growing complexity of conditions like cancer and cardiotoxicity. Our research applies deep learning, transfer learning, and attention-based networks to analyze multimodal health data, including imaging, biomarkers, and bio-signals. Key developments include CNN models for diagnosis, multimodal fusion frameworks like TLCD-Net, and explainable AI for cardiotoxic risk stratification. Looking ahead, 5G/6G-enabled IoMT networks will enhance real-time data transmission, connectivity, and predictive analytics, advancing personalized healthcare and IoT-driven medical systems.
+                    </div>
+                    
                     <div class="pic"><img src="./assets/img/domains/mediot.jpeg" alt=""></div>
                 </div>
 		<div class="proj">
@@ -84,6 +86,36 @@
                     </div>
                 </div>
             </div>
+            <div class="proj">
+                <div class="pc">Research Topics</div>
+                <div class="pd">
+                    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                        <div class="research-topic">IoT Enabled Healthcare</div>
+                        <div class="research-topic">Multimodal Data Fusion</div>
+                        <div class="research-topic">Explainable AI Systems</div>
+                        <div class="research-topic">Wearable Monitoring Devices</div>
+                        <div class="research-topic">Adaptive Risk Stratification</div>
+                        <div class="research-topic">5G/6G-Enabled IoMT Networks</div>
+                      </div>                      
+                </div>
+            </div>
+            
+            <div>
+                <section id="Student-projects">
+                    <div class="student-projects-section-container">
+                        <div class="cc">Research Highlights</div>
+                    </div>
+                </section>
+        
+                <div id="imageModal" 
+                style="display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%;  align-items: center; justify-content: center; flex-direction: column;">
+
+                <img id="modalImage" 
+                    src="" 
+                    style="max-width: 75%; max-height: 75vh; border-radius: 10px; box-shadow: 0 0 10px #fff; margin: 10px;" />
+                </div>
+            </div>
+
             <div class="pc">People</div>
             <div class="people-section-container">
                 <div class="students">
@@ -140,8 +172,8 @@
                 </div>
             </div> -->
             <div class="proj">
-                <div class="pc">Research Topics</div>
-                <div class="pd">
+                <!-- <div class="pc">Research Topics</div> -->
+                <!-- <div class="pd">
                     <ol class="pe">
                         <li>
                             <div class="paper-title">Deep Transfer-Based Bone Cancer Diagnosis System Using VGG16 Feature Extraction</div>
@@ -158,12 +190,13 @@
                         
                         
                     </ol>
-                </div>
+                </div> -->
                <div class="L">
                 <a href="./publications.html">Publications &#8594;</a>
             </div>
         </div>
     </main>
     <footer id="footer"></footer>
+    <script charset="utf-8" type="module" src="./scripts/mIoTProjects.js" defer></script>
 </body>
 </html>

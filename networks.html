@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="./styles/home.css">
     <link rel="stylesheet" href="./styles/Domain.css">
     <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/project_highlights.css">
     <link rel="shortcut icon" href="assets/img/logos/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./styles/domains_peop.css">
 	<script charset="utf-8" src="./scripts/script.js" defer></script>
@@ -68,12 +69,41 @@
                 <div class="cc">About</div>
                 <div class="wrp">
                 <div class="cd">
-                    The main application areas for the enhanced capabilities of 5G are Enhanced Mobile Broadband (eMBB), Ultra Reliable Low Latency Communications (URLLC), and Massive Machine Type Communications (mMTC).<br><br>The use cases for 5G and 6G technology include revolutionary developments such as industry 5.0, augmented reality, autonomous transportation, eHealth, smart agriculture, digital twins, cobots, and robot navigation under three broad scenarios: the Internet of Senses, connected intelligent machines, and a connected sustainable world.<br><br>The research focus of this group is mainly on 5G & 6G communications, Software Defined Networking, Artificial Intelligence, Blockchain, Cybersecurity, and IMoT. 
-
+                    The explosive growth of 5G and the emergence of 6G have redefined wireless communication with ultra-low latency, high bandwidth, and massive device connectivity. Our research explores next-gen network innovations across key domains, including 5G/6G communication systems for intelligent mobility and automation, and software-defined networking (SDN) for programmable, agile network control. Our research develops AI-driven security mechanisms to detect and mitigate threats in real-time. We design Open-RAN architectures with intelligent RICs and leverage srsRAN and Open5G testbeds for prototyping and validation. Blockchain-based frameworks are also explored to ensure secure and decentralized communication. Overall, our work builds resilient, scalable, and intelligent network infrastructures for future digital ecosystems.
                 </div>
                 <div class="pic"><img src="./assets/img/domains/6G.jpeg" alt=""></div>
                 </div>
             </div>
+
+            <div class="proj">
+                <div class="pc">Research Topics</div>
+                <div class="pd">
+                    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                        <div class="research-topic">5G/6G Communication Systems</div>
+                        <div class="research-topic">AI-Driven Network Security</div>
+                        <div class="research-topic">Software-Defined Networking</div>
+                        <div class="research-topic">Open-RAN and Intelligent Controllers</div>
+                        <div class="research-topic">Blockchain for Secure Networks</div>
+                      </div>                      
+                </div>
+            </div>
+            
+            <div>
+                <section id="Student-projects">
+                    <div class="student-projects-section-container">
+                        <div class="cc">Research Highlights</div>
+                    </div>
+                </section>
+        
+                <div id="imageModal" 
+                style="display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%;  align-items: center; justify-content: center; flex-direction: column;">
+
+                <img id="modalImage" 
+                    src="" 
+                    style="max-width: 75%; max-height: 75vh; border-radius: 10px; box-shadow: 0 0 10px #fff; margin: 10px;" />
+                </div>
+            </div>
+
             <!-- <div class="pc">People</div> -->
             <div class="pc">People</div>
             <div class="people-section-container">
@@ -128,7 +158,7 @@
                 </div>
             </div> -->
             <div class="proj">
-                <div class="pc">Research Topics</div>
+                <!-- <div class="pc">Research Topics</div>
                 <div class="pd">
                     <ol class="pe">
                         <li>
@@ -187,7 +217,7 @@
                         
                         
                     </ol>
-                </div>
+                </div> -->
                 <div class="L">
                     <a href="./publications.html">Publications &#8594;</a>
                 </div>
@@ -195,5 +225,6 @@
         </div>
     </main>
     <footer id="footer"></footer>
+    <script charset="utf-8" type="module" src="./scripts/networksProjects.js" defer></script>
 </body>
 </html>
