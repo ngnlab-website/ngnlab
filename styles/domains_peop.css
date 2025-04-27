@@ -21,7 +21,7 @@ main .people-section-container .director .details {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    margin: auto;
+    margin: auto;  
 }
 main .people-section-container .director .details .name{
     font-size: 2rem;
@@ -133,9 +133,9 @@ main .people-section-container .pg,
 main .people-section-container .phd,
 main .people-section-container .visiting-scholars {
     display: none;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 1.1rem;
-    margin: 3rem 1rem;
+    margin: 3rem 3rem;
     box-shadow: 5px 30px 30px rgba(0, 0, 0, 0.2);
     padding: 1rem;
     border-radius: 6px;
@@ -145,6 +145,8 @@ main .people-section-container .visiting-scholars {
     position: relative;
     /* padding: unset; */
     margin: auto 0;
+    height: 180px;
+    max-width: 180px;
 }
 .student-member-card .face{
     width: 100%;
@@ -195,7 +197,7 @@ main .people-section-container .students .undergrad-text{
     margin: auto;
     object-fit: cover;
     object-position: center top;
-    height: 250px;
+    height: 180px;
     opacity: 0.9;
     border-radius: 10px;
     background-color: #222;
@@ -211,13 +213,13 @@ main .people-section-container .students .undergrad-text{
 .student-member-card .face.face1 .content .content-details a {
     text-decoration: none;
     color: white;
-    font-size: 0.6rem;
+    font-size: 0.53rem;
     text-align: center;
 }
 .student-member-card .face.face1 .content .content-details a s{
     text-decoration: none;
     color: rgb(0, 200, 255);
-    font-size: 0.5rem;
+    font-size: 0.4rem;
     text-align: center;
 }
 .student-member-card .face.face1 .content .content-details {
@@ -229,9 +231,9 @@ main .people-section-container .students .undergrad-text{
     opacity: 1;
     width: 100%;
     bottom: 0;
-    font-size: 0.65rem;
+    font-size: 0.6rem;
     color: #F3F3F3;
-    padding: 0.5rem 1rem;
+    padding: 0.2rem 0.1rem;
     text-align: center;
 }
 .student-member-card .face.face1 .content h3,
