@@ -7,7 +7,7 @@
       "../assets/img/projects/uav/drone2.jpg"
     ],
     "description": "DisasterNet is an autonomous UAV-based disaster response system that restores communication in disconnected zones by enabling survivors to send SOS messages via WiFi, transmitting structured and prioritized alerts to rescue teams using long-range LoRa communication. It integrates AI-powered multi-modal severity detection using both text and image analysis, along with adaptive fuzzy path planning to ensure efficient, intelligent, and real-time emergency response. The system is designed for rapid deployment, operates independently of existing infrastructure, and enhances situational awareness for better decision-making during critical rescue missions.",
-    "videoLink": "https://www.youtube.com/embed/M1TQrsLbS1I",
+    "videoLink": "https://www.youtube.com/embed/X3kyDE8KrkM",
     "students": ["Selva Ragul Kumar", "Mugundh J B", "Theodore Philip"]
   }
 ]
