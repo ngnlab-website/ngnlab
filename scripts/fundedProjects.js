@@ -40,7 +40,11 @@ function renderPatents() {
                         <div class="funded-project"> 
                             <div class="description">${patent.title}</div>
                             <div class="other-details">
-                                <span class="funding-agency">Status: ${patent.status}</span>
+                                <!--<span class="funding-agency">Status: ${patent.status}</span> <br>-->
+                                <span class="funding-agency" style="color: maroon;">Inventors:</span>
+                                <span class="funding-agency">${patent.inventors}</span><br>
+                                <span class="funding-agency" style="color: maroon;">Year: </span>
+                                <span class="funding-agency">${patent.year}</span><br>
                             </div>
                         </div>
                     `
