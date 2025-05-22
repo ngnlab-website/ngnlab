@@ -732,7 +732,10 @@ main .contact-section-container .contact-section .address a:hover {
 .actives, .dot:hover {
     background-color: #717171;
 }
-
+.dot.active {
+    background-color: #710000;
+  }
+  
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;

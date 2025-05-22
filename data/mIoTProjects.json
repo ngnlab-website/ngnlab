@@ -7,7 +7,7 @@
       "../assets/img/projects/miot/cardiotoxicity1.jpg"
     ],
     "description": "The proposed cardiotoxicity risk prediction system offers a comprehensive and intelligent solution for early detection of cardiac complications in cancer patients undergoing treatment. By integrating multi-modal data including 12-lead ECG signals, troponin biomarkers, and patient metadata within a deep learning framework enhanced by contrastive and self-supervised learning, the system provides accurate, real-time, and interpretable predictions of conditions like arrhythmias, myocardial infarction, and heart failure. This approach addresses the limitations of conventional diagnostic methods, supports continuous monitoring, and enhances clinical decision-making, ultimately aiming to improve patient outcomes and safety.",
-    "videoLink": "https://www.youtube.com/embed/M1TQrsLbS1I",
+    "videoLink": "https://youtu.be/ZqYWjcwhHq4",
     "students": ["Surya Raj M", "Sridhar P"]
   }
 ]
