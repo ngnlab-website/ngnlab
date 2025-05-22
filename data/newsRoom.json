@@ -1,5 +1,16 @@
 [
     {
+    "title": "Dr. Madhan Raj Kanagarathinam from Samsung R&D Institute Visits NGNLab",
+    "about": "As part of ongoing collaborative efforts, NGNLab and the Department of Computer Technology at Anna University hosted Dr. Madhan Raj Kanagarathinam, Architect, Connectivity R&D, from Samsung R&D Institute India – Bangalore (SRI-B) on 16th May 2025. The visit focused on strengthening partnerships in cutting-edge research areas such as next-generation connectivity, emerging network technologies, and exploring potential funding avenues. <br>The discussions aimed to align academic research strengths with industrial innovation, fostering opportunities for joint projects, technology co-development, and impactful research initiatives. This engagement marks a step forward in enhancing the academia-industry interface for mutual growth and innovation.",
+    "images": [
+      "./assets/img/mrk1.jpeg",
+      "./assets/img/mrk2.jpeg",
+      "./assets/img/mrk3.jpeg",
+      "./assets/img/mrk4.jpeg"
+    ],
+    "year": 2025
+  },
+    {
     "title": "Anna University Alumnus Visit: Dr. Sathishkumar V E,  Sunway University, Malaysia ",
     "about": "On April 2025, NGNLab proudly welcomed esteemed alumnus, Dr. Sathishkumar V E, an Assistant Professor at Sunway University, Malaysia. <br>Dr. Sathishkumar V E is currently leading the Database and Data Mining Lab at Sunway University. His research focuses on predictive analytics, machine learning, and intelligent systems. He is particularly involved in real-time data modeling for applications in smart cities, healthcare, and sustainable technologies.<br> During his visit, Dr. Sathish engaged with NGNLab students, sharing valuable insights and encouraging them to pursue advanced research in 5G and 6G AI and analytics efforts.",
     "images": [
