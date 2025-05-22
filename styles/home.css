@@ -632,6 +632,11 @@ main .contact-section-container .contact-section .address a:hover {
     box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.2);
     padding: 1rem 1.5rem;
     border-radius: 6px;
+    animation: fade 1s ease-in-out;
+}
+@keyframes fade {
+    from { opacity: 0.4 } 
+    to { opacity: 1 }
 }
 .mySlides img {
     vertical-align: middle;
