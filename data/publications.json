@@ -1,5 +1,15 @@
 [  
     {
+    "title": "ARReSVG: Intelligent Multi-UAV Navigation in Partially Observable Spaces Using Adaptive Deep Reinforcement Learning Approach",
+    "author": "Selvam Essaky, Gunasekaran Raja, Kapal Dev, Dusit Niyato",
+    "conference": " IEEE Transactions on Vehicular Technology, DOI: 10.1109/TVT.2025.3573898",
+    "doi": "#",
+    "year": "2025",
+    "domain": ["UAV"],
+    "selective": true   
+    },
+    
+    {
     "title": "DRL-aided Sensor Attack Detection and Mitigation for Autonomous Vehicle Platooning in 5G-V2X",
     "author": "Mubeena Begum, Gunasekaran Raja, Ayon Chakraborty",
     "conference": "IEEE Transactions on Vehicular Technology, ​​DOI: 10.1109/TVT.2025.3569660",
