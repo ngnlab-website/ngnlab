@@ -1,19 +1,23 @@
-const readMoreBtn = document.querySelector(".read-more")
-readMoreBtn.addEventListener("click", ()=> {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more");
-    var btnText = document.getElementById("myBtn");
+document.addEventListener("DOMContentLoaded", () => {
+    const readMoreBtn = document.querySelector(".read-more");
 
-    if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "Read more"; 
-        moreText.style.display = "none";
-    } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "Read less"; 
-        moreText.style.display = "inline";
+    if (readMoreBtn) {
+        readMoreBtn.addEventListener("click", () => {
+            const dots = document.getElementById("dots");
+            const moreText = document.getElementById("more");
+            const btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more"; 
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less"; 
+                moreText.style.display = "inline";
+            }
+        });
     }
-})
 let slideIndex = 0;
 showSlides(slideIndex);
 
