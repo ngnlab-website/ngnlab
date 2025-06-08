@@ -23,7 +23,7 @@ const students = [
         domain: "UAV, AV, Blockchain",
         facebook: "#",
         twitter: "#",
-        linkedin: "https://www.linkedin.com/in/sai-ganesh-senthivel/",
+        linkedin: "https://www.linkedin.com/in/selvamessaky/",
         mail: "selvame.mit@@gmail.com",
         batch: "2021-present",
         currentPosition: "PhD Research Scholar",
