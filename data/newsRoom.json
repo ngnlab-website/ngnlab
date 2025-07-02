@@ -1,4 +1,34 @@
 [
+     {
+    "title": "NGNs Participate in Department of Telecommunications TTDF Symposium 2025 at IIT Madras Research Park",
+    "about": "As part of the 6G project, NGNs participated and presented their project progress at the Department of Telecommunications TTDF Symposium 2025, held from 19th to 21st June 2025 at the IIT Madras Research Park. Project teams from across the country took part in the symposium and showcased their ongoing work. The event was highly interactive and provided valuable insights and ideas to further enhance our project.",
+    "images": [
+      "./assets/img/ttdf1.jpeg",
+      "./assets/img/ttdf2.jpeg",
+      "./assets/img/ttdf3.jpeg"
+    ],
+    "year": 2025
+    },
+    {
+    "title": "NGN Visits Munster Technological University, Ireland under Erasmus Mobility Programme",
+    "about": "Gunasekaran Raja from NGNLab visited Munster Technological University (MTU), Ireland, in June 2025 under the Erasmus+ International Credit Mobility Programme. The visit facilitated meaningful collaboration with MTU researchers, enabling the exchange of knowledge and expertise across institutions. The programme also helped broaden research horizons and explore new areas of mutual interest between Anna University and MTU, fostering stronger academic and research ties.",
+    "images": [
+      "./assets/img/ireland1.jpeg",
+      "./assets/img/ireland2.jpeg",
+      "./assets/img/ireland3.jpeg"
+    ],
+    "year": 2025
+    },
+    {
+    "title": "NGNLab Team Ranks Among Top 105 Globally in Google Solution Challenge 2025",
+    "about": "NGNs Mugundh J B, Selva Ragul Kumar, Pronoy Kundu, and Hirthik Raj A from NGNLab secured a spot among the Top 105 teams worldwide in the Google Solution Challenge 2025. Their project, ResQLink: Autonomous UAV-Assisted Disaster Relief System, addresses the UN SDG challenge on disaster management. Selected from over 64,000 registrations and 3,700+ submissions, the recognition reflects their innovation and commitment to real-world impact.",
+    "images": [
+      "./assets/img/solutions1.jpeg",
+      "./assets/img/solutions2.jpeg",
+      "./assets/img/solutions3.jpeg"
+    ],
+    "year": 2025
+    },
     {
     "title": "Dr. Madhan Raj Kanagarathinam from Samsung R&D Institute Visits NGNLab",
     "about": "As part of ongoing collaborative efforts, NGNLab and the Department of Computer Technology at Anna University hosted Dr. Madhan Raj Kanagarathinam, Architect, Connectivity R&D, from Samsung R&D Institute India – Bangalore (SRI-B) on 16th May 2025. The visit focused on strengthening partnerships in cutting-edge research areas such as next-generation connectivity, emerging network technologies, and exploring potential funding avenues. <br>The discussions aimed to align academic research strengths with industrial innovation, fostering opportunities for joint projects, technology co-development, and impactful research initiatives. This engagement marks a step forward in enhancing the academia-industry interface for mutual growth and innovation.",
