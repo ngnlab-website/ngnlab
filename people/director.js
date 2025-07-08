@@ -13,6 +13,20 @@ fetch("../data/publications.json")
 href.addEventListener("click", () => {
     window.location.href = "../index.html"
 })
+// import publications from "../data/publications.json" assert { type: "json" }
+let patents = []
+fetch("../data/patents.json")
+    .then(response => response.json())
+    .then(data => {
+        patents=data
+        renderPatents()
+    })
+    .catch(error => {
+        console.error("Error fetching JSON:", error);
+    });
+href.addEventListener("click", () => {
+    window.location.href = "../index.html"
+})
 let fundedProjects = []
 fetch("../data/fundedProjects.json")
     .then(response => response.json())
@@ -79,6 +93,16 @@ function displayAwards() {
 }
 displayAwards()
 let paperPresentations = [
+    {
+        title: "Advanced Cognitive System for Reliable Lane Switch Prediction in Autonomous Vehicles",
+        conference: "IEEE FNWF 2024",
+        country: "Dubai, UAE"
+    },
+    {
+        title: "CardioNetFusion: A Deep Learning and Explainable AI Integrated System for Cardiovascular Disease Detection",
+        conference: "IEEE ICDM 2024",
+        country: "Abu Dhabi, UAE"
+    },
     {
         title: "PointGAN: A Catalyst for Enhanced Vulnerable Road User Detection in Autonomous Navigation",
         conference: "IEEE VTC 2024",
@@ -155,6 +179,11 @@ function displayPapers() {
 }
 displayPapers()
 let invitedTalks = [
+    {
+        title: "Visiting Researcher:",
+        location: "Department of Computer Science, Munster Technological University, Ireland",
+        date: "June 22-29, 2025"
+    },
     {
         title: "International External Advisor:",
         location: "Department of Electrical and  Electronics Engineering, Universiti Teknologi Petronas, Malaysia",
@@ -283,5 +312,33 @@ function renderPublication() {
             parentDiv.appendChild(detailsDiv)
             publicationsContainer.appendChild(parentDiv)
         }
+    })
+}
+function renderPatents() {
+    let currentYear = null
+    let count = 0
+    const patentsContainer = document.querySelector(".patents-container")
+    patents.forEach(patent => {
+            count++;
+            if(patent.year !== currentYear) {
+                currentYear = patent.year
+                let year = document.createElement("h1")
+                year.innerHTML =    `<div class="year-change">
+                                        <h5>${patent.year}</h5>
+                                    </div>`
+                patentsContainer.appendChild(year)
+            }
+            let parentDiv = document.createElement("div")
+            parentDiv.classList.add("publication")
+            let titleDiv = document.createElement("a")
+            titleDiv.classList.add("title")
+            titleDiv.innerText = patent.title
+            let authorDiv = document.createElement("div")
+            authorDiv.classList.add("author")
+            let authorText = document.createTextNode("Inventors: " + patent.inventors +", Published: "+ patent.year)
+            authorDiv.appendChild(authorText)
+            parentDiv.appendChild(titleDiv)
+            parentDiv.appendChild(authorDiv)
+            patentsContainer.appendChild(parentDiv)
     })
 }

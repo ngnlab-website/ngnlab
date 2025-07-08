@@ -86,8 +86,7 @@
     {
     "title": "CardioNetFusion: A Deep Learning and Explainable AI Integrated System for Cardiovascular Disease Detection",
     "author": "Gunasekaran Raja, Selvam Essaky, Surya Raj Muthu, Babith Sarish Suresh, Jaehyuk Cho, Seohyun Yoo, Sathishkumar V E",
-    "conference": "IEEE ICDM 2024 International Conference on Data Mining, December 9-12, 2024, DOI 10.1109/ICDMW65004.2024.00056.",
-    "conference": "IEEE ICDM 2024 International Conference on Data Mining, December 9-12, 2024, DOI 10.1109/ICDMW65004.2024.00056.",
+    "conference": "IEEE ICDM 2024 International Conference on Data Mining, December 9-12, 2024.",
     "doi": "#",
     "year": "2024",
     "domain": ["MIoT"],
