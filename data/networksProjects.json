@@ -7,7 +7,7 @@
       "../assets/img/projects/networks/netguard3.jpg"
     ],
     "description": "NetGuard is an AI-driven intrusion detection and mitigation system tailored for 5G Open-RAN networks. Built on the srsRAN 5G and Open5GS stack, it deploys real-time (Random Forest) and offline (Autoencoder) models across RIC layers for multi-level anomaly detection. The system captures live 5G traffic, monitors key metrics (RSRP, BLER, MCS), and simulates attacks like DDoS to test resilience. With policy-based mitigation and real-time inference, NetGuard ensures secure and adaptive communication, making it scalable for future B5G/6G network environments.",
-    "videoLink": "https://www.youtube.com/embed/M1TQrsLbS1I",
+    "videoLink": "",
     "students": ["Pronoy Kundu", "Sanjaykumar Vinayagam", "Fowzaan Rasheed"]
   }
 ]

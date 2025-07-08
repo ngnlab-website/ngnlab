@@ -7,7 +7,7 @@
       "../assets/img/projects/av/rato3.jpg"
     ],
     "description": "RATO is a real-time, cross-layer congestion control algorithm designed to enhance transport layer performance in dynamic wireless environments. It utilizes MAC/PHY-layer bandwidth estimates and decomposes RTT into PHY, MAC, and IP components to guide intelligent rate and window adjustments. The protocol responds to congestion and channel conditions using adaptive pacing, smoothing filters, and MAC feedback such as queue size and retransmissions. Integrated into NS-3 and tested over 802.11p, the system improves throughput, reduces latency, and adapts effectively to mobility and interference, making it ideal for vehicular and mobile wireless networks.",
-    "videoLink": "https://www.youtube.com/embed/M1TQrsLbS1I",
+    "videoLink": "",
     "students": ["Shivani Suresh", "Shruthi N", "Harishma Sabu"]
   }
 ]

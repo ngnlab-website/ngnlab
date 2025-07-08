@@ -39,7 +39,7 @@ function renderProjects() {
                         <div style="flex: 2;">
                             ${studentProject.description}
                         </div>
-                        <div style="flex: 1;">
+                        <!--<div style="flex: 1;">
                             <div style="position: relative; width: 100%; padding-top: 56.25%; border-radius: 8px; overflow: hidden;">
                                 <iframe 
                                     src="${studentProject.videoLink}" 
@@ -47,7 +47,7 @@ function renderProjects() {
                                     allowfullscreen
                                 ></iframe>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
 
                     <div class="other-details" style="margin: 10px 0;">
