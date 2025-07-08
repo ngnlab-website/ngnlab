@@ -320,14 +320,14 @@ function renderPatents() {
     const patentsContainer = document.querySelector(".patents-container")
     patents.forEach(patent => {
             count++;
-            if(patent.year !== currentYear) {
+            /*if(patent.year !== currentYear) {
                 currentYear = patent.year
                 let year = document.createElement("h1")
                 year.innerHTML =    `<div class="year-change">
                                         <h5>${patent.year}</h5>
                                     </div>`
                 patentsContainer.appendChild(year)
-            }
+            }*/
             let parentDiv = document.createElement("div")
             parentDiv.classList.add("publication")
             let titleDiv = document.createElement("a")
@@ -335,8 +335,12 @@ function renderPatents() {
             titleDiv.innerText = patent.title
             let authorDiv = document.createElement("div")
             authorDiv.classList.add("author")
-            let authorText = document.createTextNode("Inventors: " + patent.inventors +", Published: "+ patent.year)
+            let authorText = document.createTextNode("Inventors: " + patent.inventors)
+            let lineBreak = document.createElement("br");
+            let publishedText = document.createTextNode("Published: " + patent.year)
             authorDiv.appendChild(authorText)
+            authorDiv.appendChild(lineBreak)
+            authorDiv.appendChild(publishedText)
             parentDiv.appendChild(titleDiv)
             parentDiv.appendChild(authorDiv)
             patentsContainer.appendChild(parentDiv)
