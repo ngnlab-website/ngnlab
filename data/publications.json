@@ -1,5 +1,14 @@
 [  
     {
+    "title": "Identity-Based Secure End-to-End Quantum-Safe MQTT Communication Using Ring-LWE",
+    "author": "Gunasekaran Raja, Sudhakar Theerthagiri, Santhosh Kumar T, Sangeetha Ramachandran, Nandini Babu",
+    "conference": " IEEE PKIA 2025 International Conference on Public Key Infrastructure and its Applications,  Bangalore, India, September 5-6, 2025, (Accepted).",
+    "doi": "#",
+    "year": "2025",
+    "domain": ["Networks"],
+    "selective": true   
+    },
+    {
     "title": "ARReSVG: Intelligent Multi-UAV Navigation in Partially Observable Spaces Using Adaptive Deep Reinforcement Learning Approach",
     "author": "Selvam Essaky, Gunasekaran Raja, Kapal Dev, Dusit Niyato",
     "conference": " IEEE Transactions on Vehicular Technology, DOI: 10.1109/TVT.2025.3573898",
