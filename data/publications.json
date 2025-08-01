@@ -1,4 +1,22 @@
 [  
+     {
+    "title": " Enhancing Smartphone-Based IR-UWB Radar Performance through Cognitive Adaptability",
+    "author": "Jamsheed Manja Ppallan, Prajwal Ranjan, Sakshi Badiger, Madhan Raj Kanagarathinam, Qiang Xie, Jongmu Choi, Sukhdeep Singh, Gunasekaran Raja,  Sunder Ali Khowaja, Kapal Dev",
+    "conference": " IEEE GLOBECOM 2025 Global Communications Conference, Taipei, Taiwan, December 8-12,  2025 (Accepted)",
+    "doi": "#",
+    "year": "2025",
+    "domain": ["MToT"],
+    "selective": true   
+    },
+    {
+    "title": " HyQCAN: A Quantum-Classical Synergy for Secure and Low-Latency Emergency Communication in Vehicular Ad Hoc Networks",
+    "author": "Gunasekaran Raj, Sudhakar Theerthagiri, Priyadarshni Vasudevan, Jeyadev Needhidevan, Sunder Ali Khowaja, Keshav Singh, Kapal Dev",
+    "conference": " IEEE GLOBECOM 2025 Global Communications Conference, Taipei, Taiwan, December 8-12,  2025 (Accepted).",
+    "doi": "#",
+    "year": "2025",
+    "domain": ["AV"],
+    "selective": true   
+    },
     {
     "title": "Identity-Based Secure End-to-End Quantum-Safe MQTT Communication Using Ring-LWE",
     "author": "Gunasekaran Raja, Sudhakar Theerthagiri, Santhosh Kumar T, Sangeetha Ramachandran, Nandini Babu",
