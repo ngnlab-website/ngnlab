@@ -51,6 +51,33 @@ function displayProjects() {
         projectsContainer.appendChild(singleProject)
     })
 }
+let consultancyProjects = [];
+fetch("../data/consultancyProjects.json")
+    .then(response => response.json())
+    .then(data => {
+        consultancyProjects = data;
+        displayConsultancyProjects();
+    })
+    .catch(error => {
+        console.error("Error fetching consultancyProjects.json:", error);
+    });
+
+let consultancyContainer = document.querySelector(".consultancy-container");
+
+function displayConsultancyProjects() {
+    consultancyProjects.forEach(project => {
+        let singleConsultancy = document.createElement("div");
+        singleConsultancy.classList.add("single-project"); // reuse same styling
+        singleConsultancy.innerHTML = `
+            <div class="project-title">${project.title}</div>
+            <div class="funding-agency">
+                <div class="funding-text">${project.agency}</div>
+            </div>
+        `;
+        consultancyContainer.appendChild(singleConsultancy);
+    });
+}
+
 const awards = [
     {
         title: "World’s Top 2% Scientists in the field of Information and Communication Technology, 2022 and 2023",
