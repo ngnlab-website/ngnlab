@@ -419,7 +419,10 @@ html
     display: flex;
     gap: 0.4rem;
 }
-.profile section .consultancy-container .single-project {
+#publications {
+    margin-bottom: 2rem;
+}
+.consultancy-container .single-project {
     background-color: #FFFFFF;
     padding: 0.5rem;
     border: 1px solid #DCDCDC;
@@ -427,12 +430,12 @@ html
     border-radius: 6px;
 }
 
-.profile section .consultancy-container .single-project .project-title {
+.consultancy-container .single-project .project-title {
     font-size: 1.1rem;
     font-weight: 600;
 }
 
-.profile section .consultancy-container .single-project .funding-agency {
+.consultancy-container .single-project .funding-agency {
     display: flex;
     margin: 0.4rem 0;
     flex-direction: row;
@@ -440,15 +443,12 @@ html
     gap: 0.5rem;
 }
 
-.profile section .consultancy-container .single-project .funding-agency .funding-text {
+.consultancy-container .single-project .funding-agency .funding-text {
     color: #113E79;
     font-weight: 700;
     font-size: 0.9em;
 }
 
-#publications {
-    margin-bottom: 2rem;
-}
 ::-webkit-scrollbar {
     width: .2em;
     height: 2em;
