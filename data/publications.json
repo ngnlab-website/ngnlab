@@ -1,5 +1,14 @@
 [  
      {
+    "title": " WAPPOS: A Distributed Learning-Based Off-Board Path Planning System for UAV-Assisted Emergency Networks",
+    "author": "Gunasekaran Raja, Pronoy Kundu, Sanjaykumar Vinayagam,  Fowzaan Rasheed, Sunder Ali Khowaja,  Kapal Dev",
+    "conference": " IEEE Internet of Things Journal, DOI: 10.1109/JIOT.2025.3599991",
+    "doi": "#",
+    "year": "2025",
+    "domain": ["UAV"],
+    "selective": true   
+    },
+     {
     "title": " Enhancing Smartphone-Based IR-UWB Radar Performance through Cognitive Adaptability",
     "author": "Jamsheed Manja Ppallan, Prajwal Ranjan, Sakshi Badiger, Madhan Raj Kanagarathinam, Qiang Xie, Jongmu Choi, Sukhdeep Singh, Gunasekaran Raja,  Sunder Ali Khowaja, Kapal Dev",
     "conference": " IEEE GLOBECOM 2025 Global Communications Conference, Taipei, Taiwan, December 8-12,  2025 (Accepted)",
