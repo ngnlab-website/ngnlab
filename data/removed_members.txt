@@ -1,3 +1,16 @@
+ {
+        "img": "./assets/img/people/Kirankumar.jpg",
+        "name": "Kirankumar M",
+        "domain": "Quantum",
+        "domainWorked": "Quantum",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/kirankumar0327/",
+        "mail": "kumarkiran0893@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG - Research Intern",
+        "year": "present"
+    },
 {
         "img": "./assets/img/people/vamsi.jpg",
         "name": "Vamsi Raju M",
@@ -285,3 +298,4 @@
         "batch": "2022-2023",
         "year": "alumni"
     },
+
