@@ -1,4 +1,17 @@
  {
+        "img": "./assets/img/people/Shyamala.jpg",
+        "name": "R B Shyamala",
+        "domain": "AV",
+        "domainWorked": "AV",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/shyamala2003",
+        "mail": "shyamalamallika@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG - Research Intern",
+        "year": "present"
+    },
+{
         "img": "./assets/img/people/Kirankumar.jpg",
         "name": "Kirankumar M",
         "domain": "Quantum",
@@ -298,4 +311,5 @@
         "batch": "2022-2023",
         "year": "alumni"
     },
+
 
