@@ -1,4 +1,17 @@
- {
+    {
+        "img": "./assets/img/people/Niveditha.jpg",
+        "name": "Niveditha Girivel",
+        "domain": "AV",
+        "domainWorked": "AV",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/niveditha-subramanian-girivel-081a37226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "mail": "nivedithagirivel@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG - Research Intern",
+        "year": "alumni"
+    },
+{
         "img": "./assets/img/people/Shyamala.jpg",
         "name": "R B Shyamala",
         "domain": "AV",
@@ -311,5 +324,6 @@
         "batch": "2022-2023",
         "year": "alumni"
     },
+
 
 
