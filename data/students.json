@@ -12,6 +12,19 @@
         "currentPosition": "PhD Scholar",
         "year": "present"
     }, 
+        {
+        "img": "./assets/img/people/Pronoy.jpg",
+        "name": "Pronoy Kundu",
+        "domain": "UAV",
+        "domainWorked": "Networks",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/pronoy-kundu-615947272",
+        "mail": "pronoykundu513@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG - Research Intern",
+        "year": "alumni"
+    },
       {
         "img": "./assets/img/people/ShriJananiM.jpeg",
         "name": "Shri Janani M",
@@ -438,19 +451,6 @@
         "mail": "selvame.mit@@gmail.com",
         "batch": "2021-2025",
         "currentPosition": "PhD Scholar",
-        "year": "alumni"
-    },
-    {
-        "img": "./assets/img/people/Pronoy.jpg",
-        "name": "Pronoy Kundu",
-        "domain": "UAV",
-        "domainWorked": "Networks",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/pronoy-kundu-615947272",
-        "mail": "pronoykundu513@gmail.com",
-        "batch": "UG: 2021-2025",
-        "currentPosition": "UG - Research Intern",
         "year": "alumni"
     },
     {
