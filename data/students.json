@@ -8,10 +8,11 @@
         "twitter": "#",
         "linkedin": "https://www.linkedin.com/in/thamodharan-arumugam-05881341/",
         "mail": "thamodharan@gmail.com",
-        "batch": "2021-",
+        "batch": "2021-2025",
         "currentPosition": "PhD Scholar",
-        "year": "present"
+        "year": "alumni"
     }, 
+      
         {
         "img": "./assets/img/people/Pronoy.jpg",
         "name": "Pronoy Kundu",
@@ -21,6 +22,19 @@
         "twitter": "#",
         "linkedin": "https://www.linkedin.com/in/pronoy-kundu-615947272",
         "mail": "pronoykundu513@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG - Research Intern",
+        "year": "alumni"
+    },
+        {
+        "img": "./assets/img/people/sanjaykumarv.jpeg",
+        "name": "Sanjaykumar Vinayagam",
+        "domain": "Networks",
+        "domainWorked": "Networks",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/sanjaykumar-vinayagam-056ab3288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "mail": "sanjayvwin@gmail.com",
         "batch": "UG: 2021-2025",
         "currentPosition": "UG - Research Intern",
         "year": "alumni"
@@ -64,6 +78,32 @@
         "currentPosition": "UG - Research Intern",
         "year": "alumni",
         "position":""
+    },
+       {
+        "img": "./assets/img/people/priyadarshini_v.jpeg",
+        "name": "Priyadarshini V",
+        "domain": "AV",
+        "domainWorked": "AV",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://in.linkedin.com/in/priyadarshniv",
+        "mail": "darshnipriya937@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG - Research Intern",
+        "year": "alumni"
+    },
+       {
+        "img": "./assets/img/people/Shivani.jpg",
+        "name": "Shivani Suresh",
+        "domain": "AV",
+        "domainWorked": "AV",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/shivani-suresh-2ab644273/",
+        "mail": "shivan.suresh@gmail.com",
+        "batch": "UG: 2021-2025",
+        "currentPosition": "UG - Research Intern",
+        "year": "alumni"
     },
     {
         "img": "./assets/img/people/balakumar.jpg",
@@ -401,45 +441,7 @@
         "year": "alumni",
         "position":"University of Maryland, College Park"
     },
-    {
-        "img": "./assets/img/people/Shivani.jpg",
-        "name": "Shivani Suresh",
-        "domain": "AV",
-        "domainWorked": "AV",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/shivani-suresh-2ab644273/",
-        "mail": "shivan.suresh@gmail.com",
-        "batch": "UG: 2021-2025",
-        "currentPosition": "UG - Research Intern",
-        "year": "alumni"
-    },
-    {
-        "img": "./assets/img/people/Niveditha.jpg",
-        "name": "Niveditha Girivel",
-        "domain": "AV",
-        "domainWorked": "AV",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/niveditha-subramanian-girivel-081a37226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "mail": "nivedithagirivel@gmail.com",
-        "batch": "UG: 2021-2025",
-        "currentPosition": "UG - Research Intern",
-        "year": "alumni"
-    },
-    {
-        "img": "./assets/img/people/priyadarshini_v.jpeg",
-        "name": "Priyadarshini V",
-        "domain": "AV",
-        "domainWorked": "AV",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://in.linkedin.com/in/priyadarshniv",
-        "mail": "darshnipriya937@gmail.com",
-        "batch": "UG: 2021-2025",
-        "currentPosition": "UG - Research Intern",
-        "year": "alumni"
-    },
+   
     {
         "img": "./assets/img/people/selvam.jpg",
         "name": "Selvam Essaky",
@@ -453,19 +455,7 @@
         "currentPosition": "PhD Scholar",
         "year": "alumni"
     },
-    {
-        "img": "./assets/img/people/sanjaykumarv.jpeg",
-        "name": "Sanjaykumar Vinayagam",
-        "domain": "Networks",
-        "domainWorked": "Networks",
-        "facebook": "#",
-        "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/sanjaykumar-vinayagam-056ab3288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        "mail": "sanjayvwin@gmail.com",
-        "batch": "UG: 2021-2025",
-        "currentPosition": "UG - Research Intern",
-        "year": "alumni"
-    },
+  
     {
         "img": "./assets/img/people/sanjeeva.jpeg",
         "name": "Sanjeev A",
