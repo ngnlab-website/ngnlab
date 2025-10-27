@@ -1,8 +1,17 @@
 [  
      {
+    "title": "TRIP-B5G: Traffic classification and Resource allocation using Intelligent PPO in B5G O-RAN",
+    "author": "Gunasekaran Raja, Sanjeev A, Krithika Ravishankar, Karthikeyan Arunachalam",
+    "conference": "IEEE CCNC 2026,  Consumer Communications and Networking Conference, Las Vegas, USA, January 9-12, 2026 (Accepted).",
+    "doi": "#",
+    "year": "2026",
+    "domain": ["Networks"],
+    "selective": true   
+    },
+     {
     "title": " WAPPOS: A Distributed Learning-Based Off-Board Path Planning System for UAV-Assisted Emergency Networks",
     "author": "Gunasekaran Raja, Pronoy Kundu, Sanjaykumar Vinayagam,  Fowzaan Rasheed, Sunder Ali Khowaja,  Kapal Dev",
-    "conference": " IEEE Internet of Things Journal, DOI: 10.1109/JIOT.2025.3599991",
+    "conference": " IEEE Internet of Things Journal, vol. 12, issue 21, pp. 44282-44289, Nov. 2025.",
     "doi": "#",
     "year": "2025",
     "domain": ["UAV"],
@@ -38,7 +47,7 @@
     {
     "title": "ARReSVG: Intelligent Multi-UAV Navigation in Partially Observable Spaces Using Adaptive Deep Reinforcement Learning Approach",
     "author": "Selvam Essaky, Gunasekaran Raja, Kapal Dev, Dusit Niyato",
-    "conference": " IEEE Transactions on Vehicular Technology, DOI: 10.1109/TVT.2025.3573898",
+    "conference": " IEEE Transactions on Vehicular Technology, vol. 74, issue 10, pp. 15429-15440, Oct. 2025.",
     "doi": "#",
     "year": "2025",
     "domain": ["UAV"],
@@ -48,7 +57,7 @@
     {
     "title": "DRL-aided Sensor Attack Detection and Mitigation for Autonomous Vehicle Platooning in 5G-V2X",
     "author": "Mubeena Begum, Gunasekaran Raja, Ayon Chakraborty",
-    "conference": "IEEE Transactions on Vehicular Technology, ​​DOI: 10.1109/TVT.2025.3569660",
+    "conference": "IEEE Transactions on Vehicular Technology, ​​vol. 74, issue 10, pp. 15120-15131, Oct. 2025.",
     "doi": "#",
     "year": "2025",
     "domain": ["AV"],
