@@ -1,0 +1,44 @@
+{
+  "head": {
+    "name": "Dr. A. Kumar",
+    "role": "Lab Head & Professor",
+    "expertise": "Wireless Communication, Network Security",
+    "image": "./assets/img/team/kumar.jpg",
+    "linkedin": "https://linkedin.com/in/akumar",
+    "cssClass": "directors"
+  },
+  "staff": [
+    {
+      "name": "John Smith",
+      "role": "Frontend Developer",
+      "expertise": "React, UI/UX Specialist",
+      "image": "./assets/img/team/john.jpg",
+      "linkedin": "https://linkedin.com/in/johnsmith",
+      "cssClass": "staff1"
+    },
+    {
+      "name": "Alice Johnson",
+      "role": "Backend Developer",
+      "expertise": "Node.js, Database Integration",
+      "image": "./assets/img/team/alice.jpg",
+      "linkedin": "https://linkedin.com/in/alicejohnson",
+      "cssClass": "staff2"
+    },
+    {
+      "name": "Bob Williams",
+      "role": "AI/ML Engineer",
+      "expertise": "Python, TensorFlow, PyTorch",
+      "image": "./assets/img/team/bob.jpg",
+      "linkedin": "https://linkedin.com/in/bobwilliams",
+      "cssClass": "staff3"
+    },
+    {
+      "name": "Priya Sharma",
+      "role": "Blockchain Researcher",
+      "expertise": "Smart Contracts, Ethereum, Web3",
+      "image": "./assets/img/team/priya.jpg",
+      "linkedin": "https://linkedin.com/in/priyasharma",
+      "cssClass": "staff1"
+    }
+  ]
+}

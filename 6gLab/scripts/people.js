@@ -1,60 +1,65 @@
-// ===== PEOPLE.JS =====
-// Add all members here — name, role, expertise, image, and social links
+// ===== PEOPLE.JS - Fetches data and dynamically renders team members =====
 
-const people = [
-  {
-    name: "Dr. A. Kumar",
-    role: "Lab Head & Professor",
-    expertise: "Wireless Communication, Network Security",
-    image: "./assets/img/team/kumar.jpg",
-    linkedin: "https://linkedin.com/in/akumar"
-  },
-  {
-    name: "John Smith",
-    role: "Frontend Developer",
-    expertise: "React, UI/UX Specialist",
-    image: "./assets/img/team/john.jpg",
-    linkedin: "https://linkedin.com/in/johnsmith"
-  },
-  {
-    name: "Alice Johnson",
-    role: "Backend Developer",
-    expertise: "Node.js, Database Integration",
-    image: "./assets/img/team/alice.jpg",
-    linkedin: "https://linkedin.com/in/alicejohnson"
-  },
-  {
-    name: "Bob Williams",
-    role: "AI/ML Engineer",
-    expertise: "Python, TensorFlow, PyTorch",
-    image: "./assets/img/team/bob.jpg",
-    linkedin: "https://linkedin.com/in/bobwilliams"
-  },
-  {
-    name: "Priya Sharma",
-    role: "Blockchain Researcher",
-    expertise: "Smart Contracts, Ethereum, Web3",
-    image: "./assets/img/team/priya.jpg",
-    linkedin: "https://linkedin.com/in/priyasharma"
-  }
-];
+const container = document.getElementById("faculty-container");
+const DATA_URL = "./data/team_members.json"; // Path to the new JSON file
 
-// ===== Dynamic Rendering =====
-const container = document.getElementById("team-container");
+// Function to generate the HTML for a single person card
+const createPersonCard = (person) => {
+    // Using backticks for a multi-line string (template literal)
+    return `
+        <div class="wrp ${person.cssClass || ''}">
+            <div class="photo">
+                <img src="${person.image}" alt="${person.name}">
+            </div>
+            <div class="details">
+                <div class="name">${person.name}</div>
+                <div class="role">${person.role}</div>
+                <div class="about">${person.expertise}</div>
+                <div class="footer">
+                    <div class="footer-btn">
+                        <div class="icons">
+                            <div class="icon">
+                                <a href="${person.linkedin}" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+};
 
-people.forEach(person => {
-  const card = document.createElement("div");
-  card.classList.add("team-card");
+// Function to fetch the data and render the team
+const renderTeam = async () => {
+    try {
+        const response = await fetch(DATA_URL);
+        
+        // Check if the request was successful
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
 
-  card.innerHTML = `
-    <img src="${person.image}" alt="${person.name}">
-    <h3>${person.name}</h3>
-    <h4>${person.role}</h4>
-    <p>${person.expertise}</p>
-    <div class="social-links">
-      <a href="${person.linkedin}" target="_blank"><i class="fab fa-linkedin"></i></a>
-    </div>
-  `;
+        const teamData = await response.json();
 
-  container.appendChild(card);
-});
+        // 1. Insert Head Member
+        if (teamData.head) {
+            container.innerHTML += createPersonCard(teamData.head);
+        }
+
+        // 2. Insert Staff Members
+        if (teamData.staff && Array.isArray(teamData.staff)) {
+            teamData.staff.forEach(person => {
+                container.innerHTML += createPersonCard(person);
+            });
+        }
+
+    } catch (error) {
+        console.error("Could not fetch or render team data:", error);
+        container.innerHTML = "<p>Error loading team members. Please check the console for details.</p>";
+    }
+};
+
+// Execute the rendering function when the script loads
+renderTeam();
