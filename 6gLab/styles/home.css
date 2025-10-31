@@ -347,8 +347,9 @@ main .research-domain-section .images .img9 {
 
 main .contact-section-container {
     width: 65%;
-    margin: 4rem auto;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
 }
 
 main .contact-section-container .heading {
@@ -557,6 +558,7 @@ main .contact-section-container .contact-section .address a:hover {
 @media screen and (max-width:1000px) {
     main .about-section, main .image-section, main .contact-section-container {
         width: 90%;
+        margin-top: 150px;
     }
     main .research-domain-section {
         width: 90%;
