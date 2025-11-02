@@ -27,9 +27,17 @@
           <li><a href="./about.html">About</a></li>
           <li><a href="./team.html" class="active">Team</a></li>
           <li><a href="./gallery.html">Gallery</a></li>
-          <li><a href="./research.html">Research</a></li>
+           <div class="dropdown">
+              <li class="dropbtn">Research<i class="fa fa-caret-down"></i></li>
+              <div class="dropdown-content">
+                <a href="./publications.html">Publications</a>
+                <a href="./collaborators.html">Collaborators</a>
+                <a href="./funded_projects.html">Funded Projects</a>
+                <a href="./funded_projects.html#patents">Patents</a>
+              </div>
+            </div>
           <li><a href="./events.html">Events</a></li>
-          <li><a href="./contact.html">Contact Us</a></li>
+          <li><a href="index.html#contact-section">Contact Us</a></li>
         </ul>
       </nav>
     </div>
@@ -38,14 +46,20 @@
   <main>
     <section class="people-section-container">
       <h1 class="heading">Our 6G Lab Team</h1>
-      <p class="subtitle">Meet our dedicated researchers, innovators, and engineers shaping the future of communication.</p>
       
       <div class="faculty" id="faculty-container">
         </div>
     </section>
   </main>
 
-  <footer id="footer"></footer>
+ <footer id="footer" >
+                     <div class="container"> 
+                        <div class="copyright" style="font-size: 16px;">
+                             <em>Contact: </em><br> 
+                             <strong>Prof. Gunasekaran Raja:</strong>
+                              <a style="color: white;" href="mailto:gunasekaran@mitindia.edu">gunasekaran@mitindia.edu</a><br> &copy; Copyright <strong> NGNLab</strong>. All Rights Reserved </div> 
+                            </div> 
+                        </footer>
 
   <script src="./scripts/people.js"></script>
 </body>

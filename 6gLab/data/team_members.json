@@ -3,7 +3,7 @@
     "name": "Dr. A. Kumar",
     "role": "Lab Head & Professor",
     "expertise": "Wireless Communication, Network Security",
-    "image": "./assets/img/team/kumar.jpg",
+    "image": "./assets/img/Kaviyarasu.jpg",
     "linkedin": "https://linkedin.com/in/akumar",
     "cssClass": "directors"
   },
@@ -12,7 +12,7 @@
       "name": "John Smith",
       "role": "Frontend Developer",
       "expertise": "React, UI/UX Specialist",
-      "image": "./assets/img/team/john.jpg",
+      "image": "./assets/img/Kaviyarasu.jpg",
       "linkedin": "https://linkedin.com/in/johnsmith",
       "cssClass": "staff1"
     },
@@ -30,6 +30,30 @@
       "expertise": "Python, TensorFlow, PyTorch",
       "image": "./assets/img/team/bob.jpg",
       "linkedin": "https://linkedin.com/in/bobwilliams",
+      "cssClass": "staff3"
+    },
+    {
+      "name": "Priya Sharma",
+      "role": "Blockchain Researcher",
+      "expertise": "Smart Contracts, Ethereum, Web3",
+      "image": "./assets/img/team/priya.jpg",
+      "linkedin": "https://linkedin.com/in/priyasharma",
+      "cssClass": "staff1"
+    },
+    {
+      "name": "Sharma",
+      "role": "Blockchain Researcher",
+      "expertise": "Smart Contracts, Ethereum, Web3",
+      "image": "./assets/img/team/priya.jpg",
+      "linkedin": "https://linkedin.com/in/priyasharma",
+      "cssClass": "staff2"
+    },
+    {
+      "name": "Priya Sharma",
+      "role": "Blockchain Researcher",
+      "expertise": "Smart Contracts, Ethereum, Web3",
+      "image": "./assets/img/team/priya.jpg",
+      "linkedin": "https://linkedin.com/in/priyasharma",
       "cssClass": "staff3"
     },
     {

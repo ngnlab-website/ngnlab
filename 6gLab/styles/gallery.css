@@ -1,0 +1,40 @@
+/* ./styles/gallery.css */
+
+/* --- Image Grid Layout --- */
+.image-grid {
+    display: grid;
+    /* Create three columns of equal width */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px; /* Space between images */
+    padding: 20px 0;
+}
+
+/* --- Individual Image Item Styling --- */
+.gallery-item {
+    overflow: hidden; /* Important for clean borders */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+}
+
+.gallery-item img {
+    width: 100%;
+    /* Ensures images are all the same height, crops them if necessary */
+    height: 250px; 
+    object-fit: cover; 
+    display: block;
+}
+
+/* --- Caption Styling --- */
+.gallery-item .caption {
+    padding: 10px;
+    background-color: #f7f7f7;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0;
+}

@@ -3,8 +3,9 @@ main .people-section-container {
     text-align: justify;
     width: 93%;
     margin: auto;
-    margin-top: 140px;
+   /* margin-top: 140px;*/
 }
+
 .people-section-container .heading {
     display: flex;
     justify-content: center;
@@ -47,11 +48,11 @@ main .people-section-container {
     grid-gap: 20; */
     display: flex;
     gap: 1rem;
+    flex-direction: row; 
+    align-items: flex-start;
     background-color: #FEFEFE;
-    padding: 2rem 0;
+    padding: 1rem;
     box-shadow: 5px 30px 30px rgba(0, 0, 0, 0.1);
-    margin: 0 auto 5rem auto;
-    padding: 1rem; 
     margin: 1rem;
 } 
 
@@ -59,6 +60,7 @@ main .people-section-container .faculty .details {
     display: flex;
     flex-direction: column;
     margin: auto;
+    align-items: flex-start;
     flex: 1;
 }
 main .people-section-container .faculty .details .name{
@@ -158,22 +160,31 @@ main .people-section-container .faculty .photo img {
     margin: 0 auto 2rem auto;
     padding: 1rem;
 }
-main .people-section-container .director .details {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    margin: auto;
+/* REPLACE/UPDATE with the following, using the .directors class: */
+main .people-section-container .faculty .directors .details {
+ display: flex;
+ flex-direction: column;
+ gap: 0.5rem;
+    /* CRITICAL FIX 1: Vertical centering */
+justify-content: center;
+    /* CRITICAL FIX 2: Text left-alignment */
+    align-items: flex-start;
+    height: 100%; /* Important for vertical centering in grid */
+ margin: unset; /* Remove conflicting margin: auto */
 }
-main .people-section-container .director .details .name{
-    font-size: 2rem;
+
+/* Ensure the font sizes for the director are correct (now applied to the new selector): */
+main .people-section-container .faculty .directors .details .name{
+font-size: 2rem;
+    color: #891515; /* Added color for emphasis based on image */
 }
-main .people-section-container .director .details .role{
-    font-size: 1.2rem;
+main .people-section-container .faculty .directors .details .role{
+font-size: 1.2rem;
 }
-main .people-section-container .director .details .about{
-    font-size: 1rem;
-    font-weight: 400;
-    color: #333333;
+main .people-section-container .faculty .directors .details .about{
+font-size: 1rem;
+ font-weight: 400;
+color: #333333;
 }
 main .people-section-container .details .about a {
     color: #333333;
@@ -472,9 +483,11 @@ main .people-section-container .phd {
         align-items: center;
         justify-content: center;
     }
-    main .people-section-container .director {
+    main .people-section-container .faculty .directors{
         display: flex;
         flex-direction: column;
+        grid-template-columns: 100%; /* Overrides the 40%/60% grid */
+    width: 95%;
     }
     main .people-section-container .fourth-year, 
     main .people-section-container .third-year, 
@@ -489,7 +502,8 @@ main .people-section-container .phd {
     }
     .faculty .wrp {
         flex-direction: column;
-        width: 95%;
+        width: 100%;
+        margin: 1rem 0;
     }
     main .people-section-container .faculty .details {
         margin: unset;
@@ -499,24 +513,9 @@ main .people-section-container .phd {
         justify-content: center;
         align-items: center;
     }
-    .faculty .directors {
-        grid-column-start: unset;
-        grid-column-end: unset;
-        grid-row-start: unset;
-        grid-row-end: unset;
-    }
-    .faculty .staff1 {
-        grid-column-start: unset;
-        grid-column-end: unset;
-        grid-row-start: unset;
-        grid-row-end: unset;
-    }
-    .faculty .staff2 {
-        grid-column-start: unset;
-        grid-column-end: unset;
-        grid-row-start: unset;
-        grid-row-end: unset;
-    }
+    .faculty .directors,
+    .faculty .staff1,
+    .faculty .staff2,
     .faculty .staff3 {
         grid-column-start: unset;
         grid-column-end: unset;
