@@ -13,7 +13,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
-    <link rel="stylesheet" href="./styles/nav.css" />
+    <link rel="stylesheet" href="../styles/nav.css" />
     <link rel="stylesheet" href="./styles/home.css" />
     <link rel="stylesheet" href="./styles/funded_projects.css" />
     <link
@@ -35,14 +35,16 @@
     <header>
       <div class="nav-cont">
         <a class="logo" href="./index.html">
-          <img src="./assets/img/logo_2.jpg" width="275" alt="" />
+          <img src="../assets/img/logo_2.jpg" width="275" alt="" />
         </a>
-        <nav>
-          <ul class="nav-links">
-            <li><a href="./index.html" class="active">Home</a></li>
-            <li><a href="./faculty.html">Faculty</a></li>
-            <li><a href="./research_groups.html">Research Groups</a></li>
-            <div class="dropdown">
+       <nav>
+				<ul class="nav-links">
+					<li><a href="./index.html" class="active">Home</a></li>
+					<li><a href="./about.html">About</a></li>
+					<li><a href="./team.html">Team</a></li>
+					<li><a href="./gallery.html">Gallery</a></li>
+				
+					 <div class="dropdown">
               <li class="dropbtn">Research<i class="fa fa-caret-down"></i></li>
               <div class="dropdown-content">
                 <a href="./publications.html">Publications</a>
@@ -51,26 +53,15 @@
                 <a href="./funded_projects.html#patents">Patents</a>
               </div>
             </div>
-
-            <li><a href="./newsroom.html">Newsroom</a></li>
-            <div class="dropdown">
-              <li class="dropbtn">Events<i class="fa fa-caret-down"></i></li>
-              <div class="dropdown-content">
-                <a href="STSH2024/">STSH2024</a>
-              </div>
-            </div>
-            <li><a href="./6gLab/">6G Lab</a></li>
-            <li><a href="./downloads.html">Downloads</a></li>
-            <li>
-              <a href="./contactus.html">Contact <span>&nbsp;Us</span></a>
-            </li>
-          </ul>
-          <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
-        </nav>
+					<li><a href="./events.html">Events</a></li>
+					<li><a href="#contact-section">Contact Us</a></li>
+				</ul>
+		
+			<div class="burger">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div>	</nav>
       </div>
     </header>
     <main>
@@ -85,6 +76,13 @@
         </div>
       </section>
     </main>
-    <footer id="footer"></footer>
+     <footer id="footer" style="margin-top: -40px;">
+                     <div class="container"> 
+                        <div class="copyright" style="font-size: 16px;">
+                             <em>Contact: </em><br> 
+                             <strong>Prof. Gunasekaran Raja:</strong>
+                              <a style="color: white;" href="mailto:gunasekaran@mitindia.edu">gunasekaran@mitindia.edu</a><br> &copy; Copyright <strong> NGNLab</strong>. All Rights Reserved </div> 
+                            </div> 
+                        </footer>
   </body>
 </html>

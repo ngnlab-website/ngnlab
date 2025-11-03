@@ -1,0 +1,48 @@
+[  
+    {
+    "title": "ARReSVG: Intelligent Multi-UAV Navigation in Partially Observable Spaces Using Adaptive Deep Reinforcement Learning Approach",
+    "author": "Selvam Essaky, Gunasekaran Raja, Kapal Dev, Dusit Niyato",
+    "conference": " IEEE Transactions on Vehicular Technology, DOI: 10.1109/TVT.2025.3573898",
+    "doi": "#",
+    "year": "2025",
+    "domain": ["UAV"],
+    "selective": true   
+    },
+    
+    {
+    "title": "DRL-aided Sensor Attack Detection and Mitigation for Autonomous Vehicle Platooning in 5G-V2X",
+    "author": "Mubeena Begum, Gunasekaran Raja, Ayon Chakraborty",
+    "conference": "IEEE Transactions on Vehicular Technology, ​​DOI: 10.1109/TVT.2025.3569660",
+    "doi": "#",
+    "year": "2025",
+    "domain": ["AV"],
+    "selective": true   
+    },
+    {
+    "title": "Intuitive and Privacy-Preserving Traffic Light Control System for Autonomous Vehicles",
+    "author": "Gunasekaran Raja, Lewis Nkenyereye, Ponnada Srividya, Thilaksurya Balachandar, Sai Ganesh Senthivel, Libin K Mathew, Kapal Dev",
+    "conference": "IEEE Internet of Things Journal, DOI: 10.1109/JIOT.2024.3491973",
+    "doi": "https://ieeexplore.ieee.org/abstract/document/10742631",
+    "year": "2024",
+    "domain": ["AV"],
+    "selective": true   
+    }, 
+    {
+    "title": "Advanced Decision Making and Motion Planning Framework for Autonomous Navigation in Unsignalized Intersections",
+    "author": "Gunasekaran Raja, Kathiroli Raja, Madhan Raj Kanagarathinam, Jeydev Needhidevan, Priyadarshni Vasudevan",
+    "conference": "IEEE ACCESS, DOI: 10.1109/ACCESS.2024.3487195",
+    "doi": "https://ieeexplore.ieee.org/abstract/document/10737074",
+    "year": "2024",
+    "domain": ["AV"],
+    "selective": true   
+    },
+     {
+        "title": "An Improved Database Synchronization Mechanism for Mobile Data using Software Defined Networking Control",
+        "author": "Kottilingam Kottursamy, Gunasekaran Raja, Jayashree Padmanaban and Vaishnavi Srinivasan",
+        "conference": "Elsevier Computers and Electrical Engineering, vol. 57, pp. 93-103.",
+        "doi": "https://www.sciencedirect.com/science/article/abs/pii/S0045790616300064",
+        "year": "2016",
+        "domain": ["Networks"],
+        "selective": false
+    }
+]
