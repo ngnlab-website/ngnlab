@@ -27,10 +27,11 @@ function renderSlides(slidesData) {
         `;
         peopleSectionContainer.innerHTML += slideContent;
     });
+      document.dispatchEvent(new Event("imagesLoaded"));
 }
 
 function renderImages(images) {
-    return images.map(image => `<div class="slideshow-slide"><img src="${image}" alt=""></div>`).join('');
+    return images.map(image => `<div class="slideshow-slide"><img src="${image}" class="news-enlarge-img" alt=""></div>`).join('');
 }
 
 function startSlideshows() {
