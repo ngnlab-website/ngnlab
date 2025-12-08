@@ -1,3 +1,58 @@
+.img-modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    inset: 0; /* shorthand for top/left/right/bottom = 0 */
+    background: rgba(0, 0, 0, 0.85);
+    padding-top: 50px;
+}
+
+.img-modal img {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-height: 90vh;
+    object-fit: contain;
+    max-width: 1000px;
+    border-radius: 10px;
+}
+.img-modal .close {
+    position: fixed; /* instead of absolute */
+    top: 20px;
+    right: 20px;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    z-index: 10000; /* ensure visible on top */
+}
+.nav-btn {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    border: none;
+    cursor: pointer;
+    padding: 10px 18px;
+    border-radius: 50%;
+    z-index: 10001;
+    user-select: none;
+}
+
+#prevBtn {
+    left: 30px;
+}
+
+#nextBtn {
+    right: 30px;
+}
+
+
+
+
 main .people-section-container {
   font-size: 1.5rem;
   text-align: justify;

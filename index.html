@@ -87,7 +87,7 @@
         </div>
 	<div class="slideshow-container">
 		<div class="mySlides fade">
-                <img src="./assets/img/mrk1.jpeg">
+                <img src="./assets/img/mal1.jpg" class="enlarge-img">
                 <div class="text">
                     <div class="name">Dr. Madhan Raj Kanagarathinam from Samsung R&D Institute Visits NGNLab</div>
                     <div class="about">As part of ongoing collaborative efforts, NGNLab and the Department of Computer Technology at Anna University hosted Dr. Madhan Raj Kanagarathinam, Architect, Connectivity R&D, from Samsung R&D Institute India – Bangalore (SRI-B) on 16th May 2025. The visit focused on strengthening partnerships in cutting-edge research areas such as next-generation connectivity, emerging network technologies, and exploring potential funding avenues.</div>
@@ -97,7 +97,7 @@
                 </div>
 		</div>
 		<div class="mySlides fade">
-                <img src="./assets/img/shathishvisit1.jpeg">
+                <img src="./assets/img/shathishvisit1.jpeg" class="enlarge-img">
                 <div class="text">
                     <div class="name">Anna University Alumnus Visit: Dr. Sathishkumar V E,  Sunway University, Malaysia</div>
                     <div class="about">On April 2025, NGNLab proudly welcomed esteemed alumnus, Dr. Sathishkumar V E, an Assistant Professor at Sunway University, Malaysia. <br>During his visit, Dr. Sathish engaged with NGNLab students, sharing valuable insights and encouraging them to pursue advanced research in 5G and 6G AI and analytics efforts.</div>
@@ -107,7 +107,7 @@
                 </div>
 		</div>
 	     <div class="mySlides fade">
-                <img src="./assets/img/Flyer_Final.png">
+                <img src="./assets/img/Flyer_Final.png" class="enlarge-img">
                 <div class="text">
                     <div class="name">
 			    <a href="https://forms.gle/k6pfrPH6qxdTC5peA" style="color: black;">NGNLab invites applications for Summer Internship 2025</a>
@@ -121,7 +121,7 @@
                 </div>
             </div>
 	    <div class="mySlides fade">
-                <img src="./assets/img/TII_Logo.png">
+                <img src="./assets/img/TII_Logo.png" class="enlarge-img"> 
                 <div class="text">
                     <div class="name">Joint Collaboration with Technology Innovation Institute (TII)</div>
                     <div class="about">NGNLab has established a collaboration with the Technology Innovation Institute (TII), UAE, to conduct joint research on Secure Systems, focusing on Autonomous Vehicles, Unmanned Aerial Vehicles, and 5G/6G networks.</div>
@@ -191,7 +191,7 @@
             
               setTimeout(autoShowSlides, 5000); 
             }
-            </script>
+            </script>      
         <div class="research-domain-section">
             <div class="heading">Research Domains</div>
             <div class="images">
@@ -301,6 +301,49 @@
             </div>
         </div>
     </main>
-    <footer id="footer"></footer>
+<div id="imgModal" class="img-modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+   <footer id="footer"></footer>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const modal = document.getElementById("imgModal");
+    const modalImg = document.getElementById("modalImg");
+    const closeBtn = document.querySelector(".img-modal .close");
+    const enlargeImages = document.querySelectorAll(".enlarge-img");
+
+    // ensure modal is hidden initially
+    modal.style.display = "none";
+
+    function openModal(src) {
+       
+        modalImg.src = src;
+        document.body.classList.add("modal-open");
+    }
+
+    function closeModal() {
+        modal.style.display = "none";
+        document.body.classList.remove("modal-open");
+    }
+
+    enlargeImages.forEach(img => {
+        img.addEventListener("click", () => openModal(img.src));
+    });
+
+    closeBtn.addEventListener("click", closeModal);
+    modalImg.addEventListener("click", closeModal);
+
+    modal.addEventListener("click", (e) => {
+        if (e.target === modal) closeModal();
+    });
+
+    document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") closeModal();
+    });
+});
+</script>
+
+ 
 </body>
 </html>

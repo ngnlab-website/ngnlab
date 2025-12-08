@@ -33,12 +33,6 @@
       rel="stylesheet"
       href="./assets/academicons-1.9.3/css/academicons.min.css"
     />
-    <script
-      charset="utf-8"
-      type="module"
-      src="./scripts/newsRoom.js"
-      defer
-    ></script>
     <script charset="utf-8" src="./scripts/script.js" defer></script>
     <script charset="utf-8" src="./scripts/people.js" defer></script>
     <script src="./scripts/footer.js" defer></script>
@@ -88,6 +82,20 @@
     <main>
       <div class="people-section-container"></div>
     </main>
-    <footer id="footer"></footer>
+    <!-- Image Popup Modal (same as home) -->
+
+<div id="imgModal" class="img-modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImg">
+
+    <!-- Navigation buttons -->
+    <button id="prevBtn" class="nav-btn">&#10094;</button>
+    <button id="nextBtn" class="nav-btn">&#10095;</button>
+</div>
+
+<footer id="footer"></footer>
+ <script charset="utf-8"  type="module"  src="./scripts/newsRoom.js"  defer></script>
+<script src="./scripts/news-image-popup.js"></script>
+ 
   </body>
 </html>

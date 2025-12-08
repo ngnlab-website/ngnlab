@@ -27,10 +27,16 @@ function renderSlides(slidesData) {
         `;
         peopleSectionContainer.innerHTML += slideContent;
     });
+
+    // 🔥 Tell popup script images are now ready
+    document.dispatchEvent(new Event("imagesLoaded"));
 }
 
 function renderImages(images) {
-    return images.map(image => `<div class="slideshow-slide"><img src="${image}" alt=""></div>`).join('');
+    return images.map(image => `
+        <div class="slideshow-slide">
+            <img src="${image}" class="news-enlarge-img" alt="">
+        </div>`).join('');
 }
 
 function startSlideshows() {
@@ -38,14 +44,15 @@ function startSlideshows() {
     slideshows.forEach(slideshow => {
         let currentIndex = 0;
         const slides = slideshow.querySelectorAll('.slideshow-slide');
+
+        // Show first image initially
+        slides.forEach(slide => slide.style.display = 'none');
+        if (slides.length > 0) slides[0].style.display = 'block';
+
         setInterval(() => {
             currentIndex = (currentIndex + 1) % slides.length;
-            slides.forEach(slide => {
-                slide.style.display = 'none';
-            });
+            slides.forEach(slide => slide.style.display = 'none');
             slides[currentIndex].style.display = 'block';
-        }, 2500); // Change the duration as needed (in milliseconds)
+        }, 2500);
     });
 }
-
-
