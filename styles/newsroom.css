@@ -2,7 +2,7 @@
     display: none;
     position: fixed;
     z-index: 9999;
-    inset: 0; 
+    inset: 0;
     background: rgba(0, 0, 0, 0.85);
     padding-top: 50px;
 }
@@ -26,6 +26,31 @@
     cursor: pointer;
     z-index: 10000; 
 }
+.nav-btn {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    border: none;
+    cursor: pointer;
+    padding: 10px 18px;
+    border-radius: 50%;
+    z-index: 10001;
+    user-select: none;
+}
+
+#prevBtn {
+    left: 30px;
+}
+
+#nextBtn {
+    right: 30px;
+}
+
+
 main .people-section-container {
   font-size: 1.5rem;
   text-align: justify;
