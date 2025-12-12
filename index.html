@@ -87,7 +87,7 @@
         </div>
 	<div class="slideshow-container">
 		<div class="mySlides fade">
-                <img src="./assets/img/mal1.jpg" class="enlarge-img">
+                <img src="./assets/img/mal3.jpg" class="enlarge-img">
                 <div class="text">
                     <div class="name">Dr. Madhan Raj Kanagarathinam from Samsung R&D Institute Visits NGNLab</div>
                     <div class="about">As part of ongoing collaborative efforts, NGNLab and the Department of Computer Technology at Anna University hosted Dr. Madhan Raj Kanagarathinam, Architect, Connectivity R&D, from Samsung R&D Institute India – Bangalore (SRI-B) on 16th May 2025. The visit focused on strengthening partnerships in cutting-edge research areas such as next-generation connectivity, emerging network technologies, and exploring potential funding avenues.</div>
@@ -313,37 +313,32 @@ document.addEventListener("DOMContentLoaded", () => {
     const closeBtn = document.querySelector(".img-modal .close");
     const enlargeImages = document.querySelectorAll(".enlarge-img");
 
-    // ensure modal is hidden initially
-    modal.style.display = "none";
-
-    function openModal(src) {
-       
-        modalImg.src = src;
-        document.body.classList.add("modal-open");
-    }
-
-    function closeModal() {
-        modal.style.display = "none";
-        document.body.classList.remove("modal-open");
-    }
-
     enlargeImages.forEach(img => {
-        img.addEventListener("click", () => openModal(img.src));
+        img.style.cursor = "pointer";
+        img.addEventListener("click", () => {
+            modal.style.display = "block";
+            modalImg.src = img.src;
+        });
     });
 
-    closeBtn.addEventListener("click", closeModal);
-    modalImg.addEventListener("click", closeModal);
 
     modal.addEventListener("click", (e) => {
-        if (e.target === modal) closeModal();
+        if (e.target === modal) {
+            modal.style.display = "none";
+        }
     });
-
-    document.addEventListener("keydown", (e) => {
-        if (e.key === "Escape") closeModal();
+    modalImg.addEventListener("click", () => {
+        modal.style.display = "none";
+    });
+     document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+            modal.style.display = "none";
+        }
     });
 });
 </script>
-
+       
+    
  
 </body>
 </html>
