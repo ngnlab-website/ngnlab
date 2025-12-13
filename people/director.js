@@ -79,6 +79,10 @@ function displayConsultancyProjects() {
 }
 
 const awards = [
+     {
+        title: " World’s Top 2% Scientists for 2022, 2023, and 2024 in the field of Information and Communication Technology",
+        awardingAgency: "Stanford University, USA"
+    },
     {
         title: "World’s Top 2% Scientists in the field of Information and Communication Technology, 2022 and 2023",
         awardingAgency: "Stanford University, USA"
@@ -205,7 +209,17 @@ function displayPapers() {
     })
 }
 displayPapers()
-let invitedTalks = [
+let invitedTalks = [ 
+     {
+        title: "Invited Visit:",
+        location: "Faculty of Computer Science and Information Technology, Universiti Malaya, Malaysia",
+        date: "November 21, 2025"
+    },
+    {
+        title: "International External Advisor:",
+        location: "Department of Electrical and  Electronics Engineering, Universiti Teknologi Petronas, Malaysia",
+        date: " October 16-20, 2023 and November 17-21, 2025"
+    },
     {
         title: "Visiting Researcher:",
         location: "Department of Computer Science, Munster Technological University, Ireland",
