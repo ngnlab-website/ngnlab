@@ -1,5 +1,13 @@
 [
-   
+    {
+    "title": "PQAKA: Post Quantum Authentication and Key Agreement Protocol for Intelligent Internet of Vehicles over 5G",
+    "author": "Gunasekaran Raja, Sudhakar Theerthagiri, Kathiroli Raja, Priyadarshni Vasudevan, Janani Alagar Ramanujam, Tejesshree Sadhasivam, Paventhan Arumugam, Sunder Ali Khowaja, Kapal Dev",
+    "conference": "IEEE Open Journal of the Communications Society,DOI 10.1109/OJCOMS.2025.3643607.",
+    "doi": "#",
+    "year": "2025",
+    "domain": ["Quantum"],
+    "selective": true   
+    },  
   {
     "title": "RescueNav: AI-powered UAV Trajectory Planning with LoRa Connectivity for IoT-based Disaster Communications",
     "author": "Gunasekaran Raja, Mugundh Jambukeswaran Bhooma, Selva Ragul Kumar, Kapal Dev",
