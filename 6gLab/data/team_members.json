@@ -1,0 +1,46 @@
+{
+  "head": {
+    "name": "Dr. Gunasekaran Raja",
+    "role": "Principal Investigator - NGNLab & 6G Lab",
+    "domain": "Wireless Communication, Network Security",
+    "image": "../assets/img/people/gunasekaran.jpg",
+    "email": "gunasekaran@mitindia.edu",
+    "links": {
+      "anna": {
+        "url": "http://www.ct.mitindia.edu/dct/#/home/people/staffs/profile/66392#profile",
+        "icon": "https://npsbcet.edu.in/wp-content/uploads/2020/04/ANNA.png"
+      },
+      "irins": {
+        "url": "https://annauniv.irins.org/profile/117759",
+        "icon": "../assets/img/icons/irins.png"
+      },
+      "linkedin": {
+        "url": "https://www.linkedin.com/in/gunasekaranraja/",
+        "icon": "../assets/img/logos/linkedin.svg"
+      },
+      "mypage": "../gunasekaran.html"
+    }
+  },
+
+  "team": [
+    {
+      "name": "Jaslyn Angel D",
+      "role": "Project Associate II",
+      "year": " 2025-Present",
+      "domain": "Wireless Communication",
+      "image": "../assets/img/team/shubha.jpg",
+      "email": "angeljaslyn562@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/jaslyn-angel-56j02a30d"
+    },
+   
+    {
+      "name": "Romera Joan S",
+      "role": "Project Scientist",
+      "year": "2024-Present",
+      "domain": "Wireless Communication",
+      "image": "../assets/img/team/shubha.jpg",
+      "email": " romerajoan.s@gmail.com",
+      "linkedin": "#"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Publications</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="../styles/nav.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/publications.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/logos/logo.png"
+      type="image/x-icon"
+    />
+    <script
+      charset="utf-8"
+      type="module"
+      src="./scripts/publications.js"
+      defer
+    ></script>
+    <script charset="utf-8" src="./scripts/script.js" defer></script>
+    <script src="./scripts/footer.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="nav-cont">
+        <a class="logo" href="./index.html">
+          <img src="../assets/img/logo_2.jpg" width="275" alt="" />
+        </a>
+        <nav>
+          <ul class="nav-links">
+           <li><a href="./index.html" class="active">Home</a></li>
+					<li><a href="./about.html">About</a></li>
+					<li><a href="./team.html">Team</a></li>
+					<li><a href="./gallery.html">Gallery</a></li>
+            <div class="dropdown">
+              <li class="dropbtn">Research<i class="fa fa-caret-down"></i></li>
+              <div class="dropdown-content">
+                <a href="./publications.html">Publications</a>
+                <a href="./collaborators.html">Collaborators</a>
+                <a href="./funded_projects.html">Funded Projects</a>
+                <a href="./funded_projects.html#patents">Patents</a>
+              </div>
+            </div><ul>
+              <li><a href="./events.html">Events</a></li>
+					<li><a href="#contact-section">Contact Us</a></li>
+          </ul>
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="publications-section-container">
+        <div class="heading">Publications</div>
+        <div class="filter-wrapper">
+          <div class="slider-wrapper">
+            <div class="header">
+              <h2>Year Range</h2>
+              <p>Use slider or enter from and to year</p>
+            </div>
+            <div class="price-input">
+              <div class="field">
+                <span>From</span>
+                <input type="number" class="input-min" value="2004" />
+              </div>
+              <div class="separator">-</div>
+              <div class="field">
+                <span>To</span>
+                <input type="number" class="input-max" value="2024" />
+              </div>
+            </div>
+            <div class="slider">
+              <div class="progress"></div>
+            </div>
+            <div class="range-input">
+              <input
+                type="range"
+                class="range-min"
+                min="2004"
+                max="2024"
+                value="2004"
+                step="1"
+              />
+              <input
+                type="range"
+                class="range-max"
+                min="2004"
+                max="2024"
+                value="2024"
+                step="1"
+              />
+            </div>
+          </div>
+          <div class="slider-wrapper">
+            <div class="header">
+              <h2>Domain Selector</h2>
+              <p>Use dropdown to select a domain</p>
+            </div>
+            <select class="mySelect">
+              <option value="all">All</option>
+              <option value="Networks">Next Generation Networks (5G/6G)</option>
+              <option value="AV">Autonomous Vehicles</option>
+              <option value="UAV">Unmanned Aerial Vehicles</option>
+              <option value="MIoT">Internet of Medical Things (IoMT)</option>
+            </select>
+          </div>
+        </div>
+        <div class="publication-section-container">
+          <div class="publications-container"></div>
+        </div>
+      </div>
+    </main>
+    <footer id="footer" style="margin-top: -40px;">
+                     <div class="container"> 
+                        <div class="copyright" style="font-size: 16px;">
+                             <em>Contact: </em><br> 
+                             <strong>Prof. Gunasekaran Raja:</strong>
+                              <a style="color: white;" href="mailto:gunasekaran@mitindia.edu">gunasekaran@mitindia.edu</a><br> &copy; Copyright <strong> NGNLab</strong>. All Rights Reserved </div> 
+                            </div> 
+                        </footer>
+  </body>
+</html>

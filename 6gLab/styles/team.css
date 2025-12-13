@@ -1,0 +1,138 @@
+/* =========================================
+   TEAM PAGE ONLY
+   Safe overrides over people.css
+========================================= */
+
+/* ===============================
+   PAGE CONTAINER
+================================ */
+
+main .people-section-container {
+    width: 93%;
+    margin: auto;
+}
+
+/* ===============================
+   HEAD (DIRECTOR) – CENTER & SIZE
+================================ */
+
+/* Center head card in grid */
+main .people-section-container 
+#head-container.faculty .directors {
+    grid-column: 1 / 7;         /* full 6-column span */
+    max-width: 900px;           /* controlled width */
+    margin: 0 auto 4rem auto;   /* true centering */
+    padding: 1.5rem;
+}
+
+/* Head text alignment */
+main .people-section-container 
+.faculty .directors .details {
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Head font sizes */
+main .people-section-container 
+#head-container .directors .details .name {
+    font-size: 1.6rem;
+}
+
+main .people-section-container 
+#head-container .directors .details .role {
+    font-size: 1rem;
+}
+
+main .people-section-container 
+#head-container .directors .details .about {
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+/* Head icons spacing */
+main .people-section-container 
+#head-container .icons {
+    width: auto;
+    gap: 1rem;
+}
+
+main .people-section-container 
+#head-container .icons img {
+    width: 26px;
+    height: 26px;
+}
+
+/* ===============================
+   TEAM MEMBERS GRID
+================================ */
+
+/* 3 cards per row */
+main .people-section-container 
+#team-container.faculty {
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;                 /* reduced width */
+    margin: 3rem auto;
+}
+
+/* Reset inherited grid spans */
+main .people-section-container 
+#team-container .staff1,
+main .people-section-container 
+#team-container .staff2,
+main .people-section-container 
+#team-container .staff3 {
+    grid-column: auto;
+}
+
+/* Team card alignment fix */
+main .people-section-container 
+#team-container .wrp {
+    padding: 1.2rem;
+    align-items: flex-start;
+}
+
+/* Team LinkedIn icon */
+main .people-section-container 
+#team-container .icons img {
+    width: 24px;
+    height: 24px;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+
+@media screen and (max-width: 994px) {
+    main .people-section-container 
+    #team-container.faculty {
+        grid-template-columns: repeat(2, 1fr);
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main .people-section-container 
+    #team-container.faculty {
+        grid-template-columns: 1fr;
+    }
+
+    main .people-section-container 
+    #head-container .directors {
+        width: 95%;
+        text-align: center;
+    }
+
+    main .people-section-container 
+    #head-container .directors .details {
+        align-items: center;
+    }
+}
+main .people-section-container #team-container {
+    justify-items: center;
+}
+
+/* Ensure cards have fixed width */
+main .people-section-container #team-container .wrp {
+    width: 100%;
+    max-width: 340px;
+}

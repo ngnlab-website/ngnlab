@@ -1,0 +1,32 @@
+/* ABOUT PAGE STYLES */
+
+.about-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0.8rem 1.5rem 2rem;
+}
+
+/* Main heading */
+.about-section h1 {
+    text-align: center;
+    color: #891515;
+    font-weight: 800;
+    margin-bottom: 1.5 rem;
+}
+
+/* Paragraph text */
+.about-section p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    line-height: 1.6;
+}
+
+/* Section headings */
+.about-section h2 {
+    color: #891515;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+
