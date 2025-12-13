@@ -1,4 +1,14 @@
-[  
+[
+   
+  {
+    "title": "RescueNav: AI-powered UAV Trajectory Planning with LoRa Connectivity for IoT-based Disaster Communications",
+    "author": "Gunasekaran Raja, Mugundh Jambukeswaran Bhooma, Selva Ragul Kumar, Kapal Dev",
+    "conference": "IEEE Internet of Things Journal, (Accepted)",
+    "doi": "#",
+    "year": "2025",
+    "domain": ["UAV"],
+    "selective": true   
+    },
      {
     "title": "TRIP-B5G: Traffic classification and Resource allocation using Intelligent PPO in B5G O-RAN",
     "author": "Gunasekaran Raja, Sanjeev A, Krithika Ravishankar, Karthikeyan Arunachalam",
