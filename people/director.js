@@ -84,10 +84,6 @@ const awards = [
         awardingAgency: "Stanford University, USA"
     },
     {
-        title: "World’s Top 2% Scientists in the field of Information and Communication Technology, 2022 and 2023",
-        awardingAgency: "Stanford University, USA"
-    },
-    {
         title: "IEEE Publication Award, 2021 and 2023",
         awardingAgency: "IEEE Madras Section"
     },
@@ -224,11 +220,6 @@ let invitedTalks = [
         title: "Visiting Researcher:",
         location: "Department of Computer Science, Munster Technological University, Ireland",
         date: "June 22-29, 2025"
-    },
-    {
-        title: "International External Advisor:",
-        location: "Department of Electrical and  Electronics Engineering, Universiti Teknologi Petronas, Malaysia",
-        date: "October 16-20, 2023"
     },
     {
         title: "Intelligent Autonomous UAV Navigation under Partially Observable Spaces",
