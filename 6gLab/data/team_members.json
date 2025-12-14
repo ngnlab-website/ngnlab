@@ -28,7 +28,7 @@
       "role": "Project Associate II",
       "year": " 2025-Present",
       "domain": "Wireless Communication",
-      "image": "../assets/img/team/shubha.jpg",
+      "image": "../assets/img/team/jaslynangel.jpg",
       "email": "angeljaslyn562@gmail.com",
       "linkedin": "https://www.linkedin.com/in/jaslyn-angel-56j02a30d"
     },
@@ -38,8 +38,17 @@
       "role": "Project Scientist",
       "year": "2024-Present",
       "domain": "Wireless Communication",
-      "image": "../assets/img/team/shubha.jpg",
+      "image": "../assets/img/team/romerajoan.jpg",
       "email": " romerajoan.s@gmail.com",
+      "linkedin": "#"
+    },
+     {
+      "name": "Suriya Prakash B",
+      "role": "Project Assistant ",
+      "year": "2024-Present",
+      "domain": "Wireless Communication",
+      "image": "../assets/img/team/suriyaprakash.jpg",
+      "email": "suthish8586@gmail.com",
       "linkedin": "#"
     }
   ]
