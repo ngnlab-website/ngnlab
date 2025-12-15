@@ -1,5 +1,44 @@
 [
-
+              
+      {
+        "img": "./assets/img/people/akash.png",
+        "name": "Akash A",
+        "domain": "MIoT",
+        "domainWorked": "MIoT",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/aakash-l-874a6b263/",
+        "mail": " aakashashish07@gmail.com",
+        "batch": "PG: 2025-Present",
+        "currentPosition": "PG - Research Intern",
+        "year": "present"
+    },   
+      {
+        "img": "./assets/img/people/shubhakarini.png",
+        "name": "Shubhakarini S",
+        "domain": "MIoT",
+        "domainWorked": "MIoT",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/shubhakarini-s-251a4a289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "mail": "shubhakarini.in@gmail.com",
+        "batch": "UG: 2022-2026",
+        "currentPosition": "uG - Research Intern",
+        "year": "present"
+    },  
+      {
+        "img": "./assets/img/people/logeshwaran.png",
+        "name": "Logeshwaran S",
+        "domain": "MIoT",
+        "domainWorked": "MIoT",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "linkedin.com/in/logeshwaran-s-a86283257",
+        "mail": "saravananlogeshwaran3@gmail.com",
+        "batch": "UG: 2022-2026",
+        "currentPosition": "UG - Research Intern",
+        "year": "present"
+    },
       {
         "img": "./assets/img/people/nehaselvamani.jpg",
         "name": "Neha Selvamani ",
