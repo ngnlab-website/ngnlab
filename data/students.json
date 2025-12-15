@@ -1,4 +1,46 @@
 [
+
+      {
+        "img": "./assets/img/people/nehaselvamani.jpg",
+        "name": "Neha Selvamani ",
+        "domainWorked": "AV",
+        "domain": "AV",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/neha-selvamani/",
+        "mail": "mail2nehaselva@gmail.com ",
+        "batch": "2022-2026",
+        "currentPosition": "UG - Research Intern",
+        "year": "present"
+    }, 
+     {
+        "img": "./assets/img/people/sahana.jpg",
+        "name": "Sahana S ",
+        "domainWorked": "AV",
+        "domain": "AV",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/sahanask",
+        "mail": "ssahana02114@gmail.com",
+        "batch": "2022-2026",
+        "currentPosition": "UG - Research Intern",
+        "year": "present"
+    }, 
+    {
+        "img": "./assets/img/people/bose.jpg",
+        "name": "Bose ",
+        "domainWorked": "AV",
+        "domain": "AV",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/bose2005",
+        "mail": "boseb1274@gmail.com",
+        "batch": "2022-2026",
+        "currentPosition": "UG - Research Intern",
+        "year": "present"
+    }, 
+    
+    
       {
         "img": "./assets/img/people/thamodharan.jpeg",
         "name": "Thamodharan Arumugam",
@@ -496,6 +538,45 @@
         "currentPosition": "PhD Scholar",
         "year": "present"
     },
+     {
+        "img": "./assets/img/people/rajalakshmis.jpeg",
+        "name": "Rajalakshmi S",
+        "domain": "Networks",
+        "domainWorked": "Networks",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/rajalakshmi20/",
+        "mail": "rajalakshmi.sarangan20@gmail.com",
+        "batch": "PG: 2024-2026",
+        "currentPosition": "PG - Research Intern",
+        "year": "present"
+    },
+    {
+        "img": "./assets/img/people/sachin.jpg",
+        "name": "Sachin k S",
+        "domainWorked": "Networks",
+        "domain": "Networks",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/sachin-senthilvel?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "mail": "sachinsenthilvel2005@gmail.com",
+        "batch": "2022-2026",
+        "currentPosition": "UG - Research Intern",
+        "year": "present"
+    }, 
+    {
+        "img": "./assets/img/people/hrithikraj.jpg",
+        "name": "Hrithik Raj A",
+        "domain": "Networks",
+        "domainWorked": "Networks",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/hirthik-raj-a-191844298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "mail": "a.hirthijraj@gmail.com",
+        "batch": "PG: 2022-2026",
+        "currentPosition": "UG - Research Intern",
+        "year": "present"
+    },
     {
         "img": "./assets/img/people/santhoshkumart.jpeg",
         "name": "Santhosh Kumar T",
@@ -535,17 +616,18 @@
         "currentPosition": "UG - Research Intern",
         "year": "present"
     },
-    {
-        "img": "./assets/img/people/rajalakshmis.jpeg",
-        "name": "Rajalakshmi S",
-        "domain": "Networks",
-        "domainWorked": "Networks",
+    
+   {
+        "img": "./assets/img/people/harikrishna.png",
+        "name": "Hari Krishna P",
+        "domain": "Quantum",
+        "domainWorked": "Quantum",
         "facebook": "#",
         "twitter": "#",
-        "linkedin": "https://www.linkedin.com/in/rajalakshmi20/",
-        "mail": "rajalakshmi.sarangan20@gmail.com",
-        "batch": "PG: 2024-2026",
-        "currentPosition": "PG - Research Intern",
+        "linkedin": "https://www.linkedin.com/in/hari-krishna-ponnuswamy",
+        "mail": "gharik2k5@gmail.com",
+        "batch": "UG: 2023-2027",
+        "currentPosition": "UG - Research Intern",
         "year": "present"
     },
     {
