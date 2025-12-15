@@ -792,6 +792,19 @@
         "year": "passout"
     },
     {
+        "img": "./assets/img/people/shubhakarini.png",
+        "name": "Shubhakarini S",
+        "domain": "MIoT",
+        "domainWorked": "Web-Team",
+        "facebook": "#",
+        "twitter": "#",
+        "linkedin": "https://www.linkedin.com/in/shubhakarini-s-251a4a289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "mail": "shubhakarini.in@gmail.com",
+        "batch": "UG: 2022-2026",
+        "currentPosition": "uG - Research Intern",
+        "year": "others"
+    },  
+    {
         "img": "./assets/img/people/Shyamala.jpg",
         "name": "R B Shyamala",
         "domain": "AV",
