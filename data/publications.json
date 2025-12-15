@@ -1,13 +1,5 @@
 [
-    {
-    "title": "TRIP-B5G: Traffic classification and Resource allocation using Intelligent PPO in B5G O-RAN",
-    "author": "Gunasekaran Raja, Sanjeev A, Krithika Ravishankar, Karthikeyan Arunachalam",
-    "conference": "IEEE CCNC 2026,  Consumer Communications and Networking Conference, Las Vegas, USA, January 9-12, 2026 (Accepted).",
-    "doi": "#",
-    "year": "2026",
-    "domain": ["Networks"],
-    "selective": true   
-    },
+    
     {
     "title": "PQAKA: Post Quantum Authentication and Key Agreement Protocol for Intelligent Internet of Vehicles over 5G",
     "author": "Gunasekaran Raja, Sudhakar Theerthagiri, Kathiroli Raja, Janani Alagar Ramanujam, Tejesshree Sadhasivam, Priyadarshni Vasudevan, Paventhan Arumugam, Sunder Ali Khowaja, Kapal Dev",
@@ -26,6 +18,15 @@
     "domain": ["UAV"],
     "selective": true   
     },
+    {
+    "title": "TRIP-B5G: Traffic classification and Resource allocation using Intelligent PPO in B5G O-RAN",
+    "author": "Gunasekaran Raja, Sanjeev A, Krithika Ravishankar, Karthikeyan Arunachalam",
+    "conference": "IEEE CCNC 2026,  Consumer Communications and Networking Conference, Las Vegas, USA, January 9-12, 2026 (Accepted).",
+    "doi": "#",
+    "year": "2025",
+    "domain": ["Networks"],
+    "selective": true   
+    },
      {
     "title": " WAPPOS: A Distributed Learning-Based Off-Board Path Planning System for UAV-Assisted Emergency Networks",
     "author": "Gunasekaran Raja, Pronoy Kundu, Sanjaykumar Vinayagam,  Fowzaan Rasheed, Sunder Ali Khowaja,  Kapal Dev",
@@ -35,24 +36,7 @@
     "domain": ["UAV"],
     "selective": true   
     },
-     {
-    "title": " Enhancing Smartphone-Based IR-UWB Radar Performance through Cognitive Adaptability",
-    "author": "Jamsheed Manja Ppallan, Prajwal Ranjan, Sakshi Badiger, Madhan Raj Kanagarathinam, Qiang Xie, Jongmu Choi, Sukhdeep Singh, Gunasekaran Raja,  Sunder Ali Khowaja, Kapal Dev",
-    "conference": " IEEE GLOBECOM 2025 Global Communications Conference, Taipei, Taiwan, December 8-12,  2025 (Accepted)",
-    "doi": "#",
-    "year": "2025",
-    "domain": ["MToT"],
-    "selective": true   
-    },
-    {
-    "title": " HyQCAN: A Quantum-Classical Synergy for Secure and Low-Latency Emergency Communication in Vehicular Ad Hoc Networks",
-    "author": "Gunasekaran Raj, Sudhakar Theerthagiri, Priyadarshni Vasudevan, Jeyadev Needhidevan, Sunder Ali Khowaja, Keshav Singh, Kapal Dev",
-    "conference": " IEEE GLOBECOM 2025 Global Communications Conference, Taipei, Taiwan, December 8-12,  2025 (Accepted).",
-    "doi": "#",
-    "year": "2025",
-    "domain": ["AV"],
-    "selective": true   
-    },
+    
     {
     "title": "Identity-Based Secure End-to-End Quantum-Safe MQTT Communication Using Ring-LWE",
     "author": "Gunasekaran Raja, Sudhakar Theerthagiri, Santhosh Kumar T, Sangeetha Ramachandran, Nandini Babu",
@@ -101,15 +85,7 @@
     "domain": ["AV"],
     "selective": true   
     },
-    {
-    "title": "Next-Generation 5G Mobile Hotspot: AI-Powered Traffic Optimization and Enhanced User Control",
-    "author": "Madhan Raj Kanagarathinam, Khuong N. Nguyen, Jayendra Reddy Kovvuri, Yuming Zhu, Jong-Mu Choi, Ankit Vakil, Sukhdeep Singh, and Gunasekaran Raja",
-    "conference": "IEEE ICC 2024 International Conference on Communications, Montreal, Canada,  June 8-12, 2025, (Accepted)",
-    "doi": "#",
-    "year": "2025",
-    "domain": ["Networks"],
-    "selective": true   
-    },
+   
     {
         "title": "An Efficient 6G Federated Learning-enabled Energy-Efficient Scheme for UAV Deployment",
         "author": "Kathiroli Raja, Kottilingam Kottursamy, Vishal Ravichandran, Sivaganesh Balaganesh, Kapal Dev, Lewis Nkenyereye, Gunasekaran Raja",
@@ -254,24 +230,8 @@
         "domain": ["AV"],
         "selective": true
     },
-     {
-        "title": "AI-empowered UAV Trajectory Optimization in 6G Aerial Networks",
-        "author": "Gunasekaran Raja, Sivaganesh B, Vishal Ravichandran, Saroja S, Davide Scazzoli, Maurizio Magarini, Kapal Dev",
-        "conference": "IEEE GLOBECOM 2023 - Global Communications Conference, Kuala Lumpur, Malaysia, Dec. 4-8, 2023. (Accepted)",
-        "doi": "https://ieeexplore.ieee.org/document/10436836",
-        "year": "2023",
-        "domain": ["UAV"],
-        "selective": true
-    },
-    {
-        "title": "TVUB: Thermal Vision-based UAV and Blockchain-aided Poaching Prevention System",
-        "author": "Sudha Anbalagan, Wajdi Alhakami, Abhishek Manoharan, Sai Ganesh S, Anushka Nehra, Hosam Alhakami, Gunasekaran Raja",
-        "conference": "IEEE GLOBECOM 2023 - Global Communications Conference, Kuala Lumpur, Malaysia, Dec. 4-8, 2023. (Accepted)",
-        "doi": "https://ieeexplore.ieee.org/document/10437160",
-        "year": "2023",
-        "domain": ["UAV"],
-        "selective": true
-    },
+    
+    
      {
         "title": "Blockchain Assisted Hybrid Intrusion Detection System in Autonomous Vehicles for Industry 5.0",
         "author": "Sudha Anbalagan, Gunasekaran Raja, Sugeerthi Gurumoorthy, Deepak Suresh R, Kaviyarasu Ayyakannu",
