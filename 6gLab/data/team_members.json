@@ -23,6 +23,32 @@
       "mypage": "../gunasekaran.html"
     }
   },
+  "coInvestigators": [
+    {
+      "name": "Dr. G. Rajesh",
+      "role": "Co-Principal Investigator",
+      "designation": "Associate Professor",
+      "department": "Department of Information Technology",
+      "image": "../assets/img/people/Rajesh.jpg",
+      "links": {
+        "anna": "https://www.it.mitindia.edu/current_staffs.php",
+        "irins": "https://annauniv.irins.org/profile/97757",
+        "linkedin": "https://www.linkedin.com/in/rajesh-ganesan-9797721b"
+      }
+    },
+    {
+      "name": "Dr. A. Kaviyarasu",
+      "role": "Co-Principal Investigator",
+      "designation": "Assistant Professor",
+      "department": "Department of Aerospace Engineering",
+      "image": "../assets/img/people/Kaviyarasu.jpg",
+      "links": {
+        "anna": "https://mitindia.edu/en/aero-peop/aero-faculty",
+        "irins": "https://annauniv.irins.org/profile/117674",
+        "linkedin": "https://www.linkedin.com/in/kaviyarasu-ayyakannu-b05a16a1"
+      }
+    }
+  ],
 
   "team": [
      {
@@ -31,6 +57,13 @@
       "image": "/6gLab/assets/img/team/romerajoan.jpg",
       "email": " romerajoan.s@gmail.com",
       "linkedin": "#"
+    },
+     {
+      "name": "Yogendren R",
+      "role": "Project Assistant ",
+      "image": "../assets/img/people/yogendren.jpeg",
+      "email": "yogendren89@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/yogendren-rajaram-410411278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
     {
       "name": "Jaslyn Angel D",
@@ -50,3 +83,5 @@
     }
   ]
 }
+
+

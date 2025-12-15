@@ -11,56 +11,108 @@ main .people-section-container {
     width: 93%;
     margin: auto;
 }
+/* ===============================
+   FIX HEAD CARD CENTERING
+================================ */
+
+main .people-section-container
+#head-container.faculty {
+    display: flex;
+    justify-content: center;
+}
+
+main .people-section-container
+#head-container.faculty .directors {
+    margin: 0 auto 2.5rem auto; /* hard center */
+}
+
+
+/* ===============================
+   HEAD FOOTER ALIGNMENT FIX
+================================ */
+
+/* Make footer row full width */
+main .people-section-container
+#head-container .directors .footer {
+    width: 100%;
+}
+
+/* Stretch icons row */
+main .people-section-container
+#head-container .directors .icons {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+/* Push My Page to right corner */
+main .people-section-container
+#head-container .directors .about-me-btn {
+    margin-left: auto;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #891515;
+    text-decoration: none;
+}
+
 
 /* ===============================
    HEAD (DIRECTOR) – CENTER & SIZE
 ================================ */
 
-/* Center head card in grid */
-main .people-section-container 
+
+
+/* Reduce head card size */
+main .people-section-container
 #head-container.faculty .directors {
-    grid-column: 1 / 7;         /* full 6-column span */
-    max-width: 900px;           /* controlled width */
-    margin: 0 auto 4rem auto;   /* true centering */
-    padding: 1.5rem;
+    max-width: 720px;        /* smaller than 900px */
+    padding: 1rem;           /* reduce height */
+    margin-bottom: 2.5rem;
 }
 
-/* Head text alignment */
-main .people-section-container 
-.faculty .directors .details {
-    justify-content: center;
-    align-items: flex-start;
+/* Reduce head image size */
+main .people-section-container
+#head-container .directors .photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
 }
 
-/* Head font sizes */
-main .people-section-container 
+/* Head name smaller */
+main .people-section-container
 #head-container .directors .details .name {
-    font-size: 1.2rem;
+    font-size: 1.05rem;      /* was 1.2rem */
+    font-weight: 700;
 }
 
-main .people-section-container 
+/* Head role smaller */
+main .people-section-container
 #head-container .directors .details .role {
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
-main .people-section-container 
+/* Head about text smaller */
+main .people-section-container
 #head-container .directors .details .about {
-    font-size: 1rem;
-    line-height: 1.4;
+    font-size: 0.9rem;
+    line-height: 1.35;
 }
 
-/* Head icons spacing */
-main .people-section-container 
-#head-container .icons {
-    width: auto;
-    gap: 1rem;
-}
-
-main .people-section-container 
+/* Icons smaller */
+main .people-section-container
 #head-container .icons img {
-    width: 26px;
-    height: 26px;
+    width: 22px;
+    height: 22px;
 }
+
+/* Reduce gap between photo & text */
+main .people-section-container
+#head-container .directors {
+    gap: 1.2rem;
+}
+
+
 
 /* ===============================
    TEAM MEMBERS GRID
