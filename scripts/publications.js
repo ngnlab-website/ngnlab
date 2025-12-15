@@ -4,18 +4,23 @@
 const urlParams = new URLSearchParams(window.location.search);
 const urlDomain = urlParams.get("domain"); // e.g. Networks
 
-var yearArray = ["2024","2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016"];
-var overAllDomains = ["Healthcare", "UAV", "AV", "Blockchain", "Networks"];
-
-const yearContainer = document.querySelector(".year-container");
 let publications = [];
-let activeYear = "2024";
+let currentYear = null;
 
+const publicationsContainer = document.querySelector(".publications-container");
+const domainSelect = document.querySelector(".mySelect");
+
+// ===============================
+// FETCH PUBLICATIONS
+// ===============================
 fetch("../data/publications.json")
     .then(response => response.json())
     .then(data => {
         publications = data;
 
+        // -------------------------------
+        // SET YEAR RANGE DYNAMICALLY
+        // -------------------------------
         const years = publications.map(pub => parseInt(pub.year));
         const minYear = Math.min(...years);
         const maxYear = Math.max(...years);
@@ -33,9 +38,21 @@ fetch("../data/publications.json")
         rangeInput[1].max = maxYear;
         rangeInput[1].value = maxYear;
 
-        // Auto-set domain dropdown if coming from 6G Lab
-        if (urlDomain) {
-            document.querySelector(".mySelect").value = urlDomain;
+        // -------------------------------
+        // DOMAIN HANDLING FOR 6G LAB
+        // -------------------------------
+        if (urlDomain === "Networks") {
+            // Clear dropdown
+            domainSelect.innerHTML = "";
+
+            // Add only Networks option
+            const option = document.createElement("option");
+            option.value = "Networks";
+            option.textContent = "Next Generation Networks (5G/6G)";
+            domainSelect.appendChild(option);
+
+            domainSelect.value = "Networks";
+            domainSelect.disabled = true; // better than hiding
         }
 
         renderPublication();
@@ -44,62 +61,65 @@ fetch("../data/publications.json")
         console.error("Error fetching JSON:", error);
     });
 
-let currentYear = null;
-const publicationsContainer = document.querySelector(".publications-container");
-
+// ===============================
+// RENDER PUBLICATIONS
+// ===============================
 function renderPublication() {
     publicationsContainer.innerHTML = "";
     currentYear = null;
 
+    const minValue = parseInt(document.querySelector(".input-min").value);
+    const maxValue = parseInt(document.querySelector(".input-max").value);
+
+    const selectedDomain =
+        urlDomain === "Networks"
+            ? "Networks"
+            : domainSelect.value;
+
     publications.forEach(publication => {
-        let minValue = document.querySelector(".input-min").value;
-        let maxValue = document.querySelector(".input-max").value;
-
-        // 🔴 IMPORTANT CHANGE HERE
-        let selectedDomain = urlDomain || document.querySelector(".mySelect").value;
-
-        let domainMatch =
+        const domainMatch =
             selectedDomain === "all" ||
-            publication.domain.indexOf(selectedDomain) !== -1;
+            publication.domain.includes(selectedDomain);
 
         if (
             publication.year >= minValue &&
             publication.year <= maxValue &&
             domainMatch
         ) {
+            // Year heading
             if (publication.year !== currentYear) {
                 currentYear = publication.year;
 
-                let year = document.createElement("h1");
-                year.innerHTML = `
+                const yearDiv = document.createElement("h1");
+                yearDiv.innerHTML = `
                     <div class="year-change">
                         <h5>${publication.year}</h5>
                     </div>`;
-                publicationsContainer.appendChild(year);
+                publicationsContainer.appendChild(yearDiv);
             }
 
-            let parentDiv = document.createElement("div");
+            // Publication card
+            const parentDiv = document.createElement("div");
             parentDiv.classList.add("publication");
 
-            let titleDiv = document.createElement("a");
+            const titleDiv = document.createElement("a");
             titleDiv.classList.add("title");
             titleDiv.href = publication.doi;
             titleDiv.target = "_blank";
             titleDiv.innerText = publication.title;
 
-            let authorDiv = document.createElement("div");
+            const authorDiv = document.createElement("div");
             authorDiv.classList.add("author");
             authorDiv.innerText = publication.author;
 
-            let detailsDiv = document.createElement("div");
+            const detailsDiv = document.createElement("div");
             detailsDiv.classList.add("details");
 
-            let confDiv = document.createElement("div");
+            const confDiv = document.createElement("div");
             confDiv.classList.add("doi");
             confDiv.innerText = publication.conference;
 
             detailsDiv.appendChild(confDiv);
-
             parentDiv.appendChild(titleDiv);
             parentDiv.appendChild(authorDiv);
             parentDiv.appendChild(detailsDiv);
@@ -112,9 +132,9 @@ function renderPublication() {
 // ===============================
 // RANGE SLIDER
 // ===============================
-const rangeInput = document.querySelectorAll(".range-input input"),
-priceInput = document.querySelectorAll(".price-input input"),
-range = document.querySelector(".slider .progress");
+const rangeInput = document.querySelectorAll(".range-input input");
+const priceInput = document.querySelectorAll(".price-input input");
+const range = document.querySelector(".slider .progress");
 
 let priceGap = 1;
 
@@ -129,7 +149,8 @@ priceInput.forEach(input => {
                 range.style.left = (minPrice / rangeInput[0].max) * 100 + "%";
             } else {
                 rangeInput[1].value = maxPrice;
-                range.style.right = 100 - (maxPrice / rangeInput[1].max) * 100 + "%";
+                range.style.right =
+                    100 - (maxPrice / rangeInput[1].max) * 100 + "%";
             }
             renderPublication();
         }
@@ -151,21 +172,16 @@ rangeInput.forEach(input => {
             priceInput[0].value = minVal;
             priceInput[1].value = maxVal;
             range.style.left = (minVal / rangeInput[0].max) * 100 + "%";
-            range.style.right = 100 - (maxVal / rangeInput[1].max) * 100 + "%";
+            range.style.right =
+                100 - (maxVal / rangeInput[1].max) * 100 + "%";
         }
         renderPublication();
     });
 });
 
 // ===============================
-// DOMAIN DROPDOWN
+// DOMAIN DROPDOWN CHANGE
 // ===============================
-let domains = document.querySelector(".mySelect");
-domains.addEventListener("change", () => {
+domainSelect.addEventListener("change", () => {
     renderPublication();
 });
-
-// OPTIONAL: Hide dropdown when coming from 6G Lab
-if (urlDomain) {
-    domains.style.display = "none";
-}

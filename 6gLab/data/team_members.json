@@ -58,13 +58,6 @@
       "email": " romerajoan.s@gmail.com",
       "linkedin": "#"
     },
-     {
-      "name": "Yogendren R",
-      "role": "Project Assistant ",
-      "image": "../assets/img/people/yogendren.jpeg",
-      "email": "yogendren89@gmail.com",
-      "linkedin": "https://www.linkedin.com/in/yogendren-rajaram-410411278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-    },
     {
       "name": "Jaslyn Angel D",
       "role": "Project Associate II",
@@ -72,7 +65,13 @@
       "email": "angeljaslyn562@gmail.com",
       "linkedin": "https://www.linkedin.com/in/jaslyn-angel-56j02a30d"
     },
-  
+  {
+      "name": "Yogendren R",
+      "role": "Project Assistant ",
+      "image": "../assets/img/people/yogendren.jpeg",
+      "email": "yogendren89@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/yogendren-rajaram-410411278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
    
      {
       "name": "Suriya Prakash B",
