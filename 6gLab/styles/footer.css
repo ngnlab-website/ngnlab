@@ -41,24 +41,3 @@ footer .social-icons a img {
 footer .comma {
     margin: 0 -0.25rem;
 }
-
-#footer {
-    background-color: #891515;
-    color: #fff;
-    padding: 1.5rem 1rem;
-    margin-top: 2rem;
-}
-
-#footer .container {
-    text-align: center;
-}
-
-#footer a {
-    color: #fff;
-    text-decoration: underline;
-}
-
-#footer .copyright {
-    font-size: 16px;
-}
-

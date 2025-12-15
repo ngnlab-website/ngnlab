@@ -1,83 +1,4 @@
-/* HERO SECTION */
 
-.hero {
-    margin-top: 100px;
-    text-align: center;
-    padding: 4rem 2rem;
-}
-
-.hero h1 {
-    font-size: 2rem;
-    color: #891515;
-    margin-bottom: 1rem;
-}
-
-.hero p {
-    max-width: 900px;
-    margin: 0 auto 2rem;
-    font-size: 1.1rem;
-    line-height: 1.6;
-    color: #444;
-}
-.hero-btn {
-    display: inline-block;
-    background-color: #891515;
-    color: #ffffff;
-    padding: 0.8rem 1.6rem;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: 600;
-    text-align: center;
-    cursor: pointer;
-}
-
-.hero-btn:hover {
-    background-color: #6f1010;
-    color: #ffffff;
-    text-decoration: none;
-}
-
-
-
-/* CONTACT SECTION */
-.contact-section-container {
-    padding: 3rem 2rem;
-}
-
-.heading {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 600;
-    margin-bottom: 2rem;
-}
-
-.contact-section {
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.map-image iframe {
-    width: 450px;
-    height: 300px;
-    border-radius: 10px;
-    border: 0;
-}
-
-.address {
-    max-width: 400px;
-}
-
-.address-actual p {
-    margin-bottom: 0.6rem;
-    font-size: 1rem;
-}
-
-.address-actual a {
-    color: #891515;
-    text-decoration: none;
-}
 
 
 main {
@@ -475,7 +396,7 @@ main .contact-section-container .contact-section {
     grid-template-columns: 60% 40%;
     grid-gap: 2rem;
     margin: 2rem auto;
-    align-items: center;
+    align-items: center;   
 }
 
 main .contact-section-container .contact-section img {
@@ -492,15 +413,20 @@ main .contact-section-container .contact-section .address {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     gap: 1.3rem;
     font-size: 0.9rem;
     font-weight: 400;
     color: #333333;
+
 }
 main .contact-section-container .contact-section .address .address-actual {
     width: 100%;
     text-align: left; 
+     max-width: 320px;         /* ✅ ADDED: prevent left pull */
+    width: 100%;
+    margin: 0 auto;           /* ✅ ADDED: center inside column */
+    text-align: left;    
 }
 main .contact-section-container .contact-section .address .address-title {
     width: 100%;

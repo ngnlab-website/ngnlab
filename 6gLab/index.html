@@ -14,11 +14,13 @@
 	<link rel="stylesheet" href="./styles/nav.css">
 	<link rel="stylesheet" href="./styles/home.css">
 	<link rel="stylesheet" href="./styles/footer.css">
-
+  <link rel="stylesheet" href="./styles/index.css">
 	<link rel="shortcut icon" href="../assets/img/logos/logo.png" type="image/x-icon">
 
 	<!-- JS -->
 	<script src="./scripts/script.js" defer></script>
+  <script src="./scripts/footer.js" defer></script>
+  <script charset="utf-8" src="./scripts/index.js" defer></script>
 </head>
 <body>
 	<!-- Navigation -->
@@ -31,34 +33,27 @@
 			<nav>
 				<ul class="nav-links">
 					<li><a href="./index.html" class="active">Home</a></li>
-					<li><a href="./about.html">About</a></li>
 					<li><a href="./team.html">Team</a></li>
-					<li><a href="#">Gallery</a></li>
 				
 					 <div class="dropdown">
                <li class="dropdown">
-  <a href="#" class="dropbtn">
-    Research <i class="fa fa-caret-down"></i>
-  </a>
-</li>
+                    <a href="#" class="dropbtn">Research <i class="fa fa-caret-down"></i>
+                    </a>
+               </li>
               <div class="dropdown-content">
-                <a href="#">Publications</a>
-                <a href="#">Collaborators</a>
-                <a href="#">Funded Projects</a>
-                <a href="#">Patents</a>
+                <a href="../publications.html">Publications</a>
               </div>
             </div>
-					<li><a href="./events.html">Events</a></li>
+          	<li><a href="#">Gallery</a></li>
+					<li><a href="#">Events</a></li>
 					<li><a href="#contact-section">Contact Us</a></li>
 				</ul>
-                	<div class="burger">
+        <div class="burger">
 				<div class="line1"></div>
 				<div class="line2"></div>
 				<div class="line3"></div>
 			</div>
 			</nav>
-
-		
             <a class="logo" href="../index.html">
 				<img src="./assets/img/logos/NGN_Lab_Logo.jpg" width="500" alt="6GLab Logo">
 			</a>
@@ -69,14 +64,45 @@
 	<main>
 		
      <section class="hero">
-      <h1>Welcome to the 6G Lab</h1>
+      <h1>6G Ubiquitous Connectivity Lab</h1>
           <p>
                 The 6G Lab focuses on next-generation wireless communication systems,
                 exploring cutting-edge research in AI-driven networks, IoT, edge computing, and beyond.
                 Our goal is to innovate and drive the evolution of communication technologies for the future.
          </p>
-		 <a href="./about.html" style="background-color:#891515; color:#fff; padding:0.8rem 1.5rem; border-radius:8px; text-decoration:none; font-weight:600;">Learn More</a>
- </section>
+		<!-- Hidden Content -->
+  <div id="more-content" style="display: none;">
+    <p>
+      The <strong>6G Research and Innovation Lab</strong> is dedicated to advancing next-generation
+      wireless communication technologies and fostering innovations that will define the future
+      of global connectivity. Our research spans multiple domains including
+      <strong>6G architecture, artificial intelligence for networks, IoT integration,
+      blockchain security, and edge computing.</strong>
+    </p>
+    <p>
+      Our team of researchers, faculty, and students collaborates to develop novel ideas
+      and prototypes contributing to national and international research.
+      The lab provides an interdisciplinary environment combining
+      <strong>machine learning, signal processing, and cloud-edge integration</strong>.
+    </p>
+    <p>
+      To become a leading center of excellence in next-generation communication technologies,
+      driving innovations that bridge connectivity, intelligence, and sustainability.
+    </p>
+    <p>
+      To explore and innovate in 6G and intelligent communication systems while providing a
+      platform for students and researchers to develop real-world solutions through
+      interdisciplinary collaboration.
+    </p>
+  </div>
+ 
+  <button id="readMoreBtn"
+    style="background-color:#891515; color:#fff; padding:0.8rem 1.5rem;
+           border-radius:8px; border:none; font-weight:600; cursor:pointer;">
+    Read More
+  </button>
+</section>
+
 
     <div class="contact-section-container"  id="contact-section"> 
         <div class="heading">Contact Us</div>
@@ -86,12 +112,12 @@
      </div> 
      <div class="address">
          <div class="address-actual"> 
-            <p>202 NGNLab</p> 
+            <p>301 6G UCLab</p> 
             <p>Charles Babbage Block</p>
              <p>Department of Computer Technology</p>
               <p>Anna University, MIT Campus</p>
                <p>Chromepet, Chennai 600044</p>
-                <p>Email: <a href="mailto:gunasekaran@mitindia.edu">gunasekaran@mitindia.edu</a></p>
+                <p>Email: <a href="mailto:gunamit@annauniv.edu">gunamit@annauniv.edu</a></p>
                  <p>Phone: +91 4422516273</p>
                  </div>
                  </div>
@@ -99,12 +125,6 @@
                  </div> 
              </main>
                  <footer id="footer">
-                     <div class="container"> 
-                        <div class="copyright">
-                             <em>Contact: </em><br> 
-                             <strong>Prof. Gunasekaran Raja:</strong>
-                              <a href="mailto:gunasekaran@mitindia.edu">gunasekaran@mitindia.edu</a><br> &copy; Copyright <strong> NGNLab</strong>. All Rights Reserved </div> 
-                            </div> 
                         </footer> <!--<footer style="text-align:center; padding:2rem; background:#f7f7f7; color:#555;"> <p>© 2025 6G Lab, NGNLab | All Rights Reserved</p> </footer> --> 
                     </body> 
                     </html>  

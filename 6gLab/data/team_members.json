@@ -1,10 +1,10 @@
 {
   "head": {
     "name": "Gunasekaran Raja",
-    "role": "Principal Investigator - NGNLab & 6G Ubiquitous Connectivity Lab",
+    "role": "Principal Investigator -6G Ubiquitous Connectivity Lab",
     "domain": "Professor - Department of Computer Technology Anna University, Chennai",
     "image": "./assets/img/team/gunasekaran.jpg",
-    "email": "gunasekaran@mitindia.edu,  gunamit@annauniv.edu",
+    "email": "gunamit@annauniv.edu, gunasekaran@mitindia.edu",
 
 
     "links": {
@@ -25,30 +25,25 @@
   },
 
   "team": [
+     {
+      "name": "Romera Joan S",
+      "role": "Project Scientist",
+      "image": "/6gLab/assets/img/team/romerajoan.jpg",
+      "email": " romerajoan.s@gmail.com",
+      "linkedin": "#"
+    },
     {
       "name": "Jaslyn Angel D",
       "role": "Project Associate II",
-      "year": " 2025-Present",
-      "domain": "Wireless Communication",
       "image": "/6gLab/assets/img/team/jaslynangel.jpg",
       "email": "angeljaslyn562@gmail.com",
       "linkedin": "https://www.linkedin.com/in/jaslyn-angel-56j02a30d"
     },
   
-    {
-      "name": "Romera Joan S",
-      "role": "Project Scientist",
-      "year": "2024-Present",
-      "domain": "Wireless Communication",
-      "image": "/6gLab/assets/img/team/romerajoan.jpg",
-      "email": " romerajoan.s@gmail.com",
-      "linkedin": "#"
-    },
+   
      {
       "name": "Suriya Prakash B",
       "role": "Project Assistant ",
-      "year": "2024-Present",
-      "domain": "Wireless Communication",
       "image": "/6gLab/assets/img/team/suriyaprakash.jpg",
       "email": "suthish8586@gmail.com",
       "linkedin": "#"

@@ -68,8 +68,6 @@ fetch("./data/team_members.json")
 
             <div class="about">
               ${m.role}<br>
-              ${m.year}<br>
-              ${m.domain}<br>
               <a href="mailto:${m.email}">${m.email}</a>
             </div>
 
