@@ -1,10 +1,12 @@
 {
   "head": {
-    "name": "Dr. Gunasekaran Raja",
-    "role": "Principal Investigator - NGNLab & 6G Lab",
-    "domain": "Wireless Communication, Network Security",
+    "name": "Gunasekaran Raja",
+    "role": "Principal Investigator - NGNLab & 6G Ubiquitous Connectivity Lab",
+    "domain": "Professor - Department of Computer Technology Anna University, Chennai",
     "image": "./assets/img/team/gunasekaran.jpg",
-    "email": "gunasekaran@mitindia.edu",
+    "email": "gunasekaran@mitindia.edu,  gunamit@annauniv.edu",
+
+
     "links": {
       "anna": {
         "url": "http://www.ct.mitindia.edu/dct/#/home/people/staffs/profile/66392#profile",
