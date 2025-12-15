@@ -1,22 +1,22 @@
-
-
-
 main {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: 100vw;
+    width: 100%;
+    max-width: 1000px;   /* 🔑 SAME AS NAV */
+    margin: 0 auto;
 }
+
 
 main .about-section {
     font-size: 0.9rem;
     text-align: justify;
-    width: 55%;
-    margin: auto;
+    width: 100%;
+     margin: 151px auto 0 auto;
     margin-top: 151px;
     font-weight: 400;
     color: #333333;
+     max-width: 800px;
 }
+
+
 
 main .about-section .heading {
     width: 100%;
@@ -64,7 +64,7 @@ main .about-section .read-more:hover {
 }
 
 main .image-section {
-    width: 65%;
+    width: 100%;
     margin: auto;
 }
 
@@ -74,7 +74,7 @@ main .image-section img {
 }
 
 main .research-domain-section {
-    width: 65%;
+    width: 100%;
     margin: 0rem auto;
     display: flex;
     flex-direction: column;
@@ -349,7 +349,7 @@ main .research-domain-section .images .img9 {
 }
 
 main .contact-section-container {
-    width: 65%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 150px;
@@ -378,7 +378,7 @@ main .logo-section-container .heading {
 }
 
 main .news {
-    width: 65%;
+    width: 100%;
     margin: 1.5rem auto;
     margin-top: 0rem;
 }

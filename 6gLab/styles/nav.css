@@ -47,6 +47,22 @@ nav {
     display: flex;
     align-items: center;
 }
+.ngnlab-btn {
+    font-weight: 700;
+    text-decoration: none;
+    color: #891515;
+    padding: 0.45rem 1rem;
+    border-radius: 6px;
+    border: 2px solid #891515;
+    transition: all 0.25s ease;
+    white-space: nowrap;
+}
+
+.ngnlab-btn:hover {
+    background-color: #891515;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(137, 21, 21, 0.25);
+}
 
 .nav-links {
     display: flex;
