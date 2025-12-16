@@ -125,7 +125,7 @@ main .people-section-container
     width: 80%;                 /* reduced width */
     margin: 3rem auto;
 }
-main .people-section-container 
+    main .people-section-container 
 #team-container .details,
 main .people-section-container 
 #team-container .details .name,
@@ -135,6 +135,7 @@ main .people-section-container
 #team-container .details .about {
     text-align: left !important;
 }
+
 
 /* Reset inherited grid spans */
 main .people-section-container 

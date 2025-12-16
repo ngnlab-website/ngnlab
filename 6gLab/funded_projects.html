@@ -13,7 +13,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
-    <link rel="stylesheet" href="../styles/nav.css" />
+    <link rel="stylesheet" href="./styles/nav.css" />
     <link rel="stylesheet" href="./styles/home.css" />
     <link rel="stylesheet" href="./styles/funded_projects.css" />
     <link
@@ -33,48 +33,49 @@
   </head>
   <body>
     <header>
-      <div class="nav-cont">
-        <a class="logo" href="./index.html">
-          <img src="../assets/img/logo_2.jpg" width="275" alt="" />
-        </a>
-       <nav>
+		<div class="nav-cont">
+			<a class="logo">
+				<img src="./assets/img/logos/6G_UCLab_Logo.png" width="500" alt="6GLab Logo">
+			</a>
+			
+			<nav>
 				<ul class="nav-links">
 					<li><a href="./index.html" class="active">Home</a></li>
-					<li><a href="./about.html">About</a></li>
 					<li><a href="./team.html">Team</a></li>
-					<li><a href="./gallery.html">Gallery</a></li>
 				
 					 <div class="dropdown">
-              <li class="dropbtn">Research<i class="fa fa-caret-down"></i></li>
+               <li class="dropdown">
+                    <a href="#" class="dropbtn">Research <i class="fa fa-caret-down"></i>
+                    </a>
+               </li>
               <div class="dropdown-content">
-                <a href="./publications.html">Publications</a>
-                <a href="./collaborators.html">Collaborators</a>
-                <a href="./funded_projects.html">Funded Projects</a>
-                <a href="./funded_projects.html#patents">Patents</a>
+                 <a href="./funded_projects.html">Funded Projects</a>
+                <a href="../publications.html?domain=Networks">Publications</a>
+                
               </div>
             </div>
-					<li><a href="./events.html">Events</a></li>
+          	<li><a href="#">Gallery</a></li>
+					<li><a href="#">Events</a></li>
 					<li><a href="#contact-section">Contact Us</a></li>
 				</ul>
-		
-			<div class="burger">
+        <div class="burger">
 				<div class="line1"></div>
 				<div class="line2"></div>
 				<div class="line3"></div>
-			</div>	</nav>
-      </div>
-    </header>
+			</div>
+			</nav>
+            <a href="../index.html" class="ngnlab-btn">NGNLab Home</a> 
+
+		</div>
+	</header>
+
     <main>
       <section id="funded-projects">
         <div class="funded-projects-section-container">
-          <div class="heading">Funded Projects (Selective)</div>
+          <div class="heading">Funded Projects</div>
         </div>
       </section>
-      <section id="patents">
-        <div class="funded-projects-section-container2">
-          <div class="heading">Patents</div>
-        </div>
-      </section>
+      
     </main>
      <footer id="footer" style="margin-top: -40px;">
                      <div class="container"> 
