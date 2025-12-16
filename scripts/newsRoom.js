@@ -17,6 +17,7 @@ function renderSlides(slidesData) {
                 <div class="director">
                     <div class="slideshow">
                         ${renderImages(slide.images)}
+                        <div class="inline-dots"></div>
                     </div>
                     <div class="details">
                         <div class="name">${slide.title}</div>
@@ -27,26 +28,55 @@ function renderSlides(slidesData) {
         `;
         peopleSectionContainer.innerHTML += slideContent;
     });
-      document.dispatchEvent(new Event("imagesLoaded"));
+
+    document.dispatchEvent(new Event("imagesLoaded"));
 }
 
 function renderImages(images) {
-    return images.map(image => `<div class="slideshow-slide"><img src="${image}" class="news-enlarge-img" alt=""></div>`).join('');
+    return images
+        .map(
+            image =>
+                `<div class="slideshow-slide">
+                    <img src="${image}" class="news-enlarge-img" alt="">
+                </div>`
+        )
+        .join("");
 }
 
 function startSlideshows() {
-    const slideshows = document.querySelectorAll('.slideshow');
+    const slideshows = document.querySelectorAll(".slideshow");
+
     slideshows.forEach(slideshow => {
         let currentIndex = 0;
-        const slides = slideshow.querySelectorAll('.slideshow-slide');
+        const slides = slideshow.querySelectorAll(".slideshow-slide");
+        const dotsContainer = slideshow.querySelector(".inline-dots");
+
+        // Create dots
+        dotsContainer.innerHTML = "";
+        slides.forEach((_, index) => {
+            const dot = document.createElement("span");
+            dot.className = "dot";
+            dot.addEventListener("click", () => {
+                currentIndex = index;
+                showSlide();
+            });
+            dotsContainer.appendChild(dot);
+        });
+
+        function showSlide() {
+            slides.forEach(slide => (slide.style.display = "none"));
+            slides[currentIndex].style.display = "block";
+
+            dotsContainer.querySelectorAll(".dot").forEach((dot, i) => {
+                dot.classList.toggle("active", i === currentIndex);
+            });
+        }
+
+        showSlide();
+
         setInterval(() => {
             currentIndex = (currentIndex + 1) % slides.length;
-            slides.forEach(slide => {
-                slide.style.display = 'none';
-            });
-            slides[currentIndex].style.display = 'block';
-        }, 2500); // Change the duration as needed (in milliseconds)
+            showSlide();
+        }, 2500);
     });
 }
-
-
