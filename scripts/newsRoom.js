@@ -42,7 +42,6 @@ function renderImages(images) {
         )
         .join("");
 }
-
 function startSlideshows() {
     const slideshows = document.querySelectorAll(".slideshow");
 
@@ -51,7 +50,14 @@ function startSlideshows() {
         const slides = slideshow.querySelectorAll(".slideshow-slide");
         const dotsContainer = slideshow.querySelector(".inline-dots");
 
-        // Create dots
+        // 🚫 If only ONE image → no dots, no slideshow
+        if (slides.length <= 1) {
+            slides[0].style.display = "block";
+            dotsContainer.style.display = "none";
+            return;
+        }
+
+        // ✅ Create dots only if more than one image
         dotsContainer.innerHTML = "";
         slides.forEach((_, index) => {
             const dot = document.createElement("span");
