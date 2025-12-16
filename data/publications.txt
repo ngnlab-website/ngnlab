@@ -1,46 +1,5 @@
- {
-    "title": " Enhancing Smartphone-Based IR-UWB Radar Performance through Cognitive Adaptability",
-    "author": "Jamsheed Manja Ppallan, Prajwal Ranjan, Sakshi Badiger, Madhan Raj Kanagarathinam, Qiang Xie, Jongmu Choi, Sukhdeep Singh, Gunasekaran Raja,  Sunder Ali Khowaja, Kapal Dev",
-    "conference": " IEEE GLOBECOM 2025 Global Communications Conference, Taipei, Taiwan, December 8-12,  2025 (Accepted).",
-    "doi": "#",
-    "year": "2025",
-    "domain": ["MToT"],
-    "selective": true   
-    },
-    {
-    "title": " HyQCAN: A Quantum-Classical Synergy for Secure and Low-Latency Emergency Communication in Vehicular Ad Hoc Networks",
-    "author": "Gunasekaran Raj, Sudhakar Theerthagiri, Priyadarshni Vasudevan, Jeyadev Needhidevan, Sunder Ali Khowaja, Keshav Singh, Kapal Dev",
-    "conference": " IEEE GLOBECOM 2025 Global Communications Conference, Taipei, Taiwan, December 8-12,  2025 (Accepted).",
-    "doi": "#",
-    "year": "2025",
-    "domain": ["AV"],
-    "selective": true   
-    },
-     {
-    "title": "Next-Generation 5G Mobile Hotspot: AI-Powered Traffic Optimization and Enhanced User Control",
-    "author": "Madhan Raj Kanagarathinam, Khuong N. Nguyen, Jayendra Reddy Kovvuri, Yuming Zhu, Jong-Mu Choi, Ankit Vakil, Sukhdeep Singh, and Gunasekaran Raja",
-    "conference": "IEEE ICC 2024 International Conference on Communications, Montreal, Canada,  June 8-12, 2025, (Accepted)",
-    "doi": "#",
-    "year": "2025",
-    "domain": ["Networks"],
-    "selective": true   
-    },
-     {
-        "title": "AI-empowered UAV Trajectory Optimization in 6G Aerial Networks",
-        "author": "Gunasekaran Raja, Sivaganesh B, Vishal Ravichandran, Saroja S, Davide Scazzoli, Maurizio Magarini, Kapal Dev",
-        "conference": "IEEE GLOBECOM 2023 - Global Communications Conference, Kuala Lumpur, Malaysia, Dec. 4-8, 2023. (Accepted)",
-        "doi": "https://ieeexplore.ieee.org/document/10436836",
-        "year": "2023",
-        "domain": ["UAV"],
-        "selective": true
-    },
-    {
-        "title": "TVUB: Thermal Vision-based UAV and Blockchain-aided Poaching Prevention System",
-        "author": "Sudha Anbalagan, Wajdi Alhakami, Abhishek Manoharan, Sai Ganesh S, Anushka Nehra, Hosam Alhakami, Gunasekaran Raja",
-        "conference": "IEEE GLOBECOM 2023 - Global Communications Conference, Kuala Lumpur, Malaysia, Dec. 4-8, 2023. (Accepted)",
-        "doi": "https://ieeexplore.ieee.org/document/10437160",
-        "year": "2023",
-        "domain": ["UAV"],
-        "selective": true
-    },
+
+  
+    
+  
     
