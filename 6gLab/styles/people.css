@@ -148,8 +148,10 @@ main .people-section-container .faculty .details .footer a img {
 main .people-section-container .faculty .photo img {
     width: 6em;
     height: 6em;
-    object-fit: cover;
+    aspect-ratio: 3 / 4;   /* portrait ratio */
+    object-fit: contain;
     object-position: center center;
+     background: #f3f3f3; 
     border-radius: 0.5em;
 }
 

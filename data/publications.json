@@ -18,33 +18,7 @@
     "domain": ["UAV"],
     "selective": true   
     },
-    {
-    "title": "TRIP-B5G: Traffic classification and Resource allocation using Intelligent PPO in B5G O-RAN",
-    "author": "Gunasekaran Raja, Sanjeev A, Krithika Ravishankar, Karthikeyan Arunachalam",
-    "conference": "IEEE CCNC 2026,  Consumer Communications and Networking Conference, Las Vegas, USA, January 9-12, 2026.",
-    "doi": "#",
-    "year": "2025",
-    "domain": ["Networks"],
-    "selective": true   
-    },
-     {
-    "title": " Enhancing Smartphone-Based IR-UWB Radar Performance through Cognitive Adaptability",
-    "author": "Jamsheed Manja Ppallan, Prajwal Ranjan, Sakshi Badiger, Madhan Raj Kanagarathinam, Qiang Xie, Jongmu Choi, Sukhdeep Singh, Gunasekaran Raja,  Sunder Ali Khowaja, Kapal Dev",
-    "conference": " IEEE GLOBECOM 2025 Global Communications Conference, Taipei, Taiwan, December 8-12,  2025.",
-    "doi": "#",
-    "year": "2025",
-    "domain": ["MToT"],
-    "selective": true   
-    },
-      {
-    "title": " HyQCAN: A Quantum-Classical Synergy for Secure and Low-Latency Emergency Communication in Vehicular Ad Hoc Networks",
-    "author": "Gunasekaran Raj, Sudhakar Theerthagiri, Priyadarshni Vasudevan, Jeyadev Needhidevan, Sunder Ali Khowaja, Keshav Singh, Kapal Dev",
-    "conference": " IEEE GLOBECOM 2025 Global Communications Conference, Taipei, Taiwan, December 8-12,  2025.",
-    "doi": "#",
-    "year": "2025",
-    "domain": ["AV"],
-    "selective": true   
-    },
+   
      {
     "title": " WAPPOS: A Distributed Learning-Based Off-Board Path Planning System for UAV-Assisted Emergency Networks",
     "author": "Gunasekaran Raja, Pronoy Kundu, Sanjaykumar Vinayagam,  Fowzaan Rasheed, Sunder Ali Khowaja,  Kapal Dev",
@@ -55,15 +29,6 @@
     "selective": true   
     },
     
-    {
-    "title": "Identity-Based Secure End-to-End Quantum-Safe MQTT Communication Using Ring-LWE",
-    "author": "Gunasekaran Raja, Sudhakar Theerthagiri, Santhosh Kumar T, Sangeetha Ramachandran, Nandini Babu",
-    "conference": " IEEE PKIA 2025 International Conference on Public Key Infrastructure and its Applications,  Bangalore, India, September 5-6, 2025.",
-    "doi": "#",
-    "year": "2025",
-    "domain": ["Networks"],
-    "selective": true   
-    },
     {
     "title": "ARReSVG: Intelligent Multi-UAV Navigation in Partially Observable Spaces Using Adaptive Deep Reinforcement Learning Approach",
     "author": "Selvam Essaky, Gunasekaran Raja, Kapal Dev, Dusit Niyato",
@@ -103,15 +68,7 @@
     "domain": ["AV"],
     "selective": true   
     },
-      {
-    "title": "Next-Generation 5G Mobile Hotspot: AI-Powered Traffic Optimization and Enhanced User Control",
-    "author": "Madhan Raj Kanagarathinam, Khuong N. Nguyen, Jayendra Reddy Kovvuri, Yuming Zhu, Jong-Mu Choi, Ankit Vakil, Sukhdeep Singh, and Gunasekaran Raja",
-    "conference": "IEEE ICC 2024 International Conference on Communications, Montreal, Canada,  June 8-12, 2025.",
-    "doi": "#",
-    "year": "2025",
-    "domain": ["Networks"],
-    "selective": true   
-    },
+     
     {
         "title": "An Efficient 6G Federated Learning-enabled Energy-Efficient Scheme for UAV Deployment",
         "author": "Kathiroli Raja, Kottilingam Kottursamy, Vishal Ravichandran, Sivaganesh Balaganesh, Kapal Dev, Lewis Nkenyereye, Gunasekaran Raja",
@@ -121,13 +78,50 @@
         "domain": ["UAV"],
         "selective": true
     },    
-    {
-    "title": "AI/ML-driven Early Detection of Chemotherapy-induced Renal Vascular Tissue Damage",
-    "author": "Gunasekaran Raja, Selvam Essaky, Kalimuthu Karuppanan, Sudhakar Theerthagiri, Bharathkumaran Mohanraj, Gopi Agasthia Senniappan, Logeswari Sureshkumar",
-    "conference": "IIT BHU, Varanasi, India, December 15-16, 2024",
+     {
+    "title": "TRIP-B5G: Traffic classification and Resource allocation using Intelligent PPO in B5G O-RAN",
+    "author": "Gunasekaran Raja, Sanjeev A, Krithika Ravishankar, Karthikeyan Arunachalam",
+    "conference": "IEEE CCNC 2026,  Consumer Communications and Networking Conference, Las Vegas, USA, January 9-12, 2026.",
     "doi": "#",
-    "year": "2024",
-    "domain": ["MIoT"],
+    "year": "2025",
+    "domain": ["Networks"],
+    "selective": true   
+    },
+     {
+    "title": " Enhancing Smartphone-Based IR-UWB Radar Performance through Cognitive Adaptability",
+    "author": "Jamsheed Manja Ppallan, Prajwal Ranjan, Sakshi Badiger, Madhan Raj Kanagarathinam, Qiang Xie, Jongmu Choi, Sukhdeep Singh, Gunasekaran Raja,  Sunder Ali Khowaja, Kapal Dev",
+    "conference": " IEEE GLOBECOM 2025 Global Communications Conference, Taipei, Taiwan, December 8-12,  2025.",
+    "doi": "#",
+    "year": "2025",
+    "domain": ["MToT"],
+    "selective": true   
+    },
+      {
+    "title": " HyQCAN: A Quantum-Classical Synergy for Secure and Low-Latency Emergency Communication in Vehicular Ad Hoc Networks",
+    "author": "Gunasekaran Raj, Sudhakar Theerthagiri, Priyadarshni Vasudevan, Jeyadev Needhidevan, Sunder Ali Khowaja, Keshav Singh, Kapal Dev",
+    "conference": " IEEE GLOBECOM 2025 Global Communications Conference, Taipei, Taiwan, December 8-12,  2025.",
+    "doi": "#",
+    "year": "2025",
+    "domain": ["AV"],
+    "selective": true   
+    },
+    
+    {
+    "title": "Identity-Based Secure End-to-End Quantum-Safe MQTT Communication Using Ring-LWE",
+    "author": "Gunasekaran Raja, Sudhakar Theerthagiri, Santhosh Kumar T, Sangeetha Ramachandran, Nandini Babu",
+    "conference": " IEEE PKIA 2025 International Conference on Public Key Infrastructure and its Applications,  Bangalore, India, September 5-6, 2025.",
+    "doi": "#",
+    "year": "2025",
+    "domain": ["Networks"],
+    "selective": true   
+    },
+     {
+    "title": "Next-Generation 5G Mobile Hotspot: AI-Powered Traffic Optimization and Enhanced User Control",
+    "author": "Madhan Raj Kanagarathinam, Khuong N. Nguyen, Jayendra Reddy Kovvuri, Yuming Zhu, Jong-Mu Choi, Ankit Vakil, Sukhdeep Singh, and Gunasekaran Raja",
+    "conference": "IEEE ICC 2024 International Conference on Communications, Montreal, Canada,  June 8-12, 2025.",
+    "doi": "#",
+    "year": "2025",
+    "domain": ["Networks"],
     "selective": true   
     },
     {
@@ -148,33 +142,7 @@
     "domain": ["AV"],
     "selective": true   
     }, 
-    {
-    "title": "CardioNetFusion: A Deep Learning and Explainable AI Integrated System for Cardiovascular Disease Detection",
-    "author": "Gunasekaran Raja, Selvam Essaky, Surya Raj Muthu, Babith Sarish Suresh, Jaehyuk Cho, Seohyun Yoo, Sathishkumar V E",
-    "conference": "IEEE ICDM 2024 International Conference on Data Mining, Abu Dhabi, UAE, December 9-12, 2024.",
-    "doi": "#",
-    "year": "2024",
-    "domain": ["MIoT"],
-    "selective": true   
-    }, 
-    {
-    "title": "OBSDNN: Optimal Beam Selection employing Deep Neural Networks in 6G Environment",
-    "author": "Gunasekaran Raja, Madhan Raj Kanagarahinam, Deepak Suresh Rajendran, Sree Vinay Ravuru and Sidhaarthan Mamalaivasan",
-    "conference": "IEEE GLOBECOM 2024 Global Communications Conference Workshop, Cape Town, South Africa, December 8-12, 2024.",
-    "doi": "#",
-    "year": "2024",
-    "domain": ["Networks"],
-    "selective": true   
-    }, 
-    {
-        "title": "Advanced Cognitive System for Reliable Lane Switch Prediction in Autonomous Vehicles",
-        "author": "Gunasekaran Raja, Shivani Suresh, Jeyadev Needhidevan, and Shajina Anand",
-        "conference": "IEEE FNWF 2024 Future Networks World Forum, Dubai, UAE,  October 15-17, 2024.",
-        "doi": "#",
-        "year": "2024",
-        "domain": ["AV"],
-        "selective": true
-    },     
+    
     {
         "title": "Harnessing Generative Modeling and Autoencoders Against Adversarial Threats in Autonomous Vehicles",
         "author": "Kathiroli Raja, Sudhakar Theerthagiri, Sriram Venkataraman Swaminathan, Sivasri Suresh, Gunasekaran Raja",
@@ -192,7 +160,52 @@
         "year": "2024",
         "domain": ["AV"],
         "selective": true
-    },       
+    },   
+      {
+        "title": "Synergistic Analysis of Lung Cancer’s Impact on Cardiovascular Disease using ML-Based Techniques",
+        "author": "Gunasekaran Raja, Balakumar Ramkumar, Bhargavi Rajendiran, Sahaya Beni Prathiba, Thamodharan Arumugam, Kalimuthu Karuppanan, Lewis Nkenyereye, Kapal Dev",
+        "conference": "IEEE Journal of Biomedical and Health Informatics, DOI: 10.1109/JBHI.2024.3365176",
+        "doi": "https://ieeexplore.ieee.org/document/10433650",
+        "year": "2024",
+        "domain": ["MIoT"],
+        "selective": true
+    },   
+    {
+    "title": "AI/ML-driven Early Detection of Chemotherapy-induced Renal Vascular Tissue Damage",
+    "author": "Gunasekaran Raja, Selvam Essaky, Kalimuthu Karuppanan, Sudhakar Theerthagiri, Bharathkumaran Mohanraj, Gopi Agasthia Senniappan, Logeswari Sureshkumar",
+    "conference": "IIT BHU, Varanasi, India, December 15-16, 2024",
+    "doi": "#",
+    "year": "2024",
+    "domain": ["MIoT"],
+    "selective": true   
+    },
+    {
+        "title": "CardioNetFusion: A Deep Learning and Explainable AI Integrated System for Cardiovascular Disease Detection",
+        "author": "Gunasekaran Raja, Selvam Essaky, Surya Raj Muthu, Babith Sarish Suresh, Jaehyuk Cho, Seohyun Yoo, Sathishkumar V E",
+        "conference": "IEEE ICDM 2024 International Conference on Data Mining, Abu Dhabi, UAE, December 9-12, 2024.",
+        "doi": "#",
+        "year": "2024",
+        "domain": ["MIoT"],
+        "selective": true   
+    }, 
+    {
+         "title": "OBSDNN: Optimal Beam Selection employing Deep Neural Networks in 6G Environment",
+        "author": "Gunasekaran Raja, Madhan Raj Kanagarahinam, Deepak Suresh Rajendran, Sree Vinay Ravuru and Sidhaarthan Mamalaivasan",
+        "conference": "IEEE GLOBECOM 2024 Global Communications Conference Workshop, Cape Town, South Africa, December 8-12, 2024.",
+        "doi": "#",
+        "year": "2024",
+        "domain": ["Networks"],
+        "selective": true   
+    }, 
+    {
+        "title": "Advanced Cognitive System for Reliable Lane Switch Prediction in Autonomous Vehicles",
+        "author": "Gunasekaran Raja, Shivani Suresh, Jeyadev Needhidevan, and Shajina Anand",
+        "conference": "IEEE FNWF 2024 Future Networks World Forum, Dubai, UAE,  October 15-17, 2024.",
+        "doi": "#",
+        "year": "2024",
+        "domain": ["AV"],
+        "selective": true
+    },        
         {
         "title": "PointGAN: A Catalyst for Enhanced Vulnerable Road User Detection in Autonomous Navigation",
         "author": "Gunasekaran Raja, Hosam Alhakami, Sahaya Beni Prathiba, Jeyadev Needhidevan, Priyadarshni Vasudevan, Rupali Subramanian, Kapal Dev",
@@ -211,15 +224,7 @@
         "domain": ["AV"],
         "selective": true
     },         
-    {
-        "title": "Synergistic Analysis of Lung Cancer’s Impact on Cardiovascular Disease using ML-Based Techniques",
-        "author": "Gunasekaran Raja, Balakumar Ramkumar, Bhargavi Rajendiran, Sahaya Beni Prathiba, Thamodharan Arumugam, Kalimuthu Karuppanan, Lewis Nkenyereye, Kapal Dev",
-        "conference": "IEEE Journal of Biomedical and Health Informatics, DOI: 10.1109/JBHI.2024.3365176",
-        "doi": "https://ieeexplore.ieee.org/document/10433650",
-        "year": "2024",
-        "domain": ["MIoT"],
-        "selective": true
-    },  
+  
         {
         "title": "Adaptive Model Predictive Control-Driven Approach for Visual Detection of Micro-UAVs",
         "author": "Gunasekaran Raja, Selvam Essaky, Deepak Suresh Rajendran, Sai Ganesh Senthivel, Sebastian Knorr, Kapal Dev",
@@ -256,25 +261,6 @@
         "domain": ["AV"],
         "selective": true
     },
-    {
-        "title": "AI-empowered UAV Trajectory Optimization in 6G Aerial Networks",
-        "author": "Gunasekaran Raja, Sivaganesh B, Vishal Ravichandran, Saroja S, Davide Scazzoli, Maurizio Magarini, Kapal Dev",
-        "conference": "IEEE GLOBECOM 2023 - Global Communications Conference, Kuala Lumpur, Malaysia, Dec. 4-8, 2023.",
-        "doi": "https://ieeexplore.ieee.org/document/10436836",
-        "year": "2023",
-        "domain": ["UAV"],
-        "selective": true
-    },   
-    {
-        "title": "TVUB: Thermal Vision-based UAV and Blockchain-aided Poaching Prevention System",
-        "author": "Sudha Anbalagan, Wajdi Alhakami, Abhishek Manoharan, Sai Ganesh S, Anushka Nehra, Hosam Alhakami, Gunasekaran Raja",
-        "conference": "IEEE GLOBECOM 2023 - Global Communications Conference, Kuala Lumpur, Malaysia, Dec. 4-8, 2023.",
-        "doi": "https://ieeexplore.ieee.org/document/10437160",
-        "year": "2023",
-        "domain": ["UAV"],
-        "selective": true
-    },
-    
      {
         "title": "Blockchain Assisted Hybrid Intrusion Detection System in Autonomous Vehicles for Industry 5.0",
         "author": "Sudha Anbalagan, Gunasekaran Raja, Sugeerthi Gurumoorthy, Deepak Suresh R, Kaviyarasu Ayyakannu",
@@ -347,6 +333,24 @@
         "domain": ["Networks"],
         "selective": true
      },
+     {
+        "title": "AI-empowered UAV Trajectory Optimization in 6G Aerial Networks",
+        "author": "Gunasekaran Raja, Sivaganesh B, Vishal Ravichandran, Saroja S, Davide Scazzoli, Maurizio Magarini, Kapal Dev",
+        "conference": "IEEE GLOBECOM 2023 - Global Communications Conference, Kuala Lumpur, Malaysia, Dec. 4-8, 2023.",
+        "doi": "https://ieeexplore.ieee.org/document/10436836",
+        "year": "2023",
+        "domain": ["UAV"],
+        "selective": true
+    },   
+    {
+        "title": "TVUB: Thermal Vision-based UAV and Blockchain-aided Poaching Prevention System",
+        "author": "Sudha Anbalagan, Wajdi Alhakami, Abhishek Manoharan, Sai Ganesh S, Anushka Nehra, Hosam Alhakami, Gunasekaran Raja",
+        "conference": "IEEE GLOBECOM 2023 - Global Communications Conference, Kuala Lumpur, Malaysia, Dec. 4-8, 2023.",
+        "doi": "https://ieeexplore.ieee.org/document/10437160",
+        "year": "2023",
+        "domain": ["UAV"],
+        "selective": true
+    },
     {
         "title": "Nexus of Deep Reinforcement Learning and Leader-Follower Approach for AIoT Enabled Aerial Networks",
         "author": "Gunasekaran Raja, Selvam Essaky,  Aishwarya Ganapathisubramaniyan, Yashvandh Baskar",
@@ -456,15 +460,7 @@
         "domain": ["AV"],
         "selective": true
     },
-    {
-        "title": "Nexus of 6G and Blockchain for Authentication of Aerial and IoT Devices",
-        "author": "Gunasekaran Raja, Sai Ganesh, Balaji Rajaguru Rajakumar, Sugeerthi Gurumoorthy, Kapal Dev, Maurizio Magarini",
-        "conference": "IEEE ICC International Conference on Communications, Seoul, South Korea, doi: 10.1109/ICC45855.2022.9838856.",
-        "doi": "https://ieeexplore.ieee.org/abstract/document/9838856",
-        "year": "2022",
-        "domain": ["Networks"],
-        "selective": true
-    },
+    
     {
         "title": "Optimization of 5G/6G Telecommunication Infrastructure through an NFV-Based Element Management System",
         "author": "Arunkumar Arulappan, Gunasekaran Raja, Kalpdrum Passi, Aniket Mahanti",
@@ -482,6 +478,15 @@
         "year": "2022",
         "domain": ["Networks"],
         "selective": false
+    },
+    {
+        "title": "Nexus of 6G and Blockchain for Authentication of Aerial and IoT Devices",
+        "author": "Gunasekaran Raja, Sai Ganesh, Balaji Rajaguru Rajakumar, Sugeerthi Gurumoorthy, Kapal Dev, Maurizio Magarini",
+        "conference": "IEEE ICC International Conference on Communications, Seoul, South Korea, doi: 10.1109/ICC45855.2022.9838856.",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/9838856",
+        "year": "2022",
+        "domain": ["Networks"],
+        "selective": true
     },
     {
         "title": "Energy-Efficient End-to-End Security for Software Defined Vehicular Networks",
@@ -555,7 +560,26 @@
         "domain": ["AV"],
         "selective": true
     },
+   
     {
+        "title": "Optimized D-RAN Aware Data Retrieval for 5G Information Centric Networks",
+        "author": "Kottilingam Kottursamy, Atta ur Rehman Khan, Banupriya Sadayappillai, Gunasekaran Raja",
+        "conference": "Springer Wireless Personal Communications, doi: doi.org/10.1007/s11277-021-09392-1.",
+        "doi": "https://link.springer.com/article/10.1007/s11277-021-09392-1",
+        "year": "2021",
+        "domain": ["Networks"],
+        "selective": true
+    },
+     {
+        "title": "Dynamic Ambient HetNet for Hybrid Data Communication and Transmission in IoT Networks",
+        "author": "D. Adhimuga Sivasakthi, Gunasekaran Raja",
+        "conference": "Springer Journal of Ambient Intelligence and Humanized Computing, vol. 12, pp. 8899-8911.",
+        "doi": "https://link.springer.com/article/10.1007/s12652-020-02689-2",
+        "year": "2021",
+        "domain": ["Networks"],
+        "selective": false
+    },
+     {
         "title": "AV-CPS: Audio Visual Cognitive Processing System for Critical Intervention in Autonomous Vehicles",
         "author": "Gunasekaran Raja, Senbagapriya Senthilkumar, Sivaseelan Ganesan, Rithika Edhayachandran, Geetha Vijayaraghavan, Ali Kashif Bashir",
         "conference": "IEEE ICC 2021 International Conference on Communications - Workshop, Montreal, pp. 1-6, doi: 10.1109/ICCWorkshops50388.2021.9473647.",
@@ -590,24 +614,6 @@
         "year": "2021",
         "domain": ["AV"],
         "selective": true
-    },
-    {
-        "title": "Optimized D-RAN Aware Data Retrieval for 5G Information Centric Networks",
-        "author": "Kottilingam Kottursamy, Atta ur Rehman Khan, Banupriya Sadayappillai, Gunasekaran Raja",
-        "conference": "Springer Wireless Personal Communications, doi: doi.org/10.1007/s11277-021-09392-1.",
-        "doi": "https://link.springer.com/article/10.1007/s11277-021-09392-1",
-        "year": "2021",
-        "domain": ["Networks"],
-        "selective": true
-    },
-     {
-        "title": "Dynamic Ambient HetNet for Hybrid Data Communication and Transmission in IoT Networks",
-        "author": "D. Adhimuga Sivasakthi, Gunasekaran Raja",
-        "conference": "Springer Journal of Ambient Intelligence and Humanized Computing, vol. 12, pp. 8899-8911.",
-        "doi": "https://link.springer.com/article/10.1007/s12652-020-02689-2",
-        "year": "2021",
-        "domain": ["Networks"],
-        "selective": false
     },
     {
         "title": "SP-CIDS: Secure and Private Collaborative IDS for VANETs",
@@ -700,6 +706,43 @@
         "domain": ["AV"],
         "selective": true
     },
+    
+     {
+        "title": "An optimal multitier resource allocation of cloud RAN in 5G using machine learning",
+        "author": "Ali Kashif Bashir, Rajakumar Arul, Shakila Basheer, Gunasekaran Raja, Ramkumar Jayaraman and Nawab Muhammad Faseeh Qureshi",
+        "conference": "WILEY - Transactions on Emerging Telecommunications Technologies, doi:  doi.org/10.1002/ett.3627.",
+        "doi": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ett.3627",
+        "year": "2019",
+        "domain": ["Networks"],
+        "selective": true
+    },
+    {
+        "title": "SDN assisted Stackelberg Game model for LTE-WiFi offloading in 5G networks",
+        "author": "Sudha Anbalagan, Dhananjay Kumar, Gunasekaran Raja, Alkondan Balaji ",
+        "conference": "Elsevier Digital Communication and Networks, vol. 5, Issue 4, pp. 268-275.",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S2352864819300422",
+        "year": "2019",
+        "domain": ["Networks"],
+        "selective": false
+    },
+    {
+        "title": "SAFER: Crowdsourcing based Disaster Monitoring System using Software-Defined Fog Computing",
+        "author": "Gunasekaran Raja, Anil Thomas",
+        "conference": "Springer Mobile Networks and Application, doi: 10.1007/s11036-019-01267-x.",
+        "doi": "https://link.springer.com/article/10.1007/s11036-019-01267-x",
+        "year": "2019",
+        "domain": ["Networks"],
+        "selective": true
+    },
+    {
+        "title": "FINDER: A D2D based Critical Communications Framework for Disaster Management in 5G",
+        "author": "Anil Thomas, Gunasekaran Raja",
+        "conference": "Springer Peer-to-Peer Networking and Applications, vol. 12, issue 4, pp. 912-923.",
+        "doi": "https://link.springer.com/article/10.1007/s12083-018-0689-2",
+        "year": "2019",
+        "domain": ["Networks"],
+        "selective": true
+    },
     {
         "title": "TLS Cipher Suite: Secure Communication of 6LoWPAN Devices",
         "author": "Renuka Narayanan, Jayashree S, Nisha Deborah Philips, A.M. Saranya, Sahaya Beni Prathiba and Gunasekaran Raja",
@@ -772,47 +815,20 @@
         "domain": ["Networks"],
         "selective": false
     },
-     {
-        "title": "An optimal multitier resource allocation of cloud RAN in 5G using machine learning",
-        "author": "Ali Kashif Bashir, Rajakumar Arul, Shakila Basheer, Gunasekaran Raja, Ramkumar Jayaraman and Nawab Muhammad Faseeh Qureshi",
-        "conference": "WILEY - Transactions on Emerging Telecommunications Technologies, doi:  doi.org/10.1002/ett.3627.",
-        "doi": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ett.3627",
-        "year": "2019",
-        "domain": ["Networks"],
-        "selective": true
-    },
-    {
-        "title": "SDN assisted Stackelberg Game model for LTE-WiFi offloading in 5G networks",
-        "author": "Sudha Anbalagan, Dhananjay Kumar, Gunasekaran Raja, Alkondan Balaji ",
-        "conference": "Elsevier Digital Communication and Networks, vol. 5, Issue 4, pp. 268-275.",
-        "doi": "https://www.sciencedirect.com/science/article/pii/S2352864819300422",
-        "year": "2019",
-        "domain": ["Networks"],
-        "selective": false
-    },
-    {
-        "title": "SAFER: Crowdsourcing based Disaster Monitoring System using Software-Defined Fog Computing",
-        "author": "Gunasekaran Raja, Anil Thomas",
-        "conference": "Springer Mobile Networks and Application, doi: 10.1007/s11036-019-01267-x.",
-        "doi": "https://link.springer.com/article/10.1007/s11036-019-01267-x",
-        "year": "2019",
-        "domain": ["Networks"],
-        "selective": true
-    },
-    {
-        "title": "FINDER: A D2D based Critical Communications Framework for Disaster Management in 5G",
-        "author": "Anil Thomas, Gunasekaran Raja",
-        "conference": "Springer Peer-to-Peer Networking and Applications, vol. 12, issue 4, pp. 912-923.",
-        "doi": "https://link.springer.com/article/10.1007/s12083-018-0689-2",
-        "year": "2019",
-        "domain": ["Networks"],
-        "selective": true
-    },
     {
         "title": "A Console GRID leveraged Authentication and Key Agreement Mechanism for LTE/SAE",
         "author": "Rajakumar Arul, Gunasekaran Raja, Ali Kashif Bashir, Junaid Chaudhry and Amjad Ali",
         "conference": "IEEE Transactions on Industrial Informatics, vol. 14, no. 6, pp. 2677-2689.",
         "doi": "https://ieeexplore.ieee.org/document/8319431",
+        "year": "2018",
+        "domain": ["Networks"],
+        "selective": true
+    },
+    {
+        "title": "Interference Mitigation Based on Radio Aware Channel Assignment for Wireless Mesh Networks",
+        "author": "Ramkumar Jayaraman, Gunasekaran Raja, Ali Kashif Bashir, Chauhdary Sajjad Hussain, Ali Hassan and Mohammad A. Alqarni",
+        "conference": "Springer Wireless Personal Communications, vol. 101, issue 3, pp. 1539-1557.",
+        "doi": "https://link.springer.com/article/10.1007/s11277-018-5776-4",
         "year": "2018",
         "domain": ["Networks"],
         "selective": true
@@ -844,15 +860,7 @@
         "domain": ["Networks"],
         "selective": false
     },
-    {
-        "title": "Interference Mitigation Based on Radio Aware Channel Assignment for Wireless Mesh Networks",
-        "author": "Ramkumar Jayaraman, Gunasekaran Raja, Ali Kashif Bashir, Chauhdary Sajjad Hussain, Ali Hassan and Mohammad A. Alqarni",
-        "conference": "Springer Wireless Personal Communications, vol. 101, issue 3, pp. 1539-1557.",
-        "doi": "https://link.springer.com/article/10.1007/s11277-018-5776-4",
-        "year": "2018",
-        "domain": ["Networks"],
-        "selective": true
-    },
+    
     {
         "title": "QoS-aware frequency-based 4G+ relative authentication model for next generation LTE and its dependent public safety networks",
         "author": "Sheeba Backia Mary Bhaskaran, Gunasekaran Raja, Ali Kashif Bashir and Masayuki Murata",
@@ -867,6 +875,44 @@
         "author": "Rajakumar Arul, Gunasekaran Raja, Sudha Anbalagan, Dhananjay Kumar and Ali Kashif Bashir",
         "conference": "IEEE Internet Policy Newsletter",      
         "doi": "https://internetinitiative.ieee.org/newsletter/march-2017/the-future-usage-of-smart-phones",
+        "year": "2017",
+        "domain": ["Networks"],
+        "selective": true
+    },
+    
+    {
+        "title": "Channel assignment based coding mechanism for reliable transmission for smart cities",
+        "author": "Ramkumar Jayaraman and Gunasekaran Raja",
+        "conference": "Springer Cluster Computing, doi: 10.1007/s10586-017-1193-9.",
+        "doi": "https://link.springer.com/article/10.1007/s10586-017-1193-9",
+        "year": "2017",
+        "domain": ["Networks"],
+        "selective": true
+    },
+     
+    {
+        "title": "SDN-Assisted Efficient LTE-WiFi Aggregation in Next Generation IoT Networks",
+        "author": "Sudha Anbalagan, Dhananjay Kumar, Mercy Faustina J, Gunasekaran Raja, Waleed Ejaz and Ali Kashif Bashir",
+        "conference": "Elsevier Future Generation Computer Systems, doi: 10.1016/j.future.2017.12.013.",
+        "doi": "https://www.sciencedirect.com/science/article/abs/pii/S0167739X17310907",
+        "year": "2017",
+        "domain": ["Networks"],
+        "selective": true
+    },
+    {
+        "title": "SDN-Assisted Learning Approach for Data Offloading in 5G HetNets",
+        "author": "Sudha Anbalagan, Dhananjay Kumar, Dipak Ghosal, Gunasekaran Raja and Muthuvalliammai V",
+        "conference": "Springer Mobile Networks and Applications, vol. 22, no. 4, pp. 771-782.",
+        "doi": "https://link.springer.com/article/10.1007/s11036-017-0838-5",
+        "year": "2017",
+        "domain": ["Networks"],
+        "selective": false
+    },
+    {
+        "title": "A compatibility vector technique for cooperative scheduling and channel assignment algorithm in broadband wireless networks",
+        "author": "Ramkumar Jayaraman, Gunasekaran Raja, Dipak Ghosal, Rajakumar Arul and Sabareesh Kumar A",
+        "conference": "Springer Mobile Networks and Applications, vol. 22, no. 4, pp. 730-742.",
+        "doi": "https://link.springer.com/article/10.1007/s11036-017-0841-x",
         "year": "2017",
         "domain": ["Networks"],
         "selective": true
@@ -899,15 +945,6 @@
         "selective": false
     },
     {
-        "title": "Channel assignment based coding mechanism for reliable transmission for smart cities",
-        "author": "Ramkumar Jayaraman and Gunasekaran Raja",
-        "conference": "Springer Cluster Computing, doi: 10.1007/s10586-017-1193-9.",
-        "doi": "https://link.springer.com/article/10.1007/s10586-017-1193-9",
-        "year": "2017",
-        "domain": ["Networks"],
-        "selective": true
-    },
-     {
         "title": "Simple & Secure Mechanism for establishing connection between D2D Communication in 5G Scenario",
         "author": "Rajakumar Arul, Gunasekaran Raja and Ramkumar Jayaraman",
         "conference": "Proc. SAIRAP International Conference on Internet of Things IoT (ICIOT), pp. 45-50.",
@@ -917,82 +954,10 @@
         "selective": false
     },
     {
-        "title": "SDN-Assisted Efficient LTE-WiFi Aggregation in Next Generation IoT Networks",
-        "author": "Sudha Anbalagan, Dhananjay Kumar, Mercy Faustina J, Gunasekaran Raja, Waleed Ejaz and Ali Kashif Bashir",
-        "conference": "Elsevier Future Generation Computer Systems, doi: 10.1016/j.future.2017.12.013.",
-        "doi": "https://www.sciencedirect.com/science/article/abs/pii/S0167739X17310907",
-        "year": "2017",
-        "domain": ["Networks"],
-        "selective": true
-    },
-    {
-        "title": "SDN-Assisted Learning Approach for Data Offloading in 5G HetNets",
-        "author": "Sudha Anbalagan, Dhananjay Kumar, Dipak Ghosal, Gunasekaran Raja and Muthuvalliammai V",
-        "conference": "Springer Mobile Networks and Applications, vol. 22, no. 4, pp. 771-782.",
-        "doi": "https://link.springer.com/article/10.1007/s11036-017-0838-5",
-        "year": "2017",
-        "domain": ["Networks"],
-        "selective": false
-    },
-    {
-        "title": "A compatibility vector technique for cooperative scheduling and channel assignment algorithm in broadband wireless networks",
-        "author": "Ramkumar Jayaraman, Gunasekaran Raja, Dipak Ghosal, Rajakumar Arul and Sabareesh Kumar A",
-        "conference": "Springer Mobile Networks and Applications, vol. 22, no. 4, pp. 730-742.",
-        "doi": "https://link.springer.com/article/10.1007/s11036-017-0841-x",
-        "year": "2017",
-        "domain": ["Networks"],
-        "selective": true
-    },
-    {
-        "title": "Fast Authentication Using User Path Prediction in Wireless Broadband Access",
-        "author": "Rajakumar Arul, Gunasekaran Raja, Kottilingam Kottursamy, Ramkumar Jayaraman, Sheeba Backia Mary Baskaran, Sathya Pavithra and Swaminathan Venkatraman",
-        "conference": "Proc. International Conference on Innovations in Engineering and Technology (ICET), Singapore, pp. 57-65.",
-        "doi": "http://dx.doi.org/10.1109/UIC-ATC.2017.8397620",
-        "year": "2016",
-        "domain": ["Networks"],
-        "selective": false
-    },
-    {
         "title": "Network Coding with Buffer Scheme in Multicast for Broadband Wireless Network",
         "author": "Gunasekaran Raja and Ramkumar Jayaraman and Rajakumar Arul and Kottilingam Kottursamy",
         "conference": "International Journal of Electronics and Communication Engineering, vol. 10, no. 6, pp. 898-903.",
         "doi": "https://www.researchgate.net/profile/Rajakumar-Arul/publication/303883066_Network_Coding_with_Buffer_Scheme_in_Multicast_for_Broadband_Wireless_Network/links/575e4cb808aed8846216737f/Network-Coding-with-Buffer-Scheme-in-Multicast-for-Broadband-Wireless-Network.pdf",
-        "year": "2016",
-        "domain": ["Networks"],
-        "selective": false
-    },
-    {
-        "title": "Sensor-to-Vehicle Communication by using VANETs for Urban Parking",
-        "author": "Arunkumar Arulappan, Gunasekaran Raja, Sheeba Backia Mary Baskaran, RajaKumar Arul, Kottilingam Kottursamy, Ramkumar Jayaraman and Adhimuga Sivasakthi",
-        "conference": "Proc. International Conference on Innovations in Engineering and Technology (ICET), Singapore, pp. 19-27.",
-        "doi": "http://dx.doi.org/10.1109/UIC-ATC.2017.8397620",
-        "year": "2016",
-        "domain": ["Networks"],
-        "selective": false
-    },
-    {       
-        "title": "BAY-RACE:  Bayesian-Resource Allocation Conditional Entities algorithm under uncertainty in distributed WMN",
-        "author": "Ramkumar Jayaraman, Gunasekaran Raja, Rajakumar Arul, Sheeba Backia Mary Baskaran, Arunkumar Arulppan, Kottilingam Kottursamy",
-        "conference": "Proc. International Conference on Innovations in Engineering and Technology (ICET), Singapore, pp. 66-74.",
-        "doi": "https://www.researchgate.net/publication/306399437_BAY-_RACE_Bayesian-Resource_Allocation_Conditional_Entities_algorithm_under_uncertainty_in_distributed_WMN",
-        "year": "2016",
-        "domain": ["Networks"],
-        "selective": false
-    },
-    {
-        "title": "Fault-tolerant Interworking Authentication Model for Non 3GPP - 3GPP Access",
-        "author": "Sheeba Backia Mary Baskaran, Gunasekaran Raja, Ramkumar Jayaraman, ArunkumarArulappan, Rajakumar Arul, Kottilingam Kottursamy",
-        "conference": "Proc. International Conference on Innovations in Engineering and Technology (ICET), Singapore, pp. 75-82.",
-        "doi": "https://link.springer.com/article/10.1007/s11390-009-9238-z",
-        "year": "2016",
-        "domain": ["Networks"],
-        "selective": false
-    },
-    {
-        "title": " A Data Activity-Based Server-Side Cache Replacement for Mobile Devices",
-        "author": "Kottilingam Kottursamy, Gunasekaran Raja and K. Saranya",
-        "conference": "Springer Proc. Artificial Intelligence and Evolutionary Computations in Engineering Systems, pp. 579-589.",
-        "doi": "https://link.springer.com/chapter/10.1007/978-81-322-2656-7_53",
         "year": "2016",
         "domain": ["Networks"],
         "selective": false
@@ -1052,6 +1017,52 @@
         "selective": false
     },
     {
+        "title": "Fast Authentication Using User Path Prediction in Wireless Broadband Access",
+        "author": "Rajakumar Arul, Gunasekaran Raja, Kottilingam Kottursamy, Ramkumar Jayaraman, Sheeba Backia Mary Baskaran, Sathya Pavithra and Swaminathan Venkatraman",
+        "conference": "Proc. International Conference on Innovations in Engineering and Technology (ICET), Singapore, pp. 57-65.",
+        "doi": "http://dx.doi.org/10.1109/UIC-ATC.2017.8397620",
+        "year": "2016",
+        "domain": ["Networks"],
+        "selective": false
+    },
+    
+    {
+        "title": "Sensor-to-Vehicle Communication by using VANETs for Urban Parking",
+        "author": "Arunkumar Arulappan, Gunasekaran Raja, Sheeba Backia Mary Baskaran, RajaKumar Arul, Kottilingam Kottursamy, Ramkumar Jayaraman and Adhimuga Sivasakthi",
+        "conference": "Proc. International Conference on Innovations in Engineering and Technology (ICET), Singapore, pp. 19-27.",
+        "doi": "http://dx.doi.org/10.1109/UIC-ATC.2017.8397620",
+        "year": "2016",
+        "domain": ["Networks"],
+        "selective": false
+    },
+    {       
+        "title": "BAY-RACE:  Bayesian-Resource Allocation Conditional Entities algorithm under uncertainty in distributed WMN",
+        "author": "Ramkumar Jayaraman, Gunasekaran Raja, Rajakumar Arul, Sheeba Backia Mary Baskaran, Arunkumar Arulppan, Kottilingam Kottursamy",
+        "conference": "Proc. International Conference on Innovations in Engineering and Technology (ICET), Singapore, pp. 66-74.",
+        "doi": "https://www.researchgate.net/publication/306399437_BAY-_RACE_Bayesian-Resource_Allocation_Conditional_Entities_algorithm_under_uncertainty_in_distributed_WMN",
+        "year": "2016",
+        "domain": ["Networks"],
+        "selective": false
+    },
+    {
+        "title": "Fault-tolerant Interworking Authentication Model for Non 3GPP - 3GPP Access",
+        "author": "Sheeba Backia Mary Baskaran, Gunasekaran Raja, Ramkumar Jayaraman, ArunkumarArulappan, Rajakumar Arul, Kottilingam Kottursamy",
+        "conference": "Proc. International Conference on Innovations in Engineering and Technology (ICET), Singapore, pp. 75-82.",
+        "doi": "https://link.springer.com/article/10.1007/s11390-009-9238-z",
+        "year": "2016",
+        "domain": ["Networks"],
+        "selective": false
+    },
+    {
+        "title": " A Data Activity-Based Server-Side Cache Replacement for Mobile Devices",
+        "author": "Kottilingam Kottursamy, Gunasekaran Raja and K. Saranya",
+        "conference": "Springer Proc. Artificial Intelligence and Evolutionary Computations in Engineering Systems, pp. 579-589.",
+        "doi": "https://link.springer.com/chapter/10.1007/978-81-322-2656-7_53",
+        "year": "2016",
+        "domain": ["Networks"],
+        "selective": false
+    },
+    {
         "title": "Reduced overhead Frequent User Authentication in EAP-Dependent Broadband Wireless Networks",
         "author": "Gunasekaran Raja, Sheeba Backia Mary Bhaskaran, Dipak Ghosal and Jayashree padmanabhan",
         "conference": "Springer Mobile Networks and Applications, vol. 21, issue 3, pp. 523-538.",
@@ -1105,7 +1116,17 @@
         "domain": ["Networks"],
         "selective": false
     },
+   
     {
+        "title": "A Mobility Estimation Approach to Handoff Minimization in Future Generation Hierarchical Networks",
+        "author": "R. Aarthi, M.R. Sruthi, S. Vaishnavi and R. Gunasekaran",
+        "conference": "International Journal of Communication, Computation and Innovation, vol. 3, issue 2, pp. 202-206.",
+        "doi": "10.7763/IJCCE.2013.V2.216",
+        "year": "2012",
+        "domain": ["Networks"],
+        "selective": false
+    },
+     {
         "title": "Efficient Relay Station Placement Strategy for Broadband Wireless Networks - 4G",
         "author": "Nivedita M and Gunasekaran R",
         "conference": "Proc. IEEE International Conference on Recent Trends in Information Technology, Chennai,  pp. 274-278.",
@@ -1128,15 +1149,6 @@
         "author": "R. Gunasekaran, E. Niranjani, S. Suganya, D. Vivekananthan and K. Raja",
         "conference": "Proc. IEEE International Conference on Knowledge Information and Creativity Support Systems (KICSS), Melbourne, Australia, pp. 7-13.",
         "doi": "https://link.springer.com/article/10.1007/s11390-009-9238-z",
-        "year": "2012",
-        "domain": ["Networks"],
-        "selective": false
-    },
-    {
-        "title": "A Mobility Estimation Approach to Handoff Minimization in Future Generation Hierarchical Networks",
-        "author": "R. Aarthi, M.R. Sruthi, S. Vaishnavi and R. Gunasekaran",
-        "conference": "International Journal of Communication, Computation and Innovation, vol. 3, issue 2, pp. 202-206.",
-        "doi": "10.7763/IJCCE.2013.V2.216",
         "year": "2012",
         "domain": ["Networks"],
         "selective": false
@@ -1168,6 +1180,24 @@
         "domain": ["Networks"],
         "selective": false
     },
+     {
+        "title": "A Novel Approach for Enciphering Data of Smaller Bytes",
+        "author": "R. Gunasekaran, R. Satheesh Kumar, E. Pradeep and K. Naveen",
+        "conference": "International Journal of Computer Theory and Engineering (IJCTE), vol. 2, no. 4, pp. 654-659.",
+        "doi": "http://www.ijcte.org/papers/218-H296.pdf",
+        "year": "2010",
+        "domain": ["Networks"],
+        "selective": false
+    },
+    {
+        "title": "Efficient algorithms to solve Broadcast Scheduling problem in WiMAX mesh networks",
+        "author": "R. Gunasekaran, S. Siddharth, P. Krishnaraj, M. Kalaiarasan and V. Rhymend Uthariaraj",
+        "conference": "Elsevier Computer Communications, vol. 33, issue 11, pp. 1325-1333.",
+        "doi": "https://www.sciencedirect.com/science/article/abs/pii/S0140366410001258",
+        "year": "2010",
+        "domain": ["Networks"],
+        "selective": true
+    },
     {
         "title": "Throughput Enhancement in Ad hoc networks using Virtual Carrier Sensing Mechanisms",
         "author": " R. Gunasekaran, P. Sumitha and V. Rhymend Uthariaraj",
@@ -1186,15 +1216,6 @@
         "domain": ["Networks"],
         "selective": false
     },
-     {
-        "title": "A Novel Approach for Enciphering Data of Smaller Bytes",
-        "author": "R. Gunasekaran, R. Satheesh Kumar, E. Pradeep and K. Naveen",
-        "conference": "International Journal of Computer Theory and Engineering (IJCTE), vol. 2, no. 4, pp. 654-659.",
-        "doi": "http://www.ijcte.org/papers/218-H296.pdf",
-        "year": "2010",
-        "domain": ["Networks"],
-        "selective": false
-    },
     {
         "title": " QoS Based Path Selection in IEEE 802.16j MMR Networks",
         "author": " R. Gunasekaran, I. Jamin Mohamed, S. Manikandan, P. Ramkumar, P. Jayashree",
@@ -1204,15 +1225,17 @@
         "domain": ["Networks"],
         "selective": false
     },
-    {
-        "title": "Efficient algorithms to solve Broadcast Scheduling problem in WiMAX mesh networks",
-        "author": "R. Gunasekaran, S. Siddharth, P. Krishnaraj, M. Kalaiarasan and V. Rhymend Uthariaraj",
-        "conference": "Elsevier Computer Communications, vol. 33, issue 11, pp. 1325-1333.",
-        "doi": "https://www.sciencedirect.com/science/article/abs/pii/S0140366410001258",
-        "year": "2010",
+    
+      {
+        "title": "A Distributed Mechanism for Handling of Adaptive/Intelligent Selfish Misbehavior at MAC Layer in Mobile Ad hoc networks",
+        "author": "R. Gunasekaran, V. Rhymend Uthariaraj, U. Yamini, R. Sudharsan and S. Sujitha Priyadarshini",
+        "conference": "Springer Journal of Computer Science and Technology, vol. 24, no. 3, pp. 472-481.",
+        "doi": "https://link.springer.com/article/10.1007/s11390-009-9238-z",
+        "year": "2009",
         "domain": ["Networks"],
         "selective": true
     },
+    
      {
         "title": "Prevention of Denial of Service Attacks and Performance Enhancement in Mobile Ad hoc Networks",
         "author": "R. Gunasekaran and V. Rhymend Uthariaraj",
@@ -1240,33 +1263,7 @@
         "domain": ["Networks"],
         "selective": false
     },
-     {
-        "title": "A Distributed Mechanism for Handling of Adaptive/Intelligent Selfish Misbehavior at MAC Layer in Mobile Ad hoc networks",
-        "author": "R. Gunasekaran, V. Rhymend Uthariaraj, U. Yamini, R. Sudharsan and S. Sujitha Priyadarshini",
-        "conference": "Springer Journal of Computer Science and Technology, vol. 24, no. 3, pp. 472-481.",
-        "doi": "https://link.springer.com/article/10.1007/s11390-009-9238-z",
-        "year": "2009",
-        "domain": ["Networks"],
-        "selective": true
-    },
-     {
-        "title": "Priority Scheduling in Mobile Ad Hoc Networks with Improved Bandwidth Utilization",
-        "author": " R. Gunasekaran, V. Rhymend Uthariaraj, R. Rajesh, S. Karthikeyan and S. Aravind",
-        "conference": "Proc. IEEE Canadian Conference on Electrical and Computer Engineering (CCECE), Ontario, Canada, pp. 1955-1958.",
-        "doi": "https://ieeexplore.ieee.org/document/4564885",
-        "year": "2008",
-        "domain": ["Networks"],
-        "selective": false
-    },
-    {
-        "title": "Detection and Prevention of Selfish and Misbehaving Nodes at MAC Layer in Mobile Ad Hoc Networks",
-        "author": "R. Gunasekaran, V. Rhymend Uthariaraj, U. Yamini, R. Sudharsan and S. Sujitha Priyadarshini",
-        "conference": "Proc. IEEE Canadian Conference on Electrical and Computer Engineering (CCECE), Ontario, Canada, pp. 1945-1948.",
-        "doi": "https://ieeexplore.ieee.org/document/4564883",
-        "year": "2008",
-        "domain": ["Networks"],
-        "selective": false
-    },
+   
     {
         "title": "Selective suspension of transmission for avoiding priority reversal in Mobile Ad hoc Networks",
         "author": "R. Gunasekaran and V. Rhymend Uthariaraj",
@@ -1290,6 +1287,24 @@
         "author": "R. Gunasekaran, V.P. Divya, S. Sharanya and V. Rhymend Uthariaraj",
         "conference": "Journal of Computer Science, vol. 2, issue 6, pp. 833-838.",
         "doi": "10.7763/IJCTE.2010.V2.218",
+        "year": "2008",
+        "domain": ["Networks"],
+        "selective": false
+    },
+     {
+        "title": "Priority Scheduling in Mobile Ad Hoc Networks with Improved Bandwidth Utilization",
+        "author": " R. Gunasekaran, V. Rhymend Uthariaraj, R. Rajesh, S. Karthikeyan and S. Aravind",
+        "conference": "Proc. IEEE Canadian Conference on Electrical and Computer Engineering (CCECE), Ontario, Canada, pp. 1955-1958.",
+        "doi": "https://ieeexplore.ieee.org/document/4564885",
+        "year": "2008",
+        "domain": ["Networks"],
+        "selective": false
+    },
+    {
+        "title": "Detection and Prevention of Selfish and Misbehaving Nodes at MAC Layer in Mobile Ad Hoc Networks",
+        "author": "R. Gunasekaran, V. Rhymend Uthariaraj, U. Yamini, R. Sudharsan and S. Sujitha Priyadarshini",
+        "conference": "Proc. IEEE Canadian Conference on Electrical and Computer Engineering (CCECE), Ontario, Canada, pp. 1945-1948.",
+        "doi": "https://ieeexplore.ieee.org/document/4564883",
         "year": "2008",
         "domain": ["Networks"],
         "selective": false
