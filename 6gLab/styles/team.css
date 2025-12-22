@@ -6,15 +6,14 @@
 /* ===============================
    PAGE CONTAINER
 ================================ */
-
 main .people-section-container {
     width: 100%;
     margin: auto;
 }
+
 /* ===============================
    FIX HEAD CARD CENTERING
 ================================ */
-
 main .people-section-container
 #head-container.faculty {
     display: flex;
@@ -23,21 +22,43 @@ main .people-section-container
 
 main .people-section-container
 #head-container.faculty .directors {
-    margin: 0 auto 2.5rem auto; /* hard center */
+    margin: 0 auto 2.5rem auto;
+    max-width: 720px;
+    padding: 1rem;
+    gap: 1.2rem;
+
+    /* 🔑 IMPORTANT FIX */
+    align-items: center;
 }
 
+/* ===============================
+   HEAD IMAGE FIX
+================================ */
+main .people-section-container
+#head-container .directors .photo {
+    width: 150px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .people-section-container
+#head-container .directors .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
 
 /* ===============================
-   HEAD FOOTER ALIGNMENT FIX
+   HEAD FOOTER ALIGNMENT
 ================================ */
-
-/* Make footer row full width */
 main .people-section-container
 #head-container .directors .footer {
     width: 100%;
 }
 
-/* Stretch icons row */
 main .people-section-container
 #head-container .directors .icons {
     display: flex;
@@ -45,7 +66,6 @@ main .people-section-container
     width: 100%;
 }
 
-/* Push My Page to right corner */
 main .people-section-container
 #head-container .directors .about-me-btn {
     margin-left: auto;
@@ -56,86 +76,25 @@ main .people-section-container
     text-decoration: none;
 }
 
-
-/* ===============================
-   HEAD (DIRECTOR) – CENTER & SIZE
-================================ */
-
-
-
-/* Reduce head card size */
-main .people-section-container
-#head-container.faculty .directors {
-    max-width: 720px;        /* smaller than 900px */
-    padding: 1rem;           /* reduce height */
-    margin-bottom: 2.5rem;
-}
-
-/* Reduce head image size */
-main .people-section-container
-#head-container .directors .photo img {
-    width: 120px;
-    height: 120px;
-    border-radius: 12px;
-}
-
-/* Head name smaller */
-main .people-section-container
-#head-container .directors .details .name {
-    font-size: 1.05rem;      /* was 1.2rem */
-    font-weight: 700;
-}
-
-/* Head role smaller */
-main .people-section-container
-#head-container .directors .details .role {
-    font-size: 0.9rem;
-}
-
-/* Head about text smaller */
-main .people-section-container
-#head-container .directors .details .about {
-    font-size: 0.9rem;
-    line-height: 1.35;
-}
-
-/* Icons smaller */
-main .people-section-container
-#head-container .icons img {
-    width: 22px;
-    height: 22px;
-}
-
-/* Reduce gap between photo & text */
-main .people-section-container
-#head-container .directors {
-    gap: 1.2rem;
-}
-
-
-
 /* ===============================
    TEAM MEMBERS GRID
 ================================ */
-
-/* 3 cards per row */
 main .people-section-container 
 #team-container.faculty {
-    grid-template-columns: repeat(3, 1fr);
-    width: 80%;                 /* reduced width */
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+
+    width: 70%;
     margin: 3rem auto;
-}
-    main .people-section-container 
-#team-container .details,
-main .people-section-container 
-#team-container .details .name,
-main .people-section-container 
-#team-container .details .role,
-main .people-section-container 
-#team-container .details .about {
-    text-align: left !important;
+    gap: 1.2rem;   /* ✅ FIXED */
 }
 
+
+main .people-section-container 
+#team-container .details,
+main .people-section-container 
+#team-container .details * {
+    text-align: left !important;
+}
 
 /* Reset inherited grid spans */
 main .people-section-container 
@@ -146,29 +105,19 @@ main .people-section-container
 #team-container .staff3 {
     grid-column: auto;
 }
-main .people-section-container
-#team-container .wrp .details .name {
-    font-size: 0.95rem;     /* reduce from default */
-    font-weight: 700;
-}
-/* Team card alignment fix */
+
+/* Team card size */
 main .people-section-container 
 #team-container .wrp {
+    width: 100%;
+    max-width: 350px;
     padding: 1.2rem;
     align-items: flex-start;
-}
-
-/* Team LinkedIn icon */
-main .people-section-container 
-#team-container .icons img {
-    width: 24px;
-    height: 24px;
 }
 
 /* ===============================
    RESPONSIVE
 ================================ */
-
 @media screen and (max-width: 994px) {
     main .people-section-container 
     #team-container.faculty {
@@ -194,12 +143,7 @@ main .people-section-container
         align-items: center;
     }
 }
+
 main .people-section-container #team-container {
     justify-items: center;
-}
-
-/* Ensure cards have fixed width */
-main .people-section-container #team-container .wrp {
-    width: 100%;
-    max-width: 340px;
 }
