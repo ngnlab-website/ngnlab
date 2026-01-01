@@ -102,7 +102,7 @@
     "conference": " IEEE GLOBECOM 2025 Global Communications Conference, Taipei, Taiwan, December 8-12,  2025.",
     "doi": "#",
     "year": "2025",
-    "domain": ["AV"],
+    "domain": ["Quantum", "AV"],
     "selective": true   
     },
     
@@ -112,7 +112,7 @@
     "conference": " IEEE PKIA 2025 International Conference on Public Key Infrastructure and its Applications,  Bangalore, India, September 5-6, 2025.",
     "doi": "#",
     "year": "2025",
-    "domain": ["Networks"],
+    "domain": ["Quantum","Networks"],
     "selective": true   
     },
      {
@@ -658,7 +658,7 @@
         "conference": "IEEE Transactions on Industrial Informatics, vol. 16, no. 1, pp. 681-690.",
         "doi": "https://ieeexplore.ieee.org/document/8882310",
         "year": "2020",
-        "domain": ["Networks"],
+        "domain": ["Quantum","Networks"],
         "selective": true
     },
     {
