@@ -17,7 +17,7 @@ fetch("../data/publications.json")
     .then(response => response.json())
     .then(data => {
         publications = data;
-
+       
         // -------------------------------
         // SET YEAR RANGE DYNAMICALLY
         // -------------------------------

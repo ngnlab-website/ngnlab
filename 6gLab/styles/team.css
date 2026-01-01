@@ -70,8 +70,8 @@ main .people-section-container
 #head-container .directors .about-me-btn {
     margin-left: auto;
     white-space: nowrap;
-    font-size: 0.9rem;
-    font-weight: 600;
+    font-size: 0.5rem;
+    font-weight: 300;
     color: #891515;
     text-decoration: none;
 }
