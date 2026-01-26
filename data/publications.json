@@ -1,5 +1,13 @@
 [
-    
+    {
+    "title": "FLAIR: Fuzzy Logic-Based Aerial Intelligent Routing for Efficient Disaster Relief Operations",
+    "author": "Gunasekaran Raja, Selva Ragul Kumar, Mugundh Jambukeswaran Bhooma, Selvam Essaky, Ganesh Veeramani, Kapal Dev",
+    "conference": "IEEE ICC 2026 International Conference on Communications, Glasgow, UK, May 24-28, 2026 (Accepted)",
+    "doi": "#",
+    "year": "2026",
+    "domain": ["UAV"],
+    "selective": true   
+    },  
     {
     "title": "PQAKA: Post Quantum Authentication and Key Agreement Protocol for Intelligent Internet of Vehicles over 5G",
     "author": "Gunasekaran Raja, Sudhakar Theerthagiri, Kathiroli Raja, Janani Alagar Ramanujam, Tejesshree Sadhasivam, Priyadarshni Vasudevan, Paventhan Arumugam, Sunder Ali Khowaja, Kapal Dev",
