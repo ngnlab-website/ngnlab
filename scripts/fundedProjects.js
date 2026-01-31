@@ -36,18 +36,24 @@ fetch("../data/patents.json")
     });
 function renderPatents() {
     patents.forEach(patent => {
-        let pat =   `
-                        <div class="funded-project"> 
-                            <div class="description">${patent.title}</div>
-                            <div class="other-details">
-                                <!--<span class="funding-agency">Status: ${patent.status}</span> <br>-->
-                                <span class="funding-agency" style="color: maroon;">Inventors:</span>
-                                <span class="funding-agency">${patent.inventors}</span><br>
-                                <span class="funding-agency" style="color: maroon;">${patent.status}: </span>
-                                <span class="funding-agency">${patent.year}</span><br>
-                            </div>
-                        </div>
-                    `
-        patentsSectionContainer.innerHTML += pat
-    })
+        let pat = `
+            <div class="funded-project"> 
+                <div class="description">${patent.title}</div>
+                <div class="other-details">
+                    <span class="funding-agency" style="color: maroon;">Inventors:</span>
+                    <span class="funding-agency">${patent.inventors}</span><br>
+                    <span class="funding-agency" style="color: maroon;">${patent.status}:</span>
+                    <span class="funding-agency">${patent.year}</span><br>
+                </div>
+            </div>
+        `;
+        patentsSectionContainer.innerHTML += pat;
+    });
+
+    /* 🔥 FIX: scroll AFTER patents load */
+    if (window.location.hash === "#patents") {
+        document
+          .getElementById("patents")
+          .scrollIntoView({ behavior: "smooth" });
+    }
 }
