@@ -14,11 +14,11 @@ footer.innerHTML =
     <div class="email">
         <div class="email-text">Email: </div>
         <div class="emails">
-            <a href="mailto:gunasekaran@mitindia.edu">gunasekaran@mitindia.edu</a>
+            <a href="mailto:gunasekaran@annauniv.edu">gunasekaran@annauniv.edu</a>
         </div>
         <span class="comma">,</span>
         <div class="emails">
-            <a href="mailto:ngnlab@mitindia.edu">ngnlab@mitindia.edu</a>
+            <a href="mailto:ngnlab@annuniv.edu">ngnlab@annuniv.edu</a>
         </div>
     </div>
     </footer>
