@@ -1,4 +1,13 @@
 [
+  {
+    "title": "NGNs Secure Government of India Research Internships in Quantum Communications",
+    "about": "Mr. Hari Krishna Ponnuswamy, Ms. Pooja Vetriselvan, and Ms. Suganthi Mani from NGNLab, Anna University, have secured six-month Work-Based Learning Research Internships supported by the Government of India. As part of the internship, they will conduct research on Quantum Technologies for Communications at the Education and Research Network (ERNET) at the IIT Madras Research Park, Chennai, India.",
+    "images": [
+      "./assets/img/ernet_logo.png",
+      "./assets/img/iitm_research_park.png"
+    ],
+    "year": 2026
+    },    
       {
     "title": "Prof. Vincent Ryan from Munster Technological University (MTU), Ireland, Visits NGNLab",
     "about": "As part of the Erasmus+ Staff Mobility Programme, Prof. Vincent Ryan, Senior Lecturer in Computer Science and Programme Leader for the Master's in Cybersecurity at Munster Technological University (MTU), Ireland, visited NGNLab and the Department of Computer Technology, Anna University, from 3rd to 7th August 2026. During his visit, he interacted with faculty members, researchers, and students, sharing insights into cybersecurity education, postgraduate studies, and emerging research directions in network security, digital forensics, penetration testing, cryptography, and software security. The visit also focused on strengthening academic and research collaborations, promoting faculty and student mobility under the Erasmus+ programme, exploring joint research initiatives, and fostering long-term partnerships between MTU and Anna University in cybersecurity and next-generation communication technologies.",
@@ -8,7 +17,7 @@
     ],
     "year": 2026
     },     
-        {
+      {
     "title": "NGNLab Research Intern Hari Krishna to Present Paper at IEEE LCN 2026, Portugal",
     "about": "Hari Krishna Ponnuswamy, Research Intern at NGNLab, Anna University, will present the paper 'QuASAAR: Quantum-Assisted Slice-Aware Allocation of Resources for Multi-Objective UPF Placement in 6G Core Networks' at the 51st IEEE Conference on Local Computer Networks (LCN 2026), to be held in Coimbra, Portugal, from October 7–9, 2026. The paper, accepted for presentation at the prestigious IEEE LCN 2026, is the result of an international collaboration between NGNLab, Anna University, Princeton Plasma Physics Laboratory (PPPL), USA, and Utrecht University, The Netherlands. The paper is co-authored by Gunasekaran Raja, Hari Krishna Ponnuswamy, Dakshina Sundari Sethu, Janani Alagar Ramanujam, Suraj Natarajan, Paventhan Arumugam, Nishant Saurabh, and Shantenu Jha.",
     "images": [

@@ -1,5 +1,14 @@
 [  
     {
+    "title": "A Dual-Tier Framework for Intrusion Detection and Mitigation in 5G Open-RAN",
+    "author": "Gunasekaran Raja, Janani Alagar Ramanujam, Pronoy Kundu, Fowzaan Rasheed, Harun Siljak",
+    "conference": "IEEE Open Journal of the Communications Society, DOI: 10.1109/OJCOMS.2026.3729664",
+    "doi": "https://doi.org/10.1109/OJCOMS.2026.3729664",
+    "year": "2026",
+    "domain": ["UAV"],
+    "selective": true   
+    },    
+    {
     "title": "Decentralizing Land Registry Infrastructure: Consumer-Run Shared Blockchain for Sustainable Agricultural Applications",
     "author": "Gunasekaran Raja, Sai Ganesh Senthivel, Selva Ragul Kumar, Pronoy Kundu, Mohammad Tabrez Quasim, Kapal Dev",
     "conference": "IEEE Transactions on Consumer Electronics, DOI: 10.1109/TCE.2026.3696841",
